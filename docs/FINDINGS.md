@@ -18,3 +18,4 @@ with the new tag automatically.
 | BUG-001 | Bug | v0.1.0 | Fixed | v0.1.0 | Focus became invisible after switching tabs: Preact rewrote the `class` attribute and removed the engine's `is-focused` class. Focus is now marked with a `data-focused` attribute that components never render. |
 | BUG-002 | Bug | v0.1.0 | Fixed | v0.1.0 | Right with a hidden next card jumped diagonally to the row below. Left/Right now stays on the current row whenever a candidate lines up. |
 | BUG-003 | Bug | v0.1.0 | Fixed | v0.1.0 | Up from the first shelf skipped the hero (scrolled behind the nav bar) and landed in the nav. Candidate search now starts in the innermost scroll container and widens outward. |
+| BUG-004 | Bug | v0.1.0 | Fixed | Unreleased | Annotated release tags lost the changelog's `##`/`###` headings: `git tag -F` strips lines starting with `#` by default. The release script now passes `--cleanup=verbatim`; the v0.1.0 tag was re-created before publishing. |

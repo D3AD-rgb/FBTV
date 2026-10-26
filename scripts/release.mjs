@@ -83,7 +83,8 @@ run('git', ['add', 'package.json', 'package-lock.json', 'CHANGELOG.md', 'docs/FI
 run('git', ['commit', '-m', `chore(release): ${tag}`]);
 const msgFile = join(mkdtempSync(join(tmpdir(), 'fbtv-release-')), 'TAG_MSG');
 writeFileSync(msgFile, `FBTV ${tag}\n\n${result.section}`);
-run('git', ['tag', '-a', tag, '-F', msgFile]);
+// verbatim: the default cleanup strips lines starting with '#', i.e. the markdown headings (BUG-004).
+run('git', ['tag', '-a', tag, '--cleanup=verbatim', '-F', msgFile]);
 
 if (!arg('no-package', false)) run(process.execPath, [resolve(ROOT, 'scripts', 'package.mjs')]);
 

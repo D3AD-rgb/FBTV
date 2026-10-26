@@ -9,6 +9,9 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 
 ## [Unreleased]
 
+### Fixed
+- Release tags lost their markdown headings because git strips `#` lines from tag messages (BUG-004).
+
 ## [0.1.0] - 2026-10-26
 
 ### Added
