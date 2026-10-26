@@ -5,6 +5,7 @@ import { clearAll } from '../platform/storage.ts';
 import { showToast } from '../ui/toast.tsx';
 import { getDeviceInfo, type DeviceInfo } from '../platform/webos.ts';
 import { probeMedia, probePlatform, type Probe } from '../platform/capabilities.ts';
+import { playbackTestPage } from './PlaybackTest.tsx';
 
 interface Row {
   id: string;
@@ -42,7 +43,12 @@ export function Settings() {
     { id: 'sources', title: 'Sources', sub: 'Playlists, catalogue, football and guide providers', value: 'Coming in v0.3' },
     { id: 'refresh', title: 'Catalogue refresh', sub: 'When the app checks for a newer catalogue', value: 'Coming in v0.3' },
     { id: 'epg', title: 'Programme guide', sub: 'Now and next, schedules and the guide grid', value: 'Coming in v0.7' },
-    { id: 'playback', title: 'Playback', sub: 'Player engine order, quality and audio preferences', value: 'Coming in v0.4' },
+    {
+      id: 'playback',
+      title: 'Playback test',
+      sub: 'Play public test streams with each player engine to see what this TV can decode',
+      onSelect: () => openPage(playbackTestPage()),
+    },
     { id: 'appearance', title: 'Appearance', sub: 'Theme and motion', value: 'Dark' },
     { id: 'language', title: 'Language', sub: 'Interface language and preferred audio languages', value: 'English' },
     { id: 'favourites', title: 'Favourites', sub: 'Reorder or remove favourite channels', value: 'Coming in v0.3' },
@@ -140,6 +146,11 @@ function Diagnostics() {
           </div>
         </section>
         <div class="vstack" style="--stack-gap:24px">
+          <div class="hstack">
+            <button class="btn" data-focusable data-focus-default data-focus-id="diag:playback" onClick={() => openPage(playbackTestPage())}>
+              Run playback test
+            </button>
+          </div>
           <Panel id="diag:device" title="This TV" rows={deviceRows} />
           <Panel id="diag:media" title="Media formats" rows={media} />
           <Panel id="diag:platform" title="Platform features" rows={platform} />
