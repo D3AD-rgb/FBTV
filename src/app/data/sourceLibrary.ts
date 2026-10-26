@@ -120,6 +120,18 @@ export function setLibraryServer(url: string): void {
   writeJSON(SERVER_KEY, url.trim());
 }
 
+/** Stored when the viewer chooses the bundled copy even though a PC address is known. */
+export const BUNDLED_ONLY = 'bundled';
+
+/** The PC address a local build carries (library/server.json), or '' when it has none. */
+export const autoServer = signal('');
+
+/** Library bases to try, in order: the chosen server (or the build's PC address), then the bundled copy. Pure. */
+export function libraryBases(chosen: string, auto: string): string[] {
+  const server = chosen === BUNDLED_ONLY ? '' : chosen || auto;
+  return server ? [server.replace(/\/registry\.json$/, '').replace(/\/?$/, '/'), 'library/'] : ['library/'];
+}
+
 const shardCache = new Map<string, LibChannel[]>();
 const catalogCache = new Map<string, unknown>();
 
@@ -167,12 +179,25 @@ export function adapt(c: CompactChannel): LibChannel {
 }
 
 export async function loadLibrary(): Promise<void> {
-  const server = libraryServer();
-  const bases = server ? [server.replace(/\/registry\.json$/, '').replace(/\/?$/, '/'), 'library/'] : ['library/'];
+  const chosen = libraryServer();
+  if (!autoServer.peek()) {
+    try {
+      const d = await getJSON<{ url?: string }>('library/server.json', { timeoutMs: 3000 });
+      if (d && typeof d.url === 'string' && /^http:\/\/[^/]+\/registry\.json$/.test(d.url)) autoServer.value = d.url;
+    } catch {
+      // not a local build, or no PC address in it
+    }
+  }
+  const server = chosen === BUNDLED_ONLY ? '' : chosen || autoServer.peek();
+  const bases = libraryBases(chosen, autoServer.peek());
   for (const base of bases) {
     try {
-      const registry = await getJSON<LibRegistry>(`${base}registry.json`, { timeoutMs: 8000 });
+      // The PC may be off: give up on it quickly and use the bundled copy.
+      const registry = await getJSON<LibRegistry>(`${base}registry.json`, { timeoutMs: base === 'library/' ? 8000 : chosen ? 8000 : 4000 });
       if (registry && registry.schema === 1 && Array.isArray(registry.items)) {
+        // Lists loaded from another copy of the library may be older or newer.
+        shardCache.clear();
+        catalogCache.clear();
         library.value = { status: 'ready', registry, origin: base === 'library/' ? 'bundled' : 'server', base };
         console.info(`[fbtv] library ${base} ${registry.items.length} items (${registry.generatedAt})`);
         return;

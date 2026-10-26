@@ -5,7 +5,7 @@ import { act } from 'preact/test-utils';
 import { FocusEngine, type Measure } from '../src/app/focus/engine.ts';
 import { getEngine, initFocus } from '../src/app/focus/index.ts';
 import { installInput } from '../src/app/nav/input.ts';
-import { library, type LibItem } from '../src/app/data/sourceLibrary.ts';
+import { BUNDLED_ONLY, library, libraryBases, type LibItem } from '../src/app/data/sourceLibrary.ts';
 import {
   addToCustom,
   clearAll,
@@ -85,6 +85,19 @@ describe('playlist selection and custom playlists', () => {
   it('keeps the state on the TV across reloads', () => {
     selectAll(['src:keep']);
     expect(readJSON<{ selected: string[] }>('playlists:state', { selected: [] }).selected).toEqual(['src:keep']);
+  });
+});
+
+describe('where the TV reads the library from', () => {
+  const pc = 'http://192.168.0.10:8787/registry.json';
+  it('uses the PC address in a local build, then the bundled copy', () => {
+    expect(libraryBases('', pc)).toEqual(['http://192.168.0.10:8787/', 'library/']);
+    expect(libraryBases('', '')).toEqual(['library/']);
+  });
+  it('prefers an address entered in Settings, and honours "Use bundled"', () => {
+    expect(libraryBases('http://10.0.0.5:9000/registry.json', pc)).toEqual(['http://10.0.0.5:9000/', 'library/']);
+    expect(libraryBases('http://10.0.0.5:9000', pc)).toEqual(['http://10.0.0.5:9000/', 'library/']);
+    expect(libraryBases(BUNDLED_ONLY, pc)).toEqual(['library/']);
   });
 });
 

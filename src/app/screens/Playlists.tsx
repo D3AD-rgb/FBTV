@@ -19,6 +19,7 @@ import {
   entryProblem,
   isSelected,
   loadEntries,
+  indexBase,
   loadPlaylistIndex,
   memberTitle,
   playlistIndex,
@@ -267,8 +268,8 @@ export function Playlists() {
   const input = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    if (lib.status === 'ready' && playlistIndex.value.status !== 'ready') loadPlaylistIndex();
-  }, [lib.status]);
+    if (lib.status === 'ready' && (playlistIndex.value.status !== 'ready' || indexBase !== lib.base)) loadPlaylistIndex();
+  }, [lib.status, lib.status === 'ready' ? lib.base : '']);
 
   const sections = useMemo(() => {
     if (idx.status !== 'ready' || lib.status !== 'ready') return [] as Section[];

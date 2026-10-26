@@ -6,6 +6,7 @@
  * The bundle contains no credentials: provider profiles are listed by name/capabilities only.
  */
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http';
+import { gzipSync } from 'node:zlib';
 import { copyFileSync, createReadStream, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { extname, join, resolve, sep } from 'node:path';
 import { networkInterfaces } from 'node:os';
@@ -250,6 +251,26 @@ export function writeSettings(dataDir: string, s: PlaylistSettings): void {
   renameSync(`${p}.tmp`, p);
 }
 
+const gzipCache = new Map<string, { at: number; body: Buffer }>();
+
+/** An export file, gzipped when the client accepts it (cached per file version; shards are megabytes). */
+function sendJson(req: IncomingMessage, res: ServerResponse, file: string): void {
+  const headers: Record<string, string> = { 'Content-Type': 'application/json; charset=utf-8', Vary: 'Accept-Encoding' };
+  const at = statSync(file).mtimeMs;
+  if (!/\bgzip\b/.test(String(req.headers['accept-encoding'] || ''))) {
+    res.writeHead(200, headers);
+    return void res.end(readFileSync(file));
+  }
+  let hit = gzipCache.get(file);
+  if (!hit || hit.at !== at) {
+    hit = { at, body: gzipSync(readFileSync(file), { level: 6 }) };
+    gzipCache.set(file, hit);
+    if (gzipCache.size > 64) gzipCache.delete(gzipCache.keys().next().value as string);
+  }
+  res.writeHead(200, { ...headers, 'Content-Encoding': 'gzip', 'Content-Length': String(hit.body.length) });
+  res.end(hit.body);
+}
+
 const MEDIA_TYPES: Record<string, string> = {
   mp4: 'video/mp4', m4v: 'video/mp4', mov: 'video/quicktime', mkv: 'video/x-matroska', webm: 'video/webm', avi: 'video/x-msvideo',
   ts: 'video/mp2t', m2ts: 'video/mp2t', mpg: 'video/mpeg', mpeg: 'video/mpeg', wmv: 'video/x-ms-wmv', flv: 'video/x-flv',
@@ -398,8 +419,7 @@ export function serve(port: number, dataDir: string, opts: { host?: string } = {
     // The export (JSON only).
     const file = resolve(root, '.' + (url === '/' ? '/registry.json' : url));
     if (!file.startsWith(root + sep) || extname(file) !== '.json' || !existsSync(file)) return fail(404, 'not found');
-    res.writeHead(200, json);
-    res.end(readFileSync(file));
+    sendJson(req, res, file);
   }).listen(port, host, () => {
     console.log(`[library] serving the TV library on http://${host}:${port} (home network only; ${readdirSync(root).length} entries)`);
     console.log(`[library] TV library URL: http://${host}:${port}/registry.json`);

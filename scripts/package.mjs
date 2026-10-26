@@ -1,11 +1,13 @@
 // Builds the app and packages it as an IPK with the official LG CLI (ares-package).
-// Usage: npm run package [-- --skip-build] [--with-library]
+// Usage: npm run package [-- --skip-build] [--with-library [--library-server <url>|--no-library-server]]
 // --with-library bundles the local source library (build-data/library-export) for your own TV.
-// Such a package is named …-local… and must not be published.
+// Such a package is named …-local… and must not be published. It also records this PC's
+// home-network address (library/server.json), so the TV uses "npm run library:serve" whenever
+// it is running, and the bundled copy otherwise.
 import { mkdirSync, mkdtempSync, existsSync, readFileSync, writeFileSync, copyFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { resolve, join } from 'node:path';
-import { tmpdir } from 'node:os';
+import { networkInterfaces, tmpdir } from 'node:os';
 import { ROOT, appConfig, ares, run, out, arg, ipkName } from './lib/util.mjs';
 
 const cfg = appConfig();
@@ -18,6 +20,16 @@ if (!arg('skip-build', false)) run(process.execPath, [resolve(ROOT, 'node_module
 const bundled = existsSync(resolve(appDir, 'library', 'registry.json'));
 if (withLibrary && !bundled) throw new Error('--with-library: no library in dist/app/library. Run "npm run library:refresh" first.');
 if (!existsSync(resolve(appDir, 'appinfo.json'))) throw new Error('dist/app/appinfo.json missing — build first.');
+if (withLibrary && !arg('no-library-server', false)) {
+  const given = arg('library-server', null);
+  const ip = lanAddress();
+  const url = given ? String(given) : ip ? `http://${ip}:8787/registry.json` : null;
+  if (url && !/^http:\/\/[^/]+\/registry\.json$/.test(url)) throw new Error(`--library-server must look like http://<pc-ip>:8787/registry.json (got ${url})`);
+  if (url) {
+    writeFileSync(resolve(appDir, 'library', 'server.json'), JSON.stringify({ url }));
+    console.log(`The TV will use your PC's library at ${url} when "npm run library:serve" is running.`);
+  } else console.log('No home-network address found: the TV will use the bundled library only.');
+}
 
 mkdirSync(outDir, { recursive: true });
 run(ares('ares-package'), ['--check', appDir]);
@@ -45,6 +57,14 @@ const sha = createHash('sha256').update(readFileSync(ipk)).digest('hex');
 writeFileSync(`${ipk}.sha256`, `${sha}  ${name}\n`);
 console.log(`\nPackaged ${ipk}\nSHA-256 ${sha}`);
 if (bundled) console.log('Contains your local source library: install it on your own TV only, do not publish it.');
+
+/** First private IPv4 address of this PC (the one library:serve binds to). */
+function lanAddress() {
+  const ifs = networkInterfaces();
+  for (const k of Object.keys(ifs))
+    for (const a of ifs[k] || []) if (a.family === 'IPv4' && !a.internal && /^(10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/.test(a.address)) return a.address;
+  return null;
+}
 
 function tryOut(cmd, args) {
   try {

@@ -96,8 +96,13 @@ export const syncStatus = signal<'local' | 'pc' | 'pc-failed'>('local');
 const base = () => (library.value.status === 'ready' ? library.value.base : 'library/');
 const onServer = () => library.value.status === 'ready' && library.value.origin === 'server';
 
+/** Library base the index was loaded from (it reloads when the TV switches to or from the PC). */
+export let indexBase = '';
+
 export async function loadPlaylistIndex(): Promise<void> {
   if (library.value.status !== 'ready') return;
+  indexBase = library.value.base;
+  cache.clear();
   try {
     const index = await getJSON<PlaylistIndex>(`${base()}playlists/index.json`, { timeoutMs: 20000, maxBytes: 20 * 1024 * 1024 });
     playlistIndex.value = { status: 'ready', index, byId: new Map(index.playlists.map((p) => [p.id, p])) };

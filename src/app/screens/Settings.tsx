@@ -10,6 +10,8 @@ import { SERVICES, appsMethod, detectApps, installedApps } from '../platform/app
 import {
   includeUnreviewed,
   library,
+  autoServer,
+  BUNDLED_ONLY,
   libraryServer,
   loadLibrary,
   setIncludeUnreviewed,
@@ -227,13 +229,24 @@ export function aboutPage(): PageEntry {
 
 function Sources() {
   const lib = library.value;
-  const [server, setServer] = useState(libraryServer());
+  const stored = libraryServer();
+  const [server, setServer] = useState(stored === BUNDLED_ONLY ? '' : stored);
+  const auto = autoServer.value;
   const [busy, setBusy] = useState(false);
   const input = useRef<HTMLInputElement>(null);
   const reg = lib.status === 'ready' ? lib.registry : null;
   const rows: Probe[] = reg
     ? [
-        { label: 'Loaded from', value: lib.status === 'ready' && lib.origin === 'server' ? `Library server (${lib.base})` : 'Bundled with this build' },
+        {
+          label: 'Loaded from',
+          value:
+            lib.status === 'ready' && lib.origin === 'server'
+              ? `Your PC (${lib.base})`
+              : stored === BUNDLED_ONLY || !(stored || auto)
+                ? 'Bundled with this build'
+                : `Bundled with this build — your PC (${stored || auto}) did not answer. Is "npm run library:serve" running?`,
+        },
+        ...(auto ? [{ label: 'PC address in this build', value: auto }] : []),
         { label: 'Library built', value: reg.generatedAt.replace('T', ' ').slice(0, 16) + ' UTC' },
         { label: 'Registry items', value: reg.items.length.toLocaleString() },
         ...Object.keys(reg.shards).map((k) => ({ label: `Channels · ${k}`, value: `${reg.shards[k]!.channels.toLocaleString()}${reg.shards[k]!.note ? ` — ${reg.shards[k]!.note}` : ''}` })),
@@ -246,7 +259,7 @@ function Sources() {
     await loadLibrary();
     setBusy(false);
     const now = library.peek();
-    showToast(now.status === 'ready' ? `Library loaded (${now.origin === 'server' ? 'server' : 'bundled'})` : 'Library server did not answer');
+    showToast(now.status === 'ready' ? (now.origin === 'server' ? 'Connected to your PC' : 'Using the copy bundled with this build') : 'Your PC did not answer');
   };
   return (
     <div class="screen">
@@ -256,10 +269,11 @@ function Sources() {
             Settings › <b>Sources</b>
           </div>
           <div class="page-sub" style="margin-top:16px">
-            Channel lists, football fixtures and sports come from the source library built on the PC with
-            “npm run library:refresh”. A local build (“npm run package -- --with-library”) includes it; to update
-            without reinstalling, run “npm run library:serve” on the PC and enter the address it prints here.
-            Public releases never include the library, and it holds no passwords.
+            Channel lists, playlists, football fixtures and sports come from the source library built on the PC.
+            A local build includes a copy and connects to your PC by itself whenever “npm run library:serve” is
+            running there; that is what plays My Playlist and your own media, and saves your playlist selections on
+            the PC. Another address can be entered here. Public releases never include the library, and it holds no
+            passwords.
           </div>
         </section>
         <div class="vstack" style="--stack-gap:24px">
@@ -269,13 +283,13 @@ function Sources() {
                 ref={input}
                 type="text"
                 value={server}
-                placeholder="http://192.168.0.x:8787/registry.json"
+                placeholder={auto || 'http://192.168.0.x:8787/registry.json'}
                 onInput={(e) => setServer((e.target as HTMLInputElement).value)}
                 aria-label="Library server address"
               />
             </div>
             <button class="btn" data-focusable data-focus-id="sources:apply" onClick={() => !busy && apply(server)}>
-              {busy ? 'Connecting…' : 'Use server'}
+              {busy ? 'Connecting…' : server ? 'Use this address' : 'Use my PC'}
             </button>
             <button
               class="btn"
@@ -283,7 +297,7 @@ function Sources() {
               data-focus-id="sources:bundled"
               onClick={() => {
                 setServer('');
-                if (!busy) apply('');
+                if (!busy) apply(BUNDLED_ONLY);
               }}
             >
               Use bundled
