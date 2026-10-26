@@ -5,7 +5,7 @@
  *   rebuild                                 inventory → catalogs → export → report from stored data (no network)
  *   validate [--limit N] [--playable N] [--force] [--concurrency N]
  *   fixtures [--offline] [--listings N]     refresh fixtures only (offline: stored responses only)
- *   export | serve [--port 8787] | report
+ *   export | serve [--port 8787] [--host <lan ip>] | cleanup [--dry-run] | report
  *   secret set|remove <profile-id> · xtream test <profile-id>
  */
 import { appendFileSync, existsSync, readFileSync, writeFileSync } from 'node:fs';
@@ -15,7 +15,12 @@ import { buildInventory, loadApi, readInventory, writeInventory, type InventoryR
 import { buildCatalogs } from './catalogs.ts';
 import { collectFixtures, type FixtureResult } from './fixtures.ts';
 import { resolveArchive } from './archive.ts';
-import { exportForTv, serve } from './export.ts';
+import { exportForTv, readSettings, serve } from './export.ts';
+import { beginOutputs, finishOutputs } from './outputs.ts';
+import { resetPrivateRefs, savePrivateRefs } from './privateUrls.ts';
+import { discoverSourcePlaylists, writeSourcePlaylists } from './sourcePlaylists.ts';
+import { scanLocalMedia, writeLocalMedia } from './localMedia.ts';
+import { writeCustomPlaylists } from './customPlaylists.ts';
 import { writeReport } from './report.ts';
 import { dataDir, ensureDataDir } from './paths.ts';
 import { ensureProfiles, loadProfiles, type XtreamProfile } from './profiles.ts';
@@ -104,13 +109,27 @@ function providersLast(dir: string): ProviderReport[] {
   return existsSync(p) ? (JSON.parse(readFileSync(p, 'utf8')) as ProviderReport[]) : [];
 }
 
-async function derive(dir: string, log: (m: string) => void, records: InventoryRecord[], inventoryErrors: { file: string; error: string }[]) {
+async function derive(dir: string, log: (m: string) => void, records: InventoryRecord[], inventoryErrors: { file: string; error: string }[], opts: { dryRunCleanup?: boolean } = {}) {
   const manifest = loadManifest(dir);
   const fixtures = loadFixtures(dir);
+  beginOutputs(dir);
+  resetPrivateRefs();
   const cat = buildCatalogs(dir, records, fixtures, undefined, log);
   writeInventory(dir, records);
-  const exp = exportForTv(dir, cat.channels, cat.registry);
+  const profileNames: Record<string, string> = {};
+  for (const p of loadProfiles(dir).profiles) profileNames[p.id] = p.name;
+  const sp = discoverSourcePlaylists(records, profileNames);
+  const media = scanLocalMedia(dir);
+  const custom = writeCustomPlaylists(dir, sp, cat.registry, readSettings(dir));
+  let spFiles = 0;
+  const exp = exportForTv(dir, cat.channels, cat.registry, (staging) => {
+    spFiles = writeSourcePlaylists(dir, staging, sp).files;
+    writeLocalMedia(dir, staging, media);
+  });
+  const privateRefs = savePrivateRefs(dir);
+  const plan = finishOutputs(dir, log, { dryRun: opts.dryRunCleanup });
   log(`catalogs: ${cat.channels.length} channels, ${cat.registry.items.length} registry items; TV export ${exp.dir}`);
+  log(`playlists: ${sp.playlists.length} source playlists in ${sp.collections.filter((c) => c.playlists.length).length} collections (${spFiles} TV files); ${custom.length} custom; local media ${media.length}; private entries ${privateRefs}; cleanup ${plan.remove.length}`);
   writeReport({ dir, manifest, records, channels: cat.channels, registry: cat.registry, vod: cat.vod, fixtures, providers: providersLast(dir), inventoryErrors, exportInfo: exp });
   log(`wrote ${join(dir, 'REPORT.md')}`);
 }
@@ -166,8 +185,14 @@ async function main() {
       break;
     }
     case 'serve':
-      serve(opt('port') ? Number(opt('port')) : 8787);
+      serve(opt('port') ? Number(opt('port')) : 8787, dir, { host: opt('host') });
       return;
+    case 'cleanup': {
+      // Rebuilds from cached data; with --dry-run, only reports which generated files would go.
+      await derive(dir, log, readInventory(dir), [], { dryRunCleanup: flag('dry-run') });
+      log(`cleanup report: ${join(dir, 'reports', flag('dry-run') ? 'cleanup-dry-run.md' : 'cleanup.md')}`);
+      break;
+    }
     case 'report':
       await derive(dir, log, readInventory(dir), []);
       process.stdout.write(readFileSync(join(dir, 'REPORT.md'), 'utf8'));
@@ -195,7 +220,7 @@ async function main() {
       break;
     }
     default:
-      console.log('Usage: node src/library/main.ts refresh | rebuild | validate | fixtures | export | serve | report | secret | xtream');
+      console.log('Usage: node src/library/main.ts refresh | rebuild | validate | fixtures | export | serve | cleanup [--dry-run] | report | secret | xtream');
       process.exitCode = 1;
   }
 }

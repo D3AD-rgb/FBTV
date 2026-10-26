@@ -3,7 +3,8 @@
  * first, switch after a short pause so several presses skip several channels); digits jump
  * to a channel number; Blue returns to the previous channel; Red toggles favourite; Left
  * opens the channel list; OK shows or hides the info bar. Back returns to browsing with the
- * channel still playing in the preview.
+ * channel still playing in the preview. On-demand items (films, episodes, your PC's media)
+ * add ◀◀/▶▶ seeking (30 s), resume where you stopped, and sidecar subtitles.
  */
 import { useEffect, useRef, useState } from 'preact/hooks';
 import type { CatalogueChannel } from '../../shared/model.ts';
@@ -12,6 +13,7 @@ import { channelNumbers } from '../data/lists.ts';
 import { favourites, prefs, toggleFavourite } from '../data/library.ts';
 import {
   getPlayer,
+  isOnDemand,
   nowPlaying,
   playChannel,
   playContext,
@@ -33,6 +35,16 @@ import { channelSubline } from './LiveTV.tsx';
 const SWITCH_DELAY_MS = 500;
 const DIGIT_TIMEOUT_MS = 2000;
 const INFO_HIDE_MS = 5000;
+const SEEK_STEP_S = 30;
+
+/** "1:02:03" or "2:03". Pure. */
+export function clock(seconds: number): string {
+  const t = Math.max(0, Math.floor(seconds));
+  const h = Math.floor(t / 3600);
+  const m = Math.floor((t % 3600) / 60);
+  const sec = String(t % 60).padStart(2, '0');
+  return h ? `${h}:${String(m).padStart(2, '0')}:${sec}` : `${m}:${sec}`;
+}
 
 /** Index of the channel `delta` steps away in the context list (wraps around). Pure. */
 export function stepInList(ids: string[], currentId: string | null, delta: number): string | null {
@@ -94,6 +106,25 @@ function Watch() {
   const timers = useRef<{ switch?: ReturnType<typeof setTimeout>; digits?: ReturnType<typeof setTimeout>; hide?: ReturnType<typeof setTimeout> }>({});
   const state = useRef({ pending, digits, showInfo });
   state.current = { pending, digits, showInfo };
+  const onDemand = isOnDemand(np ? np.channel : null);
+  const [, setTick] = useState(0);
+  const [sub, setSub] = useState(-1);
+  useEffect(() => setSub(-1), [np ? np.channel.id : '']);
+  // Position readout for on-demand items while the bar is up.
+  useEffect(() => {
+    if (!onDemand || !showInfo) return;
+    const t = setInterval(() => setTick((n) => n + 1), 1000);
+    return () => clearInterval(t);
+  }, [onDemand, showInfo]);
+
+  const seekBy = (delta: number) => {
+    const p = getPlayer();
+    if (!p || !isOnDemand(nowPlaying.value ? nowPlaying.value.channel : null)) return false;
+    const dur = p.duration();
+    p.seek(Math.max(0, Math.min(dur ? dur - 5 : Infinity, p.position() + delta)));
+    poke();
+    return true;
+  };
 
   useEffect(() => {
     videoLayout.value = { mode: 'full' };
@@ -210,6 +241,10 @@ function Watch() {
             if (prev) play(prev);
             return true;
           }
+          case 'rewind':
+            return seekBy(-SEEK_STEP_S);
+          case 'fastForward':
+            return seekBy(SEEK_STEP_S);
           case 'pause':
             if (p) p.pause();
             poke();
@@ -274,9 +309,13 @@ function Watch() {
       {showInfo || pending ? (
         <div class="watch-bar">
           <div class="watch-bar-top hstack">
-            <span class="chip live">
-              <span class="dot" /> LIVE
-            </span>
+            {onDemand ? (
+              <span class="chip">On demand</span>
+            ) : (
+              <span class="chip live">
+                <span class="dot" /> LIVE
+              </span>
+            )}
             {playContext.value.label ? <span class="chip">{playContext.value.label}</span> : null}
           </div>
           <div class="watch-bar-main hstack">
@@ -296,6 +335,15 @@ function Watch() {
             <div class="spacer" />
             <QualityChip channel={shown} />
           </div>
+          {onDemand && player && player.duration() ? (
+            <div class="watch-progress">
+              <span>{clock(player.position())}</span>
+              <div class="bar">
+                <div class="fill" style={{ width: `${Math.min(100, (player.position() / player.duration()) * 100)}%` }} />
+              </div>
+              <span>{clock(player.duration())}</span>
+            </div>
+          ) : null}
           {!pending ? (
             <div class="watch-actions hstack" data-focus-group>
               <button class="btn small" data-focusable data-focus-id="watch:fav" onClick={() => np && toggleFavourite(np.channel.id)}>
@@ -320,6 +368,32 @@ function Watch() {
                   Audio
                 </button>
               ) : null}
+              {onDemand ? (
+                <button class="btn small" data-focusable data-focus-id="watch:back30" onClick={() => seekBy(-SEEK_STEP_S)}>
+                  ◀◀ 30s
+                </button>
+              ) : null}
+              {onDemand ? (
+                <button class="btn small" data-focusable data-focus-id="watch:fwd30" onClick={() => seekBy(SEEK_STEP_S)}>
+                  30s ▶▶
+                </button>
+              ) : null}
+              {player && player.sidecars().length ? (
+                <button
+                  class="btn small"
+                  data-focusable
+                  data-focus-id="watch:subs"
+                  onClick={() => {
+                    const names = player.sidecars();
+                    const next = sub + 1 >= names.length ? -1 : sub + 1;
+                    player.showSidecar(next);
+                    setSub(next);
+                    showToast(next < 0 ? 'Subtitles off' : `Subtitles: ${names[next]}`);
+                  }}
+                >
+                  {sub < 0 ? 'Subtitles' : `Subtitles: ${player.sidecars()[sub]}`}
+                </button>
+              ) : null}
               {nextFeed >= 0 ? (
                 <button class="btn small" data-focusable data-focus-id="watch:feed" onClick={() => np && playChannel(np.channel, nextFeed)}>
                   Next feed
@@ -330,7 +404,9 @@ function Watch() {
               </button>
             </div>
           ) : null}
-          <div class="watch-hints">▲▼ change channel · ◀ channel list · 0–9 number · Blue last channel · Red favourite</div>
+          <div class="watch-hints">
+            {onDemand ? '◀◀ ▶▶ skip 30 s · ' : ''}▲▼ change channel · ◀ channel list · 0–9 number · Blue last channel · Red favourite
+          </div>
         </div>
       ) : null}
     </div>

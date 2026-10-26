@@ -10,6 +10,7 @@ import { LiveTV } from './screens/LiveTV.tsx';
 import { Movies, Series, Kids } from './screens/Placeholder.tsx';
 import { Search } from './screens/Search.tsx';
 import { Football } from './screens/Football.tsx';
+import { Playlists } from './screens/Playlists.tsx';
 import { Sports } from './screens/Sports.tsx';
 import { Settings } from './screens/Settings.tsx';
 import { exitApp } from './platform/webos.ts';
@@ -20,6 +21,8 @@ function TabScreen({ id }: { id: TabId }) {
       return <Home />;
     case 'live':
       return <LiveTV />;
+    case 'playlists':
+      return <Playlists />;
     case 'football':
       return <Football />;
     case 'sports':

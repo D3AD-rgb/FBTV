@@ -96,6 +96,7 @@ export class Player {
       const result = await this.attempt(id, src, token);
       if (result === true) {
         if (this.memory) this.memory.set(src.url, id);
+        if (src.subtitles && src.subtitles.length) this.addSidecars(src.subtitles);
         return true;
       }
       if (result.code === 'aborted') return false;
@@ -196,6 +197,50 @@ export class Player {
     if (this.engine) this.engine.setSubtitleTrack(id);
   }
 
+  /** Seconds into on-demand media (0 for live or before start). */
+  position(): number {
+    return this.video.currentTime || 0;
+  }
+
+  duration(): number {
+    const d = this.video.duration;
+    return isFinite(d) ? d : 0;
+  }
+
+  seek(seconds: number): void {
+    try {
+      this.video.currentTime = seconds;
+    } catch {
+      // not seekable (live)
+    }
+  }
+
+  /** Sidecar WebVTT subtitles; they start hidden. The library server allows cross-origin reads. */
+  private addSidecars(list: { url: string; label: string; language?: string }[]): void {
+    this.video.crossOrigin = 'anonymous';
+    for (const sub of list) {
+      const el = document.createElement('track');
+      el.kind = 'subtitles';
+      el.label = sub.label;
+      if (sub.language) el.srclang = sub.language;
+      el.src = sub.url;
+      el.setAttribute('data-fbtv', '');
+      this.video.appendChild(el);
+    }
+    this.showSidecar(-1);
+  }
+
+  /** Labels of the sidecar subtitle files, in order. */
+  sidecars(): string[] {
+    return Array.from(this.video.querySelectorAll('track[data-fbtv]')).map((t) => (t as HTMLTrackElement).label);
+  }
+
+  /** Shows sidecar subtitle `index`, or none for -1. */
+  showSidecar(index: number): void {
+    const tracks = this.video.textTracks;
+    for (let i = 0; i < tracks.length; i++) tracks[i]!.mode = i === index ? 'showing' : 'disabled';
+  }
+
   stop(): void {
     this.token++;
     this.teardown();
@@ -206,7 +251,8 @@ export class Player {
   private teardown(): void {
     if (this.engine) this.engine.destroy();
     this.engine = null;
-    resetVideo(this.video);
+    this.video.removeAttribute('crossorigin');
+    resetVideo(this.video); // also removes sidecar <track>s
   }
 
   destroy(): void {

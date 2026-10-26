@@ -21,6 +21,8 @@ import { EmptyState } from '../ui/EmptyState.tsx';
 import { PageScroll, Shelf } from '../ui/Shelf.tsx';
 import { catalogue, ready, type LoadedCatalogue } from '../data/catalogue.ts';
 import { prefs } from '../data/library.ts';
+import { loadLocalMedia, localChannel, localMedia, searchLocal } from '../data/localMedia.ts';
+import { library } from '../data/sourceLibrary.ts';
 import { searchIndexFor } from '../data/searchIndex.ts';
 import { openPage } from '../nav/router.ts';
 import { ChannelShelf, collectionPage } from './Collection.tsx';
@@ -124,7 +126,10 @@ export function Search() {
     return () => clearTimeout(t);
   }, [query]);
 
+  useEffect(loadLocalMedia, [library.value.status]);
   const groups = data && debounced.trim() ? searchIndexFor(data).grouped(debounced, 40) : [];
+  const pc = localMedia.value;
+  const local = pc.status === 'ready' && debounced.trim() ? searchLocal(pc.items, debounced).slice(0, 40).map((it) => localChannel(it, pc.base)) : [];
   const channelHits = groups.filter((g) => g.kind === 'channel')[0];
   const channels = channelHits && data ? (channelHits.hits.map((h) => data.byId.get(h.doc.id)).filter(Boolean) as CatalogueChannel[]) : [];
   const other = groups.filter((g) => g.kind !== 'channel');
@@ -174,7 +179,7 @@ export function Search() {
               Search works over the channel catalogue once it is loaded on this TV.
             </EmptyState>
           </div>
-        ) : debounced.trim() && !groups.length ? (
+        ) : debounced.trim() && !groups.length && !local.length ? (
           <div style="margin-top:40px">
             <EmptyState id="search:none" title={`No results for “${debounced}”`} wide>
               Try a channel name, a country (or its code, like UK or BD), a language, or a category such as news or
@@ -183,6 +188,7 @@ export function Search() {
           </div>
         ) : null}
         {channels.length ? <ChannelShelf id="search:channels" title="Channels" channels={channels} /> : null}
+        {local.length ? <ChannelShelf id="search:pc" title="On your PC" channels={local} /> : null}
         {data
           ? other.map((g) => (
               <ResultCards

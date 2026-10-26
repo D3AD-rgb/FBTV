@@ -83,6 +83,29 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
   platforms, paid sports brands and extra cricket/football tags.
 - jromero88/iptv added to the library (resold relays withheld, home-tuner entries marked LAN-only, Internet
   Archive episodes kept with rights unverified).
+- Playlists tab: every source playlist file (694 today) in collections that keep their identity — My Playlist, the
+  nine supplied repositories, jromero88/iptv and the Internet Archive — plus category sections shown only when
+  they have data (Live TV, Sports, Football, Cricket, Tennis, Motorsport, Combat, Countries, Languages, 4K, News,
+  Movies, Series, Radio). Search, preview with counts and validation, select (Red), select all, clear, save and
+  restore a selection, combine selected playlists into a named playlist, add (Green), rename (Yellow), delete
+  (Blue), watch a playlist or the whole selection in Live TV, and OK plays an entry with fallback to its other
+  addresses. Stable playlist ids keep selections across refreshes; in server mode they are saved on the PC
+  (`settings/playlists.json`) and rebuilt as M3U files in `playlists/custom/`.
+- Your own media: `media/movies`, `media/series`, `media/other` on the PC are indexed (title, year, season,
+  episode, sidecar subtitles, artwork) and shown as "On your PC" in Movies and Series (continue watching, recently
+  watched, favourites, films, series by season) and in Search. Files stream from `library:serve` by id with byte
+  ranges; `.srt` subtitles are converted to WebVTT.
+- Player: on-demand items (your media, Internet Archive films and episodes, provider films) resume where you
+  stopped, show a position bar, skip 30 s with ◀◀/▶▶ (buttons and remote keys) and switch sidecar subtitles.
+- My Playlist addresses (provider profiles) never leave the PC: the export carries `@play/<token>` references
+  resolved by the library server. A relative profile `file` is read from the data folder.
+- Validation state "format recognised" (HLS, MPEG-TS, MP4 or FLV answer) between "reachable" and "playback
+  confirmed".
+- Safe refresh: every build records its files in `manifests/generated-files.json` and later removes only outdated
+  files it recorded inside its own folders; `npm run library:cleanup -- --dry-run` previews that. The TV export is
+  staged and swapped in only when complete, keeping the previous one.
+- Library server: binds to the home-network address, answers private-network clients only, serves media by id,
+  play tokens and the validated playlist settings file, and never exposes paths or credentials.
 
 ### Findings
 - FND-012: imgur blocks UK viewers with a placeholder logo; non-imgur logos preferred, placeholder detected.
@@ -99,6 +122,8 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - FND-022: Internet Archive public-domain marks are often false for recent Indian films; strict credibility rules.
 - FND-023: resold paid-IPTV URLs carry account credentials; withheld everywhere.
 - FND-024: paid sports channels withheld from every source (Clearstream's rule); only free-to-air rights holders are linked.
+- FND-025: build outputs used to be pruned by sweeping folders; ownership is now tracked in a manifest.
+- BUG-005: Up from the top of a Playlists list jumped to the preview column instead of the header.
 
 ## [0.2.0] - 2026-10-26
 

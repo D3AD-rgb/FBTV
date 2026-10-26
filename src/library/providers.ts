@@ -6,7 +6,7 @@
  * Everything stays in the local data directory. Errors are recorded with secrets masked.
  */
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { isAbsolute, join } from 'node:path';
 import { fetchText } from '../builder/fetch.ts';
 import { redactUrl } from '../shared/url.ts';
 import { loadProfiles, type XtreamProfile } from './profiles.ts';
@@ -38,8 +38,10 @@ export async function importProviders(dir: string, log: (m: string) => void, fet
       const target = join(dir, 'generated/profiles', `${p.id}.m3u`);
       try {
         if (p.file) {
-          if (!existsSync(p.file)) throw new Error(`file not found: ${p.file}`);
-          copyFileSync(p.file, target);
+          // A relative path is inside the data directory (e.g. playlists/my-playlist/mine.m3u).
+          const file = isAbsolute(p.file) ? p.file : join(dir, p.file);
+          if (!existsSync(file)) throw new Error(`file not found: ${p.file}`);
+          copyFileSync(file, target);
         } else if (p.url) {
           const r = await fetchText(p.url, { timeoutMs: 60000, maxBytes: 80 * 1024 * 1024, cacheDir: join(dir, 'cache/http') });
           writeFileSync(target, r.body);

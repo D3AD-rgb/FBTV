@@ -5,6 +5,7 @@ import { ready } from '../data/catalogue.ts';
 import { prefs } from '../data/library.ts';
 import { ChannelShelf } from './Collection.tsx';
 import { MovieShelves, SeriesShelves } from './Vod.tsx';
+import { LocalShelves } from './LocalMedia.tsx';
 import { library, type LibItem } from '../data/sourceLibrary.ts';
 import { showToast } from '../ui/toast.tsx';
 
@@ -40,6 +41,7 @@ function VodSection(props: { id: string; category: 'movies' | 'series' }) {
   const explain = (i: LibItem) => showToast(i.error || i.note || `${i.name}: ${VOD_STATUS[i.status] || i.status}`);
   return (
     <>
+      <LocalShelves id={props.id} category={props.category} />
       {props.category === 'movies' ? <MovieShelves id={props.id} /> : <SeriesShelves id={props.id} />}
       {available ? null : <VodEmpty id={props.id} what={props.category === 'movies' ? 'films' : 'series'} />}
       <Shelf id={`${props.id}:vod:sources`} title="On-demand sources" count="from the library on the PC">

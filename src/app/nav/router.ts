@@ -6,11 +6,12 @@
 import { signal, computed } from '@preact/signals';
 import type { ComponentChildren } from 'preact';
 
-export type TabId = 'home' | 'live' | 'football' | 'sports' | 'movies' | 'series' | 'kids' | 'search' | 'settings';
+export type TabId = 'home' | 'live' | 'playlists' | 'football' | 'sports' | 'movies' | 'series' | 'kids' | 'search' | 'settings';
 
 export const TABS: { id: TabId; label: string }[] = [
   { id: 'home', label: 'Home' },
   { id: 'live', label: 'Live TV' },
+  { id: 'playlists', label: 'Playlists' },
   { id: 'football', label: 'Football' },
   { id: 'sports', label: 'Sports' },
   { id: 'movies', label: 'Movies' },

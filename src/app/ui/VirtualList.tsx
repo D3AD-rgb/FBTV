@@ -19,7 +19,11 @@ export interface VirtualListProps<T> {
   renderRow: (item: T, index: number, current: boolean, focused: boolean) => ComponentChildren;
   onSelect?: (item: T, index: number) => void;
   onIndexChange?: (item: T, index: number) => void;
+  /** Other remote keys (colour keys …) for the current row; return true when handled. */
+  onKey?: (item: T, action: string, index: number) => boolean;
   empty?: ComponentChildren;
+  /** Selector of the element Up on the first row goes to (when geometry would pick another). */
+  focusUp?: string;
 }
 
 const BUFFER = 2;
@@ -88,8 +92,10 @@ export function VirtualList<T>(props: VirtualListProps<T>) {
             if (item !== undefined && p.onSelect) p.onSelect(item, i);
             return true;
           }
-          default:
-            return false;
+          default: {
+            const item = p.items[i];
+            return item !== undefined && p.onKey ? p.onKey(item, a.action, i) : false;
+          }
         }
       }),
     [],
@@ -126,6 +132,7 @@ export function VirtualList<T>(props: VirtualListProps<T>) {
       ref={ref}
       data-focusable
       data-focus-id={focusId}
+      data-focus-up={props.focusUp}
       style={`height:${props.height}px`}
       role="listbox"
       aria-activedescendant={`${focusId}:${index}`}

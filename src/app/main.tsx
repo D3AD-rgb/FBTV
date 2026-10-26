@@ -11,6 +11,7 @@ import './styles/components.css';
 import './styles/screens.css';
 import './styles/live.css';
 import './styles/football.css';
+import './styles/playlists.css';
 import { render } from 'preact';
 import { App } from './App.tsx';
 import { initFocus, getEngine } from './focus/index.ts';

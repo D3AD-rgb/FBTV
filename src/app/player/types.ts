@@ -9,6 +9,8 @@ export interface StreamSource {
   /** Header requirements copied from the source metadata (never set by the user). */
   userAgent?: string | null;
   referrer?: string | null;
+  /** Sidecar WebVTT files (local media through the library server), added as <track> elements. */
+  subtitles?: { url: string; label: string; language?: string }[];
 }
 
 export type PlayerErrorCode =

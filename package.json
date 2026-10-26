@@ -29,7 +29,8 @@
     "library:rebuild": "node src/library/main.ts rebuild",
     "library:fixtures": "node src/library/main.ts fixtures",
     "library:export": "node src/library/main.ts export",
-    "library:serve": "node src/library/main.ts serve"
+    "library:serve": "node src/library/main.ts serve",
+    "library:cleanup": "node src/library/main.ts cleanup"
   },
   "dependencies": {
     "@fontsource/manrope": "5.3.0",

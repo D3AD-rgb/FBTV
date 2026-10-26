@@ -55,6 +55,7 @@ function asChannel(t: VodTitle): CatalogueChannel {
     categories: t.genre ? [t.genre] : undefined,
     streams: [{ id: `vod:${t.uid}#0`, url: t.url!, source: 'library' }],
     sources: ['library'],
+    playback: { resumeKey: `vod:${t.uid}` },
   };
 }
 
@@ -195,6 +196,7 @@ function SeriesView({ s }: { s: VodSeries }) {
     languages: s.languages,
     streams: [{ id: `ep:${s.seriesId}:${e.season}:${e.episode}#0`, url: e.url!, source: 'library' }],
     sources: ['library'],
+    playback: { resumeKey: `ep:${s.seriesId}:${e.season}:${e.episode}` },
   }));
   return (
     <div class="screen all-matches">

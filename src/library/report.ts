@@ -191,7 +191,7 @@ export function writeReport(input: ReportInput): string {
   P('|---|---|');
   for (const [k, v] of vals) P(`| ${k} | ${n(v)} |`);
   P();
-  P('"reachable" means the server answered with playlist/media bytes; only "playback_confirmed" (ffprobe found audio/video) means it plays.');
+  P('"reachable": the server answered; "format_recognised": the answer is a known stream format (HLS playlist, MPEG-TS, MP4, FLV); only "playback_confirmed" (ffprobe found audio/video) means it plays. A failed check never removes a source.');
   P();
 
   P('## 11. Unavailable or unsupported, with reasons');

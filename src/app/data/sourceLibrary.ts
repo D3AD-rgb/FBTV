@@ -63,7 +63,7 @@ export interface LibChannel extends CatalogueChannel {
   payTvBrand?: boolean;
   repos: string[];
   radio: boolean;
-  /** Validation of the best stream: untested | reachable | temporarily_unavailable | playback_confirmed | playback_failed */
+  /** Validation of the best stream: untested | reachable | format_recognised | temporarily_unavailable | playback_confirmed | playback_failed */
   validation: string;
   /** In the PC's news / sports lists (which also match group names, not exported). */
   inNews: boolean;
@@ -86,6 +86,8 @@ export function libStatus(c: LibChannel): string {
   switch (c.validation) {
     case 'playback_confirmed':
       return 'Playback confirmed at last check';
+    case 'format_recognised':
+      return 'Format recognised at last check';
     case 'reachable':
       return 'Answered at last check';
     case 'temporarily_unavailable':
@@ -133,7 +135,7 @@ export function adapt(c: CompactChannel): LibChannel {
       const [w, h] = s.m.split('x').map(Number) as [number, number];
       cs.probe = { width: w, height: h, at: '' };
     }
-    cs.status = s.v === 'reachable' || s.v === 'playback_confirmed' ? 'online' : s.v === 'temporarily_unavailable' || s.v === 'playback_failed' ? 'offline' : 'unknown';
+    cs.status = s.v === 'reachable' || s.v === 'format_recognised' || s.v === 'playback_confirmed' ? 'online' : s.v === 'temporarily_unavailable' || s.v === 'playback_failed' ? 'offline' : 'unknown';
     return cs;
   });
   // Only streams the TV can attempt are offered for playback; others stay visible as "unavailable".
@@ -245,8 +247,11 @@ export function applySelect(list: LibChannel[], sel: Record<string, string> | un
         case 'news':
           if (!c.inNews) return false;
           break;
+        case 'quality':
+          if (!c.streams.some((s) => (!!s.probe && s.probe.height >= 2160) || /2160|4k|uhd/i.test(s.quality || ''))) return false;
+          break;
         case 'validation':
-          if (v === 'reachable' ? c.validation !== 'reachable' && c.validation !== 'playback_confirmed' : c.validation !== v) return false;
+          if (v === 'reachable' ? ['reachable', 'format_recognised', 'playback_confirmed'].indexOf(c.validation) < 0 : c.validation !== v) return false;
           break;
       }
     }

@@ -44,3 +44,18 @@ export async function getJSON<T>(url: string, opts: GetOptions = {}): Promise<T>
   const text = await getText(url, opts);
   return JSON.parse(text) as T;
 }
+
+/** PUT a JSON body (used to save playlist settings to the library server on the PC). */
+export function putJSON(url: string, body: unknown, timeoutMs = 8000): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('PUT', url, true);
+    xhr.timeout = timeoutMs;
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onload = () => (xhr.status >= 200 && xhr.status < 300 ? resolve() : reject(new HttpError(`HTTP ${xhr.status}`, xhr.status)));
+    xhr.onerror = () => reject(new HttpError('Network error', 0));
+    xhr.ontimeout = () => reject(new HttpError(`Timed out after ${timeoutMs} ms`, -2));
+    xhr.send(JSON.stringify(body));
+  });
+}
+

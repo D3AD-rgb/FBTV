@@ -4,7 +4,8 @@
  * English / Hindi / Bengali), generated M3U playlists and the source registry that the app's
  * dropdowns are built from. Nothing here deletes inventory records.
  */
-import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, unlinkSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { trackOutput } from './outputs.ts';
 import { dirname, join } from 'node:path';
 import { fold, normalizeLanguages } from '../shared/normalize.ts';
 import { logoUsable } from '../shared/url.ts';
@@ -33,11 +34,15 @@ export interface StatusRecord {
 }
 export type StatusDb = Record<string, StatusRecord>;
 
+/** Response kinds that are a stream format the players know (from the first bytes). */
+const RECOGNISED = /^(hls-playlist|mpeg-ts|mp4|flv|media)$/;
+
 export function validationOf(s: StatusRecord | undefined): ValidationStatus {
   if (!s) return 'untested';
   if (s.playable === true) return 'playback_confirmed';
   if (s.playable === false) return 'playback_failed';
-  return s.reachable ? 'reachable' : 'temporarily_unavailable';
+  if (!s.reachable) return 'temporarily_unavailable';
+  return s.contentKind && RECOGNISED.test(s.contentKind) ? 'format_recognised' : 'reachable';
 }
 
 // ------------------------------------------------------------------ channels
@@ -77,7 +82,7 @@ export interface CatalogChannel {
 }
 
 const STATUS_RANK: Record<string, number> = { imported: 0, duplicate_reference: 1, requires_provider_access: 2, unsupported_format: 3 };
-const VALID_RANK: Record<ValidationStatus, number> = { playback_confirmed: 0, reachable: 1, untested: 2, playback_failed: 3, temporarily_unavailable: 4 };
+const VALID_RANK: Record<ValidationStatus, number> = { playback_confirmed: 0, format_recognised: 1, reachable: 2, untested: 3, playback_failed: 4, temporarily_unavailable: 5 };
 const TRUST: Record<string, number> = { 'iptv-org': 0, 'free-tv': 1, 'fanmingming-live': 2, 'tvlist-awesome': 3, 'iptv-sources': 4, 'iptv-api': 5 };
 const ROLE_RANK: Record<FootballRole, number> = { dedicated: 0, club: 1, 'broadcaster-brand': 2 };
 
@@ -231,6 +236,7 @@ export interface Registry {
 function write(p: string, data: unknown): void {
   mkdirSync(dirname(p), { recursive: true });
   writeFileSync(p, typeof data === 'string' ? data : JSON.stringify(data));
+  trackOutput(p);
 }
 
 function readJSON<T>(p: string, fallback: T): T {
@@ -251,7 +257,7 @@ function summary(channels: CatalogChannel[]) {
     if (!s) continue;
     if (s.validation === 'untested') untested++;
     else checked++;
-    if (s.validation === 'reachable' || s.validation === 'playback_confirmed') reachable++;
+    if (s.validation === 'reachable' || s.validation === 'format_recognised' || s.validation === 'playback_confirmed') reachable++;
     if (s.validation === 'playback_confirmed') confirmed++;
   }
   return { checked, reachable, playbackConfirmed: confirmed, untested };
@@ -266,6 +272,11 @@ function attribution(channels: CatalogChannel[]) {
 }
 
 const has = (l: string[] | undefined, v: string) => !!l && l.indexOf(v) >= 0;
+
+/** Measured at 2160p or more, or labelled 4K/UHD/2160p by its source. Pure. */
+export function is4k(s: CatalogStream): boolean {
+  return (!!s.measured && s.measured.height >= 2160) || /2160|4k|uhd/i.test(s.quality || '');
+}
 
 /** News-list membership (category or group name). Exported so the TV export applies the same rule. */
 export function isNews(c: CatalogChannel): boolean {
@@ -297,10 +308,8 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
   const langNames = new Map<string, string>();
   for (const l of readJSON<{ code: string; name: string }[]>(join(dir, 'repositories/iptv-org/api/languages.json'), [])) langNames.set(l.code, l.name);
 
-  const writtenPlaylists = new Set<string>();
   const addList = (id: string, name: string, group: string, contentType: RegistryItem['contentType'], languages: string[], list: CatalogChannel[], rel: string, note?: string) => {
     write(join(dir, rel), toM3U(list, name));
-    writtenPlaylists.add(rel);
     const playable = list.filter((c) => c.playable);
     items.push({
       id,
@@ -386,7 +395,17 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
 
   // ---- Other playlists
   addList('radio', 'Radio', 'Radio', 'radio', [], channels.filter((c) => c.kind === 'radio'), 'playlists/combined/radio.m3u');
-  addList('reachable', 'Reachable at last check', 'Status', 'live', [], live.filter((c) => { const s = bestStream(c); return !!s && (s.validation === 'reachable' || s.validation === 'playback_confirmed'); }), 'playlists/combined/reachable.m3u');
+  addList(
+    '4k',
+    '4K channels',
+    'Live TV',
+    'live',
+    [],
+    live.filter((c) => c.streams.some(is4k)),
+    'playlists/4k/all.m3u',
+    'Measured at 2160p by a playback check, or labelled 4K/2160p by the source (advertised, not verified)',
+  );
+  addList('reachable', 'Reachable at last check', 'Status', 'live', [], live.filter((c) => { const s = bestStream(c); return !!s && (s.validation === 'reachable' || s.validation === 'format_recognised' || s.validation === 'playback_confirmed'); }), 'playlists/combined/reachable.m3u');
   addList('playback-confirmed', 'Playback confirmed (ffprobe)', 'Status', 'live', [], live.filter((c) => { const s = bestStream(c); return !!s && s.validation === 'playback_confirmed'; }), 'playlists/combined/playback-confirmed.m3u');
 
   // ---- catalogs
@@ -483,7 +502,19 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
   }
   const target = (langs: string[]) => normalizeLanguages(langs).some((l) => TARGET_VOD_LANGUAGES.indexOf(l) >= 0);
   const known = (langs: string[]) => normalizeLanguages(langs).length > 0;
-  const moviesB = vodInventory.filter((v) => v.type !== 'episode' && target(v.languages)).concat(providerVod.filter((v) => target(v.languages)) as never[]);
+  // Your Xtream provider's films play through the library server, which adds your login on the PC.
+  const providerFilms = providerVod.map((v) => ({
+    uid: `x:${v.profile}:${v.streamId}`,
+    title: v.title,
+    url: `@xtream/${v.profile}/movie/${v.streamId}.${v.extension || 'mp4'}`,
+    status: 'imported',
+    languages: v.languages,
+    poster: v.poster,
+    genre: v.category,
+    year: v.year ? Number(String(v.year).slice(0, 4)) || undefined : undefined,
+    source: `profile:${v.profile}`,
+  }));
+  const moviesB = vodInventory.filter((v) => v.type !== 'episode' && target(v.languages)).concat(providerFilms.filter((v) => target(v.languages)) as never[]);
   const episodesB = vodInventory.filter((v) => v.type === 'episode' && target(v.languages));
   // Series assembled from episode records that name their series (Internet Archive items).
   const assembled = new Map<string, { title: string; seriesId: string; source: string; languages: string[]; poster?: string; genre?: string; year?: number; seasons: { season: number; episodes: { episode: number; title: string; url: string | null; durationSeconds?: number; status: string }[] }[] }>();
@@ -497,7 +528,14 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
     }
     s.seasons[0]!.episodes.push({ episode: v.episodeNo || s.seasons[0]!.episodes.length + 1, title: v.episode || v.title, url: v.url, durationSeconds: v.durationSeconds, status: v.status });
   }
-  const seriesB = (providerSeries.filter((s) => target(s.languages)) as unknown[]).concat(Array.from(assembled.values())) as SeriesItem[];
+  const providerShows = providerSeries.map((s) => ({
+    ...s,
+    seasons: (s.seasons || []).map((se) => ({
+      season: se.season,
+      episodes: se.episodes.map((e) => ({ ...e, url: `@xtream/${s.profile}/series/${e.episodeId}.${e.extension || 'mp4'}`, status: 'imported' })),
+    })),
+  }));
+  const seriesB = (providerShows.filter((s) => target(s.languages)) as unknown[]).concat(Array.from(assembled.values())) as SeriesItem[];
   const unknownLang = vodInventory.filter((v) => !known(v.languages)).length + providerVod.filter((v) => !known(v.languages)).length + providerSeries.filter((v) => !known(v.languages)).length;
   const otherLang = vodInventory.filter((v) => known(v.languages) && !target(v.languages)).length + providerVod.filter((v) => known(v.languages) && !target(v.languages)).length;
   write(join(dir, 'catalogs/vod-inventory.json'), {
@@ -634,9 +672,6 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
     items.push({ id: `profile-error-${pr.id}`, name: `Profile ${pr.id}`, group: PROFILE_GROUP.m3u, type: 'm3u', contentType: 'mixed', languages: [], attribution: [], channels: 0, lastRefresh: now, importStatus: 'error', validation: { checked: 0, reachable: 0, playbackConfirmed: 0, untested: 0 }, error: pr.problem });
   }
 
-  // Playlists from earlier runs (renamed or removed lists) must not linger with outdated links.
-  const pruned = prunePlaylists(dir, writtenPlaylists);
-  if (pruned.length) log(`playlists: removed ${pruned.length} outdated file(s) not written by this run`);
   const groups = Array.from(new Set(items.map((i) => i.group)));
   const registry: Registry = { schema: 2, generatedAt: now, dataDir: dir, groups, items };
   write(join(dir, 'source-registry.json'), JSON.stringify(registry, null, 2));
@@ -677,23 +712,3 @@ function profileItem(dir: string, p: Profile, caps: XtreamCapabilities | undefin
 }
 
 export type { Fixture };
-
-/** Deletes .m3u files under playlists/ that this run did not write; returns their paths. */
-export function prunePlaylists(dir: string, written: Set<string>): string[] {
-  const root = join(dir, 'playlists');
-  const removed: string[] = [];
-  const walk = (abs: string, rel: string) => {
-    if (!existsSync(abs)) return;
-    for (const name of readdirSync(abs)) {
-      const a = join(abs, name);
-      const r = `${rel}/${name}`;
-      if (statSync(a).isDirectory()) walk(a, r);
-      else if (/\.m3u8?$/i.test(name) && !written.has(r)) {
-        unlinkSync(a);
-        removed.push(r);
-      }
-    }
-  };
-  walk(root, 'playlists');
-  return removed;
-}

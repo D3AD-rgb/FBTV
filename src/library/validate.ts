@@ -60,6 +60,8 @@ export function contentKind(contentType: string, head: Uint8Array): string {
   const text = new TextDecoder('utf-8', { fatal: false }).decode(head.slice(0, 512)).trimStart();
   if (text.indexOf('#EXTM3U') === 0) return 'hls-playlist';
   if (head[0] === 0x47 && (head.length < 189 || head[188] === 0x47)) return 'mpeg-ts';
+  if (head.length >= 8 && text.slice(4, 8) === 'ftyp') return 'mp4';
+  if (text.indexOf('FLV') === 0) return 'flv';
   if (/^<\?xml|<MPD/i.test(text)) return 'xml';
   if (/^<!doctype html|^<html/i.test(text) || /text\/html/i.test(contentType)) return 'html';
   if (/video|audio|mpegurl|octet-stream|mp2t/i.test(contentType)) return 'media';

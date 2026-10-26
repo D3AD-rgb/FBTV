@@ -27,7 +27,8 @@ export type RecordStatus =
   | 'test_fixture'
   | 'reference_only';
 
-export type ValidationStatus = 'untested' | 'reachable' | 'temporarily_unavailable' | 'playback_confirmed' | 'playback_failed';
+/** Not yet checked · URL reachable · media format recognised · playback confirmed · temporarily unavailable · playback failed. */
+export type ValidationStatus = 'untested' | 'reachable' | 'format_recognised' | 'temporarily_unavailable' | 'playback_confirmed' | 'playback_failed';
 
 export type RecordKind =
   | 'stream'

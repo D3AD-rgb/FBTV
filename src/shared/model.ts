@@ -59,6 +59,8 @@ export interface CatalogueChannel {
   kids?: boolean;
   kidsBy?: 'category' | 'allowlist';
   streams: CatalogueStream[];
+  /** On-demand items: where to remember the position, and subtitle tracks (local media). */
+  playback?: { resumeKey?: string; subtitles?: { url: string; label: string; language?: string }[] };
   /** Source ids that contributed to this channel. */
   sources: string[];
 }

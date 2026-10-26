@@ -340,6 +340,26 @@
   margin-top: 26px;
   --stack-gap: 14px;
 }
+.watch-progress {
+  display: flex;
+  align-items: center;
+  margin-top: 22px;
+  font-size: var(--t-meta);
+  color: var(--c-text-dim);
+  font-variant-numeric: tabular-nums;
+}
+.watch-progress .bar {
+  flex: 1;
+  height: 8px;
+  margin: 0 18px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+.watch-progress .fill {
+  height: 100%;
+  background: var(--c-accent);
+}
 .watch-hints {
   margin-top: 22px;
   font-size: 20px;

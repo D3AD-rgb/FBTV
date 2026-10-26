@@ -29,6 +29,7 @@ import {
 } from '../data/sourceLibrary.ts';
 import { pushKeyHandler } from '../nav/input.ts';
 import { closeOverlay, openOverlay, openPage, routeKey, setTab } from '../nav/router.ts';
+import { combine, entriesToChannels, loadEntries, playlistState } from '../data/playlists.ts';
 import { getEngine } from '../focus/index.ts';
 import { VirtualList } from '../ui/VirtualList.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
@@ -55,7 +56,7 @@ const QUICK: [string, string][] = [
   ['live-all', 'All'],
 ];
 
-type Source = { kind: 'list'; id: ListId } | { kind: 'lib'; id: string } | { kind: 'clubs'; id: 'clubs' };
+type Source = { kind: 'list'; id: ListId } | { kind: 'lib'; id: string } | { kind: 'clubs'; id: 'clubs' } | { kind: 'pl'; id: string; title: string };
 
 /** Remembered across visits to the tab. null = the default (library preference, else "all"). */
 const activeSource = signal<Source | null>(null);
@@ -80,7 +81,7 @@ export function channelSubline(c: CatalogueChannel): string {
 }
 
 /** Playable first, then the TV's home country, then by how much the last check confirmed. Stable otherwise. */
-const RANK: Record<string, number> = { playback_confirmed: 0, reachable: 1, untested: 2, temporarily_unavailable: 3, playback_failed: 3 };
+const RANK: Record<string, number> = { playback_confirmed: 0, format_recognised: 1, reachable: 2, untested: 3, temporarily_unavailable: 4, playback_failed: 4 };
 function sortLibrary(list: LibChannel[]): LibChannel[] {
   const home = (prefs.value.homeCountry || '').toLowerCase();
   return list
@@ -225,20 +226,41 @@ export function LiveTV() {
     };
   }, [source.kind, clubsKey]);
 
-  const loadingLib = (source.kind === 'lib' && !!libItem && (!libList || libList.key !== libKey)) || (source.kind === 'clubs' && !clubList);
+  // A playlist from the Playlists section (or the combined selection).
+  const [plList, setPlList] = useState<{ key: string; list: CatalogueChannel[] } | null>(null);
+  const plKey = source.kind === 'pl' ? `${source.id}|${source.id === 'selection' ? playlistState.value.selected.join(',') : ''}` : '';
+  useEffect(() => {
+    if (source.kind !== 'pl') return;
+    let alive = true;
+    const members = source.id === 'selection' ? playlistState.value.selected : [source.id];
+    (source.id === 'selection' ? combine(members) : loadEntries(source.id)).then(
+      (entries) => alive && setPlList({ key: plKey, list: entriesToChannels(entries, source.id) }),
+      () => alive && setPlList({ key: plKey, list: [] }),
+    );
+    return () => {
+      alive = false;
+    };
+  }, [plKey]);
+
+  const loadingLib =
+    (source.kind === 'lib' && !!libItem && (!libList || libList.key !== libKey)) ||
+    (source.kind === 'clubs' && !clubList) ||
+    (source.kind === 'pl' && (!plList || plList.key !== plKey));
   const channels: CatalogueChannel[] = useMemo(() => {
     if (source.kind === 'lib') return libList && libList.key === libKey ? libList.list : [];
     if (source.kind === 'clubs') return clubList || [];
+    if (source.kind === 'pl') return plList && plList.key === plKey ? plList.list : [];
     if (registry && personal) {
       const ids = source.id === 'fav' ? favourites.value : recents.value.map((r) => r.id);
       return ids.map((id) => (data && data.byId.get(id)) || (libMap ? libMap.get(id) : undefined)).filter(Boolean) as CatalogueChannel[];
     }
     return data ? channelsFor(source.id, data) : [];
-  }, [data, source.kind, source.id, libList, libKey, libMap, clubList, favourites.value, recents.value]);
+  }, [data, source.kind, source.id, libList, libKey, libMap, clubList, plList, plKey, favourites.value, recents.value]);
   const playableList = channels.filter((c) => !isLibChannel(c) || c.playable);
   const numbers = data && source.kind === 'list' ? channelNumbers(data).numberOf : new Map<string, number>();
   const clubsLabel = followedClubs.value.length === 1 ? `★ ${followedClubs.value[0]}` : '★ My clubs';
-  const label = source.kind === 'lib' ? (libItem ? libItem.name : 'Library') : source.kind === 'clubs' ? clubsLabel : LIST_LABELS[source.id];
+  const label =
+    source.kind === 'lib' ? (libItem ? libItem.name : 'Library') : source.kind === 'clubs' ? clubsLabel : source.kind === 'pl' ? `▶ ${source.title}` : LIST_LABELS[source.id];
 
   useEffect(() => {
     videoLayout.value = { mode: 'box', ...PREVIEW };
@@ -367,6 +389,11 @@ export function LiveTV() {
                 {libItem.name}
               </button>
             ) : null}
+            {source.kind === 'pl' ? (
+              <button class="chip selectable is-selected" data-focusable data-focus-id="live:chip:pl" onClick={() => setTab('playlists')}>
+                ▶ {source.title}
+              </button>
+            ) : null}
             {followedClubs.value.length ? (
               <button
                 class={'chip selectable' + (source.kind === 'clubs' ? ' is-selected' : '')}
@@ -478,4 +505,11 @@ export function LiveTV() {
       </div>
     </div>
   );
+}
+
+/** Shows a playlist (or "selection", the combined selected playlists) in Live TV. */
+export function watchInLiveTV(member: string, title: string): void {
+  activeSource.value = { kind: 'pl', id: member, title };
+  activeIndex.value = 0;
+  setTab('live');
 }

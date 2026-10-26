@@ -8,6 +8,8 @@ import { signal } from '@preact/signals';
 import type { CatalogueChannel, CatalogueStream } from '../../shared/model.ts';
 import { Player } from '../player/player.ts';
 import type { PlayerErrorCode } from '../player/types.ts';
+import { readJSON, writeJSON } from '../platform/storage.ts';
+import { showToast } from '../ui/toast.tsx';
 import { recordWatched } from './library.ts';
 
 export type VideoLayout =
@@ -72,6 +74,7 @@ export function streamLabel(s: CatalogueStream): string {
 /** Plays a channel, starting at `startIndex` and falling back through its other streams. */
 export async function playChannel(channel: CatalogueChannel, startIndex = 0): Promise<boolean> {
   if (!player) return false;
+  endResume();
   const current = nowPlaying.value;
   if (current && current.channel.id !== channel.id) previousChannelId.value = current.channel.id;
   const my = ++attempt;
@@ -80,10 +83,11 @@ export async function playChannel(channel: CatalogueChannel, startIndex = 0): Pr
   for (let i = startIndex; i < last; i++) {
     const stream = streams[i]!;
     nowPlaying.value = { channel, stream, streamIndex: i };
-    const ok = await player.play({ url: stream.url });
+    const ok = await player.play({ url: stream.url, subtitles: channel.playback ? channel.playback.subtitles : undefined });
     if (my !== attempt) return false; // superseded by a newer request
     if (ok) {
       recordWatched(channel.id);
+      if (channel.playback && channel.playback.resumeKey) startResume(channel.playback.resumeKey);
       return true;
     }
     const err = player.error.value;
@@ -92,7 +96,58 @@ export async function playChannel(channel: CatalogueChannel, startIndex = 0): Pr
   return false;
 }
 
+// ------------------------------------------------------------------ resume (on-demand items)
+
+let resumeTimer: ReturnType<typeof setInterval> | null = null;
+let resumeKey: string | null = null;
+const resumeKeyOf = (k: string) => `resume:${k}`;
+
+function saveResume(): void {
+  if (!player || !resumeKey) return;
+  const pos = player.position();
+  const dur = player.duration();
+  if (!dur || pos < 5) return;
+  writeJSON(resumeKeyOf(resumeKey), resumeValue(pos, dur));
+}
+
+/** Position to save: the last minute (or last 5% of a short video) counts as finished, so 0. Pure. */
+export function resumeValue(pos: number, dur: number): number {
+  return pos > dur - Math.min(60, dur * 0.05) ? 0 : Math.floor(pos);
+}
+
+/** Saved position in seconds for an on-demand item (0 when none). */
+export function resumePosition(key: string): number {
+  return readJSON<number>(resumeKeyOf(key), 0);
+}
+
+function startResume(key: string): void {
+  const p = player;
+  if (!p) return;
+  const saved = resumePosition(key);
+  if (saved > 30) {
+    p.seek(saved);
+    showToast(`Resumed at ${Math.floor(saved / 60)}:${String(Math.floor(saved % 60)).padStart(2, '0')}`);
+  }
+  resumeKey = key;
+  resumeTimer = setInterval(() => {
+    if (player && player.status.value === 'playing') saveResume();
+  }, 10000);
+}
+
+function endResume(): void {
+  saveResume();
+  if (resumeTimer) clearInterval(resumeTimer);
+  resumeTimer = null;
+  resumeKey = null;
+}
+
+/** Whether the item playing now is on-demand (seekable, resumable). */
+export function isOnDemand(channel: CatalogueChannel | null | undefined): boolean {
+  return !!channel && !!channel.playback && !!channel.playback.resumeKey;
+}
+
 export function stopPlayback(): void {
+  endResume();
   attempt++;
   if (player) player.stop();
   nowPlaying.value = null;
