@@ -16,7 +16,7 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
   decode, timeout, unsupported format/protocol, and `rejected` when the TV player refuses a source without a
   reason).
 - Playback test screen (Settings › Playback test, Diagnostics › Run playback test): plays public vendor test
-  streams (Mux, Akamai, Apple) with each engine and records resolution, start-up time and audio tracks.
+  streams (Mux, Unified Streaming, Apple) with each engine and records resolution, start-up time and audio tracks.
 
 ### Findings
 - FND-010: native player handles TS-segment HLS fastest; hls.js plays fMP4 HEVC 4K that native rejects.
