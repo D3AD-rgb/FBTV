@@ -1,0 +1,77 @@
+name: Catalogue
+
+# Rebuilds the channel catalogue from config/sources.json, probes a bounded sample of
+# streams with ffprobe, and publishes the JSON shards to GitHub Pages. The TV checks the
+# published manifest and downloads only shards that changed.
+on:
+  schedule:
+    - cron: '17 4 * * *' # daily, 04:17 UTC (off the hour to spread load on upstream hosts)
+  workflow_dispatch:
+    inputs:
+      probe:
+        description: 'Probe a sample of streams with ffprobe'
+        type: boolean
+        default: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: catalogue
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Install ffprobe
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      # Probe results accumulate across runs: restore the newest database, save a new one.
+      - name: Restore probe database
+        uses: actions/cache/restore@v4
+        with:
+          path: build-data/probe-db.json
+          key: probe-db-${{ github.run_id }}
+          restore-keys: probe-db-
+      - name: Build catalogue
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.probe }}" = "true" ]; then
+            node src/builder/main.ts --probe
+          else
+            node src/builder/main.ts
+          fi
+      - name: Save probe database
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: build-data/probe-db.json
+          key: probe-db-${{ github.run_id }}
+      - name: Prepare site
+        run: |
+          mkdir -p site
+          cp build-data/catalogue/*.json site/
+          printf '%s\n' '<!doctype html><meta charset="utf-8"><title>FBTV catalogue</title><p>FBTV catalogue data. See <a href="manifest.json">manifest.json</a> and <a href="https://github.com/${{ github.repository }}">the repository</a>.</p>' > site/index.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
