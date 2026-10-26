@@ -193,3 +193,26 @@ playlist settings file (validated, 512 KB maximum), and never lists folders or r
 credentials. Do not forward its port on your router.
 
 Public and release builds never contain the library.
+
+## Always-on server (cloud VM)
+
+So the PC does not have to stay on, the library can live on an always-on Linux VM (an Oracle Cloud
+free VM works) that builds it from the same public sources:
+
+1. `ssh <user>@<vm> 'bash -s' < scripts/vm/setup.sh` installs Node (checksum-verified), the code, an
+   access key (`~/FBTV-local-data/settings/server-key`), the server on `127.0.0.1:8787`
+   (`fbtv-library.service`), a nightly refresh (`fbtv-refresh.timer`, 04:30 UK time) and a weekly stream
+   check (`fbtv-validate.timer`). Run it again to update.
+2. Publish it over HTTPS with Tailscale Funnel, on the VM:
+   `sudo tailscale funnel --bg --https=443 http://127.0.0.1:8787` (the first time, Tailscale asks you to
+   allow Funnel for the machine). No firewall port is opened on the VM.
+3. Package with the VM first: put `https://<vm>.<tailnet>.ts.net/k/<key>/registry.json` in a file and run
+   `npm run package -- --with-library --library-server-file <file>`. The TV tries the VM, then the PC at
+   home, then the bundled copy.
+
+Every address must carry the access key (`/k/<key>/`); anything else gets "not found". The key is never
+printed in logs or shown on the TV, and is never committed. The server name is public (HTTPS certificate
+logs), so the key is what protects it: to change it, delete the key file, run the setup script again and
+repackage. Videos never pass through the VM: it serves lists and redirects; the TV fetches streams from
+their sources. Provider credentials are encrypted with DPAPI on Windows only; on Linux they are kept in a
+file readable only by the VM's user (`npm run library:secret -- set <id>` on the VM).
