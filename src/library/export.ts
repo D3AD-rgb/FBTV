@@ -7,6 +7,7 @@
  */
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http';
 import { gzipSync } from 'node:zlib';
+import { timingSafeEqual } from 'node:crypto';
 import { copyFileSync, createReadStream, existsSync, mkdirSync, readFileSync, readdirSync, renameSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { extname, join, resolve, sep } from 'node:path';
 import { networkInterfaces } from 'node:os';
@@ -310,9 +311,41 @@ function sendFile(req: IncomingMessage, res: ServerResponse, file: string, type:
  * answers only private-network clients. Nothing outside the export, your media index and the
  * playlist settings file can be requested; no file path or credential is ever sent.
  */
-export function serve(port: number, dataDir: string, opts: { host?: string } = {}): void {
+/** An access key: 16–128 letters, digits, "-" or "_". Pure. */
+export function validKey(key: string): boolean {
+  return /^[A-Za-z0-9_-]{16,128}$/.test(key);
+}
+
+/**
+ * With an access key every address starts with /k/<key>/ (the TV's library address carries it);
+ * returns the path after it, or null when the key is missing or wrong. Without a key, the path. Pure.
+ */
+export function stripKey(path: string, key: string | undefined): string | null {
+  if (!key) return path;
+  const m = /^\/k\/([^/]+)(\/.*)?$/.exec(path);
+  if (!m) return null;
+  const given = Buffer.from(m[1]!);
+  const want = Buffer.from(key);
+  if (given.length !== want.length || !timingSafeEqual(given, want)) return null;
+  return m[2] || '/';
+}
+
+/** Shows an address with its access key hidden (for logs). Pure. */
+export function maskKey(url: string): string {
+  return url.replace(/\/k\/([^/]{4})[^/]*/, '/k/$1…');
+}
+
+/**
+ * Serves the TV export, your media by id, private play tokens and the playlist settings file.
+ * At home it binds to the PC's home-network address and answers private-network clients only.
+ * On an always-on server (e.g. a cloud VM published through Tailscale Funnel) it binds to
+ * 127.0.0.1 and requires the access key in every address (opts.key).
+ */
+export function serve(port: number, dataDir: string, opts: { host?: string; key?: string } = {}): void {
   const root = exportDir();
   const host = opts.host || lanAddress() || '127.0.0.1';
+  const key = opts.key;
+  if (key !== undefined && !validKey(key)) throw new Error('The access key must be 16–128 letters, digits, "-" or "_".');
   const json = { 'Content-Type': 'application/json; charset=utf-8' };
   let media: { at: number; items: Map<string, LocalItem> } = { at: 0, items: new Map() };
   const mediaIndex = () => {
@@ -340,6 +373,13 @@ export function serve(port: number, dataDir: string, opts: { host?: string } = {
       res.statusCode = 400;
       return void res.end('bad request');
     }
+    const inner = stripKey(url, key);
+    if (inner === null) {
+      res.statusCode = 404;
+      return void res.end('not found');
+    }
+    url = inner;
+    if (url === '/registry.json') console.log(`[library] ${new Date().toISOString()} library requested`);
     const fail = (code: number, msg: string) => {
       res.statusCode = code;
       res.end(msg);
@@ -421,8 +461,9 @@ export function serve(port: number, dataDir: string, opts: { host?: string } = {
     if (!file.startsWith(root + sep) || extname(file) !== '.json' || !existsSync(file)) return fail(404, 'not found');
     sendJson(req, res, file);
   }).listen(port, host, () => {
-    console.log(`[library] serving the TV library on http://${host}:${port} (home network only; ${readdirSync(root).length} entries)`);
-    console.log(`[library] TV library URL: http://${host}:${port}/registry.json`);
+    const base = `http://${host}:${port}${key ? `/k/${key}` : ''}`;
+    console.log(`[library] serving the TV library on http://${host}:${port} (${key ? 'access key required' : 'home network only'}; ${readdirSync(root).length} entries)`);
+    console.log(`[library] TV library URL: ${maskKey(`${base}/registry.json`)}`);
     console.log('[library] Serves the export, your media by id and the playlist settings file. Ctrl+C to stop.');
   });
 }

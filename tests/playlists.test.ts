@@ -9,7 +9,7 @@ import type { InventoryRecord, RecordMeta } from '../src/library/inventory.ts';
 import { COLLECTIONS, discoverSourcePlaylists, playlistId, playlistM3U, writeSourcePlaylists } from '../src/library/sourcePlaylists.ts';
 import { beginOutputs, finishOutputs, isOwnedPath, planCleanup, trackOutput, writeOutput } from '../src/library/outputs.ts';
 import { m3uPairs, mergeM3U, writeCustomPlaylists } from '../src/library/customPlaylists.ts';
-import { exportForTv, isPrivateClient, readSettings, validSettings, writeSettings, type PlaylistSettings } from '../src/library/export.ts';
+import { exportForTv, isPrivateClient, maskKey, readSettings, stripKey, validKey, validSettings, writeSettings, type PlaylistSettings } from '../src/library/export.ts';
 import { mediaId, parseMediaName, publicMedia, scanLocalMedia, srtToVtt, writeLocalMedia } from '../src/library/localMedia.ts';
 import { loadPrivateRefs, privateRef, resetPrivateRefs, savePrivateRefs } from '../src/library/privateUrls.ts';
 import type { Registry } from '../src/library/catalogs.ts';
@@ -280,6 +280,24 @@ describe('library server access', () => {
   it('serves only loopback and private-network clients', () => {
     for (const a of ['127.0.0.1', '::1', '192.168.0.160', '::ffff:192.168.0.160', '10.1.2.3', '172.16.0.9', '172.31.255.1', 'fd12:3456::1', 'fe80::1']) expect(isPrivateClient(a), a).toBe(true);
     for (const a of ['8.8.8.8', '::ffff:8.8.8.8', '172.32.0.1', '2001:db8::1', '100.64.0.1', '', undefined]) expect(isPrivateClient(a), String(a)).toBe(false);
+  });
+
+  it('with an access key, answers only addresses that carry it', () => {
+    const key = 'Abc123_-xyz789QRSTuv';
+    expect(validKey(key)).toBe(true);
+    expect(validKey('short')).toBe(false);
+    expect(validKey('has space in it 12345')).toBe(false);
+    expect(stripKey(`/k/${key}/registry.json`, key)).toBe('/registry.json');
+    expect(stripKey(`/k/${key}/media/0123456789abcdef.mp4`, key)).toBe('/media/0123456789abcdef.mp4');
+    expect(stripKey(`/k/${key}`, key)).toBe('/');
+    expect(stripKey('/registry.json', key)).toBeNull();
+    expect(stripKey(`/k/${key.slice(0, -1)}x/registry.json`, key)).toBeNull();
+    expect(stripKey(`/k/${key}extra/registry.json`, key)).toBeNull();
+    expect(stripKey('/registry.json', undefined)).toBe('/registry.json');
+  });
+
+  it('never prints the key', () => {
+    expect(maskKey('https://vm.example.ts.net/k/Abc123_-xyz789QRSTuv/registry.json')).toBe('https://vm.example.ts.net/k/Abc1…/registry.json');
   });
 });
 

@@ -1,5 +1,5 @@
 // Builds the app and packages it as an IPK with the official LG CLI (ares-package).
-// Usage: npm run package [-- --skip-build] [--with-library [--library-server <url>|--no-library-server]]
+// Usage: npm run package [-- --skip-build] [--with-library [--library-server <url>|--library-server-file <file>|--no-library-server]]
 // --with-library bundles the local source library (build-data/library-export) for your own TV.
 // Such a package is named …-local… and must not be published. It also records this PC's
 // home-network address (library/server.json), so the TV uses "npm run library:serve" whenever
@@ -21,13 +21,16 @@ const bundled = existsSync(resolve(appDir, 'library', 'registry.json'));
 if (withLibrary && !bundled) throw new Error('--with-library: no library in dist/app/library. Run "npm run library:refresh" first.');
 if (!existsSync(resolve(appDir, 'appinfo.json'))) throw new Error('dist/app/appinfo.json missing — build first.');
 if (withLibrary && !arg('no-library-server', false)) {
-  const given = arg('library-server', null);
+  // --library-server-file: a file holding the address (keeps an access key out of shell history).
+  const fromFile = arg('library-server-file', null);
+  const given = fromFile ? readFileSync(String(fromFile), 'utf8').trim() : arg('library-server', null);
   const ip = lanAddress();
   const url = given ? String(given) : ip ? `http://${ip}:8787/registry.json` : null;
-  if (url && !/^http:\/\/[^/]+\/registry\.json$/.test(url)) throw new Error(`--library-server must look like http://<pc-ip>:8787/registry.json (got ${url})`);
+  if (url && !/^https?:\/\/[^/\s]+(\/k\/[A-Za-z0-9_-]{16,128})?\/registry\.json$/.test(url))
+    throw new Error('--library-server must look like http://<pc-ip>:8787/registry.json or https://<host>/k/<key>/registry.json');
   if (url) {
     writeFileSync(resolve(appDir, 'library', 'server.json'), JSON.stringify({ url }));
-    console.log(`The TV will use your PC's library at ${url} when "npm run library:serve" is running.`);
+    console.log(`The TV will use the library server at ${url.replace(/\/k\/([^/]{4})[^/]*/, '/k/$1…')} when it answers.`);
   } else console.log('No home-network address found: the TV will use the bundled library only.');
 }
 

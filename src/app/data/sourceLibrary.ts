@@ -126,6 +126,16 @@ export const BUNDLED_ONLY = 'bundled';
 /** The PC address a local build carries (library/server.json), or '' when it has none. */
 export const autoServer = signal('');
 
+/** A library address: http(s)://host[:port][/k/<access key>]/registry.json. Pure. */
+export function isLibraryUrl(url: string): boolean {
+  return /^https?:\/\/[^/\s]+(\/k\/[A-Za-z0-9_-]{16,128})?\/registry\.json$/.test(url);
+}
+
+/** The address with its access key hidden, for the screen. Pure. */
+export function showLibraryUrl(url: string): string {
+  return url.replace(/\/k\/([A-Za-z0-9_-]{4})[A-Za-z0-9_-]*/, '/k/$1…');
+}
+
 /** Library bases to try, in order: the chosen server (or the build's PC address), then the bundled copy. Pure. */
 export function libraryBases(chosen: string, auto: string): string[] {
   const server = chosen === BUNDLED_ONLY ? '' : chosen || auto;
@@ -183,7 +193,7 @@ export async function loadLibrary(): Promise<void> {
   if (!autoServer.peek()) {
     try {
       const d = await getJSON<{ url?: string }>('library/server.json', { timeoutMs: 3000 });
-      if (d && typeof d.url === 'string' && /^http:\/\/[^/]+\/registry\.json$/.test(d.url)) autoServer.value = d.url;
+      if (d && typeof d.url === 'string' && isLibraryUrl(d.url)) autoServer.value = d.url;
     } catch {
       // not a local build, or no PC address in it
     }
@@ -209,7 +219,7 @@ export async function loadLibrary(): Promise<void> {
   library.value = {
     status: 'missing',
     reason: server
-      ? `The library server at ${server} did not answer and no library is bundled in this build.`
+      ? `The library server at ${showLibraryUrl(server)} did not answer and no library is bundled in this build.`
       : 'No source library in this build (public builds never include one). On the PC run "npm run library:refresh", then "npm run package -- --with-library", or "npm run library:serve" and enter its address in Settings › Sources.',
   };
 }

@@ -5,7 +5,7 @@ import { act } from 'preact/test-utils';
 import { FocusEngine, type Measure } from '../src/app/focus/engine.ts';
 import { getEngine, initFocus } from '../src/app/focus/index.ts';
 import { installInput } from '../src/app/nav/input.ts';
-import { BUNDLED_ONLY, library, libraryBases, type LibItem } from '../src/app/data/sourceLibrary.ts';
+import { BUNDLED_ONLY, isLibraryUrl, library, libraryBases, showLibraryUrl, type LibItem } from '../src/app/data/sourceLibrary.ts';
 import {
   addToCustom,
   clearAll,
@@ -98,6 +98,15 @@ describe('where the TV reads the library from', () => {
     expect(libraryBases('http://10.0.0.5:9000/registry.json', pc)).toEqual(['http://10.0.0.5:9000/', 'library/']);
     expect(libraryBases('http://10.0.0.5:9000', pc)).toEqual(['http://10.0.0.5:9000/', 'library/']);
     expect(libraryBases(BUNDLED_ONLY, pc)).toEqual(['library/']);
+  });
+  it('accepts a home or always-on server address, and hides its access key on screen', () => {
+    const vm = 'https://vm.example.ts.net/k/Abc123_-xyz789QRSTuv/registry.json';
+    expect(isLibraryUrl(pc)).toBe(true);
+    expect(isLibraryUrl(vm)).toBe(true);
+    expect(isLibraryUrl('https://vm.example.ts.net/k/short/registry.json')).toBe(false);
+    expect(isLibraryUrl('ftp://x/registry.json')).toBe(false);
+    expect(libraryBases('', vm)).toEqual(['https://vm.example.ts.net/k/Abc123_-xyz789QRSTuv/', 'library/']);
+    expect(showLibraryUrl(vm)).toBe('https://vm.example.ts.net/k/Abc1…/registry.json');
   });
 });
 

@@ -184,9 +184,13 @@ async function main() {
       await derive(dir, log, readInventory(dir), []);
       break;
     }
-    case 'serve':
-      serve(opt('port') ? Number(opt('port')) : 8787, dir, { host: opt('host') });
+    case 'serve': {
+      // --key-file: a file holding the access key (never pass a key on the command line).
+      const keyFile = opt('key-file');
+      const key = keyFile ? readFileSync(keyFile, 'utf8').trim() : undefined;
+      serve(opt('port') ? Number(opt('port')) : 8787, dir, { host: opt('host'), key });
       return;
+    }
     case 'cleanup': {
       // Rebuilds from cached data; with --dry-run, only reports which generated files would go.
       await derive(dir, log, readInventory(dir), [], { dryRunCleanup: flag('dry-run') });

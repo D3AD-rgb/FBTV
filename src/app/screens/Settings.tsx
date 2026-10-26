@@ -14,6 +14,7 @@ import {
   BUNDLED_ONLY,
   libraryServer,
   loadLibrary,
+  showLibraryUrl,
   setIncludeUnreviewed,
   setLibraryServer,
 } from '../data/sourceLibrary.ts';
@@ -241,12 +242,12 @@ function Sources() {
           label: 'Loaded from',
           value:
             lib.status === 'ready' && lib.origin === 'server'
-              ? `Your PC (${lib.base})`
+              ? `Library server (${showLibraryUrl(lib.base)})`
               : stored === BUNDLED_ONLY || !(stored || auto)
                 ? 'Bundled with this build'
-                : `Bundled with this build — your PC (${stored || auto}) did not answer. Is "npm run library:serve" running?`,
+                : `Bundled with this build — the library server (${showLibraryUrl(stored || auto)}) did not answer`,
         },
-        ...(auto ? [{ label: 'PC address in this build', value: auto }] : []),
+        ...(auto ? [{ label: 'Server address in this build', value: showLibraryUrl(auto) }] : []),
         { label: 'Library built', value: reg.generatedAt.replace('T', ' ').slice(0, 16) + ' UTC' },
         { label: 'Registry items', value: reg.items.length.toLocaleString() },
         ...Object.keys(reg.shards).map((k) => ({ label: `Channels · ${k}`, value: `${reg.shards[k]!.channels.toLocaleString()}${reg.shards[k]!.note ? ` — ${reg.shards[k]!.note}` : ''}` })),
@@ -259,7 +260,7 @@ function Sources() {
     await loadLibrary();
     setBusy(false);
     const now = library.peek();
-    showToast(now.status === 'ready' ? (now.origin === 'server' ? 'Connected to your PC' : 'Using the copy bundled with this build') : 'Your PC did not answer');
+    showToast(now.status === 'ready' ? (now.origin === 'server' ? 'Connected to the library server' : 'Using the copy bundled with this build') : 'The library server did not answer');
   };
   return (
     <div class="screen">
@@ -270,9 +271,10 @@ function Sources() {
           </div>
           <div class="page-sub" style="margin-top:16px">
             Channel lists, playlists, football fixtures and sports come from the source library built on the PC.
-            A local build includes a copy and connects to your PC by itself whenever “npm run library:serve” is
-            running there; that is what plays My Playlist and your own media, and saves your playlist selections on
-            the PC. Another address can be entered here. Public releases never include the library, and it holds no
+            A local build includes a copy and connects by itself to the library server it was built for (your PC
+            running “npm run library:serve”, or your always-on server); that is what plays My Playlist and your
+            own media, keeps lists up to date and saves your playlist selections. Another address can be entered
+            here. Public releases never include the library, and it holds no
             passwords.
           </div>
         </section>
@@ -283,13 +285,13 @@ function Sources() {
                 ref={input}
                 type="text"
                 value={server}
-                placeholder={auto || 'http://192.168.0.x:8787/registry.json'}
+                placeholder={auto ? showLibraryUrl(auto) : 'http://192.168.0.x:8787/registry.json'}
                 onInput={(e) => setServer((e.target as HTMLInputElement).value)}
                 aria-label="Library server address"
               />
             </div>
             <button class="btn" data-focusable data-focus-id="sources:apply" onClick={() => !busy && apply(server)}>
-              {busy ? 'Connecting…' : server ? 'Use this address' : 'Use my PC'}
+              {busy ? 'Connecting…' : server ? 'Use this address' : 'Use library server'}
             </button>
             <button
               class="btn"
