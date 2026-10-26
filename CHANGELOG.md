@@ -9,6 +9,8 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-10-26
+
 ### Added
 - Project foundations: Vite build emitting a single classic-script bundle for webOS `file://` (FND-002),
   ES2015 output with polyfills for webOS 4 and newer, `appinfo.json` generated from `package.json`.
@@ -30,3 +32,14 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - Focus marker lost when a component re-rendered (BUG-001).
 - Left/Right jumping diagonally to another row (BUG-002).
 - Up skipping content scrolled behind the nav bar (BUG-003).
+
+### Commits
+
+- docs: source research, architecture, decisions and deployment guide (764492c)
+- build: package, deploy and release scripts (c2ad5c2)
+- feat(app): design system, app shell and Diagnostics (fea6f96)
+- feat(nav): spatial focus engine, router and remote input (94d8597)
+- chore: scaffold FBTV project (3be0169)
+
+[Unreleased]: https://github.com/D3AD-rgb/FBTV/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/D3AD-rgb/FBTV/releases/tag/v0.1.0
