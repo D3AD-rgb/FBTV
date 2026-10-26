@@ -9,6 +9,33 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 
 ## [Unreleased]
 
+### Added
+- Catalogue builder (`npm run catalogue`, `npm run catalogue:probe`): fetches configured sources politely
+  (timeouts, size caps, conditional requests, retries), normalises and de-duplicates iptv-org channels, feeds,
+  streams and logos, adds your own M3U playlists, applies `config/overrides.json` and the Kids allow/block lists,
+  drops blocklisted/closed/NSFW channels and streams the TV cannot play, and publishes compact JSON shards with a
+  hashed manifest (FND-014). Each source is isolated; failures are reported, not fatal.
+- Bounded stream verification with ffprobe: a capped, rotating sample per run (home country and preferred
+  language first) records measured resolution, codecs and online status.
+- Shared, tested modules: defensive M3U parser, metadata normalisation (country UK/GB, ISO 639-3 languages,
+  advertised vs verified quality, sport tags, kids eligibility), stream fingerprints, URL validation, search
+  index (prefix, typo tolerance, abbreviations such as EPL/UCL/UK), collection rules, catalogue wire codec.
+- On the TV: catalogue loading (cache → bundled snapshot → background update from a published manifest),
+  favourites (Red key) and recently watched, stable channel numbers (favourites 1…N, home country from 101).
+- Live TV deck with list chips (All, Favourites, Recently watched, UK TV, News, Sports, Kids, Movie and Series
+  channels, 4K, Checked online, Countries), live preview after a pause, channel details and a windowed list.
+- Full-screen player: Up/Down and CH± switching with a banner, number entry, last channel (Blue), favourite
+  (Red), channel list overlay, audio track cycling, automatic fallback to the channel's other feeds, retry and
+  plain-language errors.
+- Countries (every country in the catalogue, search by name or code) and country pages by category; UK TV,
+  News, Sports, Kids, 4K (verified vs advertised), Movie and Series channel collections; Home shelves and a
+  "continue watching" hero; search over channels, countries, languages, categories and collections.
+
+### Findings
+- FND-012: imgur blocks UK viewers with a placeholder logo; non-imgur logos preferred, placeholder detected.
+- FND-013: emoji flags are not reliable on TVs; country names and code badges are used.
+- FND-014: first full catalogue build numbers.
+
 ## [0.2.0] - 2026-10-26
 
 ### Added
