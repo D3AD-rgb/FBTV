@@ -63,6 +63,21 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
   News, Sports, Football, Bangladesh, India, Radio, All); rows show each channel's last-check status and why
   an unavailable channel cannot play. Favourites and history resolve across the catalogue and the library.
 
+- Followed clubs: Manchester City by default, any club from any competition in "Follow clubs". Each followed club
+  gets its own section at the top of Live Football with every match across all competitions and its club TV, a
+  "★ Manchester City" source in Live TV (club TV plus rights holders of its next matches with a public stream),
+  and Follow buttons on match pages.
+- All matches: every football fixture in the library by date, starting at the next match, with a My clubs filter.
+- Broadcasters for every match: rights holders by country (worldwide) for each competition, researched from
+  official league, UEFA and broadcaster sources and stored with their sources in `config/broadcasters/`. Match,
+  competition and sport pages list them with free-to-air channels marked, and a Watch now shelf plays any rights
+  holder whose own public stream is in the library. Paid broadcasters are listed, never linked to unofficial relays.
+- On demand in Bengali, English and Hindi: public-domain feature films and classic TV series from the Internet
+  Archive (only items whose year and title make the public-domain mark credible, FND-022), arranged by language and
+  genre, with series pages listing every episode.
+- jromero88/iptv added to the library (resold relays withheld, home-tuner entries marked LAN-only, Internet
+  Archive episodes kept with rights unverified).
+
 ### Findings
 - FND-012: imgur blocks UK viewers with a placeholder logo; non-imgur logos preferred, placeholder detected.
 - FND-013: emoji flags are not reliable on TVs; country names and code badges are used.
@@ -75,6 +90,8 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - FND-019: the cymz6 hotel list upstream returns 404.
 - FND-020: openfootball coverage for 2026-27 (no European cups; Football.TXT leagues; undated Belgian rounds).
 - FND-021: club names differ between providers; fixtures are merged by name tokens, dates and round, not duplicated.
+- FND-022: Internet Archive public-domain marks are often false for recent Indian films; strict credibility rules.
+- FND-023: resold paid-IPTV URLs carry account credentials; withheld everywhere.
 
 ## [0.2.0] - 2026-10-26
 

@@ -32,7 +32,7 @@ FBTV-local-data/
 | `npm run library:refresh -- --only openfootball` | Refresh only the named repositories (comma list); others keep their last snapshot |
 | `npm run library:refresh -- --offline` | Rebuild from stored snapshots without network access |
 | `npm run library:rebuild` | Inventory → catalogs → export → report from stored data |
-| `npm run library:fixtures` | Refresh fixtures only (openfootball files already collected + TheSportsDB) |
+| `npm run library:fixtures` | Refresh fixtures only (openfootball files already collected + TheSportsDB); `-- --offline` reuses stored responses |
 | `npm run library:validate -- --limit 4000 --playable 300` | Check reachability (polite: 2 requests per host) and confirm playback with ffprobe |
 | `npm run library:export` / `library:serve` | Write the TV export / serve it read-only on the home network (port 8787) |
 | `npm run library:secret -- set <profile-id>` | Store a provider's username and password, encrypted with Windows DPAPI |
@@ -83,6 +83,31 @@ lists show English, Hindi and Bengali by language metadata (Layer B).
 Fixtures are schedules only. "Started" means the kick-off time has passed; live status and scores
 need a live data source (football-data.org key, not configured). A TV listing is third-party data
 and never implies a stream.
+
+## Broadcasters
+
+`config/broadcasters/<competition>.json` lists, for each competition, the rights holders in every country the
+research found (official league, UEFA and broadcaster pages first), each entry with its source URL and the date
+it was checked. On the TV, match, competition and sport pages show them by country (home country first) with
+free-to-air channels marked. A broadcaster links to a library channel only when a channel of the same name and
+country has a public stream; paid channels are listed, never linked to unofficial relays. Rights data says who
+may show a competition, not which channel shows a particular match.
+
+## Followed clubs
+
+Manchester City is followed by default. Follow any club from Live Football › My clubs › Follow clubs, or from a
+match page. Each followed club gets its own section at the top of Live Football (every match in every
+competition, plus its club TV), and Live TV gets a "★ <club>" source.
+
+## On demand
+
+- **Internet Archive** (`internet-archive` source): items marked public domain, only when credible: release year
+  1977 or earlier (English) / 1965 or earlier (Hindi, Bengali), no rip or release tags in the title, undated
+  items only from curated collections, no adult content (FND-022). One metadata lookup per item finds its H.264
+  MP4; lookups are cached in `repositories/internet-archive/meta/`. Refresh with
+  `npm run library:refresh -- --only internet-archive --no-fixtures`.
+- **Your providers**: Xtream or VOD M3U profiles you are entitled to use.
+- Unlicensed VOD sites and scraper playlists (YTS, TMDB-To-VOD-Playlist) are not used.
 
 ## Getting it onto the TV
 
