@@ -4,6 +4,7 @@ import { getEngine, syncFocus } from './focus/index.ts';
 import { TopNav, navFocusId } from './ui/TopNav.tsx';
 import { Dialog } from './ui/Dialog.tsx';
 import { Toast } from './ui/toast.tsx';
+import { VideoSurface } from './ui/VideoSurface.tsx';
 import { Home } from './screens/Home.tsx';
 import { LiveTV } from './screens/LiveTV.tsx';
 import { Movies, Series, Kids } from './screens/Placeholder.tsx';
@@ -65,6 +66,7 @@ export function App() {
     <>
       {topPage ? null : <TopNav />}
       <div key={key}>{topPage ? topPage.render() : <TabScreen id={tab.value} />}</div>
+      <VideoSurface />
       {overlayStack.map((o) => (
         <div key={o.key}>{o.render()}</div>
       ))}
