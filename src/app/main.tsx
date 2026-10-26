@@ -10,12 +10,14 @@ import './styles/base.css';
 import './styles/components.css';
 import './styles/screens.css';
 import './styles/live.css';
+import './styles/football.css';
 import { render } from 'preact';
 import { App } from './App.tsx';
 import { initFocus, getEngine } from './focus/index.ts';
 import { installInput } from './nav/input.ts';
 import { exitApp, isWebOS, onPointerVisibility } from './platform/webos.ts';
 import { catalogue, loadCatalogue } from './data/catalogue.ts';
+import { loadLibrary } from './data/sourceLibrary.ts';
 
 const stage = document.getElementById('stage') as HTMLElement;
 
@@ -38,6 +40,7 @@ if (isWebOS()) {
 }
 
 render(<App />, stage);
+loadLibrary();
 loadCatalogue().then(() => {
   const s = catalogue.value;
   console.info('[fbtv] catalogue', s.status === 'ready' ? `${s.data.origin} ${s.data.channels.length} channels (${s.data.generatedAt})` : s.status);

@@ -422,3 +422,65 @@
   font-weight: 800;
   margin-bottom: 20px;
 }
+
+/* ---------- Library rows ---------- */
+.lrow.is-offline .lrow-name,
+.lrow.is-offline .lrow-sub {
+  opacity: 0.55;
+}
+.vrow.focused .lrow.is-offline .lrow-name,
+.vrow.focused .lrow.is-offline .lrow-sub {
+  opacity: 0.75;
+}
+.lrow-count {
+  flex: none;
+  font-size: 19px;
+  font-weight: 700;
+  color: #8c95a3;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.vrow.focused .lrow-count {
+  color: #566070;
+}
+.source-chip {
+  font-weight: 800;
+}
+
+/* ---------- Source picker (registry dropdown) ---------- */
+.source-picker {
+  position: absolute;
+  left: 120px;
+  top: 60px;
+  width: 1680px;
+  height: 960px;
+  background: #13161c;
+  border-radius: var(--r-panel);
+  padding: 40px 44px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
+}
+.source-picker-title {
+  font-size: var(--t-section);
+  font-weight: 800;
+}
+.source-picker-sub {
+  margin-top: 8px;
+  font-size: var(--t-meta);
+  color: var(--c-text-dim);
+}
+.source-cols {
+  display: flex;
+  margin-top: 28px;
+}
+.source-col {
+  position: relative;
+}
+.source-col.groups {
+  width: 520px;
+  flex: none;
+}
+.source-col.items {
+  flex: 1;
+  min-width: 0;
+  margin-left: 32px;
+}

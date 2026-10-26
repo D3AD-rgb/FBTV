@@ -18,7 +18,7 @@ import { watchPage } from './Watch.tsx';
 const SHELF_LIMIT = 40;
 
 export function watchFrom(c: CatalogueChannel, list: CatalogueChannel[], label: string): void {
-  playContext.value = { ids: list.map((x) => x.id), label };
+  playContext.value = { ids: list.map((x) => x.id), label, channels: list };
   playChannel(c);
   openPage(watchPage());
 }

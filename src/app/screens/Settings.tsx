@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { PageScroll } from '../ui/Shelf.tsx';
 import { openPage, type PageEntry } from '../nav/router.ts';
 import { clearAll } from '../platform/storage.ts';
@@ -6,6 +6,14 @@ import { showToast } from '../ui/toast.tsx';
 import { getDeviceInfo, type DeviceInfo } from '../platform/webos.ts';
 import { probeMedia, probePlatform, type Probe } from '../platform/capabilities.ts';
 import { playbackTestPage } from './PlaybackTest.tsx';
+import {
+  includeUnreviewed,
+  library,
+  libraryServer,
+  loadLibrary,
+  setIncludeUnreviewed,
+  setLibraryServer,
+} from '../data/sourceLibrary.ts';
 
 interface Row {
   id: string;
@@ -40,7 +48,13 @@ function SettingsList(props: { rows: Row[] }) {
 
 export function Settings() {
   const rows: Row[] = [
-    { id: 'sources', title: 'Sources', sub: 'Playlists, catalogue, football and guide providers', value: 'Coming in v0.3' },
+    {
+      id: 'sources',
+      title: 'Sources',
+      sub: 'Source library from the PC, library server and unreviewed lists',
+      value: library.value.status === 'ready' ? (library.value.origin === 'server' ? 'Server' : 'Bundled') : library.value.status === 'loading' ? 'Loading…' : 'Not found',
+      onSelect: () => openPage(sourcesPage()),
+    },
     { id: 'refresh', title: 'Catalogue refresh', sub: 'When the app checks for a newer catalogue', value: 'Coming in v0.3' },
     { id: 'epg', title: 'Programme guide', sub: 'Now and next, schedules and the guide grid', value: 'Coming in v0.7' },
     {
@@ -194,4 +208,89 @@ function About() {
 
 export function aboutPage(): PageEntry {
   return { key: 'about', title: 'About', render: () => <About /> };
+}
+
+function Sources() {
+  const lib = library.value;
+  const [server, setServer] = useState(libraryServer());
+  const [busy, setBusy] = useState(false);
+  const input = useRef<HTMLInputElement>(null);
+  const reg = lib.status === 'ready' ? lib.registry : null;
+  const rows: Probe[] = reg
+    ? [
+        { label: 'Loaded from', value: lib.status === 'ready' && lib.origin === 'server' ? `Library server (${lib.base})` : 'Bundled with this build' },
+        { label: 'Library built', value: reg.generatedAt.replace('T', ' ').slice(0, 16) + ' UTC' },
+        { label: 'Registry items', value: reg.items.length.toLocaleString() },
+        ...Object.keys(reg.shards).map((k) => ({ label: `Channels · ${k}`, value: `${reg.shards[k]!.channels.toLocaleString()}${reg.shards[k]!.note ? ` — ${reg.shards[k]!.note}` : ''}` })),
+      ]
+    : [{ label: 'Library', value: lib.status === 'loading' ? 'Loading…' : lib.status === 'missing' ? lib.reason : '' }];
+  const apply = async (url: string) => {
+    setBusy(true);
+    setLibraryServer(url);
+    library.value = { status: 'loading' };
+    await loadLibrary();
+    setBusy(false);
+    const now = library.peek();
+    showToast(now.status === 'ready' ? `Library loaded (${now.origin === 'server' ? 'server' : 'bundled'})` : 'Library server did not answer');
+  };
+  return (
+    <div class="screen">
+      <PageScroll align="nearest">
+        <section data-scroll-anchor="0">
+          <div class="breadcrumb">
+            Settings › <b>Sources</b>
+          </div>
+          <div class="page-sub" style="margin-top:16px">
+            Channel lists, football fixtures and sports come from the source library built on the PC with
+            “npm run library:refresh”. A local build (“npm run package -- --with-library”) includes it; to update
+            without reinstalling, run “npm run library:serve” on the PC and enter the address it prints here.
+            Public releases never include the library, and it holds no passwords.
+          </div>
+        </section>
+        <div class="vstack" style="--stack-gap:24px">
+          <div class="hstack" style="--stack-gap:20px">
+            <div class="search-field small hstack" data-focusable data-focus-default data-focus-id="sources:server" onClick={() => input.current && input.current.focus()}>
+              <input
+                ref={input}
+                type="text"
+                value={server}
+                placeholder="http://192.168.0.x:8787/registry.json"
+                onInput={(e) => setServer((e.target as HTMLInputElement).value)}
+                aria-label="Library server address"
+              />
+            </div>
+            <button class="btn" data-focusable data-focus-id="sources:apply" onClick={() => !busy && apply(server)}>
+              {busy ? 'Connecting…' : 'Use server'}
+            </button>
+            <button
+              class="btn"
+              data-focusable
+              data-focus-id="sources:bundled"
+              onClick={() => {
+                setServer('');
+                if (!busy) apply('');
+              }}
+            >
+              Use bundled
+            </button>
+          </div>
+          <div class="hstack">
+            <button class="btn" data-focusable data-focus-id="sources:secondary" onClick={() => setIncludeUnreviewed(!includeUnreviewed.value)}>
+              Unreviewed lists: {includeUnreviewed.value ? 'On' : 'Off'}
+            </button>
+          </div>
+          <p class="muted-text">
+            Unreviewed lists are channels found only in mixed-provenance playlists (Tvlist, fanmingming, HerbertHe
+            aggregators). They are kept in the library but loaded only when this is on. Pay-TV relays are never
+            offered for playback.
+          </p>
+          <Panel id="sources:info" title="Source library" rows={rows} />
+        </div>
+      </PageScroll>
+    </div>
+  );
+}
+
+export function sourcesPage(): PageEntry {
+  return { key: 'sources', title: 'Sources', render: () => <Sources /> };
 }

@@ -61,13 +61,15 @@ export function ChannelTile(props: {
   focusId: string;
   number?: number;
   playing?: boolean;
+  /** No stream the TV can attempt (kept visible, marked unavailable). */
+  offline?: boolean;
   onSelect: () => void;
 }) {
   const fav = favourites.value.indexOf(props.channel.id) >= 0;
   return (
     <div class="tile-wrap">
       <div
-        class={'tile card' + (props.playing ? ' playing' : '')}
+        class={'tile card' + (props.playing ? ' playing' : '') + (props.offline ? ' offline' : '')}
         data-focusable
         data-focus-id={props.focusId}
         data-channel={props.channel.id}
@@ -79,7 +81,7 @@ export function ChannelTile(props: {
         {props.number ? <span class="num">{props.number}</span> : null}
         {fav ? <span class="fav">★</span> : null}
       </div>
-      <div class="tile-name">{props.channel.name}</div>
+      <div class="tile-name">{props.offline ? 'Unavailable · ' : ''}{props.channel.name}</div>
     </div>
   );
 }

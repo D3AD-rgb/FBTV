@@ -16,6 +16,7 @@ import {
   playChannel,
   playContext,
   previousChannelId,
+  resolveChannel,
   streamLabel,
   videoLayout,
 } from '../data/playback.ts';
@@ -44,12 +45,14 @@ export function stepInList(ids: string[], currentId: string | null, delta: numbe
 
 function ChannelListOverlay({ onPick }: { onPick: (c: CatalogueChannel) => void }) {
   const data = ready();
-  if (!data) return null;
+  const ctxList = playContext.value.channels;
   const ids = playContext.value.ids;
-  const items = (ids.length ? ids : data.channels.map((c) => c.id))
-    .map((id) => data.byId.get(id))
-    .filter(Boolean) as CatalogueChannel[];
-  const numbers = channelNumbers(data).numberOf;
+  const items = (ctxList && ctxList.length
+    ? ctxList
+    : data
+      ? (ids.length ? ids : data.channels.map((c) => c.id)).map((id) => data.byId.get(id)).filter(Boolean)
+      : []) as CatalogueChannel[];
+  const numbers = data ? channelNumbers(data).numberOf : new Map<string, number>();
   const cur = nowPlaying.value ? items.indexOf(nowPlaying.value.channel) : 0;
   return (
     <div class="overlay" data-focus-trap>
@@ -121,10 +124,9 @@ function Watch() {
 
   const queueSwitch = (delta: number) => {
     const data = ready();
-    if (!data) return;
     const from = state.current.pending ? state.current.pending.id : np ? np.channel.id : null;
     const id = stepInList(playContext.value.ids, from, delta);
-    const target = id ? data.byId.get(id) : undefined;
+    const target = id ? resolveChannel(id, (x) => (data ? data.byId.get(x) : undefined)) : undefined;
     if (!target) return;
     setPending(target);
     poke();
@@ -204,7 +206,7 @@ function Watch() {
           }
           case 'blue': {
             const data = ready();
-            const prev = previousChannelId.value && data ? data.byId.get(previousChannelId.value) : undefined;
+            const prev = previousChannelId.value ? resolveChannel(previousChannelId.value, (x) => (data ? data.byId.get(x) : undefined)) : undefined;
             if (prev) play(prev);
             return true;
           }

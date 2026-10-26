@@ -25,8 +25,18 @@ export interface NowPlaying {
 
 export const nowPlaying = signal<NowPlaying | null>(null);
 
-/** Channels the player steps through with Up/Down/CH±, and where the list came from. */
-export const playContext = signal<{ ids: string[]; label: string }>({ ids: [], label: '' });
+/**
+ * Channels the player steps through with Up/Down/CH±, and where the list came from. `channels`
+ * carries the channel objects for lists that are not in the built-in catalogue (the library).
+ */
+export const playContext = signal<{ ids: string[]; label: string; channels?: CatalogueChannel[] }>({ ids: [], label: '' });
+
+/** Finds a channel by id in the current play context first, then via `fallback`. */
+export function resolveChannel(id: string, fallback: (id: string) => CatalogueChannel | undefined): CatalogueChannel | undefined {
+  const list = playContext.value.channels;
+  if (list) for (const c of list) if (c.id === id) return c;
+  return fallback(id);
+}
 
 /** The channel played before the current one (Blue key / "last channel"). */
 export const previousChannelId = signal<string | null>(null);

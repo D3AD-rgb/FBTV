@@ -1,0 +1,171 @@
+/* ---------- Match cards (design token --card-match 520×262) ---------- */
+.match {
+  position: relative;
+  width: var(--card-match-w);
+  height: var(--card-match-h);
+  border-radius: 20px;
+  background: #1a1e26;
+  flex: none;
+  padding: 22px 26px;
+  overflow: hidden;
+}
+.match .comp {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: #9aa3b2;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.match .comp > * + * {
+  margin-left: 10px;
+}
+.match .comp i,
+.event .comp i {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  flex: none;
+}
+.match .marquee {
+  color: var(--c-kids);
+}
+.match .teams {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+.match .team {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+.match .team > span {
+  margin-top: 10px;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.match .score {
+  width: 120px;
+  text-align: center;
+  font-size: 46px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.match .score .vs {
+  font-size: 26px;
+  color: #6b7483;
+}
+.crest {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #2a303b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 800;
+  color: #c9cfd8;
+}
+.crest img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+.match .mfoot,
+.event .mfoot {
+  position: absolute;
+  left: 26px;
+  right: 26px;
+  bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 19px;
+  color: #8c95a3;
+  font-variant-numeric: tabular-nums;
+}
+.match .mstate {
+  position: absolute;
+  right: 20px;
+  top: 16px;
+}
+.match .mstate .chip {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.chip.started {
+  background: rgba(229, 72, 77, 0.18);
+  color: #ff8a8f;
+}
+
+/* ---------- Event cards (other sports) ---------- */
+.event {
+  position: relative;
+  width: 420px;
+  height: 200px;
+  border-radius: 20px;
+  background: #1a1e26;
+  flex: none;
+  padding: 22px 26px;
+}
+.event .comp {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
+  color: #9aa3b2;
+}
+.event .comp > * + * {
+  margin-left: 10px;
+}
+.event-title {
+  margin-top: 18px;
+  font-size: 26px;
+  font-weight: 800;
+  line-height: 1.2;
+  max-height: 64px;
+  overflow: hidden;
+}
+.sport-chips {
+  flex-wrap: wrap;
+  margin-top: 6px;
+  --stack-gap: 10px;
+}
+.sport-chips > * {
+  margin-bottom: 10px;
+}
+
+/* ---------- Match detail ---------- */
+.match-hero {
+  margin-top: 26px;
+  --stack-gap: 40px;
+}
+.match-hero-team {
+  font-size: 54px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.match-hero-score {
+  font-size: 54px;
+  font-weight: 800;
+  color: #9aa3b2;
+  font-variant-numeric: tabular-nums;
+}
+.muted-text {
+  font-size: var(--t-meta);
+  color: var(--c-text-dim);
+  line-height: 1.5;
+}
