@@ -9,6 +9,8 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-10-26
+
 ### Added
 - Player engine layer: native webOS HLS (via `<source>`), hls.js and mpegts.js over MSE, loaded on demand from
   `vendor/`; engine order per stream type, remembered engine per URL, start-up timeout, supersede on fast switching.
@@ -31,6 +33,16 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 
 ### Fixed
 - Release tags lost their markdown headings because git strips `#` lines from tag messages (BUG-004).
+
+### Commits
+
+- docs: correct test stream list in changelog (ba1c057)
+- fix(player): report native source rejection honestly; replace broken live test stream (5e0261e)
+- chore: correct release and deploy hints (f6803e2)
+- build: name untagged builds as dev packages; deploy newest (99fccae)
+- docs: record target TV details and Key Server quirk (FND-008, FND-009) (51063d9)
+- feat(player): engine cascade and on-TV playback test (b3e1ba4)
+- fix(release): keep markdown headings in annotated tag messages (BUG-004) (105c29f)
 
 ## [0.1.0] - 2026-10-26
 
@@ -64,5 +76,6 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - feat(nav): spatial focus engine, router and remote input (94d8597)
 - chore: scaffold FBTV project (3be0169)
 
-[Unreleased]: https://github.com/D3AD-rgb/FBTV/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/D3AD-rgb/FBTV/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/D3AD-rgb/FBTV/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/D3AD-rgb/FBTV/releases/tag/v0.1.0

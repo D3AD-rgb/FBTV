@@ -1,6 +1,6 @@
 {
   "name": "fbtv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "FBTV — a Google TV–inspired IPTV app for LG webOS, with a catalogue builder for public IPTV metadata.",
   "license": "MIT",
