@@ -4,7 +4,7 @@
  * English / Hindi / Bengali), generated M3U playlists and the source registry that the app's
  * dropdowns are built from. Nothing here deletes inventory records.
  */
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, unlinkSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fold, normalizeLanguages } from '../shared/normalize.ts';
 import { logoUsable } from '../shared/url.ts';
@@ -297,8 +297,10 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
   const langNames = new Map<string, string>();
   for (const l of readJSON<{ code: string; name: string }[]>(join(dir, 'repositories/iptv-org/api/languages.json'), [])) langNames.set(l.code, l.name);
 
+  const writtenPlaylists = new Set<string>();
   const addList = (id: string, name: string, group: string, contentType: RegistryItem['contentType'], languages: string[], list: CatalogChannel[], rel: string, note?: string) => {
     write(join(dir, rel), toM3U(list, name));
+    writtenPlaylists.add(rel);
     const playable = list.filter((c) => c.playable);
     items.push({
       id,
@@ -632,6 +634,9 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
     items.push({ id: `profile-error-${pr.id}`, name: `Profile ${pr.id}`, group: PROFILE_GROUP.m3u, type: 'm3u', contentType: 'mixed', languages: [], attribution: [], channels: 0, lastRefresh: now, importStatus: 'error', validation: { checked: 0, reachable: 0, playbackConfirmed: 0, untested: 0 }, error: pr.problem });
   }
 
+  // Playlists from earlier runs (renamed or removed lists) must not linger with outdated links.
+  const pruned = prunePlaylists(dir, writtenPlaylists);
+  if (pruned.length) log(`playlists: removed ${pruned.length} outdated file(s) not written by this run`);
   const groups = Array.from(new Set(items.map((i) => i.group)));
   const registry: Registry = { schema: 2, generatedAt: now, dataDir: dir, groups, items };
   write(join(dir, 'source-registry.json'), JSON.stringify(registry, null, 2));
@@ -672,3 +677,23 @@ function profileItem(dir: string, p: Profile, caps: XtreamCapabilities | undefin
 }
 
 export type { Fixture };
+
+/** Deletes .m3u files under playlists/ that this run did not write; returns their paths. */
+export function prunePlaylists(dir: string, written: Set<string>): string[] {
+  const root = join(dir, 'playlists');
+  const removed: string[] = [];
+  const walk = (abs: string, rel: string) => {
+    if (!existsSync(abs)) return;
+    for (const name of readdirSync(abs)) {
+      const a = join(abs, name);
+      const r = `${rel}/${name}`;
+      if (statSync(a).isDirectory()) walk(a, r);
+      else if (/\.m3u8?$/i.test(name) && !written.has(r)) {
+        unlinkSync(a);
+        removed.push(r);
+      }
+    }
+  };
+  walk(root, 'playlists');
+  return removed;
+}

@@ -3,7 +3,10 @@
 import { describe, expect, it } from 'vitest';
 import { parsePlaylist, parseTxtPlaylist, type M3UEntry } from '../src/shared/m3u.ts';
 import { classifyStream, markDuplicates, parseMyTvList, providerAccountUrl, type SourceCtx } from '../src/library/inventory.ts';
-import { buildChannels } from '../src/library/catalogs.ts';
+import { buildChannels, prunePlaylists } from '../src/library/catalogs.ts';
+import { mkdtempSync, mkdirSync as mkdirSync2, writeFileSync as writeFileSync2, existsSync as existsSync2 } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join as join2 } from 'node:path';
 import { footballRole, sportsOf, fixturePriority, isBigClub, sameTeam, PAY_TV_RELAY } from '../src/library/policy.ts';
 import { zonedToUtc, parseOpenfootball, parseFootballTxt, sameMatch, fromTsdbEvent, roundLabel, roundsToFetch, TSDB_LEAGUES, OPENFOOTBALL } from '../src/library/fixtures.ts';
 import { detectCapabilities, importVod, languageFor, playUrl, type Fetcher } from '../src/library/xtream.ts';
@@ -444,5 +447,17 @@ describe('Internet Archive public-domain items', () => {
       ['ep2.ia.mp4', 1500],
       ['ep10.ia.mp4', 1501],
     ]);
+  });
+});
+
+describe('playlist pruning', () => {
+  it('removes playlists an earlier run wrote but this run did not', () => {
+    const dir = mkdtempSync(join2(tmpdir(), 'fbtv-prune-'));
+    mkdirSync2(join2(dir, 'playlists', 'sports'), { recursive: true });
+    writeFileSync2(join2(dir, 'playlists', 'sports', 'all.m3u'), '#EXTM3U');
+    writeFileSync2(join2(dir, 'playlists', 'sports', 'sports-english.m3u'), '#EXTM3U');
+    const removed = prunePlaylists(dir, new Set(['playlists/sports/all.m3u']));
+    expect(removed).toEqual(['playlists/sports/sports-english.m3u']);
+    expect(existsSync2(join2(dir, 'playlists', 'sports', 'all.m3u'))).toBe(true);
   });
 });
