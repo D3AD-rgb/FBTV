@@ -1,0 +1,79 @@
+/*
+ * FBTV design tokens. All sizes are CSS px at the 1920×1080 app resolution.
+ * Compatibility floor: Chromium 53 (webOS 4.x). Do not use flex `gap`, `inset`,
+ * `aspect-ratio`, `clamp()`, `:is()`, `:focus-visible` or `backdrop-filter`.
+ */
+:root {
+  /* Base palette */
+  --c-canvas: #0e1013;
+  --c-card: #1c2028;
+  --c-raised: #2a303b;
+  --c-line: #2f3540;
+  --c-text: #f2f4f7;
+  --c-text-dim: #9aa3b2;
+  --c-text-faint: #6b7483;
+  --c-accent: #8ab4ff;
+  --c-on-light: #0e1013;
+
+  /* Semantic */
+  --c-live: #e5484d;
+  --c-good: #6ee7a8;
+  --c-good-bg: rgba(61, 214, 140, 0.16);
+  --c-warn: #f5c26b;
+  --c-warn-line: #f5a524;
+  --c-bad: #ff8a8f;
+
+  /* Section accents (chips and dots only) */
+  --c-football: #34d399;
+  --c-news: #f87171;
+  --c-sports: #f5a524;
+  --c-kids: #ffd84d;
+  --c-uhd: #c4a7ff;
+  --c-movies: #ff9157;
+  --c-series: #3cc7c2;
+
+  /* Type scale */
+  --t-hero: 84px;
+  --t-page: 54px;
+  --t-section: 44px;
+  --t-row: 30px;
+  --t-body: 26px;
+  --t-meta: 22px;
+  --t-min: 20px;
+  --f-ui: 'Manrope', 'LG Smart UI', 'Museo Sans', 'Segoe UI', Roboto, Arial, sans-serif;
+
+  /* Spacing */
+  --s-1: 8px;
+  --s-2: 12px;
+  --s-3: 16px;
+  --s-4: 24px;
+  --s-5: 32px;
+  --s-6: 48px;
+  --s-7: 64px;
+
+  /* Safe area (5% overscan) */
+  --safe-x: 96px;
+  --safe-y: 54px;
+
+  /* Radius */
+  --r-chip: 10px;
+  --r-card: 16px;
+  --r-panel: 22px;
+  --r-pill: 999px;
+
+  /* Cards */
+  --card-logo-w: 240px;
+  --card-logo-h: 135px;
+  --card-land-w: 320px;
+  --card-land-h: 180px;
+  --card-poster-w: 220px;
+  --card-poster-h: 330px;
+  --card-match-w: 520px;
+  --card-match-h: 262px;
+
+  /* Focus */
+  --focus-scale: 1.07;
+  --focus-ring: 0 0 0 4px var(--c-canvas), 0 0 0 8px #fff, 0 18px 40px rgba(0, 0, 0, 0.65);
+  --dur-focus: 150ms;
+  --dur-overlay: 220ms;
+}

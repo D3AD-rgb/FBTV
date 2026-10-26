@@ -1,0 +1,104 @@
+/* ---------- Live deck ---------- */
+.live-preview {
+  position: absolute;
+  left: var(--safe-x);
+  top: 150px;
+  width: 944px;
+  height: 531px;
+  border-radius: var(--r-panel);
+  overflow: hidden;
+  background: #11151c;
+}
+.live-preview-empty {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.live-preview-empty .title {
+  font-size: 34px;
+  font-weight: 800;
+}
+.live-preview-empty .sub {
+  font-size: var(--t-meta);
+  color: var(--c-text-dim);
+  margin-top: 10px;
+}
+.live-hints {
+  position: absolute;
+  left: var(--safe-x);
+  top: 712px;
+  width: 944px;
+  font-size: 25px;
+  color: var(--c-text-dim);
+  line-height: 1.5;
+}
+.live-hints b {
+  color: #fff;
+}
+.live-list {
+  position: absolute;
+  left: 1080px;
+  right: var(--safe-x);
+  top: 150px;
+  bottom: var(--safe-y);
+}
+.live-list .empty {
+  width: auto;
+}
+
+/* ---------- Search ---------- */
+.search-field {
+  height: 96px;
+  padding: 0 32px;
+  border-radius: var(--r-pill);
+  background: #1a1e26;
+  color: var(--c-text-dim);
+  margin-top: 8px;
+  width: 1300px;
+  transition: background-color var(--dur-focus);
+}
+.search-field input {
+  flex: 1;
+  height: 80px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: 34px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.search-field input::placeholder {
+  color: #6b7483;
+}
+.search-field[data-focused] {
+  background: #fff;
+  color: var(--c-on-light);
+}
+.search-field[data-focused] input {
+  color: var(--c-on-light);
+}
+.search-examples {
+  margin-top: 28px;
+}
+
+/* ---------- Settings & panels ---------- */
+.settings-list {
+  width: 1300px;
+}
+.panel {
+  width: 1300px;
+  border-radius: var(--r-card);
+  background: var(--c-card);
+  padding: 28px 32px;
+}
+.panel h3 {
+  margin: 0 0 12px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.panel[data-focused] {
+  box-shadow: 0 0 0 4px var(--c-canvas), 0 0 0 8px #fff;
+}
