@@ -2,7 +2,7 @@ import { defineConfig } from 'vitest/config';
 import type { Plugin } from 'vite';
 import preact from '@preact/preset-vite';
 import { execSync } from 'node:child_process';
-import { readFileSync, mkdirSync, copyFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, mkdirSync, copyFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const root = import.meta.dirname;
@@ -44,7 +44,57 @@ function webosHtml(): Plugin {
   };
 }
 
+const catalogueDir = resolve(root, 'build-data/catalogue');
+
+/**
+ * Bundles the latest catalogue snapshot (from `npm run catalogue`) into the app so the
+ * first launch works offline, and serves it at /catalogue/ during development.
+ */
+function catalogueSnapshot(): Plugin {
+  return {
+    name: 'fbtv-catalogue-snapshot',
+    configureServer(server) {
+      server.middlewares.use('/catalogue/', (req, res, next) => {
+        const file = resolve(catalogueDir, (req.url || '').replace(/^\/+/, '').split('?')[0] || '');
+        if (!file.startsWith(catalogueDir) || !existsSync(file)) return next();
+        res.setHeader('Content-Type', 'application/json');
+        res.end(readFileSync(file));
+      });
+    },
+    closeBundle() {
+      if (!existsSync(resolve(catalogueDir, 'manifest.json'))) {
+        this.warn('No catalogue snapshot in build-data/catalogue — the app will start empty. Run `npm run catalogue`.');
+        return;
+      }
+      const target = resolve(outDir, 'catalogue');
+      mkdirSync(target, { recursive: true });
+      for (const f of readdirSync(catalogueDir)) if (f.endsWith('.json')) copyFileSync(resolve(catalogueDir, f), resolve(target, f));
+    },
+  };
+}
+
 /** Writes appinfo.json (single version source: package.json) and copies lazily loaded player engines. */
+const VENDOR_FILES: Record<string, string> = {
+  'hls.min.js': 'node_modules/hls.js/dist/hls.min.js',
+  'mpegts.js': 'node_modules/mpegts.js/dist/mpegts.js',
+};
+
+/** Dev server: serve the lazily loaded engines at /vendor/ as the build does. */
+function vendorDev(): Plugin {
+  return {
+    name: 'fbtv-vendor-dev',
+    apply: 'serve',
+    configureServer(server) {
+      server.middlewares.use('/vendor/', (req, res, next) => {
+        const rel = VENDOR_FILES[(req.url || '').replace(/^\/+/, '').split('?')[0] || ''];
+        if (!rel) return next();
+        res.setHeader('Content-Type', 'text/javascript');
+        res.end(readFileSync(resolve(root, rel)));
+      });
+    },
+  };
+}
+
 function webosAssets(): Plugin {
   return {
     name: 'fbtv-webos-assets',
@@ -71,8 +121,7 @@ function webosAssets(): Plugin {
       writeFileSync(resolve(outDir, 'appinfo.json'), JSON.stringify(appinfo, null, 2) + '\n');
       const vendor = resolve(outDir, 'vendor');
       mkdirSync(vendor, { recursive: true });
-      copyFileSync(resolve(root, 'node_modules/hls.js/dist/hls.min.js'), resolve(vendor, 'hls.min.js'));
-      copyFileSync(resolve(root, 'node_modules/mpegts.js/dist/mpegts.js'), resolve(vendor, 'mpegts.js'));
+      for (const [name, rel] of Object.entries(VENDOR_FILES)) copyFileSync(resolve(root, rel), resolve(vendor, name));
     },
   };
 }
@@ -81,7 +130,7 @@ export default defineConfig({
   root: resolve(root, 'src/app'),
   publicDir: resolve(root, 'src/app/public'),
   base: './',
-  plugins: [preact(), webosHtml(), webosAssets()],
+  plugins: [preact(), webosHtml(), webosAssets(), vendorDev(), catalogueSnapshot()],
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
     __APP_ID__: JSON.stringify(appConfig.appId),
