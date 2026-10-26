@@ -257,7 +257,9 @@ export function applySelect(list: LibChannel[], sel: Record<string, string> | un
 /** Channels for a registry item, from the shards it may draw on. */
 export async function channelsForItem(item: LibItem, includeSecondary: boolean): Promise<LibChannel[]> {
   const primary = await loadShard('primary');
-  const secondary = includeSecondary || (item.select && item.select.source && ['iptv-org', 'free-tv'].indexOf(item.select.source) < 0) ? await loadShard('secondary') : [];
+  const src = item.select && item.select.source;
+  // Profiles and the curated sources are in the primary shard; other sources only in the secondary one.
+  const secondary = includeSecondary || (src && ['iptv-org', 'free-tv'].indexOf(src) < 0 && src.indexOf('profile:') !== 0) ? await loadShard('secondary') : [];
   return applySelect(primary.concat(secondary), item.select);
 }
 

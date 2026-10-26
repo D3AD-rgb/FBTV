@@ -4,7 +4,7 @@ import { describe, expect, it } from 'vitest';
 import { parsePlaylist, parseTxtPlaylist, type M3UEntry } from '../src/shared/m3u.ts';
 import { classifyStream, markDuplicates, parseMyTvList, type SourceCtx } from '../src/library/inventory.ts';
 import { buildChannels } from '../src/library/catalogs.ts';
-import { footballRole, sportsOf, fixturePriority, isBigClub, PAY_TV_RELAY } from '../src/library/policy.ts';
+import { footballRole, sportsOf, fixturePriority, isBigClub, sameTeam, PAY_TV_RELAY } from '../src/library/policy.ts';
 import { zonedToUtc, parseOpenfootball, parseFootballTxt, sameMatch, fromTsdbEvent, roundLabel, roundsToFetch, TSDB_LEAGUES, OPENFOOTBALL } from '../src/library/fixtures.ts';
 import { detectCapabilities, importVod, languageFor, playUrl, type Fetcher } from '../src/library/xtream.ts';
 import { maskSecrets } from '../src/library/secrets.ts';
@@ -177,12 +177,40 @@ describe('fixtures', () => {
     expect(smaller).toBeLessThan(fixturePriority('english-premier-league', 'Test Town', 'Other Town'));
   });
 
+  it('recognises the same club under different providers names', () => {
+    const same: [string, string][] = [
+      ['US Lecce', 'Lecce'], ['FC Internazionale Milano', 'Inter Milan'], ['FC Bayern München', 'Bayern Munich'],
+      ['Bayer 04 Leverkusen', 'Bayer Leverkusen'], ['1. FSV Mainz 05', 'Mainz'], ['Stade Rennais FC 1901', 'Rennes'],
+      ['Stade Brestois 29', 'Brest'], ['Saint Johnstone FC', 'St Johnstone'], ['Kasımpaşa SK', 'Kasimpasa'],
+      ['Çaykur Rizespor', 'Rizespor'], ['CA Mineiro', 'Atlético Mineiro'], ['Real Betis Balompié', 'Real Betis'],
+      ['Club Atlético de Madrid', 'Atlético Madrid'], ['Heart of Midlothian', 'Hearts'], ['Sport Lisboa e Benfica', 'Benfica'],
+      ['Paris Saint-Germain FC', 'Paris Saint-Germain'], ['Real Racing Club de Santander', 'Racing de Santander'],
+    ];
+    for (const [a, b] of same) expect([a, b, sameTeam(a, b)]).toEqual([a, b, true]);
+    const different: [string, string][] = [
+      ['AC Milan', 'Inter Milan'], ['Dundee', 'Dundee United'], ['Paris FC', 'Paris Saint-Germain'],
+      ['RCD Espanyol de Barcelona', 'FC Barcelona'], ['Manchester City', 'Manchester United'], ['Real Madrid', 'Atlético Madrid'],
+      ['Sporting Clube de Portugal', 'Sport Lisboa e Benfica'], ['Borussia Dortmund', 'Borussia Mönchengladbach'],
+    ];
+    for (const [a, b] of different) expect([a, b, sameTeam(a, b)]).toEqual([a, b, false]);
+  });
+
   it('merges the same match from two providers', () => {
     const lg = TSDB_LEAGUES.filter((l) => l.competitionId === 'english-premier-league')[0]!;
     const t = fromTsdbEvent({ idEvent: '1', strHomeTeam: 'Arsenal', strAwayTeam: 'Test Town', strTimestamp: '2026-08-21T19:00:00' }, lg);
     const o = parseOpenfootball({ matches: [{ date: '2026-08-21', time: '20:00', team1: 'Arsenal FC', team2: 'Test Town FC' }] }, OPENFOOTBALL[0]!, Date.parse(NOW))[0]!;
     expect(sameMatch(o, t)).toBe(true);
     expect(t.kickoffUtc).toBe('2026-08-21T19:00:00.000Z');
+  });
+
+  it('matches a rescheduled league match by round and teams, not by date alone', () => {
+    const lg = TSDB_LEAGUES.filter((l) => l.competitionId === 'scottish-premiership')[0]!;
+    const def = OPENFOOTBALL.filter((d) => d.id === 'scottish-premiership')[0]!;
+    const t = fromTsdbEvent({ idEvent: '9', strHomeTeam: 'Rangers', strAwayTeam: 'Aberdeen', strTimestamp: '2026-10-31T15:00:00', intRound: '12' }, lg);
+    const o = parseOpenfootball({ matches: [{ round: '1st Phase - 12', date: '2026-11-24', time: '20:00', team1: 'Rangers', team2: 'Aberdeen' }] }, def)[0]!;
+    expect(sameMatch(o, t)).toBe(true);
+    const other = parseOpenfootball({ matches: [{ round: '1st Phase - 30', date: '2027-03-06', time: '15:00', team1: 'Rangers', team2: 'Aberdeen' }] }, def)[0]!;
+    expect(sameMatch(other, t)).toBe(false);
   });
 });
 
@@ -335,6 +363,7 @@ describe('TV export selection rules', () => {
   it('maps provider profiles to their source, but not profile errors', () => {
     expect(selectFor({ id: 'profile-home' } as never)).toEqual({ source: 'profile:home' });
     expect(selectFor({ id: 'profile-error-home' } as never)).toBeNull();
+    expect(selectFor({ id: 'profile-setup-xtream' } as never)).toBeNull();
   });
 
   it('TV-side filters give the same news/sports membership as the PC playlists (group names included)', () => {

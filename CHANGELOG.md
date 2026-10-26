@@ -74,6 +74,7 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - FND-018: club-name matching produced football false positives; limited to sports channels.
 - FND-019: the cymz6 hotel list upstream returns 404.
 - FND-020: openfootball coverage for 2026-27 (no European cups; Football.TXT leagues; undated Belgian rounds).
+- FND-021: club names differ between providers; fixtures are merged by name tokens, dates and round, not duplicated.
 
 ## [0.2.0] - 2026-10-26
 

@@ -15,7 +15,7 @@
  */
 import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import { COMPETITION_TIER, fixturePriority, isBigClub, normTeam } from './policy.ts';
+import { COMPETITION_TIER, fixturePriority, isBigClub, sameTeam } from './policy.ts';
 import { USER_AGENT } from '../builder/fetch.ts';
 
 export interface Broadcast {
@@ -364,12 +364,15 @@ export const TSDB_LEAGUES: TsdbLeague[] = [
 
 const TSDB = 'https://www.thesportsdb.com/api/v1/json/123';
 /**
- * The free key is throttled at about 12 requests a minute (a 13th within 60 s is blocked by
- * Cloudflare for ~2.5 minutes, FND-017), so requests are paced below that instead of retried.
+ * The free key is throttled far below its documented 30/minute: bursts of roughly 8-18
+ * requests trigger a Cloudflare block of 1.5-3 minutes, longer when repeated (FND-017). Requests
+ * are paced and the pace slows after every block, instead of retrying into it.
  */
 const SPACING_MS = 5500;
 const HOUR = 3600000;
 let lastCall = 0;
+/** Grows after each block (Cloudflare lengthens repeat blocks), so the run slows instead of hammering. */
+let spacing = SPACING_MS;
 
 /**
  * `maxAgeMs`: reuse a stored response this recent instead of asking again — league details for
@@ -385,16 +388,18 @@ async function tsdb<T>(dir: string, endpoint: string, log: (m: string) => void, 
     }
   }
   for (let attempt = 0; attempt < 3; attempt++) {
-    const wait = lastCall + SPACING_MS - Date.now();
+    const wait = lastCall + spacing - Date.now();
     if (wait > 0) await new Promise((r) => setTimeout(r, wait));
     lastCall = Date.now();
     try {
       const res = await fetch(`${TSDB}/${endpoint}`, { headers: { 'User-Agent': USER_AGENT } });
       const text = await res.text();
       if (res.status === 429 || !text.trim()) {
-        // Blocked: wait out the block once rather than retrying into it.
-        log(`thesportsdb: throttled on ${endpoint.split('?')[0]}; waiting 90 s`);
-        await new Promise((r) => setTimeout(r, 90000));
+        // Blocked: wait the block out and slow down for the rest of the run.
+        spacing = Math.min(Math.round(spacing * 1.5), 15000);
+        log(`thesportsdb: throttled on ${endpoint.split('?')[0]}; waiting 120 s, then one request every ${(spacing / 1000).toFixed(1)} s`);
+        await new Promise((r) => setTimeout(r, 120000));
+        if (attempt === 2) log(`thesportsdb: gave up on ${endpoint} (throttled)${existsSync(file) ? '; using the stored response' : ''}`);
         continue;
       }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -482,18 +487,33 @@ export function fromTsdbEvent(e: TsdbEvent, lg: TsdbLeague): Fixture {
   return f;
 }
 
-/** Same match from two providers: same competition, same UTC day, same normalised teams. Pure. */
+const dayOf = (f: Fixture) => (f.kickoffUtc || (f.kickoffLocal ? f.kickoffLocal.date : '')).slice(0, 10);
+
+/** Days between two fixtures' dates, or Infinity when either has no date. Pure. */
+export function dayGap(a: Fixture, b: Fixture): number {
+  const da = dayOf(a);
+  const db = dayOf(b);
+  return da && db ? Math.abs(Date.parse(da) - Date.parse(db)) / 86400000 : Infinity;
+}
+
+/**
+ * Same match from two providers: same competition, the same home and away clubs (names compared
+ * by tokens, FND-021) and dates at most 4 days apart — schedules without confirmed kick-offs
+ * sit on placeholder dates. A club plays the same home fixture once in that window. Pure.
+ */
 export function sameMatch(a: Fixture, b: Fixture): boolean {
   if (a.competitionId !== b.competitionId) return false;
-  const da = (a.kickoffUtc || (a.kickoffLocal ? a.kickoffLocal.date : '')).slice(0, 10);
-  const db = (b.kickoffUtc || (b.kickoffLocal ? b.kickoffLocal.date : '')).slice(0, 10);
-  if (!da || !db || Math.abs(Date.parse(da) - Date.parse(db)) > 86400000) return false;
-  const eq = (x: string, y: string) => {
-    const p = normTeam(x);
-    const q = normTeam(y);
-    return p === q || p.indexOf(q) === 0 || q.indexOf(p) === 0;
-  };
-  return eq(a.home, b.home) && eq(a.away, b.away);
+  const gap = dayGap(a, b);
+  // A rescheduled league match keeps its round number ("1st Phase - 12" / "Matchday 12").
+  const ra = roundNo(a);
+  const sameRound = ra !== null && ra === roundNo(b) && !/round of|final/i.test(`${a.round} ${b.round}`);
+  if (gap > 4 && !(sameRound && gap <= 45)) return false;
+  return sameTeam(a.home, b.home) && sameTeam(a.away, b.away);
+}
+
+function roundNo(f: Fixture): number | null {
+  const m = f.round ? /(\d+)\s*$/.exec(f.round) : null;
+  return m ? Number(m[1]) : null;
 }
 
 export interface FixtureResult {
@@ -560,15 +580,20 @@ export async function collectFixtures(dir: string, log: (m: string) => void, opt
         const f = fromTsdbEvent(e, lg);
         const tsdbId = f.id.slice(5);
         if (fixtures.some((x) => x.id === f.id || (x as Fixture & { tsdbId?: string }).tsdbId === tsdbId)) return;
-        const twin = fixtures.filter((x) => sameMatch(x, f))[0];
+        const twin = fixtures.filter((x) => sameMatch(x, f)).sort((x, y) => dayGap(x, f) - dayGap(y, f))[0];
         if (twin) {
           // Merge: keep openfootball's record, add TheSportsDB's badges, UTC time and status.
           twin.sources.push(f.sources[0]!);
           if (!twin.homeBadge && f.homeBadge) twin.homeBadge = f.homeBadge;
           if (!twin.awayBadge && f.awayBadge) twin.awayBadge = f.awayBadge;
           if (f.kickoffUtc) {
-            twin.kickoffUtc = f.kickoffUtc;
-            twin.timeKnown = true;
+            if (!twin.timeKnown || dayGap(twin, f) <= 1) {
+              twin.kickoffUtc = f.kickoffUtc;
+              twin.timeKnown = true;
+            } else {
+              // The providers disagree on a rescheduled match: keep the confirmed date, note the other.
+              twin.note = `TheSportsDB lists ${f.kickoffUtc.slice(0, 10)}`;
+            }
           }
           if (f.score && !twin.score) twin.score = f.score;
           if (f.status !== 'scheduled') twin.status = f.status;

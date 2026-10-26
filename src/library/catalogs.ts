@@ -597,8 +597,15 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
   }
   const caps = readJSON<Record<string, XtreamCapabilities>>(join(dir, 'generated/provider-capabilities.json'), {});
   for (const p of profiles) items.push(profileItem(dir, p, caps[p.id], now));
+  // The M3U and Xtream dropdowns exist even before a profile is added, and say how to add one.
+  const setup = (type: 'm3u' | 'xtream', name: string, note: string) => {
+    if (profiles.some((p) => p.type === type)) return;
+    items.push({ id: `profile-setup-${type}`, name, group: PROFILE_GROUP[type], type, contentType: 'mixed', languages: [], attribution: [], channels: 0, lastRefresh: now, importStatus: 'needs-setup', validation: { checked: 0, reachable: 0, playbackConfirmed: 0, untested: 0 }, note });
+  };
+  setup('m3u', 'Add an M3U / M3U8 playlist', 'On the PC: copy an "m3u" entry from provider-profiles/profiles.example.json into profiles.local.json, then npm run library:refresh.');
+  setup('xtream', 'Add an Xtream-compatible provider', 'On the PC: add an "xtream" entry to provider-profiles/profiles.local.json, store its login with npm run library:secret -- set <id>, then npm run library:refresh.');
   for (const pr of problems) {
-    items.push({ id: `profile-error-${pr.id}`, name: `Profile ${pr.id}`, group: 'My providers', type: 'm3u', contentType: 'mixed', languages: [], attribution: [], channels: 0, lastRefresh: now, importStatus: 'error', validation: { checked: 0, reachable: 0, playbackConfirmed: 0, untested: 0 }, error: pr.problem });
+    items.push({ id: `profile-error-${pr.id}`, name: `Profile ${pr.id}`, group: PROFILE_GROUP.m3u, type: 'm3u', contentType: 'mixed', languages: [], attribution: [], channels: 0, lastRefresh: now, importStatus: 'error', validation: { checked: 0, reachable: 0, playbackConfirmed: 0, untested: 0 }, error: pr.problem });
   }
 
   const groups = Array.from(new Set(items.map((i) => i.group)));
@@ -607,11 +614,13 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
   return { channels, registry, vod: { inventory: vodInventory.length + providerVod.length + providerSeries.length, byLanguage, unknown: unknownLang, other: otherLang } };
 }
 
+const PROFILE_GROUP = { m3u: 'My M3U playlists', xtream: 'My Xtream providers' } as const;
+
 function profileItem(dir: string, p: Profile, caps: XtreamCapabilities | undefined, now: string): RegistryItem {
   const item: RegistryItem = {
     id: `profile-${p.id}`,
     name: p.name,
-    group: 'My providers',
+    group: PROFILE_GROUP[p.type],
     type: p.type,
     contentType: p.type === 'm3u' ? (p.contentType === 'live' ? 'live' : p.contentType === 'mixed' ? 'mixed' : p.contentType) : 'mixed',
     languages: p.type === 'm3u' ? p.languages || [] : [],

@@ -73,7 +73,7 @@ export function selectFor(item: RegistryItem): Record<string, string> | null {
   const m = /^(country|language|category|source|sport)-(.+)$/.exec(id);
   if (m) return { [m[1]!]: m[2]! };
   const prof = /^profile-(.+)$/.exec(id);
-  if (prof && id.indexOf('profile-error-') !== 0) return { source: `profile:${prof[1]}` };
+  if (prof && !/^profile-(error|setup)-/.test(id)) return { source: `profile:${prof[1]}` };
   const fixed: Record<string, Record<string, string>> = {
     'live-all': { kind: 'stream' },
     'movie-channels': { category: 'movies' },
