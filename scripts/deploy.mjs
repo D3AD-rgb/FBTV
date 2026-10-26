@@ -41,6 +41,6 @@ if (arg('inspect', false)) {
   run(ares('ares-inspect'), ['--device', device, '--app', cfg.appId, '--open']);
 }
 console.log(
-  '\nReminder: Developer Mode sessions expire (about 50 hours). Extend the session in the ' +
-    'Developer Mode app on the TV, or sideloaded apps are removed.',
+  '\nReminder: Developer Mode sessions expire (the Developer Mode app shows the time left). ' +
+    'Extend the session there, or sideloaded apps are removed (FND-004).',
 );

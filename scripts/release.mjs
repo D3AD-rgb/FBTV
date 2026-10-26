@@ -91,7 +91,7 @@ if (!arg('no-package', false)) run(process.execPath, [resolve(ROOT, 'scripts', '
 console.log(`\nReleased ${tag}.`);
 console.log(`  Inspect:  git show ${tag}`);
 console.log('  Publish:  git push --follow-tags');
-console.log(`  GitHub:   gh release create ${tag} releases/*_${version}_all.ipk* --notes-from-tag`);
+console.log(`  GitHub:   gh release create ${tag} releases/*_${version}_all.ipk* --notes-from-tag --verify-tag`);
 
 function latestTag() {
   try {

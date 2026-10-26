@@ -42,7 +42,7 @@ Then publish:
 
 ```bash
 git push --follow-tags
-gh release create vX.Y.Z releases/*_X.Y.Z_all.ipk* --notes-from-tag
+gh release create vX.Y.Z releases/*_X.Y.Z_all.ipk* --notes-from-tag --verify-tag
 ```
 
 ## Finding the change behind a problem
