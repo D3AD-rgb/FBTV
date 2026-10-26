@@ -462,7 +462,7 @@ export function serve(port: number, dataDir: string, opts: { host?: string; key?
     sendJson(req, res, file);
   }).listen(port, host, () => {
     const base = `http://${host}:${port}${key ? `/k/${key}` : ''}`;
-    console.log(`[library] serving the TV library on http://${host}:${port} (${key ? 'access key required' : 'home network only'}; ${readdirSync(root).length} entries)`);
+    console.log(`[library] serving the TV library on http://${host}:${port} (${key ? 'access key required' : 'home network only'}; ${existsSync(root) ? `${readdirSync(root).length} entries` : 'no TV export yet: run library:refresh'})`);
     console.log(`[library] TV library URL: ${maskKey(`${base}/registry.json`)}`);
     console.log('[library] Serves the export, your media by id and the playlist settings file. Ctrl+C to stop.');
   });
