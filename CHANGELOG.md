@@ -30,11 +30,50 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - Countries (every country in the catalogue, search by name or code) and country pages by category; UK TV,
   News, Sports, Kids, 4K (verified vs advertised), Movie and Series channel collections; Home shelves and a
   "continue watching" hero; search over channels, countries, languages, categories and collections.
+- Local source library (`npm run library:refresh`), kept outside Git in `IPTV_DATA_DIR` (default
+  `../FBTV-local-data`): inspects all nine source repositories plus Free-TV and openfootball, stores every
+  usable file with its origin, commit, SHA-256, licence and permission, and records everything else as a
+  reference with the reason. Nothing is dropped silently: every entry gets a status (imported, restricted,
+  unsupported_format, requires_provider_access, malformed, test_fixture, duplicate_reference, …) and pay-TV
+  relays, hotel lists and token-protected lists are inventoried with their URL withheld.
+- Library catalogs and playlists: channels grouped across sources with all alternative streams; M3U lists by
+  country, language, category and source; News, Sports (per sport) and Football (dedicated, club TV,
+  broadcaster brands, English, Arabic) lists; Radio; reachable and playback-confirmed lists; a registry of
+  every list with counts and validation status.
+- Provider profiles for your own M3U and Xtream accounts, with secrets protected by Windows DPAPI
+  (`npm run library:secret set <id>`), capability detection and VOD/series import (English, Hindi and Bengali
+  shown; everything kept for review). Credentials never enter manifests, logs, reports or the TV export.
+- Fixtures: full seasons from openfootball for 15 leagues (Premier League, Championship, La Liga, Serie A,
+  Bundesliga, Ligue 1, Eredivisie, Primeira Liga, Scottish Premiership, Süper Lig, Greek Super League, Swiss
+  Super League, Belgian Pro League, Austrian Bundesliga, Brasileirão), Copa Libertadores 2026 and the 2026
+  World Cup, with Football.TXT support; TheSportsDB for the Champions League, Europa League, Conference League,
+  domestic cups, more leagues and other sports, plus TV listings for the biggest upcoming matches. Every
+  competition id is verified by name; unanswered lookups are retried, never treated as a match.
+- TV export and home-network sync: `npm run library:refresh` writes a compact export that is bundled into the
+  app; `npm run library:serve` serves it read-only on the home network so the TV can update without a reinstall
+  (Settings › Sources).
+- Live Football tab: started, today and top matches this week ordered by competition tier and bigger clubs, a
+  shelf per competition, latest results, competition pages by round, match pages with third-party TV listings
+  and name-matched library channels marked unverified, and football channels by role. "Started" means the
+  kick-off time has passed; live status and scores are never claimed without a live data source.
+- Sports tab: F1 and motorsport, rally, NBA, cricket, UFC and MMA, boxing, wrestling, tennis, golf, rugby, NFL,
+  MLB, NHL and more, each with upcoming events and every tagged channel (playable first, unavailable kept and
+  labelled).
+- Live TV source dropdown generated from the library registry ("Sources ▾") with quick chips (UK, English
+  News, Sports, Football, Bangladesh, India, Radio, All); rows show each channel's last-check status and why
+  an unavailable channel cannot play. Favourites and history resolve across the catalogue and the library.
 
 ### Findings
 - FND-012: imgur blocks UK viewers with a placeholder logo; non-imgur logos preferred, placeholder detected.
 - FND-013: emoji flags are not reliable on TVs; country names and code badges are used.
 - FND-014: first full catalogue build numbers.
+- FND-015: "VOD" group names and `.flv` URLs are live channels; on demand now needs a duration or a media file.
+- FND-016: LyngSat answers hotlinked logos with a placeholder; those logos are skipped.
+- FND-017: TheSportsDB free-key limits (one event per next/past, full rounds via `eventsround`) and its much
+  tighter throttle; unanswered lookups are retried instead of being reported as wrong ids.
+- FND-018: club-name matching produced football false positives; limited to sports channels.
+- FND-019: the cymz6 hotel list upstream returns 404.
+- FND-020: openfootball coverage for 2026-27 (no European cups; Football.TXT leagues; undated Belgian rounds).
 
 ## [0.2.0] - 2026-10-26
 

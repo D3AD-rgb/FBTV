@@ -10,14 +10,12 @@ restrictions, and a channel appearing in a list does not mean it is streaming ri
 
 | Milestone | Tag | State |
 |---|---|---|
-| Foundations: shell, design system, focus engine, Back handling, Diagnostics, packaging | v0.1.0 | in progress |
-| Playback probe on the TV | v0.2.0 | planned |
-| Catalogue builder, Live TV, countries, favourites | v0.3.0 | planned |
-| Player | v0.4.0 | planned |
-| UK TV, News, Sports, 4K, search | v0.5.0 | planned |
-| Football hub | v0.6.0 | planned |
+| Foundations: shell, design system, focus engine, Back handling, Diagnostics, packaging | v0.1.0 | released |
+| Playback probe on the TV | v0.2.0 | released |
+| Catalogue builder, Live TV, player, countries, favourites, source library, Live Football and Sports | v0.3.0 | in progress |
+| UK TV, News, Sports, 4K, search polish | v0.5.0 | planned |
 | Programme guide | v0.7.0 | planned |
-| Movies & Series | v0.8.0 | planned |
+| Movies & Series (provider VOD) | v0.8.0 | planned |
 | Kids Mode, settings, performance | v0.9.0 | planned |
 | Release | v1.0.0 | planned |
 
@@ -60,6 +58,8 @@ npm run deploy
 | `npm run check` | Typecheck + tests + build |
 | `npm run package` | Build and create `releases/<app-id>_<version>_all.ipk` (+ `.sha256`) with `ares-package` |
 | `npm run deploy` | Install the IPK on the TV and launch it (`--device`, `--no-launch`, `--inspect`) |
+| `npm run library:refresh` | Build the local source library (outside the repo) and its TV export ([docs/library.md](docs/library.md)) |
+| `npm run package -- --with-library` | Local IPK with your source library bundled (never publish it) |
 | `npm run release -- minor` | Version bump, changelog section, annotated tag, IPK ([docs/versioning.md](docs/versioning.md)) |
 
 TV pairing, installation, logs and troubleshooting: [docs/deploy-webos.md](docs/deploy-webos.md).
@@ -67,6 +67,7 @@ TV pairing, installation, logs and troubleshooting: [docs/deploy-webos.md](docs/
 ## Documentation
 
 - [Architecture](docs/architecture.md) — catalogue builder, TV runtime, repository layout
+- [Source library](docs/library.md) — the local library, statuses, provider profiles, fixtures, TV sync
 - [Decisions](docs/decisions.md) — why the build is shaped this way
 - [Source research](docs/research/sources.md) — the nine repositories assessed, with verdicts
 - [Design system](docs/design-system.md) — tokens, components, layout rules
