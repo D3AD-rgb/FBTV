@@ -1,0 +1,11 @@
+{
+  "$comment": "App identity. The version comes from package.json. appId is permanent once installed on a TV: set the GitHub user before the first install.",
+  "appId": "io.github.d3adrgb.fbtv",
+  "title": "FBTV",
+  "vendor": "FBTV",
+  "catalogue": {
+    "$comment": "URL of the published catalogue manifest (GitHub Pages). Empty = use the snapshot bundled in the app.",
+    "manifestUrl": ""
+  },
+  "repositoryUrl": "https://github.com/D3AD-rgb/FBTV"
+}

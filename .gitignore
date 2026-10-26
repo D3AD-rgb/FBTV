@@ -1,0 +1,20 @@
+node_modules/
+dist/
+coverage/
+.cache/
+*.log
+
+# Build outputs that are attached to GitHub Releases instead of committed
+releases/
+
+# Catalogue builder working files (published output goes to gh-pages)
+build-data/
+
+# Local overrides and secrets
+.env
+.env.*
+!.env.example
+config/local.*.json
+
+# Local editor / agent settings
+.claude/
