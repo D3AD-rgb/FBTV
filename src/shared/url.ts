@@ -46,3 +46,15 @@ export function checkSourceUrl(input: string, policy: UrlPolicy = {}): UrlCheck 
 export function redactUrl(url: string): string {
   return url.replace(/\/\/[^/@]*@/, '//***@').replace(/\?.*$/, '?…');
 }
+
+/**
+ * Image hosts that refuse hotlinking and answer with their own placeholder instead of the logo
+ * (LyngSat redirects every logo to /logo/hotlink.png, FND-016). Such logos are skipped so the
+ * TV shows a monogram; they are not re-hosted, which would get around the host's restriction.
+ */
+const HOTLINK_BLOCKED = /^https?:\/\/([^/]+\.)?lyngsat(-logo)?\.com\//i;
+
+export function logoUsable(url: string | undefined): boolean {
+  return !!url && !HOTLINK_BLOCKED.test(url);
+}
+

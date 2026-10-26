@@ -10,6 +10,7 @@
  */
 import type { CatalogueChannel, CatalogueStream, CountryInfo, LanguageInfo } from '../shared/model.ts';
 import { isKidsByCategory, sportsFromName, streamFingerprint } from '../shared/normalize.ts';
+import { logoUsable } from '../shared/url.ts';
 
 export interface IoChannel {
   id: string;
@@ -98,8 +99,8 @@ function bump(map: Record<string, number>, key: string) {
 
 function pickLogo(logos: IoLogo[] | undefined): string | undefined {
   if (!logos || !logos.length) return undefined;
-  const usable = logos.filter((l) => l.in_use !== false && /^https:\/\//i.test(l.url));
-  const pool = usable.length ? usable : logos.filter((l) => /^https:\/\//i.test(l.url));
+  const usable = logos.filter((l) => l.in_use !== false && /^https:\/\//i.test(l.url) && logoUsable(l.url));
+  const pool = usable.length ? usable : logos.filter((l) => /^https:\/\//i.test(l.url) && logoUsable(l.url));
   pool.sort((a, b) => {
     // imgur answers UK viewers with a "not available in your country" placeholder (FND-012),
     // so any other host is preferred when the channel has one.

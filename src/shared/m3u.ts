@@ -173,6 +173,64 @@ export function parseM3U(input: string, opts: ParseOptions = {}): M3UResult {
   return result;
 }
 
+/**
+ * "DIYP"/TXT playlists common in Chinese repositories:
+ *   Group name,#genre#
+ *   Channel name,http://url1#http://url2
+ * Several URLs on one line (separated by '#') become separate entries for the same channel.
+ */
+export function parseTxtPlaylist(input: string, opts: ParseOptions = {}): M3UResult {
+  const maxEntries = opts.maxEntries || DEFAULTS.maxEntries;
+  const maxLine = opts.maxLineLength || DEFAULTS.maxLineLength;
+  const result: M3UResult = { header: {}, epgUrls: [], entries: [], warnings: [] };
+  const text = input.charCodeAt(0) === 0xfeff ? input.slice(1) : input;
+  const lines = text.split(/\r\n|\n|\r/);
+  let group: string | undefined;
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i]!;
+    if (raw.length > maxLine) {
+      result.warnings.push(`line ${i + 1}: longer than ${maxLine} characters, skipped`);
+      continue;
+    }
+    const line = raw.trim();
+    if (!line || line.charAt(0) === '#' || line.charAt(0) === '[') continue;
+    const comma = line.indexOf(',');
+    if (comma < 0) {
+      result.warnings.push(`line ${i + 1}: not "name,url", skipped`);
+      continue;
+    }
+    const name = line.slice(0, comma).trim();
+    const rest = line.slice(comma + 1).trim();
+    if (/^#genre#$/i.test(rest)) {
+      group = name || undefined;
+      continue;
+    }
+    const urls = rest.split('#').map((u) => u.trim()).filter(Boolean);
+    if (!urls.length || !urls.some(isUrlLine)) {
+      result.warnings.push(`line ${i + 1}: no URL after the name, skipped`);
+      continue;
+    }
+    for (const url of urls) {
+      if (!isUrlLine(url)) {
+        result.warnings.push(`line ${i + 1}: "${url.slice(0, 40)}" is not a URL, skipped`);
+        continue;
+      }
+      if (result.entries.length >= maxEntries) {
+        result.warnings.push(`stopped after ${maxEntries} entries`);
+        return result;
+      }
+      result.entries.push({ title: name, url, duration: -1, attrs: {}, group, line: i + 1 });
+    }
+  }
+  return result;
+}
+
+/** Picks the parser by content: M3U when it has #EXTM3U/#EXTINF, otherwise TXT. */
+export function parsePlaylist(input: string, opts: ParseOptions = {}): M3UResult & { format: 'm3u' | 'txt' } {
+  if (/#EXTM3U|#EXTINF/i.test(input.slice(0, 20000))) return { ...parseM3U(input, opts), format: 'm3u' };
+  return { ...parseTxtPlaylist(input, opts), format: 'txt' };
+}
+
 /** iptv-org style title decorations: "Name (1080p) [Geo-blocked] [Not 24/7]". */
 export interface TitleParts {
   name: string;
