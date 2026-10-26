@@ -169,3 +169,69 @@
   color: var(--c-text-dim);
   line-height: 1.5;
 }
+
+/* ---------- All matches ---------- */
+.all-matches-head {
+  position: absolute;
+  left: var(--safe-x);
+  right: var(--safe-x);
+  top: 150px;
+}
+.all-matches-list {
+  position: absolute;
+  left: var(--safe-x);
+  width: 1400px;
+  top: 300px;
+  bottom: var(--safe-y);
+}
+.lrow-when {
+  width: 230px;
+  flex: none;
+  font-size: 21px;
+  font-weight: 700;
+  color: #8c95a3;
+  font-variant-numeric: tabular-nums;
+}
+.vrow.focused .lrow-when {
+  color: #566070;
+}
+.country-card.is-selected {
+  box-shadow: inset 0 0 0 3px var(--c-kids);
+}
+
+/* ---------- On demand ---------- */
+.vod-series {
+  position: relative;
+  flex: none;
+}
+.vod-series-count {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  font-size: 18px;
+  color: #8c95a3;
+  text-align: center;
+}
+
+/* ---------- Rights holders ---------- */
+.rights .kv td:first-child {
+  width: 300px;
+  vertical-align: top;
+}
+.rights-tag {
+  font-size: 17px;
+  color: #8c95a3;
+}
+.rights-tag.free {
+  color: #4ade80;
+}
+.rights-tag.play {
+  color: var(--c-live);
+  font-weight: 700;
+}
+.rights-note {
+  font-size: 17px;
+  color: #8c95a3;
+  margin-top: 4px;
+}

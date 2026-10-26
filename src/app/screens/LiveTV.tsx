@@ -12,7 +12,8 @@ import { signal } from '@preact/signals';
 import type { CatalogueChannel } from '../../shared/model.ts';
 import { catalogue, ready } from '../data/catalogue.ts';
 import { LIST_LABELS, LIST_ORDER, channelNumbers, channelsFor, type ListId } from '../data/lists.ts';
-import { favourites, prefs, recents, toggleFavourite } from '../data/library.ts';
+import { favourites, followedClubs, prefs, recents, toggleFavourite } from '../data/library.ts';
+import { channelsById, clubChannels, football, loadFootball } from '../data/football.ts';
 import { getPlayer, nowPlaying, playChannel, playContext, streamLabel, videoLayout } from '../data/playback.ts';
 import {
   channelsForItem,
@@ -54,7 +55,7 @@ const QUICK: [string, string][] = [
   ['live-all', 'All'],
 ];
 
-type Source = { kind: 'list'; id: ListId } | { kind: 'lib'; id: string };
+type Source = { kind: 'list'; id: ListId } | { kind: 'lib'; id: string } | { kind: 'clubs'; id: 'clubs' };
 
 /** Remembered across visits to the tab. null = the default (library preference, else "all"). */
 const activeSource = signal<Source | null>(null);
@@ -207,18 +208,37 @@ export function LiveTV() {
     };
   }, [!!registry, personal, secondary]);
 
-  const loadingLib = source.kind === 'lib' && !!libItem && (!libList || libList.key !== libKey);
+  // Followed clubs: club TV and rights holders of their next matches with a public stream.
+  const [clubList, setClubList] = useState<LibChannel[] | null>(null);
+  const clubsKey = `${followedClubs.value.join('|')}|${secondary}|${football.value ? 1 : 0}`;
+  useEffect(() => {
+    if (source.kind !== 'clubs' || !registry) return;
+    loadFootball();
+    let alive = true;
+    channelsById(secondary).then((map) => {
+      if (!alive) return;
+      const data = football.value;
+      setClubList(data ? clubChannels(data, followedClubs.value, map, prefs.value.homeCountry || 'UK') : null);
+    });
+    return () => {
+      alive = false;
+    };
+  }, [source.kind, clubsKey]);
+
+  const loadingLib = (source.kind === 'lib' && !!libItem && (!libList || libList.key !== libKey)) || (source.kind === 'clubs' && !clubList);
   const channels: CatalogueChannel[] = useMemo(() => {
     if (source.kind === 'lib') return libList && libList.key === libKey ? libList.list : [];
+    if (source.kind === 'clubs') return clubList || [];
     if (registry && personal) {
       const ids = source.id === 'fav' ? favourites.value : recents.value.map((r) => r.id);
       return ids.map((id) => (data && data.byId.get(id)) || (libMap ? libMap.get(id) : undefined)).filter(Boolean) as CatalogueChannel[];
     }
     return data ? channelsFor(source.id, data) : [];
-  }, [data, source.kind, source.id, libList, libKey, libMap, favourites.value, recents.value]);
+  }, [data, source.kind, source.id, libList, libKey, libMap, clubList, favourites.value, recents.value]);
   const playableList = channels.filter((c) => !isLibChannel(c) || c.playable);
   const numbers = data && source.kind === 'list' ? channelNumbers(data).numberOf : new Map<string, number>();
-  const label = source.kind === 'lib' ? (libItem ? libItem.name : 'Library') : LIST_LABELS[source.id];
+  const clubsLabel = followedClubs.value.length === 1 ? `★ ${followedClubs.value[0]}` : '★ My clubs';
+  const label = source.kind === 'lib' ? (libItem ? libItem.name : 'Library') : source.kind === 'clubs' ? clubsLabel : LIST_LABELS[source.id];
 
   useEffect(() => {
     videoLayout.value = { mode: 'box', ...PREVIEW };
@@ -345,6 +365,16 @@ export function LiveTV() {
             {libItem && !quick.some(([i]) => i.id === libItem.id) && source.kind === 'lib' ? (
               <button class="chip selectable is-selected" data-focusable data-focus-id={`live:chip:lib:${libItem.id}`} onClick={openPicker}>
                 {libItem.name}
+              </button>
+            ) : null}
+            {followedClubs.value.length ? (
+              <button
+                class={'chip selectable' + (source.kind === 'clubs' ? ' is-selected' : '')}
+                data-focusable
+                data-focus-id="live:chip:clubs"
+                onClick={() => choose({ kind: 'clubs', id: 'clubs' })}
+              >
+                {clubsLabel}
               </button>
             ) : null}
             {quick.map(([item, name]) => (

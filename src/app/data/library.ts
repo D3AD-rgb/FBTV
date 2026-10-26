@@ -4,6 +4,7 @@
  */
 import { signal } from '@preact/signals';
 import { readJSON, writeJSON } from '../platform/storage.ts';
+import { sameTeam } from '../../shared/teams.ts';
 
 export interface RecentEntry {
   id: string;
@@ -33,6 +34,22 @@ const RECENT_LIMIT = 40;
 export const favourites = signal<string[]>(readJSON<string[]>('favourites', []));
 export const recents = signal<RecentEntry[]>(readJSON<RecentEntry[]>('recents', []));
 export const prefs = signal<Preferences>({ ...DEFAULT_PREFS, ...readJSON<Partial<Preferences>>('prefs', {}) });
+
+/** Clubs the viewer follows, as written by any provider; matched across providers with sameTeam. */
+export const followedClubs = signal<string[]>(readJSON<string[]>('clubs', ['Manchester City']));
+
+export function isFollowedClub(team: string): boolean {
+  return followedClubs.value.some((c) => sameTeam(c, team));
+}
+
+/** Follows or unfollows a club; returns the new state. */
+export function toggleClub(team: string): boolean {
+  const list = followedClubs.value;
+  const next = list.some((c) => sameTeam(c, team)) ? list.filter((c) => !sameTeam(c, team)) : list.concat([team]);
+  followedClubs.value = next;
+  writeJSON('clubs', next);
+  return isFollowedClub(team);
+}
 
 export function isFavourite(id: string): boolean {
   return favourites.value.indexOf(id) >= 0;

@@ -1,35 +1,22 @@
-import { useEffect, useState } from 'preact/hooks';
 import { genreGroups, kidsChannels } from '../../shared/collections.ts';
-import type { CatalogueChannel } from '../../shared/model.ts';
 import { PageScroll, Shelf } from '../ui/Shelf.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
 import { ready } from '../data/catalogue.ts';
 import { prefs } from '../data/library.ts';
-import { ChannelShelf, watchFrom } from './Collection.tsx';
-import { library, loadCatalog, type LibItem } from '../data/sourceLibrary.ts';
+import { ChannelShelf } from './Collection.tsx';
+import { MovieShelves, SeriesShelves } from './Vod.tsx';
+import { library, type LibItem } from '../data/sourceLibrary.ts';
 import { showToast } from '../ui/toast.tsx';
 
 function VodEmpty({ id, what }: { id: string; what: string }) {
   return (
     <Shelf id={`${id}:vod`} title="On demand">
-      <EmptyState id={`${id}:vod:empty`} title={`No ${what} library connected`} wide>
-        On-demand titles, seasons, episodes and resume need a source you are entitled to: your own Jellyfin or Plex
-        server, an Xtream account you subscribe to, or an authorised VOD playlist. None of the public sources FBTV
-        uses provide on-demand content.
+      <EmptyState id={`${id}:vod:empty`} title={`No ${what} on demand yet`} wide>
+        On-demand titles come from the library on the PC: public-domain films and classic TV from the Internet
+        Archive, and any Xtream or VOD playlist you are entitled to. Run "npm run library:refresh" there.
       </EmptyState>
     </Shelf>
   );
-}
-
-/** An on-demand title from the library's Layer B catalog (movies.json / series.json). */
-interface VodTitle {
-  uid: string;
-  title: string;
-  url?: string;
-  status: string;
-  languages: string[];
-  poster?: string;
-  group?: string;
 }
 
 const VOD_STATUS: Record<string, string> = {
@@ -41,38 +28,20 @@ const VOD_STATUS: Record<string, string> = {
 };
 
 /**
- * On-demand sources from the library registry (Rule 10: Movies / Series VOD dropdowns). Each source
- * shows its status; titles appear only when a source supplies them in English, Hindi or Bengali.
+ * On demand (Rule 10: Movies / Series VOD sources): titles by language (Bengali, English, Hindi)
+ * and genre, then the registry's VOD sources with their status.
  */
-function VodSources(props: { id: string; category: 'movies' | 'series' }) {
+function VodSection(props: { id: string; category: 'movies' | 'series' }) {
   const lib = library.value;
-  const [titles, setTitles] = useState<VodTitle[] | null>(null);
+  if (lib.status !== 'ready') return <VodEmpty id={props.id} what={props.category === 'movies' ? 'films' : 'series'} />;
   const group = props.category === 'movies' ? 'Movies VOD' : 'Series VOD';
-  useEffect(() => {
-    if (lib.status !== 'ready') return;
-    let alive = true;
-    loadCatalog<{ items: VodTitle[] }>(`${props.category}.json`).then((d) => alive && setTitles(d && d.items ? d.items : []));
-    return () => {
-      alive = false;
-    };
-  }, [lib.status]);
-  if (lib.status !== 'ready') return <VodEmpty id={props.id} what={props.category === 'movies' ? 'film' : 'series'} />;
   const sources = lib.registry.items.filter((i) => i.group === group);
-  const playable = (titles || []).filter((t) => t.url && t.status === 'imported');
-  const asChannels: CatalogueChannel[] = playable.map((t) => ({ id: `vod:${t.uid}`, name: t.title, logo: t.poster, languages: t.languages, streams: [{ id: `vod:${t.uid}#0`, url: t.url!, source: 'library' }], sources: ['library'] }));
+  const available = sources.filter((i) => i.contentType !== 'vod-review').reduce((n, i) => n + i.channels, 0);
   const explain = (i: LibItem) => showToast(i.error || i.note || `${i.name}: ${VOD_STATUS[i.status] || i.status}`);
   return (
     <>
-      {asChannels.length ? (
-        <Shelf id={`${props.id}:vod:titles`} title="On demand" count={`${asChannels.length}`}>
-          {asChannels.slice(0, 80).map((c) => (
-            <button key={c.id} class="country-card card" data-focusable data-focus-id={`${props.id}:vod:${c.id}`} onClick={() => watchFrom(c, asChannels, 'On demand')}>
-              <span class="cname">{c.name}</span>
-              <span class="ccount">{(c.languages || []).join(', ')}</span>
-            </button>
-          ))}
-        </Shelf>
-      ) : null}
+      {props.category === 'movies' ? <MovieShelves id={props.id} /> : <SeriesShelves id={props.id} />}
+      {available ? null : <VodEmpty id={props.id} what={props.category === 'movies' ? 'films' : 'series'} />}
       <Shelf id={`${props.id}:vod:sources`} title="On-demand sources" count="from the library on the PC">
         {sources.map((i) => (
           <button key={i.id} class="country-card card" data-focusable data-focus-id={`${props.id}:vodsrc:${i.id}`} onClick={() => explain(i)}>
@@ -82,7 +51,6 @@ function VodSources(props: { id: string; category: 'movies' | 'series' }) {
           </button>
         ))}
       </Shelf>
-      {asChannels.length ? null : <VodEmpty id={props.id} what={props.category === 'movies' ? 'film' : 'series'} />}
     </>
   );
 }
@@ -97,8 +65,9 @@ function ChannelsByGenre(props: { id: string; category: 'movies' | 'series'; tit
           <div class="page-title">{props.title}</div>
           <div class="page-sub">{props.intro}</div>
         </section>
+        <VodSection id={props.id} category={props.category} />
         {groups.length ? (
-          groups.map((g) => <ChannelShelf key={g.id} id={g.id} title={g.title} note="live channels" channels={g.channels} />)
+          groups.map((g) => <ChannelShelf key={g.id} id={g.id} title={g.title} note="24/7 live channels" channels={g.channels} />)
         ) : (
           <Shelf id={`${props.id}:channels`} title={`${props.title} channels`}>
             <EmptyState id={`${props.id}:channels:empty`} title="No channels in the catalogue">
@@ -106,7 +75,6 @@ function ChannelsByGenre(props: { id: string; category: 'movies' | 'series'; tit
             </EmptyState>
           </Shelf>
         )}
-        <VodSources id={props.id} category={props.category} />
       </PageScroll>
     </div>
   );
@@ -118,7 +86,7 @@ export function Movies() {
       id="movies"
       category="movies"
       title="Movies"
-      intro="Free 24/7 movie channels from public playlists. These are live channels, not on-demand films."
+      intro="On-demand films in Bengali, English and Hindi (public-domain titles and your own providers), then free 24/7 movie channels."
     />
   );
 }
@@ -129,7 +97,7 @@ export function Series() {
       id="series"
       category="series"
       title="Series"
-      intro="Free 24/7 series channels from public playlists. These are live channels, not on-demand episodes."
+      intro="On-demand series in Bengali, English and Hindi (public-domain classic TV and your own providers), then free 24/7 series channels."
     />
   );
 }

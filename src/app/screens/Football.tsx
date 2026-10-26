@@ -6,8 +6,12 @@
 import { useEffect, useState } from 'preact/hooks';
 import type { CatalogueChannel } from '../../shared/model.ts';
 import {
+  allMatches,
+  isAhead,
   channelsById,
+  clubViews,
   football,
+  teamsByCompetition,
   footballStatus,
   footballViews,
   kickoffLabel,
@@ -16,12 +20,18 @@ import {
   timeKey,
   type Competition,
   type Fixture,
+  type FootballData,
 } from '../data/football.ts';
+import { followedClubs, isFollowedClub, toggleClub } from '../data/library.ts';
+import { sameTeam } from '../../shared/teams.ts';
+import { VirtualList } from '../ui/VirtualList.tsx';
+import { showToast } from '../ui/toast.tsx';
 import { includeUnreviewed, library, type LibChannel } from '../data/sourceLibrary.ts';
 import { openPage, type PageEntry } from '../nav/router.ts';
 import { PageScroll, Shelf } from '../ui/Shelf.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
 import { MatchCard, StateChip } from '../ui/MatchCard.tsx';
+import { RightsSection } from '../ui/Rights.tsx';
 import { ChannelTile } from '../ui/ChannelTile.tsx';
 import { watchFrom } from './Collection.tsx';
 
@@ -93,6 +103,54 @@ function FootballChannels({ map }: { map: Map<string, LibChannel> }) {
   );
 }
 
+/** Followed clubs first: every match across all competitions, plus the club's own TV channel. */
+function MyClubs({ data, map }: { data: FootballData; map: Map<string, LibChannel> | null }) {
+  const views = clubViews(data, followedClubs.value);
+  const clubTv = (club: string) =>
+    map
+      ? (data.channels
+          .filter((c) => c.role === 'club')
+          .map((c) => map.get(c.id))
+          .filter((c) => !!c && sameTeam(club, c.name)) as LibChannel[])
+      : [];
+  return (
+    <>
+      {views.map((v) => {
+        const cards = v.upcoming.slice(0, 12).concat(v.results.slice(0, 8));
+        const tv = clubTv(v.club);
+        return (
+          <Shelf key={v.club} id={`fb:club:${v.club}`} title={`★ ${v.club}`} count={`${v.upcoming.length} upcoming · ${v.results.length} results`}>
+            {cards.map((f) => (
+              <MatchCard key={f.id} f={f} focusId={`fb:club:${v.club}:${f.id}`} onSelect={() => openPage(matchPage(f))} />
+            ))}
+            {tv.map((c) => (
+              <ChannelTile key={c.id} channel={c} focusId={`fb:club:${v.club}:ch:${c.id}`} offline={!c.playable} onSelect={() => c.playable && watchFrom(c, tv.filter((x) => x.playable), v.club)} />
+            ))}
+            {!cards.length && !tv.length ? (
+              <div class="country-card card" data-focusable data-focus-id={`fb:club:${v.club}:none`}>
+                <span class="cname">No matches found</span>
+                <span class="ccount">Not in any competition in the library</span>
+              </div>
+            ) : null}
+          </Shelf>
+        );
+      })}
+      <Shelf id="fb:myclubs" title="My clubs">
+        <button class="country-card card" data-focusable data-focus-id="fb:myclubs:manage" onClick={() => openPage(clubsPage())}>
+          <span class="ccode">★</span>
+          <span class="cname">Follow clubs</span>
+          <span class="ccount">{followedClubs.value.length ? followedClubs.value.join(', ') : 'None followed'}</span>
+        </button>
+        <button class="country-card card" data-focusable data-focus-id="fb:myclubs:all" onClick={() => openPage(allMatchesPage())}>
+          <span class="ccode">ALL</span>
+          <span class="cname">All matches</span>
+          <span class="ccount">{data.fixtures.filter((f) => f.sport === 'football').length.toLocaleString()} fixtures, by date</span>
+        </button>
+      </Shelf>
+    </>
+  );
+}
+
 export function Football() {
   const data = useFootball();
   const map = useChannels(includeUnreviewed.value);
@@ -136,6 +194,7 @@ export function Football() {
             kick-off time has passed — live status and scores need a football-data.org key. No match implies a stream.
           </div>
         </section>
+        <MyClubs data={data} map={map} />
         <MatchShelf id="fb:started" title="Started" note="live status not verified" fixtures={v.started} />
         <MatchShelf id="fb:today" title="Today" fixtures={v.today} />
         <MatchShelf id="fb:top" title="Top matches this week" fixtures={v.topWeek} />
@@ -191,6 +250,21 @@ function MatchDetail({ f }: { f: Fixture }) {
             <StateChip f={f} />
             {f.bigClubs.length === 2 ? <span class="chip verified">★ Big match</span> : null}
           </div>
+          <div class="hstack" style="--stack-gap:16px;margin-top:20px" data-focus-group>
+            {[f.home, f.away]
+              .filter((t) => t && t !== 'To be decided')
+              .map((t) => (
+                <button
+                  key={t}
+                  class={'chip selectable' + (isFollowedClub(t) ? ' is-selected' : '')}
+                  data-focusable
+                  data-focus-id={`match:follow:${t}`}
+                  onClick={() => showToast(toggleClub(t) ? `Following ${t}` : `Unfollowed ${t}`)}
+                >
+                  {isFollowedClub(t) ? `★ Following ${t}` : `Follow ${t}`}
+                </button>
+              ))}
+          </div>
         </section>
         <div class="panel card" data-focusable data-focus-default data-focus-id="match:listings" style="margin-top:28px">
           <h3>TV listings</h3>
@@ -210,6 +284,13 @@ function MatchDetail({ f }: { f: Fixture }) {
           )}
           <p class="muted-text">Listings are third-party (TheSportsDB) and may be incomplete or change.</p>
         </div>
+        <RightsSection
+          id={`match:${f.id}`}
+          title={`Who shows ${f.competition}, by country`}
+          rights={data ? (data.competitions.filter((c) => c.id === f.competitionId)[0] || {}).rights : undefined}
+          map={map}
+          label={`${f.home} v ${f.away}`}
+        />
         {matched.length ? (
           <Shelf id="match:matched" title="Channels in your library with a listed name" count="name match — not verified to show this match">
             {matched.map((c) => (
@@ -228,6 +309,7 @@ export function matchPage(f: Fixture): PageEntry {
 
 function CompetitionView({ c }: { c: Competition }) {
   const data = football.value;
+  const map = useChannels(true);
   if (!data) return null;
   const now = Date.now();
   const own = data.fixtures.filter((f) => f.competitionId === c.id);
@@ -259,6 +341,7 @@ function CompetitionView({ c }: { c: Competition }) {
             <MatchShelf key={round} id={`comp:${c.id}:${round}`} title={round} fixtures={list} />
           ))}
         <MatchShelf id={`comp:${c.id}:results`} title="Results" fixtures={results.slice(0, 60)} />
+        <RightsSection id={`comp:${c.id}`} title={`Who shows ${c.name}, by country`} rights={c.rights} map={map} label={c.name} />
         {!own.length ? (
           <EmptyState id={`comp:${c.id}:empty`} title="No fixtures" wide>
             {c.error || 'This competition has no fixtures in the library yet.'}
@@ -271,4 +354,132 @@ function CompetitionView({ c }: { c: Competition }) {
 
 export function competitionPage(c: Competition): PageEntry {
   return { key: `competition:${c.id}`, title: c.name, render: () => <CompetitionView c={c} /> };
+}
+
+function ClubsView() {
+  const data = football.value;
+  const groups = data ? teamsByCompetition(data) : [];
+  const [comp, setComp] = useState(0);
+  const g = groups[Math.min(comp, Math.max(0, groups.length - 1))];
+  return (
+    <div class="screen">
+      <PageScroll>
+        <section data-scroll-anchor="0">
+          <div class="breadcrumb">
+            Live Football › <b>Follow clubs</b>
+          </div>
+          <div class="page-sub" style="margin-top:12px">
+            Followed clubs get their own section at the top of Live Football with every match in every competition.
+            Following: {followedClubs.value.join(', ') || 'none'}.
+          </div>
+          <div class="sport-chips hstack" data-focus-group data-focus-enter=".is-selected" style="margin-top:18px">
+            {groups.map((x, i) => (
+              <button
+                key={x.competition.id}
+                class={'chip selectable' + (g && x.competition.id === g.competition.id ? ' is-selected' : '')}
+                data-focusable
+                data-focus-id={`clubs:comp:${x.competition.id}`}
+                onClick={() => setComp(i)}
+              >
+                {x.competition.name}
+              </button>
+            ))}
+          </div>
+        </section>
+        {g ? (
+          <div class="country-grid" data-focus-group data-focus-memory>
+            {g.teams.map((t) => {
+              const on = isFollowedClub(t);
+              return (
+                <button
+                  key={t}
+                  class={'country-card card' + (on ? ' is-selected' : '')}
+                  data-focusable
+                  data-focus-id={`clubs:${g.competition.id}:${t}`}
+                  onClick={() => showToast(toggleClub(t) ? `Following ${t}` : `Unfollowed ${t}`)}
+                >
+                  <span class="ccode">{on ? '★ FOLLOWING' : 'FOLLOW'}</span>
+                  <span class="cname">{t}</span>
+                </button>
+              );
+            })}
+          </div>
+        ) : (
+          <EmptyState id="clubs:none" title="No fixtures in the library" wide>
+            Clubs come from the fixtures in the library on the PC.
+          </EmptyState>
+        )}
+      </PageScroll>
+    </div>
+  );
+}
+
+export function clubsPage(): PageEntry {
+  return { key: 'clubs', title: 'Follow clubs', render: () => <ClubsView /> };
+}
+
+/** Every football match in the library by date, starting at the next one; Up goes back to results. */
+function AllMatchesView() {
+  const data = football.value;
+  const [mine, setMine] = useState(false);
+  if (!data) return null;
+  const all = allMatches(data);
+  const list = mine ? all.list.filter((f) => isFollowedClub(f.home) || isFollowedClub(f.away)) : all.list;
+  const now = Date.now();
+  const first = Math.max(
+    0,
+    list.findIndex((f) => isAhead(f, now)),
+  );
+  return (
+    <div class="screen all-matches">
+      <div class="all-matches-head">
+        <div class="breadcrumb">
+          Live Football › <b>All matches</b>
+        </div>
+        <div class="hstack" style="--stack-gap:12px;margin-top:16px" data-focus-group data-focus-enter=".is-selected">
+          <button class={'chip selectable' + (!mine ? ' is-selected' : '')} data-focusable data-focus-id="all:every" onClick={() => setMine(false)}>
+            Every competition · {all.list.length.toLocaleString()}
+          </button>
+          <button class={'chip selectable' + (mine ? ' is-selected' : '')} data-focusable data-focus-id="all:mine" onClick={() => setMine(true)}>
+            ★ My clubs
+          </button>
+        </div>
+      </div>
+      <div class="all-matches-list">
+        <VirtualList
+          id={`all:${mine ? 'mine' : 'every'}`}
+          items={list}
+          rowHeight={96}
+          height={760}
+          index={first}
+          renderRow={(f) => (
+            <div class="lrow">
+              <span class="lrow-when">{kickoffLabel(f)}</span>
+              <div class="lrow-text">
+                <div class="lrow-name">
+                  {isFollowedClub(f.home) || isFollowedClub(f.away) ? <span class="lrow-fav">★ </span> : null}
+                  {f.home} {f.score ? `${f.score.home} – ${f.score.away}` : 'v'} {f.away}
+                </div>
+                <div class="lrow-sub">
+                  {f.competition}
+                  {f.round ? ` · ${f.round}` : ''}
+                  {f.broadcasts.length ? ` · ${f.broadcasts.length} TV listing${f.broadcasts.length > 1 ? 's' : ''}` : ''}
+                </div>
+              </div>
+            </div>
+          )}
+          onSelect={(f) => openPage(matchPage(f))}
+          empty={
+            <EmptyState id="all:empty" title="No matches">
+              {mine ? 'Follow clubs to see their matches here.' : 'The library has no fixtures yet.'}
+            </EmptyState>
+          }
+        />
+      </div>
+    </div>
+  );
+}
+
+export function allMatchesPage(): PageEntry {
+  return { key: 'all-matches', title: 'All matches', render: () => <AllMatchesView /> };
 }

@@ -12,6 +12,7 @@ import { PageScroll, Shelf } from '../ui/Shelf.tsx';
 import { EmptyState } from '../ui/EmptyState.tsx';
 import { ChannelTile } from '../ui/ChannelTile.tsx';
 import { watchFrom } from './Collection.tsx';
+import { RightsSection } from '../ui/Rights.tsx';
 
 /** Which sports' events come from which competitions in the fixtures catalog. */
 const SPORT_EVENTS: Record<string, string[]> = {
@@ -114,6 +115,14 @@ export function Sports() {
             ))}
           </Shelf>
         ) : null}
+        {current
+          ? comps.map((id) => {
+              const comp = (data.competitions || []).filter((c) => c.id === id)[0];
+              return comp && comp.rights ? (
+                <RightsSection key={id} id={`sp:${id}`} title={`Who shows ${comp.name}, by country`} rights={comp.rights} map={map} label={comp.name} />
+              ) : null;
+            })
+          : null}
         <Shelf id="sp:more" title="More">
           <button class="country-card card more" data-focusable data-focus-id="sp:secondary" onClick={() => setIncludeUnreviewed(!withSecondary)}>
             <span class="cname">{withSecondary ? 'Hide unreviewed lists' : 'Include unreviewed lists'}</span>
