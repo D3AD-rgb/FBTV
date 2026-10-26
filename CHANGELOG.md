@@ -21,6 +21,11 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - FND-008: target TV is an LG 50UQ751C0LF on webOS TV 22 (Chromium 87).
 - FND-009: Key Server can appear on while not listening; toggle it to fetch the key.
 
+### Changed
+- Packaging: builds that are not exactly a tagged release are named
+  `<app-id>_<version>-dev.<commit>[.dirty]_all.ipk`, so they never overwrite a release IPK; `npm run deploy`
+  installs the newest package unless `--ipk` is given.
+
 ### Fixed
 - Release tags lost their markdown headings because git strips `#` lines from tag messages (BUG-004).
 

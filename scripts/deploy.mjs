@@ -1,15 +1,29 @@
 // Installs the packaged IPK on the TV and launches it.
 // Usage: npm run deploy [-- --device tv] [--ipk path] [--inspect] [--no-launch]
 // The device must already be registered with `ares-setup-device` (see docs/deploy-webos.md).
-import { existsSync, readFileSync } from 'node:fs';
-import { resolve } from 'node:path';
-import { ROOT, appConfig, ares, run, arg, ipkName } from './lib/util.mjs';
+import { existsSync, readdirSync, statSync } from 'node:fs';
+import { resolve, join } from 'node:path';
+import { ROOT, appConfig, ares, run, arg } from './lib/util.mjs';
 
 const cfg = appConfig();
 const device = String(arg('device', process.env.FBTV_DEVICE || 'tv'));
-const appinfoPath = resolve(ROOT, 'dist', 'app', 'appinfo.json');
-const version = existsSync(appinfoPath) ? JSON.parse(readFileSync(appinfoPath, 'utf8')).version : cfg.version;
-const ipk = resolve(ROOT, String(arg('ipk', resolve('releases', ipkName(cfg.appId, version)))));
+
+/** Newest IPK for this app in releases/ (release or dev build), unless --ipk is given. */
+function newestIpk() {
+  const dir = resolve(ROOT, 'releases');
+  if (!existsSync(dir)) return null;
+  const files = readdirSync(dir)
+    .filter((f) => f.startsWith(`${cfg.appId}_`) && f.endsWith('_all.ipk'))
+    .map((f) => ({ f, t: statSync(join(dir, f)).mtimeMs }))
+    .sort((a, b) => b.t - a.t);
+  return files.length ? join(dir, files[0].f) : null;
+}
+const chosen = arg('ipk', null);
+const ipk = chosen ? resolve(ROOT, String(chosen)) : newestIpk();
+if (!ipk) {
+  console.error('No package found in releases/. Run "npm run package" first.');
+  process.exit(1);
+}
 
 if (!existsSync(ipk)) {
   console.error(`Package not found: ${ipk}\nRun "npm run package" first.`);
