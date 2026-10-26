@@ -123,8 +123,12 @@ export function setLibraryServer(url: string): void {
 /** Stored when the viewer chooses the bundled copy even though a PC address is known. */
 export const BUNDLED_ONLY = 'bundled';
 
-/** The PC address a local build carries (library/server.json), or '' when it has none. */
-export const autoServer = signal('');
+/**
+ * Library servers a local build carries (library/server.json), in the order they are tried:
+ * e.g. an always-on server, then the PC at home. Empty when the build has none.
+ */
+export const autoServers = signal<string[]>([]);
+let autoRead = false;
 
 /** A library address: http(s)://host[:port][/k/<access key>]/registry.json. Pure. */
 export function isLibraryUrl(url: string): boolean {
@@ -133,13 +137,23 @@ export function isLibraryUrl(url: string): boolean {
 
 /** The address with its access key hidden, for the screen. Pure. */
 export function showLibraryUrl(url: string): string {
-  return url.replace(/\/k\/([A-Za-z0-9_-]{4})[A-Za-z0-9_-]*/, '/k/$1…');
+  return url.replace(/\/k\/([A-Za-z0-9_-]{4})[A-Za-z0-9_-]*/g, '/k/$1…');
 }
 
-/** Library bases to try, in order: the chosen server (or the build's PC address), then the bundled copy. Pure. */
-export function libraryBases(chosen: string, auto: string): string[] {
-  const server = chosen === BUNDLED_ONLY ? '' : chosen || auto;
-  return server ? [server.replace(/\/registry\.json$/, '').replace(/\/?$/, '/'), 'library/'] : ['library/'];
+const baseOf = (url: string) => url.replace(/\/registry\.json$/, '').replace(/\/?$/, '/');
+
+/** Library bases to try, in order: the address chosen in Settings (or the build's servers), then the bundled copy. Pure. */
+export function libraryBases(chosen: string, auto: string[]): string[] {
+  if (chosen === BUNDLED_ONLY) return ['library/'];
+  const servers = chosen ? [chosen] : auto;
+  return servers.map(baseOf).concat(['library/']);
+}
+
+/** Addresses from library/server.json ({ urls } or the older { url }), keeping valid ones. Pure. */
+export function serverList(d: { url?: unknown; urls?: unknown } | null): string[] {
+  if (!d) return [];
+  const list = Array.isArray(d.urls) ? d.urls : [d.url];
+  return list.filter((u): u is string => typeof u === 'string' && isLibraryUrl(u)).slice(0, 4);
 }
 
 const shardCache = new Map<string, LibChannel[]>();
@@ -190,19 +204,19 @@ export function adapt(c: CompactChannel): LibChannel {
 
 export async function loadLibrary(): Promise<void> {
   const chosen = libraryServer();
-  if (!autoServer.peek()) {
+  if (!autoRead) {
+    autoRead = true;
     try {
-      const d = await getJSON<{ url?: string }>('library/server.json', { timeoutMs: 3000 });
-      if (d && typeof d.url === 'string' && isLibraryUrl(d.url)) autoServer.value = d.url;
+      autoServers.value = serverList(await getJSON<{ url?: unknown; urls?: unknown }>('library/server.json', { timeoutMs: 3000 }));
     } catch {
-      // not a local build, or no PC address in it
+      // not a local build, or no server address in it
     }
   }
-  const server = chosen === BUNDLED_ONLY ? '' : chosen || autoServer.peek();
-  const bases = libraryBases(chosen, autoServer.peek());
+  const server = chosen === BUNDLED_ONLY ? '' : chosen || autoServers.peek().join(', ');
+  const bases = libraryBases(chosen, autoServers.peek());
   for (const base of bases) {
     try {
-      // The PC may be off: give up on it quickly and use the bundled copy.
+      // A server may be off: give up on it quickly and try the next, then the bundled copy.
       const registry = await getJSON<LibRegistry>(`${base}registry.json`, { timeoutMs: base === 'library/' ? 8000 : chosen ? 8000 : 4000 });
       if (registry && registry.schema === 1 && Array.isArray(registry.items)) {
         // Lists loaded from another copy of the library may be older or newer.
@@ -219,7 +233,7 @@ export async function loadLibrary(): Promise<void> {
   library.value = {
     status: 'missing',
     reason: server
-      ? `The library server at ${showLibraryUrl(server)} did not answer and no library is bundled in this build.`
+      ? `The library server (${showLibraryUrl(server)}) did not answer and no library is bundled in this build.`
       : 'No source library in this build (public builds never include one). On the PC run "npm run library:refresh", then "npm run package -- --with-library", or "npm run library:serve" and enter its address in Settings › Sources.',
   };
 }

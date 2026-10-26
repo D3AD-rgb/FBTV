@@ -10,7 +10,7 @@ import { SERVICES, appsMethod, detectApps, installedApps } from '../platform/app
 import {
   includeUnreviewed,
   library,
-  autoServer,
+  autoServers,
   BUNDLED_ONLY,
   libraryServer,
   loadLibrary,
@@ -232,7 +232,7 @@ function Sources() {
   const lib = library.value;
   const stored = libraryServer();
   const [server, setServer] = useState(stored === BUNDLED_ONLY ? '' : stored);
-  const auto = autoServer.value;
+  const auto = autoServers.value;
   const [busy, setBusy] = useState(false);
   const input = useRef<HTMLInputElement>(null);
   const reg = lib.status === 'ready' ? lib.registry : null;
@@ -243,11 +243,11 @@ function Sources() {
           value:
             lib.status === 'ready' && lib.origin === 'server'
               ? `Library server (${showLibraryUrl(lib.base)})`
-              : stored === BUNDLED_ONLY || !(stored || auto)
+              : stored === BUNDLED_ONLY || !(stored || auto.length)
                 ? 'Bundled with this build'
-                : `Bundled with this build — the library server (${showLibraryUrl(stored || auto)}) did not answer`,
+                : `Bundled with this build — no library server answered (${showLibraryUrl(stored || auto.join(', '))})`,
         },
-        ...(auto ? [{ label: 'Server address in this build', value: showLibraryUrl(auto) }] : []),
+        ...auto.map((u, i) => ({ label: i ? 'Then' : 'Servers in this build', value: showLibraryUrl(u) })),
         { label: 'Library built', value: reg.generatedAt.replace('T', ' ').slice(0, 16) + ' UTC' },
         { label: 'Registry items', value: reg.items.length.toLocaleString() },
         ...Object.keys(reg.shards).map((k) => ({ label: `Channels · ${k}`, value: `${reg.shards[k]!.channels.toLocaleString()}${reg.shards[k]!.note ? ` — ${reg.shards[k]!.note}` : ''}` })),
@@ -285,7 +285,7 @@ function Sources() {
                 ref={input}
                 type="text"
                 value={server}
-                placeholder={auto ? showLibraryUrl(auto) : 'http://192.168.0.x:8787/registry.json'}
+                placeholder={auto.length ? showLibraryUrl(auto[0]!) : 'http://192.168.0.x:8787/registry.json'}
                 onInput={(e) => setServer((e.target as HTMLInputElement).value)}
                 aria-label="Library server address"
               />

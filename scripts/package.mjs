@@ -1,9 +1,10 @@
 // Builds the app and packages it as an IPK with the official LG CLI (ares-package).
 // Usage: npm run package [-- --skip-build] [--with-library [--library-server <url>|--library-server-file <file>|--no-library-server]]
 // --with-library bundles the local source library (build-data/library-export) for your own TV.
-// Such a package is named …-local… and must not be published. It also records this PC's
-// home-network address (library/server.json), so the TV uses "npm run library:serve" whenever
-// it is running, and the bundled copy otherwise.
+// Such a package is named …-local… and must not be published. It also records library server
+// addresses (library/server.json) that the TV tries in order: those in --library-server-file (one
+// per line, e.g. an always-on server), then this PC's home-network address ("npm run
+// library:serve"), then the bundled copy.
 import { mkdirSync, mkdtempSync, existsSync, readFileSync, writeFileSync, copyFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { resolve, join } from 'node:path';
@@ -21,17 +22,22 @@ const bundled = existsSync(resolve(appDir, 'library', 'registry.json'));
 if (withLibrary && !bundled) throw new Error('--with-library: no library in dist/app/library. Run "npm run library:refresh" first.');
 if (!existsSync(resolve(appDir, 'appinfo.json'))) throw new Error('dist/app/appinfo.json missing — build first.');
 if (withLibrary && !arg('no-library-server', false)) {
-  // --library-server-file: a file holding the address (keeps an access key out of shell history).
+  // --library-server-file: addresses, one per line (keeps an access key out of shell history).
   const fromFile = arg('library-server-file', null);
-  const given = fromFile ? readFileSync(String(fromFile), 'utf8').trim() : arg('library-server', null);
+  const given = fromFile
+    ? readFileSync(String(fromFile), 'utf8').split(/\r?\n/).map((l) => l.trim()).filter(Boolean)
+    : arg('library-server', null)
+      ? [String(arg('library-server', null))]
+      : [];
   const ip = lanAddress();
-  const url = given ? String(given) : ip ? `http://${ip}:8787/registry.json` : null;
-  if (url && !/^https?:\/\/[^/\s]+(\/k\/[A-Za-z0-9_-]{16,128})?\/registry\.json$/.test(url))
-    throw new Error('--library-server must look like http://<pc-ip>:8787/registry.json or https://<host>/k/<key>/registry.json');
-  if (url) {
-    writeFileSync(resolve(appDir, 'library', 'server.json'), JSON.stringify({ url }));
-    console.log(`The TV will use the library server at ${url.replace(/\/k\/([^/]{4})[^/]*/, '/k/$1…')} when it answers.`);
-  } else console.log('No home-network address found: the TV will use the bundled library only.');
+  const urls = given.concat(ip && !arg('no-pc', false) ? [`http://${ip}:8787/registry.json`] : []);
+  for (const url of urls)
+    if (!/^https?:\/\/[^/\s]+(\/k\/[A-Za-z0-9_-]{16,128})?\/registry\.json$/.test(url))
+      throw new Error('A library server must look like http://<pc-ip>:8787/registry.json or https://<host>/k/<key>/registry.json');
+  if (urls.length) {
+    writeFileSync(resolve(appDir, 'library', 'server.json'), JSON.stringify({ urls }));
+    console.log(`The TV tries, in order: ${urls.map((u) => u.replace(/\/k\/([^/]{4})[^/]*/, '/k/$1…')).join(', ')}, then the bundled copy.`);
+  } else console.log('No library server address: the TV will use the bundled library only.');
 }
 
 mkdirSync(outDir, { recursive: true });

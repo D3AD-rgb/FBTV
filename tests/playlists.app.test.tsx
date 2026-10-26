@@ -5,7 +5,7 @@ import { act } from 'preact/test-utils';
 import { FocusEngine, type Measure } from '../src/app/focus/engine.ts';
 import { getEngine, initFocus } from '../src/app/focus/index.ts';
 import { installInput } from '../src/app/nav/input.ts';
-import { BUNDLED_ONLY, isLibraryUrl, library, libraryBases, showLibraryUrl, type LibItem } from '../src/app/data/sourceLibrary.ts';
+import { BUNDLED_ONLY, isLibraryUrl, library, libraryBases, serverList, showLibraryUrl, type LibItem } from '../src/app/data/sourceLibrary.ts';
 import {
   addToCustom,
   clearAll,
@@ -91,13 +91,13 @@ describe('playlist selection and custom playlists', () => {
 describe('where the TV reads the library from', () => {
   const pc = 'http://192.168.0.10:8787/registry.json';
   it('uses the PC address in a local build, then the bundled copy', () => {
-    expect(libraryBases('', pc)).toEqual(['http://192.168.0.10:8787/', 'library/']);
-    expect(libraryBases('', '')).toEqual(['library/']);
+    expect(libraryBases('', [pc])).toEqual(['http://192.168.0.10:8787/', 'library/']);
+    expect(libraryBases('', [])).toEqual(['library/']);
   });
   it('prefers an address entered in Settings, and honours "Use bundled"', () => {
-    expect(libraryBases('http://10.0.0.5:9000/registry.json', pc)).toEqual(['http://10.0.0.5:9000/', 'library/']);
-    expect(libraryBases('http://10.0.0.5:9000', pc)).toEqual(['http://10.0.0.5:9000/', 'library/']);
-    expect(libraryBases(BUNDLED_ONLY, pc)).toEqual(['library/']);
+    expect(libraryBases('http://10.0.0.5:9000/registry.json', [pc])).toEqual(['http://10.0.0.5:9000/', 'library/']);
+    expect(libraryBases('http://10.0.0.5:9000', [pc])).toEqual(['http://10.0.0.5:9000/', 'library/']);
+    expect(libraryBases(BUNDLED_ONLY, [pc])).toEqual(['library/']);
   });
   it('accepts a home or always-on server address, and hides its access key on screen', () => {
     const vm = 'https://vm.example.ts.net/k/Abc123_-xyz789QRSTuv/registry.json';
@@ -105,7 +105,11 @@ describe('where the TV reads the library from', () => {
     expect(isLibraryUrl(vm)).toBe(true);
     expect(isLibraryUrl('https://vm.example.ts.net/k/short/registry.json')).toBe(false);
     expect(isLibraryUrl('ftp://x/registry.json')).toBe(false);
-    expect(libraryBases('', vm)).toEqual(['https://vm.example.ts.net/k/Abc123_-xyz789QRSTuv/', 'library/']);
+    // The always-on server first, then the PC at home, then the bundled copy.
+    expect(libraryBases('', [vm, pc])).toEqual(['https://vm.example.ts.net/k/Abc123_-xyz789QRSTuv/', 'http://192.168.0.10:8787/', 'library/']);
+    expect(serverList({ urls: [vm, 'nonsense', pc] })).toEqual([vm, pc]);
+    expect(serverList({ url: pc })).toEqual([pc]);
+    expect(serverList(null)).toEqual([]);
     expect(showLibraryUrl(vm)).toBe('https://vm.example.ts.net/k/Abc1…/registry.json');
   });
 });
