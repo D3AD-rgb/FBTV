@@ -1,0 +1,6 @@
+{
+  "$comment": "Manual corrections applied after all sources are merged. Keys are catalogue channel ids (iptv-org ids such as \"BBCNews.uk\"). Use this when source metadata is wrong: name, country, languages, categories, sports, epgId, logo, or hidden=true to remove a channel. kidsAllowlist adds channels to the Kids area; kidsBlocklist removes them even if their category is kids.",
+  "channels": {},
+  "kidsAllowlist": [],
+  "kidsBlocklist": []
+}

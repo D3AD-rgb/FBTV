@@ -1,0 +1,47 @@
+{
+  "$comment": "Catalogue sources. Each runs independently; a failing source never stops the others. Set enabled=false to switch one off. Secrets are never stored here: sources that need a key name an environment variable (secretEnv), set as a GitHub Actions secret.",
+  "sources": [
+    {
+      "id": "iptv-org",
+      "name": "iptv-org (channels, feeds, streams, logos)",
+      "type": "iptv-org-api",
+      "url": "https://iptv-org.github.io/api/",
+      "enabled": true,
+      "refresh": "daily",
+      "licence": "Unlicense / CC0",
+      "verified": "2026-10-25"
+    },
+    {
+      "id": "my-playlist",
+      "name": "Example: your own M3U playlist",
+      "type": "m3u",
+      "url": "https://example.invalid/playlist.m3u",
+      "enabled": false,
+      "refresh": "daily",
+      "defaults": { "country": "UK", "languages": ["eng"] },
+      "$comment": "Placeholder. Replace the URL with a playlist you are authorised to use, then set enabled to true."
+    },
+    {
+      "id": "football-data",
+      "name": "football-data.org",
+      "type": "football-data",
+      "url": "https://api.football-data.org/v4/",
+      "enabled": true,
+      "refresh": "15m",
+      "secretEnv": "FOOTBALL_DATA_TOKEN",
+      "competitions": ["PL", "ELC", "CL", "PD", "SA", "BL1", "FL1", "DED", "PPL", "BSA", "WC", "EC"],
+      "$comment": "Free tier: 12 competitions, delayed scores, 10 requests/minute. Register at football-data.org and add the key as the FOOTBALL_DATA_TOKEN secret."
+    },
+    {
+      "id": "epg",
+      "name": "Programme guide (XMLTV)",
+      "type": "xmltv",
+      "url": "",
+      "enabled": false,
+      "refresh": "daily",
+      "$comment": "Configured in v0.7.0."
+    }
+  ],
+  "limits": { "timeoutMs": 60000, "maxBytes": 52428800 },
+  "probe": { "perRun": 250, "timeoutMs": 12000, "concurrency": 6, "maxAgeDays": 14 }
+}
