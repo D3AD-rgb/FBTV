@@ -458,6 +458,17 @@ export function roundsToFetch(scan: TsdbScan | undefined, nextR: number, pastR: 
   return out.filter((r, i) => r > 0 && out.indexOf(r) === i).slice(0, 8);
 }
 
+/** TheSportsDB status codes mapped to ours; anything unknown is kept as the provider's own word. Pure. */
+export function tsdbStatus(e: TsdbEvent, scored: boolean): string {
+  const st = (e.strStatus || '').trim().toUpperCase();
+  if (e.strPostponed === 'yes' || /^(PST|POSTP|POSTPONED)$/.test(st)) return 'postponed';
+  if (/^(CANC|CAN|CANCELLED|CANCELED)$/.test(st)) return 'cancelled';
+  if (/^(ABD|ABAN|ABANDONED)$/.test(st)) return 'abandoned';
+  if (scored || /^(FT|AET|AP|PEN|MATCH FINISHED|FINISHED)$/.test(st)) return 'finished';
+  if (!st || /^(NS|NOT STARTED|TBD|TBA)$/.test(st)) return 'scheduled';
+  return `provider: ${e.strStatus}`;
+}
+
 export function fromTsdbEvent(e: TsdbEvent, lg: TsdbLeague): Fixture {
   const home = e.strHomeTeam || '';
   const away = e.strAwayTeam || '';
@@ -475,7 +486,7 @@ export function fromTsdbEvent(e: TsdbEvent, lg: TsdbLeague): Fixture {
     home,
     away,
     event: e.strEvent,
-    status: e.strPostponed === 'yes' ? 'postponed' : scored ? 'finished' : e.strStatus && !/not started|ns/i.test(e.strStatus) ? e.strStatus : 'scheduled',
+    status: tsdbStatus(e, scored),
     priority: lg.sport === 'football' ? fixturePriority(lg.competitionId, home, away) : 40,
     bigClubs: lg.sport === 'football' ? [home, away].filter(isBigClub) : [],
     sources: [{ provider: 'thesportsdb', ref: `event/${e.idEvent}` }],

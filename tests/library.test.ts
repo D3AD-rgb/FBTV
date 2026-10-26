@@ -203,6 +203,12 @@ describe('fixtures', () => {
     expect(t.kickoffUtc).toBe('2026-08-21T19:00:00.000Z');
   });
 
+  it('maps TheSportsDB status codes and keeps unknown ones as the provider said', () => {
+    const lg = TSDB_LEAGUES[0]!;
+    const st = (strStatus: string, score = false) => fromTsdbEvent({ idEvent: '5', strHomeTeam: 'A', strAwayTeam: 'B', strStatus, intHomeScore: score ? '1' : null, intAwayScore: score ? '0' : null }, lg).status;
+    expect([st('PST'), st('CANC'), st('ABD'), st('FT', true), st('NS'), st('Not Started'), st('1H')]).toEqual(['postponed', 'cancelled', 'abandoned', 'finished', 'scheduled', 'scheduled', 'provider: 1H']);
+  });
+
   it('matches a rescheduled league match by round and teams, not by date alone', () => {
     const lg = TSDB_LEAGUES.filter((l) => l.competitionId === 'scottish-premiership')[0]!;
     const def = OPENFOOTBALL.filter((d) => d.id === 'scottish-premiership')[0]!;

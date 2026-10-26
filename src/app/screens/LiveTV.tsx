@@ -78,12 +78,19 @@ export function channelSubline(c: CatalogueChannel): string {
   return parts.join(' · ');
 }
 
-/** Playable first, then by how much the last check confirmed. Stable otherwise. */
+/** Playable first, then the TV's home country, then by how much the last check confirmed. Stable otherwise. */
 const RANK: Record<string, number> = { playback_confirmed: 0, reachable: 1, untested: 2, temporarily_unavailable: 3, playback_failed: 3 };
 function sortLibrary(list: LibChannel[]): LibChannel[] {
+  const home = (prefs.value.homeCountry || '').toLowerCase();
   return list
-    .map((c, i) => ({ c, i, r: c.playable ? (RANK[c.validation] !== undefined ? RANK[c.validation]! : 2) : 9 }))
-    .sort((a, b) => a.r - b.r || a.i - b.i)
+    .map((c, i) => ({
+      c,
+      i,
+      p: c.playable ? 0 : 1,
+      h: home && (c.country || '').toLowerCase() === home ? 0 : 1,
+      r: RANK[c.validation] !== undefined ? RANK[c.validation]! : 2,
+    }))
+    .sort((a, b) => a.p - b.p || a.h - b.h || a.r - b.r || a.i - b.i)
     .map((x) => x.c);
 }
 
