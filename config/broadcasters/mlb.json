@@ -1,0 +1,868 @@
+{
+ "competitionId": "mlb",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters",
+  "https://www.mlb.com/international"
+ ],
+ "notes": "mlb.com has no public per-country broadcaster page (checked mlb.com/international); source is Wikipedia's list of current MLB broadcasters (2026 season, international table). US postseason 2026: AL Wild Card on NBC/Peacock, ALDS/ALCS on TBS/truTV/HBO Max, NLDS/NLCS and World Series on Fox/FS1/Fox One. Gaps: Spain, Malaysia, Philippines, Singapore, Thailand, Vietnam, New Zealand and Croatia/Slovenia have no listed broadcaster; Bangladesh only via generic 'Indian subcontinent' entry.",
+ "broadcasters": [
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Fox",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "FS1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FS2",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBCSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ABC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TBS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "truTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "MLB Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Apple TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Netflix",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026: Fox (All-Star Game, NLDS, NLCS, World Series), TBS/truTV/HBO Max (ALDS, ALCS), NBC/NBCSN/Peacock (Sunday Night Baseball, AL Wild Card Series), ESPN/ABC, MLB Network, Apple TV (Friday Night Baseball), Netflix (Home Run Derby and special events). Fox, NBC and ABC are free over-the-air networks; local games on regional sports networks / MLB.TV.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Sportsnet",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RDS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TVA Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "English: Sportsnet and TSN; French: RDS and TVA Sports.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "BBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Wikipedia lists the BBC as UK broadcaster (scope - TV/iPlayer games vs highlights - not detailed; BBC Radio 5 Sports Extra also carries games). MLB.TV available by subscription.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "Movistar+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "O2 TV Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport5",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Hispanic America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN Latin America.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "TelevisaUnivision",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Fox",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "TelevisaUnivision over-the-air channels (selected games).",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Telecaribe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "IVC",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Telecaribe regional public channel.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "IVC",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Televen",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "One Baseball Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ByM Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SimpleTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "Teleantillas",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Coral 39",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "TVMax",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TBS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "WAPA 2 Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "NHK",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Fuji TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "J Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Abema",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NHK (public) and Fuji TV free-to-air (selected games, notably Japanese players).",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "CTS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "EBC",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ELTA",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Videoland",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Douyin",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "BesTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Star Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Indian subcontinent'.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Star Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered only by Wikipedia's generic 'Indian subcontinent: Star Sports' entry; not confirmed separately.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  },
+  {
+   "country": "Worldwide (All-Star Game, World Series)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "MLB.TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026 All-Star Game and World Series international feed produced by MLB International and distributed via local partners; MLB.TV out-of-market streaming available worldwide (blackouts vary).",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Baseball_broadcasters"
+  }
+ ]
+}

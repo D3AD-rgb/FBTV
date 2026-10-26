@@ -1,0 +1,1166 @@
+{
+ "competitionId": "formula-1",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ",
+  "https://en.wikipedia.org/wiki/List_of_Formula_One_broadcasters",
+  "https://channel4.com/press/news/sky-and-channel-4-extend-partnership-keep-formula-1-highlights-and-british-gp-free-air",
+  "https://www.sportcal.com/media/fancode-retains-f1-rights-through-2028-aston-martin-renews-with-jcb/"
+ ],
+ "notes": "Primary list is the official formula1.com broadcast information page (2026 season). Free-to-air status and per-channel scope (selected races / home GP only / highlights) come from the Wikipedia list of F1 broadcasters, which flags its 2026 table as possibly out of date. F1 TV (Pro/Access) is additionally available in many territories; in the USA it is bundled into Apple TV and in India/Bangladesh/Nepal/Sri Lanka it is sold via FanCode.",
+ "broadcasters": [
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Sky Sports F1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Channel 4",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky has exclusive live coverage of all sessions. Channel 4: highlights of every qualifying, sprint and race, plus the British GP live (Sky/Channel 4 deal runs through 2026).",
+   "source": "https://channel4.com/press/news/sky-and-channel-4-extend-partnership-keep-formula-1-highlights-and-british-gp-free-air"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Sky Sports F1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Channel 4",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official page lists 'United Kingdom & Republic of Ireland: Sky Sports; Channel 4'. Channel 4 (UK channel, free via satellite): highlights plus British GP live.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Apple TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Apple TV is the exclusive US broadcaster from 2026 (F1 TV included in the Apple TV subscription). Per Wikipedia some practice sessions and select weekends are free in the Apple TV app; covers Puerto Rico too.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "TSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RDS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RDS 2",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Noovo",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Noovo (and CTV per Wikipedia): free-to-air, Canadian GP race only.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Foxtel",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Kayo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Network 10",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Network 10: Australian GP only (all sessions live), per Wikipedia; not on the official formula1.com list.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Formula_One_broadcasters"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TATA Play FanCode Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FanCode renewed exclusive rights for 2026-2028; F1 TV subscriptions sold via FanCode.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "FanCode's 2026-2028 deal covers India, Bangladesh, Nepal and Sri Lanka. Bangladesh is not listed separately on formula1.com.",
+   "source": "https://www.sportcal.com/media/fancode-retains-f1-rights-through-2028-aston-martin-renews-with-jcb/"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered by FanCode's 2026-2028 subcontinent deal.",
+   "source": "https://www.sportcal.com/media/fancode-retains-f1-rights-through-2028-aston-martin-renews-with-jcb/"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered by FanCode's 2026-2028 subcontinent deal.",
+   "source": "https://www.sportcal.com/media/fancode-retains-f1-rights-through-2028-aston-martin-renews-with-jcb/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Deutschland (Sky Sport F1)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "RTL: selected races live (seven races per Wikipedia); Sky: all sessions live.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "ServusTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ORF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ORF and ServusTV split the races (12 races live each, per Wikipedia); Sky Sport F1 shows all sessions.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "SRF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RSI",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "SRG SSR channels (SRF/RSI/RTS): qualifying and race live, free-to-air.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official page: 'Spain and Andorra: DAZN'. Wikipedia additionally lists Mediaset Espana free-to-air for the Spanish and Barcelona GPs only (not on the official list).",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Italia (Sky Sport F1)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TV8",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TV8 (Sky's free channel): two races and all sprints live, other races delayed/highlights, per Wikipedia. Official page lists only Sky Italia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Formula_One_broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NOS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "NOS: Dutch GP live and highlights of other races (per Wikipedia; not on the official list). Viaplay TV also shows some races free-to-air.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Formula_One_broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "RTBF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Play Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTBF (Tipik/La Une) free-to-air; Wikipedia also lists VRT free for the Belgian GP and highlights.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "RTL Tele Letzebuerg",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "TV3",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "V sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Estonia",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV3",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3 Latvia",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV3",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Lithuania",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV3",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Eleven Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Wikipedia notes six races also on Super Polsat.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova (Nova Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official page: 'Czech Republic and Slovakia: Nova'.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova (Nova Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "M4 Sport (MTVA)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Public broadcaster, all sessions live.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Antena (Antena 1)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Practice on digital platform only, per Wikipedia.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "TV Nova (Diema Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "ANT1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ANT1+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Omega TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "PBS Malta (TVMSport+)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Voyo (pay) also streams all sessions per Wikipedia.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Kanal A",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "VOYO",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Artmotion Kosovo",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "XK is a user-assigned code (Kosovo has no official ISO 3166-1 code).",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "DigitAlb",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Setanta Ukraine",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Eurasia",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Georgia, Moldova, Central Asia etc. per Wikipedia.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "FastSports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Idman Azerbaijan",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Qualifying and race live.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 5",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official page lists 'Africa: SuperSport'.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "TV Globo",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "sportv",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "TV Globo regained rights from 2026 (up to 15 races live on free TV per Wikipedia); sportv shows all sessions.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "TUDN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Izzi",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Wikipedia also lists Canal 5 free-to-air for the Mexican GP only.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Latin America (excl. Brazil and Mexico)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN deal through 2028 covers 18 Latin American and Caribbean markets; streamed on Disney+.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia; official page covers Argentina under 'Latin America: ESPN'.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Formula_One_broadcasters"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "Fuji TV (Fuji TV NEXT / FOD)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fuji TV (terrestrial)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Fuji TV exclusive 2026-2030; all sessions live on pay channel Fuji TV NEXT, terrestrial Fuji TV free-to-air highlights of up to five rounds (per Wikipedia).",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Shanghai TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Guangdong Television",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Tencent",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Shanghai TV / Guangdong regional free-to-air channels; Wikipedia also lists CCTV-5/5+.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Now Sports 1 & 2",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Taiwan (Chinese Taipei)",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "Videoland",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ELTA",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Wikipedia also lists Mediacorp Channel 5 free-to-air for the Singapore GP only.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Malaysia and Brunei",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Wikipedia also lists RTM (free-to-air) in Malaysia.",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sport 24 / Sport 24 Extra",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Canal+ Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+ ACTION",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "TV360",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "Sky NZ (Sky Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Open",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky Open: Monday highlights only plus Australian GP live (per Wikipedia).",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  },
+  {
+   "country": "Papua New Guinea & Pacific Islands",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "TVWAN Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.formula1.com/en/information/f1-broadcast-information.45y3LNsT1D6VoK0ZmX8ciJ"
+  }
+ ]
+}

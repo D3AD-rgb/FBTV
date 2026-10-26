@@ -1,0 +1,1211 @@
+{
+ "competitionId": "fa-cup",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.thefa.com/competitions/thefacup/emirates-fa-cup-global-broadcast-partners",
+  "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx",
+  "https://www.skymedia.co.uk/opportunities/mens-fa-cup-on-tnt-sports-2026-2028/",
+  "https://eng.pressbee.net/show4933256.html",
+  "https://www.sportcal.com/media/bbc-confirms-deal-with-tnt-to-retain-fa-cup-rights-through-2028-29/",
+  "https://media.wbdsports.com/post/the-fa-tnt-sports-agree-new-four-year-deal-to-broadcast-the-emir",
+  "https://www.sportcal.com/media/fa-cup-to-remain-on-espn-in-us-through-2028/",
+  "https://www.sportcal.com/news/movistar-plus-adds-fa-cup-to-soccer-rights-stable-through-2027-28/",
+  "https://www.insideworldfootball.com/2025/11/05/warner-bros-discovery-dazn-get-closer-share-fa-cup-italy/",
+  "https://ministryofsport.com/nine-secures-exclusive-premier-league-and-emirates-fa-cup-rights-in-major-sporting-milestone/",
+  "https://www.sportcal.com/?p=142625",
+  "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+ ],
+ "notes": "The FA's global broadcast partners page currently covers 2025-26; most international entries come from The FA's 'Where to watch' list for the 2026 Final and are the latest confirmed holders (many deals run 2024/25-2027/28). Confirmed for 2026-27: UK (TNT Sports + BBC, 2025/26-2028/29), USA (ESPN to 2027/28), Spain (Movistar Plus+), Italy (Eurosport/DAZN to 2027/28), Australia (Stan Sport). France 2026-27 not confirmed (beIN deal ran to 2025-26). UK: matches kicking off at 3pm Saturday are not broadcast live. Some FTA flags (TVP Sport, Mono 29, tabii, Zo'r TV) are inferred from broadcaster type.",
+ "broadcasters": [
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "BBC One",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "BBC iPlayer",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "TNT Sports main rights holder 2025/26-2028/29 (47 live matches per season incl. live from the First Round; every Third Round tie not kicking off at 3pm onwards). BBC sub-licence 2025/26-2028/29: 14 live matches per season free-to-air (two per round up to the quarter-finals, one semi-final, the final), plus highlights. HBO Max is the streaming home of TNT Sports in the UK. 2026/27 First Round: weekend of 7 Nov 2026; TNT/HBO Max and BBC TV/iPlayer share live rights in 2026/27 (Radio Times). 3pm Saturday kick-offs are not shown live.",
+   "source": "https://www.skymedia.co.uk/opportunities/mens-fa-cup-on-tnt-sports-2026-2028/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "ESPN+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN deal 2024/25-2027/28: 79 matches per season (First Round to Final) plus Community Shield, streaming on ESPN+ (ESPN listed for the 2026 Final).",
+   "source": "https://www.sportcal.com/media/fa-cup-to-remain-on-espn-in-us-through-2028/"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Movistar Plus+ holds rights for 2026-27 and 2027-28 (deal announced March 2026).",
+   "source": "https://www.sportcal.com/news/movistar-plus-adds-fa-cup-to-soccer-rights-stable-through-2027-28/"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Eurosport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Warner Bros. Discovery (Eurosport) and DAZN co-exclusive through 2027-28, 70+ live matches per season.",
+   "source": "https://www.insideworldfootball.com/2025/11/05/warner-bros-discovery-dazn-get-closer-share-fa-cup-italy/"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Stan Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Nine (Stan Sport) exclusive rights to the Premier League and Emirates FA Cup from 2025/26 (multi-season); 2026 Final on Stan.",
+   "source": "https://ministryofsport.com/nine-secures-exclusive-premier-league-and-emirates-fa-cup-rights-in-major-sporting-milestone/"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN's French rights were extended only through 2025-26 (Sportcal, May 2025); 2026-27 holder not confirmed in sources found. beIN SPORTS 1 showed the 2026 Final.",
+   "source": "https://www.sportcal.com/?p=142625"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "SuperSport (DigitAlb)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "SuperSport (DigitAlb)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as 'Albania & Kosovo'.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Balkans",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as 'Balkans' (Arena Premium 1), separately from Bosnia, Croatia and Slovenia; countries not itemised.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as Baltics (Go3 Extra Sports).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as Baltics (Go3 Extra Sports).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as Baltics (Go3 Extra Sports).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. ESPN renewed FA Cup rights for Brazil and South America through 2028 (ESPN press release cited by Wikipedia).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "South America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. ESPN renewed FA Cup rights for South America through 2028 (ESPN press release cited by Wikipedia); countries not itemised.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Diema Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. IMG (Nova) - Diema Sport 3.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Sportsnet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Rush",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Countries not itemised.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Pacific Islands",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "TVWAN Sports (Digicel)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Cook Islands, Fiji, Kiribati, Marshall Islands, Micronesia, Nauru, Niue, Palau, Samoa, Solomon Islands, Tokelau, Tonga, Tuvalu, Vanuatu.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Papua New Guinea",
+   "code": "PG",
+   "channels": [
+    {
+     "name": "TVWAN Sports (Digicel)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. DACH.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. DACH.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. DACH.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "TV3+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "TV 2 Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "V Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Cosmote TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "Now TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. PCCW (ch 651).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Spíler TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TV2 - Spiler 1.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Indian Subcontinent",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as 'Sony'; countries not itemised.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Emtek",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Timor-Leste",
+   "code": "TL",
+   "channels": [
+    {
+     "name": "Emtek",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Charlton.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "U-Next",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Sport Plus",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Migu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CCTV-5",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Migu Video; CMG/CCTV-5 also listed for Mainland China and Macao.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "MCTV (Macau Cable TV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "M Plus",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CCTV-5",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "Astro",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Astro Football & Astro Grandstand.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "Astro",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed with Malaysia.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TSN (GO)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. beIN SPORTS 1 / beIN SPORTS EN.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX One",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max and Fox (linear) / Fox One.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Belize",
+   "code": "BZ",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX on Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max; 'Fox en Tubi' for Central America (Tubi is a free ad-supported service).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX on Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max; 'Fox en Tubi' for Central America (Tubi is a free ad-supported service).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX on Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max; 'Fox en Tubi' for Central America (Tubi is a free ad-supported service).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX on Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max; 'Fox en Tubi' for Central America (Tubi is a free ad-supported service).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX on Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max; 'Fox en Tubi' for Central America (Tubi is a free ad-supported service).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX on Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max; 'Fox en Tubi' for Central America (Tubi is a free ad-supported service).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX on Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TNT/HBO Max; 'Fox en Tubi' for Central America (Tubi is a free ad-supported service).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Mongolia",
+   "code": "MN",
+   "channels": [
+    {
+     "name": "Premier Sports Network (Unitel)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Sky Net Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "MNTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. MNTV marked FTA on The FA list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "TVP Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "tvpsport.pl",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TVP is the public broadcaster (free-to-air status inferred).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Voyo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Pro TV - Voyo.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "StarHub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Hub Sports 2 & Hub Premier 4.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "GOtv",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. South Africa and Sub-Saharan Africa: SuperSport channels and GOtv.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "French-speaking Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Canal+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Countries not itemised.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "Monomax",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Mono 29",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Jasmine/Mono: Mono Max live, Mono 29 live (Mono 29 is a free digital terrestrial channel in Thailand; FTA inferred).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "Monomax",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as 'Thailand, Cambodia & Laos' (Jasmine/Mono); Mono 29 is a Thai terrestrial channel.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "Monomax",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Listed as 'Thailand, Cambodia & Laos' (Jasmine/Mono); Mono 29 is a Thai terrestrial channel.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "tabii Spor (TRT)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. TRT is the public broadcaster; tabii is its free streaming platform (FTA inferred).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Zo'r TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list. Zo'r TV is a private terrestrial channel (FTA inferred).",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "FPT Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "MyTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "As of the 2025-26 FA Cup Final (The FA's 'Where to watch' list, May 2026); The FA has not yet published a 2026-27 international list.",
+   "source": "https://www.thefa.com/-/media/thefacom-new/files/competitions/2025-26/emirates-fa-cup/where-to-watch---emirates-fa-cup-final-2026.ashx"
+  }
+ ]
+}

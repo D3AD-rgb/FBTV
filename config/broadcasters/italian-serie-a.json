@@ -1,0 +1,1486 @@
+{
+ "competitionId": "italian-serie-a",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://en.legaseriea.it/serie-a/broadcasters",
+  "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters",
+  "https://en.wikipedia.org/wiki/Serie_A",
+  "https://www.calcioefinanza.it/2026/08/18/quanto-costa-vedere-il-calcio-in-tv-in-italia-2026-2027/",
+  "https://www.calcioefinanza.it/2026/06/20/partite-in-tv-2026-2027-dove-vederle/",
+  "https://www.sportcal.com/news/bbc-returns-for-another-expanded-slate-of-serie-a-coverage-across-2026-27/",
+  "https://www.sportcal.com/news/dazn-extends-with-serie-a-in-uk-and-ireland-deals-with-livemode-tv/",
+  "https://www.advanced-television.com/2026/08/20/dazn-renews-serie-a-rights-for-the-uki/",
+  "https://www.insideworldfootball.com/2026/08/21/serie-a-renews-with-dazn-for-uk-market/",
+  "https://sportcal.com/newsletters/serie-a-extends-with-tnt-sports-in-uk-through-2026-27",
+  "https://www.sportcal.com/news/telemundo-adds-serie-a-rights-to-burgeoning-portfolio-in-three-year-deal/",
+  "https://en.legaseriea.it/serie-a/news/telemundo-acquires-exclusive-u-s-spanish-language-rights-to-the-serie-a-championship-coppa-italia-and-supercoppa-italiana",
+  "https://www.insideworldfootball.com/2026/09/04/telemundo-secures-spanish-language-us-rights-to-serie-a/",
+  "https://www.marketscale.com/industries/sports-entertainment/serie-a-stays-with-cbs-one-more-year-before-testing-the-us-market-again.md",
+  "https://www.renderfoot.com/blog/where-to-watch-soccer-in-usa",
+  "https://www.calcioefinanza.it/2024/02/20/serie-a-diritti-tv-asia-cifre/"
+ ],
+ "notes": "2026-27 is the third season of the 2024-29 domestic cycle (DAZN all 380 matches, 10 per round with 7 exclusive; Sky 3 per round co-exclusive = 114) and the last season of the 2024-27 international cycle in most territories. Lega Serie A sells most territories directly; Infront manages 36 APAC territories for 2024-25 to 2026-27. The official Lega Serie A broadcasters page (en.legaseriea.it/serie-a/broadcasters, titled 2025/26) only shows Italy (DAZN, Sky); there is no official worldwide list online. Most international entries therefore come from Wikipedia's 'List of Serie A broadcasters' (an undated table that looks current for 2026-27, since it already includes Telemundo and the BBC). Entries verified by 2026 news are UK, Ireland, US, France, Germany, Austria, Switzerland and Pakistan; the rest are flagged as not independently confirmed. In Italy there is no live free-to-air Serie A. Rai and Mediaset hold only free-to-air highlights, and DAZN may stream up to five matches free. A few SE Asian/Central Asian entries come only from the Wikipedia 'Serie A' article's 2024-29 section and may be stale. FTA flags for some smaller satellite or state channels are inferred from the channel's normal distribution model, as noted per entry.",
+ "broadcasters": [
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2024-29 cycle. DAZN shows all 380 matches (10 per round, 7 exclusive). Sky Sport shows 3 per round co-exclusively (114 matches); NOW is Sky's streaming service carrying Sky Sport. Calcio e Finanza reports DAZN may again show up to five matches free (in chiaro). Rai and Mediaset hold free-to-air highlights only.",
+   "source": "https://www.calcioefinanza.it/2026/08/18/quanto-costa-vedere-il-calcio-in-tv-in-italia-2026-2027/"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "BBC ALBA",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "BBC iPlayer",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026-27 confirmed. DAZN has 7 of 10 matches per round exclusively. TNT Sports shows non-exclusive matches (up to 2 per round; its deal runs through 2026-27). BBC shows 1 match per gameweek (38 total): 19 live on BBC ALBA (Gaelic/English co-commentary, also on iPlayer) and 19 streamed with English commentary on BBC iPlayer/BBC Sport. No subscription is needed for the BBC matches, though UK TV licence rules apply.",
+   "source": "https://www.sportcal.com/news/bbc-returns-for-another-expanded-slate-of-serie-a-coverage-across-2026-27/"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN renewed UK & Ireland rights for 2026-27. TNT Sports' UK & Ireland deal runs through 2026-27 (Sportcal, July 2024). The BBC deal is UK only.",
+   "source": "https://www.sportcal.com/news/dazn-extends-with-serie-a-in-uk-and-ireland-deals-with-livemode-tv/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CBS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "CBS Sports Golazo Network",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Telemundo",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Universo",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Telemundo Deportes Ahora",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "English-language rights stay with CBS Sports for 2026-27 (one-year option); all 380 matches are on Paramount+, with select games on CBS and free matches on CBS Sports Golazo Network (renderfoot, Sept 2026). Spanish-language rights went to Telemundo for 2026-27 to 2028-29 across Telemundo, Universo, Peacock and the FAST channel Telemundo Deportes Ahora. Only some matches air on the free CBS and Telemundo broadcast networks.",
+   "source": "https://www.sportcal.com/news/telemundo-adds-serie-a-rights-to-burgeoning-portfolio-in-three-year-deal/"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TLN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list (fubo TV, TLN); 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyNet",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CazéTV",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per Wikipedia list. CazéTV streams selected matches free on YouTube. SportyNet's platform type was not verified. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Latin America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list ('Latin America: ESPN'); the countries are not itemised. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list ('Caribbean: ESPN'); the territories are not itemised. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "ATV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "QN Sport",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "SCCN",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per Wikipedia list. FTA status of ATV and SCCN is inferred (terrestrial broadcasters); QN Sport's type was not verified. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list ('Sub-Saharan Africa: SuperSport'); the countries are not itemised. The Wikipedia Serie A article also lists New World TV for Sub-Saharan Africa. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Angola",
+   "code": "AO",
+   "channels": [
+    {
+     "name": "Z Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "Z Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. SportyTV's access model (free or paid) was not verified. SuperSport is also listed for Sub-Saharan Africa as a region. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Rwanda",
+   "code": "RW",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Malawi",
+   "code": "MW",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Zimbabwe",
+   "code": "ZW",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. SportyTV's access model (free or paid) was not verified. SuperSport is also listed for Sub-Saharan Africa as a region. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. SportyTV's access model (free or paid) was not verified. SuperSport is also listed for Sub-Saharan Africa as a region. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. SportyTV's access model (free or paid) was not verified. SuperSport is also listed for Sub-Saharan Africa as a region. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "STARZPLAY",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Shasha Sports",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list ('MENA: StarzPlay, Shasha Sports'). Lega Serie A sells MENA directly. Saudi Arabia, Bahrain and Kuwait also have STC TV (separate entries). Shasha Sports' platform type was not verified. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Saudi Arabia",
+   "code": "SA",
+   "channels": [
+    {
+     "name": "stc tv",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list (STC TV); 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Bahrain",
+   "code": "BH",
+   "channels": [
+    {
+     "name": "stc tv",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list (STC TV); 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "channels": [
+    {
+     "name": "stc tv",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list (STC TV); 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "channels": [
+    {
+     "name": "Alrabiaa TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per Wikipedia list. FTA status is inferred (free satellite channel). 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "ONE",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "Gem Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Persiana Sports",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per Wikipedia list. FTA status is inferred (free satellite channels). 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. Australia is part of the Infront-managed APAC package (2024-25 to 2026-27). 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article instead lists i-CABLE HOY. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Migu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article also lists CCTV and iQIYI (possibly older). 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "Macau Cable TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "M Plus",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. M Plus's platform type was not verified. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "TrueVisions",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article also lists beIN SPORTS. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "Astro Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article also lists beIN SPORTS. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Vidio (Emtek)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ANTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Wikipedia list names 'Emtek, ANTV'; the Wikipedia Serie A article names Vidio (Emtek's streaming platform), ANTV and beIN SPORTS. Only some matches air on ANTV free-to-air. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "MyTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Bebee TV Sports",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The platform type was not verified. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Only in the Wikipedia Serie A article (2024-29 international section), not in the List of Serie A broadcasters. Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Only in the Wikipedia Serie A article (2024-29 international section). Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Only in the Wikipedia Serie A article (2024-29 international section). Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TAP DMV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Only in the Wikipedia Serie A article (2024-29 international section). Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Only in the Wikipedia Serie A article (2024-29 international section). Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Unite8 Sports",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed (the Wikipedia Serie A article still shows the Indian subcontinent as TBA).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Three-year deal with Begin, a UAE-based Pakistani OTT service, reported in August 2026. The Wikipedia list also names Begin for Pakistan.",
+   "source": "https://www.sportcal.com/news/dazn-extends-with-serie-a-in-uk-and-ireland-deals-with-livemode-tv/"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Myco",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Maldives",
+   "code": "MV",
+   "channels": [
+    {
+     "name": "ICE Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Q Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Q Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "TV Varzish",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TV Football",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Only in the Wikipedia Serie A article; possibly stale. FTA status is inferred (state channels). Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Only in the Wikipedia Serie A article; possibly stale. FTA status is inferred (state channel). Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN has renewed exclusive Serie A rights in France through 2028-29 (Advanced Television, Aug 2026).",
+   "source": "https://www.advanced-television.com/2026/08/20/dazn-renews-serie-a-rights-for-the-uki/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN has renewed exclusive Serie A rights in Germany through 2028-29 (Advanced Television, Aug 2026).",
+   "source": "https://www.advanced-television.com/2026/08/20/dazn-renews-serie-a-rights-for-the-uki/"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN has renewed exclusive Serie A rights in Austria through 2028-29 (Advanced Television, Aug 2026).",
+   "source": "https://www.advanced-television.com/2026/08/20/dazn-renews-serie-a-rights-for-the-uki/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN has renewed exclusive Serie A rights in Switzerland through 2028-29 (Advanced Television, Aug 2026). The Wikipedia list also names Sky Sport for Switzerland.",
+   "source": "https://www.advanced-television.com/2026/08/20/dazn-renews-serie-a-rights-for-the-uki/"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article also lists Play Sports. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "TV 2 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "TV4",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list ('TV4'); the specific TV4 channel or platform is not stated. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "VG+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "MTV Urheilu",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Livey",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Eleven Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Arena4",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Magenta Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article lists Cosmote Sport. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "Total Sports Network (TSN)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Artmotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "XK is a user-assigned code; Kosovo has no official ISO 3166-1 code. The Wikipedia list shows only 'Sport' (an unclear name); the Wikipedia Serie A article lists SuperSport and Artmotion. Latest listed holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Serie_A"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article also lists SuperSport. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "MEGOGO",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Match TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. Match TV runs both a free federal channel and pay channels; which one carries Serie A was not verified. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Kinopoisk",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Silk Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list; 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "SportTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia list. The Wikipedia Serie A article lists CBC Sport and Setanta Sports. 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters"
+  }
+ ]
+}

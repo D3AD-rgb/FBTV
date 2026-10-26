@@ -1,0 +1,572 @@
+{
+ "competitionId": "dfb-pokal",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle",
+  "https://www.dfb.de/news/faq-hier-laeuft-die-zweite-dfb-pokalrunde-live",
+  "https://www.dfb.de/news/faq-hier-wird-die-erste-dfb-pokalrunde-live-gezeigt",
+  "https://www.dfb.de/dfb-pokal",
+  "https://www.sportcal.com/?p=142496",
+  "https://www.sportcal.com/?p=145232",
+  "https://www.sportcal.com/?p=146977",
+  "https://www.sportcal.com/?p=151342",
+  "https://www.sportcal.com/news/abema-retains-fta-rights-for-2026-27-bundesliga-season-in-japan/",
+  "https://www.sportabo.at/fussball-tv-rechte-oesterreich/",
+  "https://www.moneyland.ch/de/fussball-spiele-anschauen-schweiz-tipps"
+ ],
+ "notes": "2026-27 is the first season of a new DFB-Pokal media rights cycle (2026-27 to 2029-30). Germany: Sky keeps the pay-TV package with all 63 matches (48 exclusive), and the deal also covers Austria and Switzerland. 15 matches per season are free-to-air: ARD (Das Erste) has 7 plus the final every other season; ZDF and RTL share the other 7 plus the final in alternate seasons (ZDF's previous rights with ARD ended in 2025-26). Per DFB.de, RTL+ also streams all matches live as single games and in the Konferenz. Round 1 free-to-air: ZDF 1 match, ARD 2, RTL 3. Round 2 (27-28 Oct 2026): RTL HSV-Frankfurt, ZDF BVB-Bremen, ARD Bayern-Magdeburg. Which broadcaster has the 2027 final was not stated. International: the DFB's 15 Jun 2026 release lists a 'first wave' of partners for the new cycle, so other territories may follow. IMG Studios produces an English world feed of all 63 matches. The DFB also distributes its own OTT service 'DFB Play' and FAST channel 'DFB Play TV' in a growing number of (unspecified) territories. Gaps: no 2026-27 DFB-Pokal holder was found for the USA, Canada, Spain, Italy, Portugal, Poland, Belgium, Latin America outside Brazil, Australia, India or China.",
+ "broadcasters": [
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RTL+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Das Erste",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ZDF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky shows all 63 matches live (48 exclusive), as single matches and Konferenz, and DFB.de says RTL+ also streams all matches live. Free-to-air for selected matches only: 15 per season in total. ARD/Das Erste has 7 plus the final every other season; ZDF and RTL share 7 plus the final in the other seasons. Round 1: ARD showed Halle-Schalke and Osnabrück-Bayern, ZDF Rostock-Stuttgart, and RTL HEBC-BVB, Saarbrücken-Hertha and Würzburg-Köln. Round 2: RTL HSV-Frankfurt (27 Oct), ZDF BVB-Bremen (27 Oct), ARD Bayern-Magdeburg (28 Oct).",
+   "source": "https://www.dfb.de/news/faq-hier-laeuft-die-zweite-dfb-pokalrunde-live"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "WOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ServusTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky's 2026-27 to 2029-30 DFB deal covers Austria (Sportcal, May 2025). ServusTV (free-to-air, presumably selected matches) is listed only by the comparison portal sportabo.at (Oct 2026) and is not confirmed by the DFB or ServusTV.",
+   "source": "https://www.sportabo.at/fussball-tv-rechte-oesterreich/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sky's 2026-27 to 2029-30 DFB deal applies across all distribution channels in Austria and Switzerland as well as Germany. moneyland.ch (Sept 2025) also listed DAZN for the DFB-Pokal in Switzerland, which is not confirmed for 2026-27. No free-to-air broadcaster found.",
+   "source": "https://www.sportcal.com/?p=142496"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB calls Ziggo a long-standing partner, part of the first wave for the 2026-27 to 2029-30 cycle.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "beIN is a new pay-TV partner and from 2026-27 shows the best matches from the Round of 64 onwards (deal to 2028-29, per Sportcal). L'Équipe is a long-standing partner; Sportcal describes it as L'Équipe's free-to-air digital channel. The number of free-to-air matches is not stated.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB calls Charlton a long-standing partner. The specific channel brand is not named in the release.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Long-standing partner for Denmark, Sweden and Finland.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Long-standing partner for Denmark, Sweden and Finland.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Long-standing partner for Denmark, Sweden and Finland.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "VG",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB names 'VG' as a long-standing partner. The platform is presumably VG's subscription streaming (VG+), not confirmed in the release.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB names 'Arena' for Bosnia & Herzegovina, Kosovo, Montenegro, North Macedonia and Serbia (long-standing partner).",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB names 'Arena' for Bosnia & Herzegovina, Kosovo, Montenegro, North Macedonia and Serbia.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB names 'Arena' for Bosnia & Herzegovina, Kosovo, Montenegro, North Macedonia and Serbia. XK is a user-assigned code.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB names 'Arena' for Bosnia & Herzegovina, Kosovo, Montenegro, North Macedonia and Serbia.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB names 'Arena' for Bosnia & Herzegovina, Kosovo, Montenegro, North Macedonia and Serbia.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "New partner for Croatia and Slovenia. The DFB does not say which RTL channel or platform is used or whether matches are free-to-air, so the type is unconfirmed.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "New partner for Croatia and Slovenia. The DFB does not say which RTL channel or platform is used or whether matches are free-to-air, so the type is unconfirmed.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "New partner (DIGI Sports).",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "TV3",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB lists 'TV 3' for the Baltics (long-standing partner). The channel and FTA status are not specified.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "TV3",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB lists 'TV 3' for the Baltics (long-standing partner). The channel and FTA status are not specified.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "TV3",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB lists 'TV 3' for the Baltics (long-standing partner). The channel and FTA status are not specified.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport (Saran)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB lists 'Saran' for Türkiye, Ukraine & CIS (long-standing partner). Saran Media Group operates S Sport.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Saran",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The DFB lists 'Saran' for Türkiye, Ukraine & CIS. The local channel or platform is not specified.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "CIS",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Saran",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Commonwealth of Independent States. Countries and local channel are not specified by the DFB.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Eastern Europe",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Pragosport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Long-standing partner for 'Eastern Europe'. The DFB gives no country list or channel names; Pragosport is a rights company that presumably sublicenses to local broadcasters.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DFB Play TV (Samsung TV Plus)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Samsung TV Plus carries the DFB's free FAST channel 'DFB Play TV' in the UK and other European markets. Premier Sports 'will continue to air one top match per round'; the release mentions it alongside the UK but does not name its territory explicitly.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Europe (Samsung TV Plus markets)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "DFB Play TV (Samsung TV Plus)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "The DFB says Samsung TV Plus carries DFB Play TV in the UK 'and other European markets' without naming them. The amount of live DFB-Pokal coverage on the FAST channel is not stated.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Key partner for Sub-Saharan Africa. Countries are not itemised.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "SportyTV works alongside ESPN Africa in Ghana, Kenya, Nigeria and South Africa. SportyTV's price model is not stated.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "SportyTV works alongside ESPN Africa in Ghana, Kenya, Nigeria and South Africa.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "SportyTV works alongside ESPN Africa in Ghana, Kenya, Nigeria and South Africa.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "SportyTV works alongside ESPN Africa in Ghana, Kenya, Nigeria and South Africa.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Abu Dhabi Media Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Existing partner for MENA. The DFB does not specify channels (e.g. AD Sports) or free-to-air status. Countries are not itemised.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Headline exclusive four-year deal with ESPN do Brasil (2026-27 to 2029-30). Any streaming platform (e.g. Disney+) is not named in the release.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "GAORA SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "GAORA On Demand",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "U-NEXT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Gaora streams all 63 matches on Gaora On Demand and shows key matches exclusively on its TV channel (2026-27). It replaces DAZN. Sportcal (Aug 2026) also reports that U-NEXT acquired DFB-Pokal rights for 2026-27, streaming selected matches from round 1 to the May 2027 final.",
+   "source": "https://www.sportcal.com/?p=151342"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "TrueVisions NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "New partner for the 2026-27 to 2029-30 cycle.",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Partnership extended for four more seasons (to 2029-30).",
+   "source": "https://www.dfb.de/news-2/dfb-launches-new-dfb-pokal-rights-cycle"
+  }
+ ]
+}

@@ -3,6 +3,7 @@
  * inventory.jsonl, manifest.json, catalogs, fixtures and the validation database.
  */
 import { writeFileSync } from 'node:fs';
+import { loadRights, rightsSummary } from './broadcasters.ts';
 import { join } from 'node:path';
 import type { Manifest } from './collect.ts';
 import type { InventoryRecord } from './inventory.ts';
@@ -135,6 +136,18 @@ export function writeReport(input: ReportInput): string {
     const f = fixtures.fixtures;
     const now = Date.now();
     P();
+    const rights = loadRights(() => undefined);
+    if (rights.size) {
+      const sum = rightsSummary(Array.from(rights.values()));
+      P();
+      P(`Broadcast rights holders researched for ${sum.competitions} competitions (config/broadcasters/, each entry with its source): ${n(sum.countries)} country/region entries, ${n(sum.channels)} channel listings, ${n(sum.freeToAir)} free-to-air. Channels of the same name and country with a public stream in this library: ${n(sum.linked)} (${n(sum.playable)} playable). Pay-TV relays are never linked.`);
+      P();
+      P('| Competition | Countries/regions | Free-to-air listings | Season | Checked |');
+      P('|---|---|---|---|---|');
+      for (const r of Array.from(rights.values()).sort((a, b) => a.competitionId.localeCompare(b.competitionId)))
+        P(`| ${r.competitionId} | ${r.broadcasters.length} | ${r.broadcasters.reduce((x, b) => x + b.channels.filter((c) => c.freeToAir).length, 0)} | ${r.season} | ${r.retrieved} |`);
+    }
+    P();
     P(`Total events: ${n(f.length)} — finished ${n(f.filter((x) => x.status === 'finished').length)}, upcoming ${n(f.filter((x) => x.kickoffUtc && Date.parse(x.kickoffUtc) > now).length)}, kick-off time TBC ${n(f.filter((x) => !x.timeKnown).length)}. With TV listings: ${f.filter((x) => x.broadcasts.length).length} matches (${n(f.reduce((x, y) => x + y.broadcasts.length, 0))} listings). Verified live status: none (needs a football-data.org key).`);
     P();
   }
@@ -150,7 +163,12 @@ export function writeReport(input: ReportInput): string {
   P(`| Unknown language (review list) | ${n(input.vod.unknown)} | — | — |`);
   P(`| Other languages (not shown) | ${n(input.vod.other)} | — | — |`);
   P();
-  P(`VOD records in the inventory: ${n(input.vod.inventory)} (direct media files or positive durations). **None of the nine repositories contains on-demand English, Hindi or Bengali films or series.** Their movie/series lists are 24/7 linear channels, kept under Live TV. Real VOD needs a provider you are authorised to use.`);
+  const vodBy = new Map<string, number>();
+  for (const r of records) if (r.kind === 'vod' && r.status === 'imported') vodBy.set(r.source.repo, (vodBy.get(r.source.repo) || 0) + 1);
+  const ia = records.filter((r) => r.source.repo === 'internet-archive');
+  P(`VOD records in the inventory: ${n(input.vod.inventory)} (direct media files, positive durations and Internet Archive items). Playable by source: ${Array.from(vodBy.entries()).sort((a, b) => b[1] - a[1]).map(([k, v]) => `${k} ${n(v)}`).join(', ') || 'none'}.`);
+  P();
+  P(`**None of the nine repositories contains on-demand English, Hindi or Bengali films or series**; their movie/series lists are 24/7 linear channels, kept under Live TV. On-demand titles come from the Internet Archive (items marked public domain whose year and title make that credible: ${n(ia.filter((r) => r.status === 'imported').length)} playable files; ${n(ia.filter((r) => r.status === 'restricted').length)} items marked public domain were excluded with the reason recorded, e.g. recent films and rips) and from providers you configure. Unlicensed VOD sites (YTS, scraper playlists such as TMDB-To-VOD-Playlist) are not used.`);
   P();
 
   P('## 9. APIs and provider adapters discovered');

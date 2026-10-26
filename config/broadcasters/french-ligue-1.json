@@ -1,0 +1,1390 @@
+{
+ "competitionId": "french-ligue-1",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://ligue1.com/en/international-broadcasters",
+  "https://ligue1.com/en/broadcasters",
+  "https://ligue1.com/fr/legal/cg-l1plus",
+  "https://ligue1.com/en/articles/l1_article_3110-ligue-1-mcdonalds-accelerates-its-international-expansion",
+  "https://www.ozap.com/actu/football-exit-bein-sports-ligue-1-diffusera-lintegralite-des-rencontres-de-championnat-la-saison-prochaine/652933",
+  "https://www.ozap.com/actu/on-va-montrer-tout-notre-savoir-faire-pourquoi-ligue-1-diffusera-gratuitement-huit-des-neuf-matchs-de-la-31e-journee-ce-week-end/654752",
+  "https://www.ariase.com/streaming/actualite/bein-sports-quitte-la-ligue-1-ce-que-ca-change-pour-vous-avant-la-reprise",
+  "https://www.jechange.fr/telecom/internet/news/prix-abonnements-foot-saison-2026-2027-addition-complete",
+  "https://www.sportcal.com/media/ligue-1-adds-india-indonesia-to-rights-mix-with-last-minute-media-deals/",
+  "https://www.insideworldfootball.com/2026/09/02/ligue-1-pushes-deeper-into-asia-with-india-and-indonesia-media-deals/",
+  "https://www.insideworldfootball.com/2026/10/01/lfp-media-inks-contract-with-streaming-platform-tapmad-in-pakistan-and-bangladesh/",
+  "https://www.advanced-television.com/?p=291389",
+  "https://www.sportcal.com/news/xsports-to-share-ligue-1-rights-with-cazetv-in-brazil/",
+  "https://www.sportcal.com/newsletters/cazetv-lands-ligue-1-rights-in-brazil",
+  "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16",
+  "https://en.wikipedia.org/wiki/Ligue_1"
+ ],
+ "notes": "Primary source is the official LFP/ligue1.com 'International broadcasters' page (client-rendered; read via browser on 2026-10-26; no season label, but it reflects 2026-27 deals such as JioStar, Emtek-Vidio and XSports). LFP says Ligue 1 McDonald's is available in 215 territories via 53 broadcast partners in 44 languages for 2026-27. Domestic: Ligue 1+ is the sole broadcaster in France (all 306 matches); beIN SPORTS exited Ligue 1 domestically from 2026-27 (it remains a Ligue 2 BKT broadcaster). Free-to-air/free options: Brazil (CazéTV free stream, XSports FTA), China (CCTV-5), Malta (PBS), UK (ITV highlights only, may be outdated), Tajikistan (Varzish TV) and Uzbekistan (NTRC) - the last two inferred from state-broadcaster status. LFP also lists Sport 24 for ships and planes (in-flight/maritime, not a territory, omitted). No broadcaster listed by LFP for Australia, New Zealand, Greece, Hungary, Malaysia, Singapore, Philippines, Brunei, Cambodia, San Marino (Wikipedia marks these TBD). Wikipedia-only entries not on the LFP list (not included as entries): Laos (JAS), Suriname (STVS), Puerto Rico (beIN, grouped with US), Iran (Persiana Sports), Belarus (Kinopoisk), Brazil (CNN Brasil).",
+ "broadcasters": [
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Ligue 1+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Ligue 1+ (LFP Media's own subscription channel) holds all 9 matches per matchday (306 matches) in 2026-27; beIN SPORTS no longer shows any Ligue 1 match from 2026-27 (it gave up its Saturday 17:00 match; LFP took it back, Dec 2025). Ligue 1+ is sold direct and via distributors (DAZN, Orange, Free, SFR, Bouygues Telecom boxes). No regular free-to-air Ligue 1 matches in 2026-27 (Ligue 1+ made 8 of 9 matches of the 31st matchday free on 24-26 April 2026 as a one-off promotion). Reported prices: EUR 19.99/month with 12-month commitment, EUR 24.99 without.",
+   "source": "https://www.ariase.com/streaming/actualite/bein-sports-quitte-la-ligue-1-ce-que-ca-change-pour-vous-avant-la-reprise"
+  },
+  {
+   "country": "Monaco",
+   "code": "MC",
+   "channels": [
+    {
+     "name": "Ligue 1+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Ligue 1+ terms (version of 10 Sept 2026) define its territory as metropolitan France, DROM, COM, Monaco and Andorra.",
+   "source": "https://ligue1.com/fr/legal/cg-l1plus"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "Ligue 1+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Ligue 1+ terms (version of 10 Sept 2026) include Andorra in its territory. Wikipedia also lists DAZN for Andorra (not on the LFP list; not confirmed).",
+   "source": "https://ligue1.com/fr/legal/cg-l1plus"
+  },
+  {
+   "country": "French overseas departments and collectivities (DROM-COM)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Ligue 1+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Ligue 1+ territory includes the DROM (Guadeloupe, Martinique, French Guiana, Reunion, Mayotte) and COM (e.g. New Caledonia, French Polynesia, Saint-Pierre-et-Miquelon, Wallis and Futuna, Saint-Barthelemy, Saint-Martin), per Ligue 1+ terms of 10 Sept 2026 (terms name 'DROM, COM' without listing each).",
+   "source": "https://ligue1.com/fr/legal/cg-l1plus"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "SuperSport (DigitAlb)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists DigitAlb; its SuperSport channels carry the matches (Wikipedia).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Sports (Fast Media)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists Fast Media and Setanta Sports.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "A1 (VOKA)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As listed by LFP; Wikipedia lists Kinopoisk instead (not on LFP list).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Diema Sport (Nova Broadcasting Group)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists Nova Broadcasting Group; Wikipedia names its Diema Sport channels.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cablenet Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists Cablenet.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Sport (TV3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists TV3 and Setanta Sports; Wikipedia names Go3 Sport.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Livey",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Ligue 1+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Live matches on Ligue 1+ (direct-to-consumer). Sky shows highlights only in the UK and Ireland (Advanced Television, 2 Sept 2026); LFP page lists only Ligue 1+ for Ireland.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Ligue 1+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists Ligue 1+ for Italy in 2026-27 (Sky Italy was the 2025-26 broadcaster).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Artmotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Code XK is a user-assigned code (Kosovo has no official ISO 3166-1 code).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3 Sport (TV3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists TV3 and Setanta Sports.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Wikipedia also lists Sky Sport (not on LFP list).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Sport (TV3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists TV3 and Setanta Sports.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TVMSport+ (PBS)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "LFP lists PBS (Malta's public broadcaster; new partner from 2025-26). Wikipedia names the TVMSport+ channel. Free-to-air status inferred from PBS being the public broadcaster.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Eleven Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Voyo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Voyo is PRO TV's subscription streaming service.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Okko Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists Okko.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Entire season on DAZN (Advanced Television, Sept 2026).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport (Sky Switzerland)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN deal runs 2024-25 to 2028-29.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Megogo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Ligue 1+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ITV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Live matches on Ligue 1+ (direct-to-consumer); Prime Video is also listed by LFP (offer details not verified). ITV and Sky are marked 'highlights only' by LFP; Advanced Television (2 Sept 2026) reports Sky as the 2026-27 highlights partner, so ITV's free-to-air highlights listing may be a carry-over from 2024-25 (not independently confirmed for 2026-27).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Algeria",
+   "code": "DZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Bahrain",
+   "code": "BH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Chad",
+   "code": "TD",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Djibouti",
+   "code": "DJ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Egypt",
+   "code": "EG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports'). Wikipedia also lists Persiana Sports for Iran (not on LFP list).",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Jordan",
+   "code": "JO",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Lebanon",
+   "code": "LB",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Libya",
+   "code": "LY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Mauritania",
+   "code": "MR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Oman",
+   "code": "OM",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Palestine",
+   "code": "PS",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Qatar",
+   "code": "QA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Saudi Arabia",
+   "code": "SA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Somalia",
+   "code": "SO",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "South Sudan",
+   "code": "SS",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Sudan",
+   "code": "SD",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Syria",
+   "code": "SY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Tunisia",
+   "code": "TN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "United Arab Emirates",
+   "code": "AE",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Yemen",
+   "code": "YE",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN MENA territory; beIN holds Ligue 1 in MENA from 2024-25 to 2028-29 (LFP lists 'Middle East and North Africa: beIN Sports').",
+   "source": "https://www.beinsports.com/en-mena/football/ligue-1/articles/bein-media-group-extends-long-term-deal-for-ligue-1-ligue-2-2024-08-16"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 5 (The Sports Channel)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists 'The Sports Channel'; Wikipedia names Sport5.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists Canal+ and SuperSport for Sub-Saharan Africa (individual countries not listed). Canal+ (Canal+ Afrique) typically serves Francophone Africa and SuperSport (MultiChoice) Anglophone/Lusophone Africa.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN SPORTS USA, deal 2024-25 to 2028-29 (beIN press release).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN deal 2024-25 to 2028-29.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Fox",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists 'Fox Broadcasting Corporation' (Fox, formerly Fox Sports Mexico), partner since 2025-26.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "CazéTV",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "XSports",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "CazéTV (free YouTube-based channel) holds rights under a three-season deal to the end of 2026-27; XSports shows three matches per matchweek on its free-to-air channels from 2026-27. Wikipedia also lists CNN Brasil (not on LFP list).",
+   "source": "https://www.sportcal.com/news/xsports-to-share-ligue-1-rights-with-cazetv-in-brazil/"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists ESPN for the Caribbean (individual territories not listed).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Central and South America (excluding Brazil and Mexico)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists ESPN for Central and South America excluding Brazil and Mexico (ESPN channels / Disney+ streaming).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "CCTV-5",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Migu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "CCTV (state broadcaster) shows four matches per round; Migu streams all matches (LFP, Aug 2025; both still listed for 2026-27).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Star Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "JioHotstar",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "JioStar: at least four matches per matchday on JioHotstar plus a selection on Star Sports channels (new deal, Sept 2026). LFP lists the JioStar rights as 'Indian subcontinent'.",
+   "source": "https://www.sportcal.com/media/ligue-1-adds-india-indonesia-to-rights-mix-with-last-minute-media-deals/"
+  },
+  {
+   "country": "Indian subcontinent (other territories)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Star Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists 'Indian subcontinent: JioStar - Star Sports' without naming countries; Pakistan and Bangladesh have Tapmad (separate entries).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Tapmad deal from 20 Sept 2026 to end of 2026-27 (announced 1 Oct 2026).",
+   "source": "https://www.insideworldfootball.com/2026/10/01/lfp-media-inks-contract-with-streaming-platform-tapmad-in-pakistan-and-bangladesh/"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Tapmad deal from 20 Sept 2026 to end of 2026-27 (announced 1 Oct 2026).",
+   "source": "https://www.insideworldfootball.com/2026/10/01/lfp-media-inks-contract-with-streaming-platform-tapmad-in-pakistan-and-bangladesh/"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Vidio",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Emtek's Vidio OTT service shows all nine matches per matchweek (new deal, Sept 2026).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Alpha Hub",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "As listed by LFP; Wikipedia lists Bebee TV Sports. Service type not verified.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Varzish TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Varzish TV is the Tajik state sports channel (free-to-air status inferred, not stated by LFP).",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "MONOMAX (Mono)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists Mono (partner since 2025-26); Wikipedia names MONOMAX.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sport (NTRC)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "LFP lists Setanta Sports and NTRC (state broadcaster); Wikipedia names NTRC's 'Sport' channel. Free-to-air status inferred.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "VTVcab (ON Sports)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists VTVcab (partner since 2025-26); Wikipedia names ON Sports.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  },
+  {
+   "country": "Worldwide French-language rights",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "TV5MONDE",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "LFP lists TV5 Monde under 'Others - French Language Rights'. Scope (live/delayed/highlights) and territories not specified; TV5MONDE is carried free on some platforms but generally as part of basic cable/satellite packages.",
+   "source": "https://ligue1.com/en/international-broadcasters"
+  }
+ ]
+}

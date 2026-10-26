@@ -1,10 +1,10 @@
 /**
  * FBTV local source library CLI (data lives in IPTV_DATA_DIR, default ../FBTV-local-data).
  *
- *   refresh  [--offline] [--no-fixtures] [--only repo,…]   collect → providers → inventory → fixtures → catalogs → TV export → report
+ *   refresh  [--offline] [--no-fixtures] [--no-archive] [--only repo,…]   collect → providers → inventory → fixtures → catalogs → TV export → report
  *   rebuild                                 inventory → catalogs → export → report from stored data (no network)
  *   validate [--limit N] [--playable N] [--force] [--concurrency N]
- *   fixtures [--listings N]                 refresh fixtures only
+ *   fixtures [--offline] [--listings N]     refresh fixtures only (offline: stored responses only)
  *   export | serve [--port 8787] | report
  *   secret set|remove <profile-id> · xtream test <profile-id>
  */
@@ -14,6 +14,7 @@ import { collect, loadManifest } from './collect.ts';
 import { buildInventory, loadApi, readInventory, writeInventory, type InventoryRecord } from './inventory.ts';
 import { buildCatalogs } from './catalogs.ts';
 import { collectFixtures, type FixtureResult } from './fixtures.ts';
+import { resolveArchive } from './archive.ts';
 import { exportForTv, serve } from './export.ts';
 import { writeReport } from './report.ts';
 import { dataDir, ensureDataDir } from './paths.ts';
@@ -106,7 +107,7 @@ function providersLast(dir: string): ProviderReport[] {
 async function derive(dir: string, log: (m: string) => void, records: InventoryRecord[], inventoryErrors: { file: string; error: string }[]) {
   const manifest = loadManifest(dir);
   const fixtures = loadFixtures(dir);
-  const cat = buildCatalogs(dir, records, fixtures);
+  const cat = buildCatalogs(dir, records, fixtures, undefined, log);
   writeInventory(dir, records);
   const exp = exportForTv(dir, cat.channels, cat.registry);
   log(`catalogs: ${cat.channels.length} channels, ${cat.registry.items.length} registry items; TV export ${exp.dir}`);
@@ -124,6 +125,7 @@ async function main() {
       log(`data directory ${dir}`);
       const only = opt('only') ? opt('only')!.split(',') : undefined;
       const manifest = await collect(dir, log, { offline: flag('offline'), only });
+      if (!flag('no-archive')) await resolveArchive(dir, log, { offline: flag('offline') });
       const providers = flag('offline') ? providersLast(dir) : await importProviders(dir, log);
       writeFileSync(join(dir, 'generated/providers-last.json'), JSON.stringify(providers, null, 2));
       const inv = await buildInventory(dir, manifest, loadApi(dir), log);
@@ -140,7 +142,7 @@ async function main() {
       break;
     }
     case 'fixtures': {
-      const r = await collectFixtures(dir, log, { listings: opt('listings') ? Number(opt('listings')) : undefined });
+      const r = await collectFixtures(dir, log, { offline: flag('offline'), listings: opt('listings') ? Number(opt('listings')) : undefined });
       log(`fixtures: ${r.fixtures.length} events in ${r.competitions.length} competitions`);
       await derive(dir, log, readInventory(dir), []);
       break;

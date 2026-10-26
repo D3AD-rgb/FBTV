@@ -1,0 +1,4263 @@
+{
+ "competitionId": "spanish-la-liga",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.laliga.com/en-GB/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AD/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-AZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BB/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BD/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BF/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BH/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BJ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BQ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-BZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CD/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CF/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CH/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CV/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-CZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-DE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-DJ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-DK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-DM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-DO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-DZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-EC/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-EE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-EG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ER/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ES/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ET/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-FI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-FJ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-FK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-FR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GD/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GF/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GH/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GP/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GQ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-GY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-HK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-HN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-HR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-HT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-HU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ID/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-IE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-IL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-IN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-IQ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-IR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-IS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-IT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-JM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-JO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-JP/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KH/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-KZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LB/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LC/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LV/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-LY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MC/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MD/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ME/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MF/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ML/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MQ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MV/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MX/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-MZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NC/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NP/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-NZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-OM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PF/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PH/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-PY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-QA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-RE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-RO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-RS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-RU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-RW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SB/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SC/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SD/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SH/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ST/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SV/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-SZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TC/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TD/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TH/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TJ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TK/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TL/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TO/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TR/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TV/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TW/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-TZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-UA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-UG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-US/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-UY/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-UZ/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-VC/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-VE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-VG/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-VI/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-VN/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-VU/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-WF/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-WS/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-YE/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-YT/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ZA/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ZM/where-to-watch-laliga-easports",
+  "https://www.laliga.com/en-ZW/where-to-watch-laliga-easports",
+  "https://dazngroup.com/press-room/dazn-emitira-el-partido-en-abierto-de-laliga-ea-sports-durante-las-proximas-dos-temporadas/",
+  "https://dazngroup.com/press-room/dazn-extends-exclusive-laliga-live-broadcast-rights-in-italy-and-portugal/",
+  "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/",
+  "https://en.wikipedia.org/wiki/List_of_La_Liga_broadcasters",
+  "https://en.wikipedia.org/wiki/Caz%C3%A9TV",
+  "https://en.wikipedia.org/wiki/Canal_5_(Mexican_TV_channel)",
+  "https://en.wikipedia.org/wiki/PPTV_HD_36",
+  "https://en.wikipedia.org/wiki/Cambodian_Television_Network",
+  "https://en.wikipedia.org/wiki/TDM_(Macau)",
+  "https://en.wikipedia.org/wiki/Belarus-5",
+  "https://en.wikipedia.org/wiki/AzTV",
+  "https://en.wikipedia.org/wiki/Varzish_TV",
+  "https://en.wikipedia.org/wiki/Botswana_Television",
+  "https://en.wikipedia.org/wiki/Liberia_Broadcasting_System",
+  "https://en.wikipedia.org/wiki/Sierra_Leone_Broadcasting_Corporation",
+  "https://en.wikipedia.org/wiki/Televis%C3%A3o_Miramar",
+  "https://en.wikipedia.org/wiki/ATV_(Suriname)",
+  "https://en.wikipedia.org/wiki/Match_TV",
+  "https://en.wikipedia.org/wiki/Baba_TV_Uganda"
+ ],
+ "notes": "Primary source: the official laliga.com \"Where to watch LALIGA 2026/27\" pages, which embed the official broadcaster list per country (fetched for every country locale, e.g. https://www.laliga.com/en-XX/where-to-watch-laliga-easports; page data confirms season 2026). Spain 2026-27 is the final season of the 2022-27 domestic cycle: Movistar Plus+ and DAZN share the pay rights, DAZN also streams one match per matchday free, and LALIGA TV BAR serves hospitality venues. Free-to-air flags are based on the nature of each channel (public/terrestrial broadcasters, Wikipedia channel articles); FTA partners typically carry only selected matches. Channels marked \"not verified\" in notes are named by laliga.com but their access model could not be confirmed. Kosovo (XK) had no data on laliga.com. Liechtenstein, San Marino and Afghanistan come from the Wikipedia list only (unconfirmed for 2026-27). Web search quota was exhausted mid-research, so some secondary confirmations (e.g. African FTA partners, Brazil SportyNet) could not be cross-checked.",
+ "broadcasters": [
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "AF Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Meraj Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Not listed on laliga.com 2026-27 page; per Wikipedia \"List of La Liga broadcasters\" (season not stated). Channel types not verified. 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_La_Liga_broadcasters"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "DigitAlb",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SuperSport (Albania)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Algeria",
+   "code": "DZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-DZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "Mútua Elèctrica de Sant Julià de Lòria (Andorra eTVeu)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Mútua Elèctrica de Sant Julià de Lòria (Andorra eTVeu): local TV operator; Movistar Plus+: M+ LALIGA channel (listed as \"Movistar LALIGA\" on laliga.com)",
+   "source": "https://www.laliga.com/en-AD/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Angola",
+   "code": "AO",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Anguilla",
+   "code": "AI",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "code": "AG",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Fast Media: type/free-to-air status not verified",
+   "source": "https://www.laliga.com/en-AM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Aruba",
+   "code": "AW",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "AzTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). AzTV: state national broadcaster; Sport TV: Azerbaijani channel; type/free-to-air status not verified; Wikipedia list names Idman TV (state sports channel) and SportTV.",
+   "source": "https://www.laliga.com/en-AZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Bahamas",
+   "code": "BS",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Bahrain",
+   "code": "BH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BH/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Begin: type/free-to-air status not verified; Wikipedia list also names T Sports; not on laliga.com 2026-27 page.",
+   "source": "https://www.laliga.com/en-BD/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Barbados",
+   "code": "BB",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BB/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Belarus 5",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Kinopoisk",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "VOKA",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Belarus 5: Belteleradio state sports channel; Kinopoisk: subscription streaming service",
+   "source": "https://www.laliga.com/en-BY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN ELEVEN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). DAZN ELEVEN: Eleven/DAZN linear channels in Belgium & Luxembourg",
+   "source": "https://www.laliga.com/en-BE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Belize",
+   "code": "BZ",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Benin",
+   "code": "BJ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BJ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Bermuda",
+   "code": "BM",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Bolivia",
+   "code": "BO",
+   "channels": [
+    {
+     "name": "Tigo Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Botswana",
+   "code": "BW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Botswana TV (BTV)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Botswana TV (BTV): national public broadcaster",
+   "source": "https://www.laliga.com/en-BW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "CazéTV",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "SportyNet",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). CazéTV: streams free on YouTube (also FAST/partner platforms); whether every match is free not confirmed; SportyNet: type/free-to-air status not verified",
+   "source": "https://www.laliga.com/en-BR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "British Virgin Islands",
+   "code": "VG",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-VG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Burkina Faso",
+   "code": "BF",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BF/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Burundi",
+   "code": "BI",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Cabo Verde",
+   "code": "CV",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CV/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CTN",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). CTN: free-to-air terrestrial channel",
+   "source": "https://www.laliga.com/en-KH/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Cameroon",
+   "code": "CM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names CRTV Sports; not on laliga.com 2026-27 page.",
+   "source": "https://www.laliga.com/en-CM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "TSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RDS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). RDS: French-language",
+   "source": "https://www.laliga.com/en-CA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Caribbean Netherlands (Bonaire, Sint Eustatius and Saba)",
+   "code": "BQ",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BQ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Cayman Islands",
+   "code": "KY",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-KY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Central African Republic",
+   "code": "CF",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CF/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Chad",
+   "code": "TD",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TD/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "CCTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Migu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). CCTV: China Media Group state broadcaster (CCTV sports channels); which matches air on FTA TV not specified",
+   "source": "https://www.laliga.com/en-CN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Comoros",
+   "code": "KM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-KM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Cook Islands",
+   "code": "CK",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names ViX+ (via Tigo) for Central America.",
+   "source": "https://www.laliga.com/en-CR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "SportKlub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-HR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Cuba",
+   "code": "CU",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list names Tele Rebelde (state FTA); laliga.com 2026-27 lists only Rush Sports.",
+   "source": "https://www.laliga.com/en-CU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Curaçao",
+   "code": "CW",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Côte d'Ivoire",
+   "code": "CI",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "DR Congo",
+   "code": "CD",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CD/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-DK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Djibouti",
+   "code": "DJ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-DJ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Dominica",
+   "code": "DM",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-DM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-DO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-EC/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Egypt",
+   "code": "EG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-EG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names ViX+ (via Tigo) for Central America.",
+   "source": "https://www.laliga.com/en-SV/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Equatorial Guinea",
+   "code": "GQ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GQ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Eritrea",
+   "code": "ER",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-ER/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Go3: Go3 Sport channels / Go3 platform",
+   "source": "https://www.laliga.com/en-EE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Eswatini",
+   "code": "SZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Ethiopia",
+   "code": "ET",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-ET/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Falkland Islands",
+   "code": "FK",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-FK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Fiji",
+   "code": "FJ",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-FJ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-FI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-FR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "French Guiana",
+   "code": "GF",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GF/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "French Polynesia",
+   "code": "PF",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PF/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Gabon",
+   "code": "GA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Gambia",
+   "code": "GM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Silknet (Silk Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-DE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). SportyTV: access model not verified",
+   "source": "https://www.laliga.com/en-GH/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Gibraltar",
+   "code": "GI",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "SOFI Channel 109",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "smile",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Gib Fibre",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). SOFI Channel 109: pay-TV operator channel; smile: pay-TV operator; Gib Fibre: pay-TV/IPTV operator",
+   "source": "https://www.laliga.com/en-GI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Magenta TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Grenada",
+   "code": "GD",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GD/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Guadeloupe",
+   "code": "GP",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GP/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names ViX+ (via Tigo) for Central America.",
+   "source": "https://www.laliga.com/en-GT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Guinea",
+   "code": "GN",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Guinea-Bissau",
+   "code": "GW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Guyana",
+   "code": "GY",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Haiti",
+   "code": "HT",
+   "channels": [
+    {
+     "name": "CANAL+ Haïti",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-HT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names ViX+ (via Tigo) for Central America.",
+   "source": "https://www.laliga.com/en-HN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "Now Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-HK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Spíler2 TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-HU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-IS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-IN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-ID/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names IRIB Varzesh (state FTA), Gem Sport and Persiana Sports; not on laliga.com 2026-27 page, unconfirmed.",
+   "source": "https://www.laliga.com/en-IR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "channels": [
+    {
+     "name": "1001",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). 1001: type/free-to-air status not verified",
+   "source": "https://www.laliga.com/en-IQ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Disney+ took a three-year LaLiga package in the UK & Ireland (Sportcal, Dec 2025).",
+   "source": "https://www.laliga.com/en-IE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "ONE",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-IL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia \"List of La Liga broadcasters\" also lists Mediaset (not shown on laliga.com 2026-27 page; unconfirmed). DAZN renewed exclusive Italy rights to 2028-29 (DAZN press release, Apr 2024).",
+   "source": "https://www.laliga.com/en-IT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Jamaica",
+   "code": "JM",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-JM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "U-NEXT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-JP/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Jordan",
+   "code": "JO",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-JO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-KZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). SportyTV: access model not verified; Wikipedia list also names Azam Sports (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-KE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-KW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-KG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-LA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Go3: Go3 Sport channels / Go3 platform",
+   "source": "https://www.laliga.com/en-LV/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Lebanon",
+   "code": "LB",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-LB/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Lesotho",
+   "code": "LS",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-LS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Liberia",
+   "code": "LR",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Max it",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Workbor TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "LNTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Clar TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Max it: Orange Max it app; type/free-to-air status not verified; Workbor TV: Liberian channel; type/free-to-air status not verified; LNTV: Liberia Broadcasting System state TV; Clar TV: Liberian TV station; FTA status from general knowledge, not confirmed by source",
+   "source": "https://www.laliga.com/en-LR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Libya",
+   "code": "LY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-LY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Not listed on laliga.com 2026-27 page; per Wikipedia \"List of La Liga broadcasters\" (season not stated). 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_La_Liga_broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Go3: Go3 Sport channels / Go3 platform",
+   "source": "https://www.laliga.com/en-LT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN ELEVEN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). DAZN ELEVEN: Eleven/DAZN linear channels in Belgium & Luxembourg",
+   "source": "https://www.laliga.com/en-LU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "M Plus",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TDM",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). TDM: Macau public broadcaster (TDM sports channel); Wikipedia list also names Macau Cable TV.",
+   "source": "https://www.laliga.com/en-MO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Madagascar",
+   "code": "MG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Malawi",
+   "code": "MW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names Azam Sports (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-MW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Maldives",
+   "code": "MV",
+   "channels": [
+    {
+     "name": "ICE Network",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). ICE Network: type/free-to-air status not verified",
+   "source": "https://www.laliga.com/en-MV/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Mali",
+   "code": "ML",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-ML/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). TSN: Malta",
+   "source": "https://www.laliga.com/en-MT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Martinique",
+   "code": "MQ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MQ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Mauritania",
+   "code": "MR",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Mauritius",
+   "code": "MU",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names MBC (Mauritius Broadcasting Corporation, public FTA); not on laliga.com 2026-27 page.",
+   "source": "https://www.laliga.com/en-MU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Mayotte",
+   "code": "YT",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-YT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "izzi",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal 5",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). izzi: Televisa cable operator; Canal 5: TelevisaUnivision free-to-air network; selected matches only",
+   "source": "https://www.laliga.com/en-MX/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MD/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Monaco",
+   "code": "MC",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MC/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-ME/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Montserrat",
+   "code": "MS",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TV Miramar",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). TV Miramar: free-to-air terrestrial channel",
+   "source": "https://www.laliga.com/en-MZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Namibia",
+   "code": "NA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-NA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Nauru",
+   "code": "NR",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-NR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "DGO",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). DGO: DishHome Go OTT",
+   "source": "https://www.laliga.com/en-NP/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-NL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "New Caledonia",
+   "code": "NC",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-NC/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-NZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names ViX+ (via Tigo) for Central America.",
+   "source": "https://www.laliga.com/en-NI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Niger",
+   "code": "NE",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-NE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). SportyTV: access model not verified",
+   "source": "https://www.laliga.com/en-NG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Niue",
+   "code": "NU",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-NU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "TV 2 Sport Premium",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also mentions Viaplay (not on laliga.com 2026-27 page).",
+   "source": "https://www.laliga.com/en-NO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Oman",
+   "code": "OM",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-OM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Begin: type/free-to-air status not verified",
+   "source": "https://www.laliga.com/en-PK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Palestine",
+   "code": "PS",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list names ONE; laliga.com 2026-27 lists beIN SPORTS.",
+   "source": "https://www.laliga.com/en-PS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names ViX+ (via Tigo) for Central America.",
+   "source": "https://www.laliga.com/en-PA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Papua New Guinea",
+   "code": "PG",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Paraguay",
+   "code": "PY",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PH/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "CANAL+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (Portugal linear channels)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). DAZN renewed exclusive Portugal rights to 2028-29 (DAZN press release, Apr 2024).",
+   "source": "https://www.laliga.com/en-PT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "ESPN+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Qatar",
+   "code": "QA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-QA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Republic of the Congo",
+   "code": "CG",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Prima Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima TV / Prima Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Prima TV / Prima Play: linked to Prima Play platform; access model not verified",
+   "source": "https://www.laliga.com/en-RO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Match TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Match TV: Match TV is a federal free-to-air channel; laliga.com does not say whether matches air on the FTA channel or on Match! pay channels",
+   "source": "https://www.laliga.com/en-RU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Rwanda",
+   "code": "RW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names Azam Sports (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-RW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Réunion",
+   "code": "RE",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-RE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Saint Barthélemy",
+   "code": "BL",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-BL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Saint Helena",
+   "code": "SH",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SH/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Saint Kitts and Nevis",
+   "code": "KN",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-KN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Saint Lucia",
+   "code": "LC",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-LC/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Saint Martin",
+   "code": "MF",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-MF/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Saint Pierre and Miquelon",
+   "code": "PM",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-PM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Saint Vincent and the Grenadines",
+   "code": "VC",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-VC/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Samoa",
+   "code": "WS",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-WS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Not listed on laliga.com 2026-27 page; per Wikipedia \"List of La Liga broadcasters\" (season not stated); DAZN holds Italy rights to 2028-29. 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/List_of_La_Liga_broadcasters"
+  },
+  {
+   "country": "Saudi Arabia",
+   "code": "SA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Senegal",
+   "code": "SN",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-RS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Seychelles",
+   "code": "SC",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SC/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Sierra Leone",
+   "code": "SL",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SLBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Max it",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). SLBC: national public broadcaster; Max it: Orange Max it app; type/free-to-air status not verified",
+   "source": "https://www.laliga.com/en-SL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "SportKlub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Solomon Islands",
+   "code": "SB",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SB/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Somalia",
+   "code": "SO",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). SportyTV: access model not verified; OneFootball: access model not verified",
+   "source": "https://www.laliga.com/en-ZA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "South Georgia and the South Sandwich Islands",
+   "code": "GS",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-GS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-KR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "South Sudan",
+   "code": "SS",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SS/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (free match of the matchday)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "LALIGA TV BAR",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). DAZN shows one LALIGA EA SPORTS match per matchday free of charge in 2025-26 and 2026-27 (DAZN press release 13 May 2025: https://dazngroup.com/press-room/dazn-emitira-el-partido-en-abierto-de-laliga-ea-sports-durante-las-proximas-dos-temporadas/); free match accessible via the DAZN app per Wikipedia list; all other matches are pay (Movistar Plus+ / DAZN share the domestic pay rights, 2022-27 cycle per Wikipedia list); Movistar Plus+: M+ LALIGA channel (listed as \"Movistar LALIGA\" on laliga.com); DAZN: 5 matches per matchday on 35 matchdays (2022-27 domestic cycle); LALIGA TV BAR: for bars/hospitality (HORECA) only",
+   "source": "https://www.laliga.com/en-ES/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Begin: type/free-to-air status not verified",
+   "source": "https://www.laliga.com/en-LK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Sudan",
+   "code": "SD",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SD/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ATV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). ATV: ATV channel 12.2, state-run terrestrial station; Wikipedia list also names ABC, QN Sport, SCCN and STVS (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-SR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-CH/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Syria",
+   "code": "SY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-SY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "São Tomé and Príncipe",
+   "code": "ST",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-ST/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ELEVEN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). ELEVEN SPORTS: DAZN-owned Eleven Sports Taiwan",
+   "source": "https://www.laliga.com/en-TW/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Varzish TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Varzish TV: state sports channel",
+   "source": "https://www.laliga.com/en-TJ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Okapi Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TV-E",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Okapi Sports: type/free-to-air status not verified; TV-E: Tanzanian TV station; FTA status from general knowledge, not confirmed by source; Wikipedia list also names Azam Sports (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-TZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "PPTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). PPTV: PPTV HD 36 digital terrestrial channel",
+   "source": "https://www.laliga.com/en-TH/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Timor-Leste",
+   "code": "TL",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TL/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Togo",
+   "code": "TG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Tokelau",
+   "code": "TK",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TK/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Tonga",
+   "code": "TO",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TO/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "code": "TT",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TT/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Tunisia",
+   "code": "TN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Turks and Caicos Islands",
+   "code": "TC",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TC/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Tuvalu",
+   "code": "TV",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TV/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Türkiye",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "S Sport Plus",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-TR/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "US Virgin Islands",
+   "code": "VI",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-VI/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Baba TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Baba TV: Ugandan regional TV station; FTA status from general knowledge, not confirmed by source; Wikipedia list also names Azam Sports (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-UG/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "MEGOGO",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-UA/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "United Arab Emirates",
+   "code": "AE",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-AE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Disney+ took a three-year LaLiga package in the UK & Ireland (Sportcal, Dec 2025).",
+   "source": "https://www.laliga.com/en-GB/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "ESPN+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-US/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Uruguay",
+   "code": "UY",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-UY/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list names Zo'r TV; not on laliga.com 2026-27 page.",
+   "source": "https://www.laliga.com/en-UZ/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Vanuatu",
+   "code": "VU",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-VU/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DSports (DIRECTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "IVC Networks",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-VE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "SCTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "VTVcab",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list names On Sports (VTVcab's sports channel).",
+   "source": "https://www.laliga.com/en-VN/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Wallis and Futuna",
+   "code": "WF",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-WF/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Yemen",
+   "code": "YE",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com).",
+   "source": "https://www.laliga.com/en-YE/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names Azam Sports (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-ZM/where-to-watch-laliga-easports"
+  },
+  {
+   "country": "Zimbabwe",
+   "code": "ZW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official LALIGA 2026/27 broadcaster list (laliga.com). Wikipedia list also names Azam Sports (unconfirmed for 2026-27).",
+   "source": "https://www.laliga.com/en-ZW/where-to-watch-laliga-easports"
+  }
+ ]
+}

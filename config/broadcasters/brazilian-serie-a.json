@@ -1,0 +1,638 @@
+{
+ "competitionId": "brazilian-serie-a",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A",
+  "https://www.meioemensagem.com.br/midia/brasileirao-2026-onde-assistir-e-patrocinadores",
+  "https://maquinadoesporte.com.br/?p=219654",
+  "https://maquinadoesporte.com.br/?p=221038",
+  "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/",
+  "https://maquinadoesporte.com.br/?p=212993",
+  "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html",
+  "https://www.tvazteca.com/aztecadeportes/oficial-tv-azteca-deportes-transmitira-en-vivo-el-brasileirao-serie-a/",
+  "https://start.sportdigital.de/files/pm/20250710_PM_Brasilianische_Liga.pdf",
+  "https://maquinadoesporte.com.br/midia/1190-sports-fecha-acordo-com-csn-para-transmissao-do-brasileirao-nos-eua-e-canada/",
+  "https://senalnews.com/es/digital/cns-comienza-a-transmitir-el-brasileirao-a-para-estados-unidos-y-canada",
+  "https://en.wikipedia.org/wiki/Campeonato_Brasileiro_S%C3%A9rie_A",
+  "https://dnbrasil.dn.pt/veja-como-acompanhar-partidas-do-futebol-brasileiro-em-portugal"
+ ],
+ "notes": "Domestic rights for 2026 are sold in two club blocs: Libra (exclusive to Grupo Globo: TV Globo, SporTV, Premiere, GE TV, Globoplay) and Futebol Forte Uniao (FFU, formerly LFU), whose matches are split between Record + CazeTV (one shared match per round), Amazon Prime Video (one exclusive match per round) and Globo platforms (Premiere and selected TV Globo/SporTV games). International rights for 2025-2027 are held by agency 1190 Sports for all clubs except Flamengo, which distributes its home matches abroad itself. Several international deals were announced in 2025 as multi-season contracts that include 2026; where a deal was only confirmed for 2025 (Portugal, Peru, Chile) or is listed without a season (Wikipedia: MENA, Africa, Fanatiz/Flamengo TV), the entry note says so. Not included for lack of confirmation: MatchTV (reported by Maquina do Esporte in Aug 2025 as the 'Asia' licensee), Tigo Sports Bolivia (deal ran only to end of 2025 season), StarTimes 228-match deal (dated 2022/2023).",
+ "broadcasters": [
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "TV Globo",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Record",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "CazéTV (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "GE TV (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "SporTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Premiere",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Amazon Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Globoplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "TV Globo shows selected matches (mainly Libra clubs; usually Wednesday 21:30 and Sunday 16:00) with regional splits, so the free-to-air match differs by region. Record shows one FFU match per round (usually Sunday 20:30, some Wednesdays), simulcast free on CazeTV's YouTube channel. GE TV streams the round's Globo match on YouTube. SporTV (pay) usually carries about 2 selected games per round. Premiere is pay-per-view with nearly all games (not Amazon's exclusive). Amazon Prime Video has 1 exclusive FFU match per round (38 total).",
+   "source": "https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2026_-_S%C3%A9rie_A"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2 live matches per round; deal announced Aug 2025 for the 2025 and 2026 seasons.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2 live matches per round; deal announced Aug 2025 for the 2025 and 2026 seasons.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Movistar Liga de Campeones",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Movistar Plus+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Movistar deal covers 2025-2027: 4 live matches per round on the Movistar Liga de Campeones channel and 1 per round on the Movistar Plus+ OTT service.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sportdigital FUSSBALL",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Up to 3 live matches per matchday; contract runs until the end of the 2027 season (press release, July 2025). Also available via the SPORTDIGITAL+ subscription app.",
+   "source": "https://start.sportdigital.de/files/pm/20250710_PM_Brasilianische_Liga.pdf"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sportdigital FUSSBALL",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sportdigital covers the DACH region; up to 3 live matches per matchday; contract to end of 2027 season.",
+   "source": "https://start.sportdigital.de/files/pm/20250710_PM_Brasilianische_Liga.pdf"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sportdigital FUSSBALL",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sportdigital covers the DACH region; up to 3 live matches per matchday; contract to end of 2027 season.",
+   "source": "https://start.sportdigital.de/files/pm/20250710_PM_Brasilianische_Liga.pdf"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Canal 11",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest confirmed: 1190 Sports deal for 2025 (4 live matches per round); Wikipedia still lists Canal 11, but a 2026 renewal was not found. Canal 11 is the Portuguese Football Federation's channel; DN Brasil (2024) describes it as free/open TV, so access terms should be verified.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "D-Smart",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Three-season deal from 2025: all live matches except Flamengo home games.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkan deal (same model as Turkey): all live matches except Flamengo home games. Announced Aug 2025; term not stated, assumed to include 2026.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkan deal announced Aug 2025: all live matches except Flamengo home games. Term not stated.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkan deal announced Aug 2025: all live matches except Flamengo home games. Term not stated.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkan deal announced Aug 2025: all live matches except Flamengo home games. Term not stated.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkan deal announced Aug 2025: all live matches except Flamengo home games. Term not stated.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkan deal announced Aug 2025: all live matches except Flamengo home games. Term not stated.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkan deal announced Aug 2025: all live matches except Flamengo home games. Term not stated. XK is a user-assigned code (Kosovo has no official ISO 3166-1 code).",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "3 matches per round, deal through 2027 (announced Aug 2025). Channel names and pricing not stated in source.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "El Canal del Fútbol (ECDF)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Three-season deal from 2025: all live matches except Flamengo home games (Maquina do Esporte lists it under 'Latin America'; Wikipedia lists ECDF for Ecuador). Ecuador is excluded from the free Kick/Canal Goat deal because of this contract.",
+   "source": "https://maquinadoesporte.com.br/midia/brasileirao-amplia-presenca-internacional-com-11-novos-contratos-de-transmissao/"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "Flow",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Flow (Telecom): 2 matches per round, deal through 2027 (announced Nov 2025). Canal Goat streams 2 matches per round free on Kick with Portuguese commentary (2026 season, sublicensed via 1190 Sports).",
+   "source": "https://maquinadoesporte.com.br/?p=212993"
+  },
+  {
+   "country": "Paraguay",
+   "code": "PY",
+   "channels": [
+    {
+     "name": "Flow",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Flow: 2 matches per round through 2027. Canal Goat on Kick: 2 matches per round free, Portuguese commentary (2026).",
+   "source": "https://maquinadoesporte.com.br/?p=212993"
+  },
+  {
+   "country": "Uruguay",
+   "code": "UY",
+   "channels": [
+    {
+     "name": "Flow",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Flow: 2 matches per round through 2027. Canal Goat on Kick: 2 matches per round free, Portuguese commentary (2026).",
+   "source": "https://maquinadoesporte.com.br/?p=212993"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Win Sports+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Win Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Win Sports: 3 live matches per round on the premium Win Sports+ channel and Win Play platform, through 2027 (announced Nov 2025). Canal Goat on Kick: 2 matches per round free (2026).",
+   "source": "https://maquinadoesporte.com.br/?p=212993"
+  },
+  {
+   "country": "Bolivia",
+   "code": "BO",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026). Tigo Sports' deal was announced only through the end of the 2025 season; no 2026 pay-TV holder confirmed.",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "Claro VTR",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Claro VTR: prior agreement reported as still in force in Aug 2025; 2026 status not confirmed. Canal Goat on Kick: 2 matches per round free (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "L1 MAX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "L1 MAX / L1: prior agreement reported as still in force in Aug 2025 (also listed on Wikipedia); 2026 status not separately confirmed. Canal Goat on Kick: 2 matches per round free (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "TV Azteca Deportes Network (and digital platforms)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "TV Azteca Deportes announced (Jan 2026) it will carry the 2026 Brasileirao all season on its network and digital platforms; specific channels, match count and whether any games air on free-to-air TV were not stated, so type is uncertain. Canal Goat on Kick: 2 matches per round free (2026).",
+   "source": "https://www.tvazteca.com/aztecadeportes/oficial-tv-azteca-deportes-transmitira-en-vivo-el-brasileirao-serie-a/"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Belize",
+   "code": "BZ",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "Canal Goat (Kick)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2 matches per round free on Kick, Portuguese commentary (2026).",
+   "source": "https://www.lance.com.br/lance-negocios/parceria-leva-o-campeonato-brasileiro-para-17-paises-da-america-latina.html"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Creator Sports Network (YouTube/Twitch)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "CSN deal via 1190 Sports runs through the 2026 season: one match per round, with English and Spanish creator-led broadcasts on YouTube and Twitch. Sources do not state pricing explicitly (YouTube/Twitch streams are normally free to view). Fanatiz is also listed by Wikipedia as an international platform (see Worldwide entry); not separately confirmed for the US in 2026.",
+   "source": "https://maquinadoesporte.com.br/midia/1190-sports-fecha-acordo-com-csn-para-transmissao-do-brasileirao-nos-eua-e-canada/"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Creator Sports Network (YouTube/Twitch)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "CSN deal (US and Canada) runs through the 2026 season: one match per round in English and Spanish on YouTube and Twitch. Pricing not explicitly stated in sources.",
+   "source": "https://senalnews.com/es/digital/cns-comienza-a-transmitir-el-brasileirao-a-para-estados-unidos-y-canada"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Dubai Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed in Wikipedia's 'outside Brazil' broadcaster table without a season; no 2026 deal announcement found. Access terms not stated.",
+   "source": "https://en.wikipedia.org/wiki/Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "country": "Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "StarTimes Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed in Wikipedia's 'outside Brazil' broadcaster table without a season or country breakdown; no 2026 deal announcement found (the last confirmed StarTimes deal found dates from 2022/2023). Channel types and access terms not verified.",
+   "source": "https://en.wikipedia.org/wiki/Campeonato_Brasileiro_S%C3%A9rie_A"
+  },
+  {
+   "country": "Worldwide (various territories)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Fanatiz",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Flamengo TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Wikipedia lists Fanatiz and Flamengo TV as 'International' broadcasters (no season given). Flamengo did not join the 1190 Sports deal and sells its 19 home matches abroad via its own streaming platform (Maquina do Esporte, Aug 2025). Territory availability and pricing not confirmed for 2026.",
+   "source": "https://en.wikipedia.org/wiki/Campeonato_Brasileiro_S%C3%A9rie_A"
+  }
+ ]
+}

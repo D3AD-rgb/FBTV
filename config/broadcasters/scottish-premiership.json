@@ -1,0 +1,787 @@
+{
+ "competitionId": "scottish-premiership",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://spfl.co.uk/news/spfl-fixtures-for-202627",
+  "https://www.skysports.com/football/news/11781/13551122/scottish-premiership-2026-27-fixtures-dates-schedule-every-match-across-opening-weekend-live-on-sky-sports",
+  "https://www.advanced-television.com/2026/06/18/sky-sports-to-air-all-opening-scottish-premiership-2026-27-fixtures/",
+  "https://spfl.co.uk/news/spfl-tv-guide-51469",
+  "https://www.sportcal.com/?p=120305",
+  "https://spfl.co.uk/news/spfl-announces-multi-year-extensions-to-bbc-and-",
+  "https://en.wikipedia.org/wiki/Scottish_Premiership",
+  "https://www.cbssports.com/soccer/news/cbs-sports-and-paramount-welcome-the-scottish-professional-football-league-to-the-family/",
+  "https://en.wikipedia.org/wiki/CBS_Sports_Golazo_Network"
+ ],
+ "notes": "UK 2026/27 confirmed by SPFL/Sky: Sky Sports (up to 60 live Premiership games, all six opening-weekend games) and Premier Sports (20 pre-split + 2 post-split); BBC Scotland Sportscene highlights; no live Premiership games free-to-air in the UK. International: SPFL says matches are broadcast in 150+ countries via agency Infront (contract to summer 2029, new Japan/South Korea deals with unnamed broadcasters); no official 2026-27 country list was found, so international entries use Wikipedia's latest (undated) table and may be partly outdated. Gaps: Canada, Japan, South Korea, India, France, Spain, Belgium not covered by a source read.",
+ "broadcasters": [
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "BBC Scotland - Sportscene (highlights)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "BBC ALBA (delayed matches)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky Sports: up to 60 live Premiership matches in 2026/27 (max five per ground), incl. all six opening-weekend games; deal 2024/25-2028/29. Premier Sports: 20 live pre-split matches plus 2 bottom-six post-split matches per season to 2028/29. BBC Scotland: Sportscene highlights (deal extended to summer 2029); its live Friday games are Championship, not Premiership. BBC ALBA shows delayed matches on Saturday evenings (Wikipedia). No live Premiership matches free-to-air.",
+   "source": "https://www.skysports.com/football/news/11781/13551122/scottish-premiership-2026-27-fixtures-dates-schedule-every-match-across-opening-weekend-live-on-sky-sports"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CBS Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CBS Sports Golazo Network",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "CBS Sports/Paramount+ multi-year deal from 2021 (at least 85 SPFL matches a year, originally to 2024-25); Wikipedia still lists CBS Sports Network/Paramount+ and CBS Sports Golazo Network carries select live SPFL matches. 2026-27 renewal not confirmed in sources found.",
+   "source": "https://www.cbssports.com/soccer/news/cbs-sports-and-paramount-welcome-the-scottish-professional-football-league-to-the-family/"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CBS Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. Listed with the United States.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "Canal GOAT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. Canal GOAT is a digital (YouTube-based) channel; whether matches are free was not verified.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. Countries not itemised.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Zhibo.tv",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Premier Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Premier Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Cosmote Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Arena4",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 5",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Como TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Latin America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. Countries not itemised.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. Listing may be outdated (Sportdigital listed for neighbouring Germany/Austria/Switzerland).",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sharjah Sports",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. Sharjah Sports is a government-owned free-to-air satellite channel (FTA inferred). Countries not itemised.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Match TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. Possibly outdated (Match TV dates from earlier SPFL international deals).",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. ESPN Africa; countries not itemised.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "True Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TRT Spor",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Latest listed holder per Wikipedia's (undated, largely unsourced) international broadcasters table; SPFL international rights are sold by Infront (contract to summer 2029). 2026-27 deal not separately confirmed. TRT Spor is the public broadcaster's sports channel (FTA inferred).",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  },
+  {
+   "country": "Worldwide",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SPFL YouTube channel (highlights only)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "6-10 minute highlights of all Premiership matches (no commentary) on the official SPFL YouTube channel; not live matches.",
+   "source": "https://en.wikipedia.org/wiki/Scottish_Premiership"
+  }
+ ]
+}

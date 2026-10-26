@@ -1,0 +1,271 @@
+{
+ "competitionId": "ufc",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.ufc.com/event/ufc-333",
+  "https://www.ufc.com.br/event/ufc-333",
+  "https://www.ufcespanol.com/event/ufc-333",
+  "https://us.ufcespanol.com/event/ufc-333",
+  "https://jp.ufc.com/event/ufc-333",
+  "https://kr.ufc.com/event/ufc-333",
+  "https://ufc.ru/event/ufc-333",
+  "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+ ],
+ "notes": "UFC publishes no global broadcaster list; ufc.com shows only the viewer's geolocated partner (UK during research). Official regional UFC sites were checked for UFC 333 (24 Oct 2026): UK TNT Sports, Brazil/Latin America/US Spanish Paramount+, Japan UFC Fight Pass, Korea TVING, Russia Fight Pass. Other countries from Wikipedia (partly undated). Gaps (no verifiable source found; web-search quota exhausted): Ireland, Bangladesh, Germany, France, Spain, Italy, Netherlands, MENA, China.",
+ "broadcasters": [
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CBS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "7-year Paramount Skydance deal from 2026: all UFC events (13 numbered events + 30 Fight Nights/yr) stream on Paramount+ with no PPV; selected numbered events also on CBS (free over-the-air). Official UFC Espanol US event page confirms 'Mira en Paramount+'.",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max (TNT Sports)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "UFC Fight Pass",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official ufc.com (UK) event page for UFC 333 (Oct 2026): main card on TNT Sports, prelims and early prelims on UFC Fight Pass. TNT Sports holds exclusive UK rights.",
+   "source": "https://www.ufc.com/event/ufc-333"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official ufc.com.br event page (UFC 333): main card and prelims 'Assista no Paramount+'.",
+   "source": "https://www.ufc.com.br/event/ufc-333"
+  },
+  {
+   "country": "Latin America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "UFC Fight Pass",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official UFC Espanol (Latin America) event page: main card and prelims on Paramount+, early prelims on UFC Fight Pass. Paramount+ exclusive in Latin America since 28 Oct 2025 (incl. Mexico).",
+   "source": "https://www.ufcespanol.com/event/ufc-333"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "UFC Fight Pass",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered by the Latin America Paramount+ deal (from Oct 2025), per Wikipedia and the UFC Espanol LatAm event page.",
+   "source": "https://www.ufcespanol.com/event/ufc-333"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Foxtel (Main Event)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Paramount+ has all Fight Nights and numbered-event prelims; Foxtel holds the numbered-event main cards. Per Wikipedia's UFC article (international broadcasters section; dates/current status not fully stated).",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Sportsnet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Rogers Sportsnet won Canadian rights in 2024. Per Wikipedia's UFC article (international broadcasters section; dates/current status not fully stated).",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Sony Sports Network (Sony Ten)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sony Ten channels listed (no years given). Per Wikipedia's UFC article (international broadcasters section; dates/current status not fully stated).",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "Sony Sports Ten 2",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "UFC Fight Pass",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Primary broadcaster since 2018. Per Wikipedia's UFC article (international broadcasters section; dates/current status not fully stated).",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official broadcaster since 2018. Per Wikipedia's UFC article (international broadcasters section; dates/current status not fully stated).",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "tvOne",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "tvOne (free-to-air) since 2018; current status not confirmed. Per Wikipedia's UFC article (international broadcasters section; dates/current status not fully stated).",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "Disney+ (ESPN hub)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Disney+ Philippines via the ESPN hub from October 2026 (Premier Sports Oct 2021 - Dec 2025). Per Wikipedia's UFC article (international broadcasters section; dates/current status not fully stated).",
+   "source": "https://en.wikipedia.org/wiki/Ultimate_Fighting_Championship"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "UFC Fight Pass",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official jp.ufc.com event page (UFC 333) lists only 'Watch on UFC Fight Pass'.",
+   "source": "https://jp.ufc.com/event/ufc-333"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "TVING",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "UFC Fight Pass",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official kr.ufc.com event page (UFC 333): TVING plus UFC Fight Pass.",
+   "source": "https://kr.ufc.com/event/ufc-333"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "UFC Fight Pass (ufcfightpass.ru)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Match TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official ufc.ru event page links to UFC Fight Pass Russia; Wikipedia lists Match TV for Russian-language broadcasts since 2022.",
+   "source": "https://ufc.ru/event/ufc-333"
+  },
+  {
+   "country": "Worldwide",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "UFC Fight Pass",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UFC Fight Pass (official subscription streaming) carries prelims/early prelims and, in territories without a TV partner, full events.",
+   "source": "https://www.ufc.com/event/ufc-333"
+  }
+ ]
+}

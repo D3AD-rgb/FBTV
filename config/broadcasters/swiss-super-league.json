@@ -1,0 +1,51 @@
+{
+ "competitionId": "swiss-super-league",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026%E2%80%9327_Swiss_Super_League",
+  "https://en.wikipedia.org/wiki/Swiss_Super_League",
+  "https://www.bluewin.ch/en/sport/football/the-super-league-has-a-new-name-sponsor-as-of-the-2526-season-2532183.html",
+  "https://www.swisscom.ch/de/about/news/2024/05/14-sportrechte.html",
+  "https://www.sportcal.com/media/sfl-awards-domestic-media-rights-to-swisscom-srg-ssr/",
+  "https://www.bluewin.ch/de/sport/fussball/super-league/blue-sport-sichert-sich-tv-rechte-bis-2030-li.2171920",
+  "https://allnews.ch/node/122553",
+  "https://www.sfl.ch/",
+  "https://tv.sfl.ch/",
+  "https://worldsoccertalk.com/tag/swiss-football-league"
+ ],
+ "notes": "Since 2025-26 the league is called the 'Brack Super League' after online retailer Brack replaced Credit Suisse (deal of at least five years). The 2026-27 season runs 24 Jul 2026 - 30 May 2027. Domestic rights for 2025-26 to 2029-30 are split between blue Sport (Swisscom; every match) and SRG SSR (one live match per round on free TV). blue Zoom's free live match is from the Challenge League only, so it is not listed. Outside Switzerland the league runs its own platform, SFL TV (tv.sfl.ch). No other country-specific foreign broadcaster deals were found, and a web search quota limit stopped further research into foreign deals.",
+ "broadcasters": [
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "blue Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SRG SSR (SRF / RTS / RSI)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "blue Sport shows every regular-season match plus the relegation play-off live in German, French and Italian. A blue Sport subscription is needed, and customers of other Swiss providers can get it through the blue TV app. SRG SSR shows one Super League match per round on its free-TV channels, so only some matches are free. The sources do not name which SRG channel airs each match. Both deals run 2025-26 to 2029-30.",
+   "source": "https://www.swisscom.ch/de/about/news/2024/05/14-sportrechte.html"
+  },
+  {
+   "country": "Worldwide (outside Switzerland)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SFL TV (tv.sfl.ch)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The league's own international streaming platform: Wikipedia lists it as the broadcaster outside Switzerland. A 2024 report said it carries every Super League and Challenge League match for viewers outside Switzerland, with German, French or Italian commentary. Pricing and geo-restrictions for 2026-27 could not be verified; earlier reports described paid per-match access and some excluded territories.",
+   "source": "https://en.wikipedia.org/wiki/Swiss_Super_League"
+  }
+ ]
+}

@@ -373,6 +373,7 @@ const HOUR = 3600000;
 let lastCall = 0;
 /** Grows after each block (Cloudflare lengthens repeat blocks), so the run slows instead of hammering. */
 let spacing = SPACING_MS;
+let offlineMode = false;
 
 /**
  * `maxAgeMs`: reuse a stored response this recent instead of asking again — league details for
@@ -380,6 +381,15 @@ let spacing = SPACING_MS;
  */
 async function tsdb<T>(dir: string, endpoint: string, log: (m: string) => void, maxAgeMs = 3 * HOUR): Promise<T | null> {
   const file = join(dir, 'repositories/thesportsdb', `${endpoint.replace(/[^a-z0-9]+/gi, '_')}.json`);
+  // Offline: every stored response is used whatever its age, and nothing is fetched.
+  if (offlineMode) {
+    if (!existsSync(file)) return null;
+    try {
+      return JSON.parse(readFileSync(file, 'utf8')) as T;
+    } catch {
+      return null;
+    }
+  }
   if (maxAgeMs && existsSync(file) && Date.now() - statSync(file).mtimeMs < maxAgeMs) {
     try {
       return JSON.parse(readFileSync(file, 'utf8')) as T;
@@ -536,6 +546,7 @@ export interface FixtureResult {
 
 export async function collectFixtures(dir: string, log: (m: string) => void, opts: { offline?: boolean; listings?: number } = {}): Promise<FixtureResult> {
   const now = Date.now();
+  offlineMode = !!opts.offline;
   const competitions: CompetitionInfo[] = [];
   const fixtures: Fixture[] = [];
 
@@ -562,7 +573,7 @@ export async function collectFixtures(dir: string, log: (m: string) => void, opt
     competitions.push(info);
   }
 
-  if (!opts.offline) {
+  {
     const league = async (lg: TsdbLeague, retry: boolean): Promise<boolean> => {
       const info = await tsdb<{ leagues?: { strLeague?: string; strCountry?: string }[] }>(dir, `lookupleague.php?id=${lg.id}`, log, 30 * 24 * HOUR);
       const actual = info && info.leagues && info.leagues[0] ? info.leagues[0].strLeague || '' : '';
@@ -574,7 +585,9 @@ export async function collectFixtures(dir: string, log: (m: string) => void, opt
       if (!info) {
         // No answer at all (rate limited) is not a mismatch: retry once later, then record it honestly.
         if (!retry) return false;
-        comp.error = `TheSportsDB did not answer for id ${lg.id} (rate limited); not verified, events not used. Run "npm run library:fixtures" later.`;
+        comp.error = offlineMode
+          ? `No stored TheSportsDB response for id ${lg.id}; run "npm run library:fixtures" online.`
+          : `TheSportsDB did not answer for id ${lg.id} (rate limited); not verified, events not used. Run "npm run library:fixtures" later.`;
         log(comp.error);
         return true;
       }
@@ -648,8 +661,10 @@ export async function collectFixtures(dir: string, log: (m: string) => void, opt
     const retryLater: TsdbLeague[] = [];
     for (const lg of TSDB_LEAGUES) if (!(await league(lg, false))) retryLater.push(lg);
     if (retryLater.length) {
-      log(`thesportsdb: no answer for ${retryLater.map((l) => l.name).join(', ')}; retrying after a 90 s pause`);
-      await new Promise((r) => setTimeout(r, 90000));
+      if (!offlineMode) {
+        log(`thesportsdb: no answer for ${retryLater.map((l) => l.name).join(', ')}; retrying after a 90 s pause`);
+        await new Promise((r) => setTimeout(r, 90000));
+      }
       for (const lg of retryLater) await league(lg, true);
     }
 

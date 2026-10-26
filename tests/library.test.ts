@@ -2,13 +2,14 @@
 // TEST DATA — every channel, URL, team and account below is synthetic.
 import { describe, expect, it } from 'vitest';
 import { parsePlaylist, parseTxtPlaylist, type M3UEntry } from '../src/shared/m3u.ts';
-import { classifyStream, markDuplicates, parseMyTvList, type SourceCtx } from '../src/library/inventory.ts';
+import { classifyStream, markDuplicates, parseMyTvList, providerAccountUrl, type SourceCtx } from '../src/library/inventory.ts';
 import { buildChannels } from '../src/library/catalogs.ts';
 import { footballRole, sportsOf, fixturePriority, isBigClub, sameTeam, PAY_TV_RELAY } from '../src/library/policy.ts';
 import { zonedToUtc, parseOpenfootball, parseFootballTxt, sameMatch, fromTsdbEvent, roundLabel, roundsToFetch, TSDB_LEAGUES, OPENFOOTBALL } from '../src/library/fixtures.ts';
 import { detectCapabilities, importVod, languageFor, playUrl, type Fetcher } from '../src/library/xtream.ts';
 import { maskSecrets } from '../src/library/secrets.ts';
 import { compact, selectFor } from '../src/library/export.ts';
+import { ARCHIVE_SETS, archiveEligible, playableFiles } from '../src/library/archive.ts';
 import { isNews, isSports } from '../src/library/catalogs.ts';
 import { adapt, applySelect, libStatus } from '../src/app/data/sourceLibrary.ts';
 import type { XtreamProfile } from '../src/library/profiles.ts';
@@ -27,6 +28,16 @@ const ctx = (over: Partial<SourceCtx> = {}): SourceCtx => ({
 const entry = (title: string, url: string, extra: Partial<M3UEntry> = {}): M3UEntry => ({ title, url, duration: -1, attrs: {}, line: 3, ...extra });
 
 describe('inventory statuses (nothing dropped, reasons recorded)', () => {
+  it('withholds paid-IPTV account URLs (credentials in the path), but not ordinary CDN paths', () => {
+    expect(providerAccountUrl('http://reseller.test:41001/someuser/somepass/31991')).toBe(true);
+    expect(providerAccountUrl('http://portal.test:80/live/u/p/31731.ts')).toBe(true);
+    expect(providerAccountUrl('http://x.test/get.php?username=a&password=b&type=m3u')).toBe(true);
+    expect(providerAccountUrl('https://cdn.test/hls/live/2003000/master.m3u8')).toBe(false);
+    expect(providerAccountUrl('http://1.2.3.4:8080/hls/channel.m3u8')).toBe(false);
+    const r = classifyStream(entry('Some Channel', 'http://reseller.test:41001/someuser/somepass/31991'), ctx(), null, NOW, 0);
+    expect([r.status, r.url]).toEqual(['restricted', null]);
+  });
+
   it('treats HTTP-FLV as live, and a media file or a duration as on demand', () => {
     expect(classifyStream(entry('Aneflix Live', 'https://cdn.test/play/live_a.flv'), ctx(), null, NOW, 0).kind).toBe('stream');
     expect(classifyStream(entry('A Film', 'https://cdn.test/films/a.mp4'), ctx(), null, NOW, 1).kind).toBe('vod');
@@ -396,5 +407,34 @@ describe('TV export selection rules', () => {
     expect(libStatus(c)).toMatch(/Unavailable · link withheld/);
     const ok = adapt({ i: 'y', n: 'Y', p: 1, r: ['iptv-org'], st: [{ u: 'https://a.test/y.m3u8', s: 'imported', v: 'untested' }] });
     expect(libStatus(ok)).toBe('Untested');
+  });
+});
+
+describe('Internet Archive public-domain items', () => {
+  const films = ARCHIVE_SETS.filter((x) => x.id === 'films-eng')[0]!;
+  const hindi = ARCHIVE_SETS.filter((x) => x.id === 'films-hin')[0]!;
+  const ben = ARCHIVE_SETS.filter((x) => x.id === 'films-ben')[0]!;
+  const PD = 'http://creativecommons.org/publicdomain/mark/1.0/';
+  it('offers credible public-domain films and records why others are excluded', () => {
+    expect(archiveEligible({ identifier: 'a', title: 'His Girl Friday', year: 1940, licenseurl: PD, collection: ['Comedy_Films', 'feature_films'] }, films).ok).toBe(true);
+    expect(archiveEligible({ identifier: 'b', title: 'Rockstar ( 2011)', year: 2011, licenseurl: PD, collection: ['feature_films_unsorted'] }, hindi).reason).toMatch(/too recent/);
+    expect(archiveEligible({ identifier: 'c', title: 'K. G. F Chapter 2 ( 2022) Bengali Dubbed 720p', licenseurl: PD, collection: ['opensource_movies'] }, ben).reason).toMatch(/rip/);
+    expect(archiveEligible({ identifier: 'd', title: 'Pather Panchali BD. Rip 1080p X 264', licenseurl: PD, collection: ['opensource_movies'] }, ben).reason).toMatch(/rip/);
+    expect(archiveEligible({ identifier: 'e', title: 'Some Upload', licenseurl: PD, collection: ['opensource_movies', 'community'] }, hindi).reason).toMatch(/undated/);
+    expect(archiveEligible({ identifier: 'f', title: 'A Film', year: 1950, collection: ['feature_films'] }, films).reason).toMatch(/not marked/);
+    expect(archiveEligible({ identifier: 'g', title: 'Les mille et une perversions', year: 1975, licenseurl: PD, collection: ['feature_films'] }, films).reason).toMatch(/adult/);
+  });
+  it('plays the H.264 derivative, one file per original, in episode order', () => {
+    const files = playableFiles([
+      { name: 'ep10.mp4', format: 'MPEG4', size: '900' },
+      { name: 'ep10.ia.mp4', format: 'h.264 IA', size: '500', length: '1500.5' },
+      { name: 'ep2.ia.mp4', format: 'h.264 IA', size: '400', length: '25:00' },
+      { name: 'ep2_512kb.mp4', format: '512Kb MPEG4', size: '100' },
+      { name: 'cover.jpg', format: 'JPEG' },
+    ]);
+    expect(files.map((f) => [f.name, f.length])).toEqual([
+      ['ep2.ia.mp4', 1500],
+      ['ep10.ia.mp4', 1501],
+    ]);
   });
 });

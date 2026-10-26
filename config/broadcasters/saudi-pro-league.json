@@ -1,0 +1,3381 @@
+{
+ "competitionId": "saudi-pro-league",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.spl.com.sa/en/broadcasters",
+  "https://dapi.spl.com.sa/v2/content/en-gb/broadcasters",
+  "https://www.spl.com.sa/en",
+  "https://www.argaam.com/en/article/articledetail/id/1883458",
+  "https://www.sportcal.com/media/srmgs-thmanyah-secures-exclusive-saudi-league-rights-until-2031/",
+  "https://www.sportcal.com/media/sportitalia-renews-saudi-pro-league-rights-for-another-two-years/",
+  "https://www.insideworldfootball.com/2026/10/23/saudi-pro-league-agrees-big-match-broadcast-deal-with-footballcos-goal-platform/",
+  "https://www.sportcal.com/news/spl-enters-innovative-live-coverage-watchalongs-deal-with-footballco/",
+  "https://campaignme.com/roshn-saudi-league-footballco-creator-led-livestreams/",
+  "https://www.zawya.com/en/press-release/companies-news/roshn-saudi-league-expands-global-reach-with-landmark-international-broadcast-deals-498729",
+  "https://enterpriseam.com/ksa/2025/09/25/roshn-league-signs-global-broadcast-agreements-for-2025-2026-season/"
+ ],
+ "notes": "Main source: the league's official 'Where to watch' broadcaster list (spl.com.sa/en/broadcasters and its content API; entries created/updated Jul-Oct 2026 for 2026-27). IMG distributes international rights through 2028-29; the league cites 45 partners in 180+ territories. Domestic/MENA: Thmanyah (SRMG) exclusive 2025-26 to 2030-31, free satellite channels plus subscription app per the deal announcement. Holders from 2025-26 that are NOT on the 2026-27 list: Network 10 / Paramount+ (Australia; free-to-air in 2025-26), DAZN France, Cosmote (Greece), Chinese platforms other than Best Sports, and the free official RSL YouTube live streams (UK, Nordics, Canada, NL, NZ, Serbia), which appear to have been replaced by the paid-or-unspecified Recast direct stream. Several smaller partners' free/pay status is unverified (noted per entry). The official list also puts StarTimes in Greece, which looks like a data error and was left out.",
+ "broadcasters": [
+  {
+   "country": "Saudi Arabia",
+   "code": "SA",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.argaam.com/en/article/articledetail/id/1883458"
+  },
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "DigitAlb",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Algeria",
+   "code": "DZ",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Angola",
+   "code": "AO",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Anguilla",
+   "code": "AI",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "code": "AG",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Aruba",
+   "code": "AW",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Bahamas",
+   "code": "BS",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Bahrain",
+   "code": "BH",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Barbados",
+   "code": "BB",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.insideworldfootball.com/2026/10/23/saudi-pro-league-agrees-big-match-broadcast-deal-with-footballcos-goal-platform/"
+  },
+  {
+   "country": "Belize",
+   "code": "BZ",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Benin",
+   "code": "BJ",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Bolivia",
+   "code": "BO",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Botswana",
+   "code": "BW",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "X Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Globo (sportv)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Band (BandSports)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal GOAT (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Canal GOAT streams free on YouTube (described as free in the 2025-26 launch release); Globo and Band links on the official list point to their pay-TV sports channels (sportv, BandSports).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "British Virgin Islands",
+   "code": "VG",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "A1 MAX Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Burkina Faso",
+   "code": "BF",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Burundi",
+   "code": "BI",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Cameroon",
+   "code": "CM",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Cape Verde",
+   "code": "CV",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Caribbean Netherlands",
+   "code": "BQ",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Cayman Islands",
+   "code": "KY",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Central African Republic",
+   "code": "CF",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Chad",
+   "code": "TD",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Best Sports (Douyin)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Best Sports streams via a Douyin account; free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Comoros",
+   "code": "KM",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FOX (Mexico/Central America), part of Fox's multi-season Americas deal.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Cuba",
+   "code": "CU",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Curaçao",
+   "code": "CW",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Strike TV / Premier Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Côte d'Ivoire",
+   "code": "CI",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "DR Congo",
+   "code": "CD",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Djibouti",
+   "code": "DJ",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Dominica",
+   "code": "DM",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Egypt",
+   "code": "EG",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FOX (Mexico/Central America), part of Fox's multi-season Americas deal.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Equatorial Guinea",
+   "code": "GQ",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Eritrea",
+   "code": "ER",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Eswatini",
+   "code": "SZ",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Ethiopia",
+   "code": "ET",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Zack Nani (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Zack Nani (Twitch)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Creator-led free live streams with watch-along commentary (described as free in the 2025-26 launch release); number of matches not stated. No other French broadcaster is on the 2026-27 list (DAZN had France in 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "French Guiana",
+   "code": "GF",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Gabon",
+   "code": "GA",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Gambia",
+   "code": "GM",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN is listed for Germany only on the 2026-27 list (its earlier deal also covered Austria, Switzerland and France).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sporty TV: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Grenada",
+   "code": "GD",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Guadeloupe",
+   "code": "GP",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FOX (Mexico/Central America), part of Fox's multi-season Americas deal.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Guinea",
+   "code": "GN",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Guinea-Bissau",
+   "code": "GW",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Guyana",
+   "code": "GY",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Haiti",
+   "code": "HT",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FOX (Mexico/Central America), part of Fox's multi-season Americas deal.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "HOY TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "on.cc",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "on.cc: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Spíler TV (TV2)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sportitalia",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Como TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sportitalia: 3 matches per week (102 total) on its free channel; renewal covers 2025-26 and 2026-27 (Sportcal, Aug 2025). Como TV: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Jamaica",
+   "code": "JM",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Jordan",
+   "code": "JO",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sporty TV: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "DigitAlb",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Lebanon",
+   "code": "LB",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Lesotho",
+   "code": "LS",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Liberia",
+   "code": "LR",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Libya",
+   "code": "LY",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Madagascar",
+   "code": "MG",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Malawi",
+   "code": "MW",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Maldives",
+   "code": "MV",
+   "channels": [
+    {
+     "name": "Prime Sportz",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Prime Sportz: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Mali",
+   "code": "ML",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Martinique",
+   "code": "MQ",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Mauritania",
+   "code": "MR",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Mauritius",
+   "code": "MU",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Mayotte",
+   "code": "YT",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FOX (Mexico/Central America), part of Fox's multi-season Americas deal.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Mongolia",
+   "code": "MN",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Montserrat",
+   "code": "MS",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Mizzima TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Mizzima TV: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Namibia",
+   "code": "NA",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "SBS6",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "KIJK",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "SBS6 (free commercial channel) and KIJK (Talpa's free ad-supported streaming service) added to the official list in Sept 2026; number of matches not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FOX (Mexico/Central America), part of Fox's multi-season Americas deal.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Niger",
+   "code": "NE",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sporty TV: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Oman",
+   "code": "OM",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Palestine",
+   "code": "PS",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "FOX (Mexico/Central America), part of Fox's multi-season Americas deal.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Paraguay",
+   "code": "PY",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Qatar",
+   "code": "QA",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Prima Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Rwanda",
+   "code": "RW",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Réunion",
+   "code": "RE",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Saint Barthélemy",
+   "code": "BL",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Saint Helena",
+   "code": "SH",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Saint Kitts and Nevis",
+   "code": "KN",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Saint Lucia",
+   "code": "LC",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Saint Martin",
+   "code": "MF",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Saint Vincent and the Grenadines",
+   "code": "VC",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Senegal",
+   "code": "SN",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Seychelles",
+   "code": "SC",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Sierra Leone",
+   "code": "SL",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Sint Maarten",
+   "code": "SX",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Strike TV / Premier Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Somalia",
+   "code": "SO",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sporty TV: free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "South Sudan",
+   "code": "SS",
+   "channels": [
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Movistar+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Sudan",
+   "code": "SD",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. OneFootball: free/pay access model not verified. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Syria",
+   "code": "SY",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "São Tomé and Príncipe",
+   "code": "ST",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Football TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Varzish TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Football TV and Varzish TV (Tajik channels): free/pay access model not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Togo",
+   "code": "TG",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "code": "TT",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Tunisia",
+   "code": "TN",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport (Saran)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Turks and Caicos Islands",
+   "code": "TC",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "U.S. Virgin Islands",
+   "code": "VI",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "United Arab Emirates",
+   "code": "AE",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "RSL live stream via Recast (spl.com.sa/watch)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "GOAL Front Three (Footballco) - select matches",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Recast = the league's own direct-to-consumer live stream (launched Sept 2026); price/free status not stated in sources (Footballco calls it transactional). Free live matches on the official RSL YouTube channel (offered in 2025-26 in UK, Nordics, Canada, NL, NZ, Serbia) are not confirmed for 2026-27. GOAL/Footballco creator-led live coverage of 3 announced matches (23 Oct, 26 Nov, 10 Dec 2026) via Recast; free/paid not stated.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Uruguay",
+   "code": "UY",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports holds a six-season Americas deal (from 2025-26).",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "SPOTV / SPOTV NOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Western Sahara",
+   "code": "EH",
+   "channels": [
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Yemen",
+   "code": "YE",
+   "channels": [
+    {
+     "name": "Thmanyah (free satellite channels)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Thmanyah app (subscription packages)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Thmanyah (SRMG) holds exclusive Saudi/MENA rights 2025-26 to 2030-31 (replaced SSC). Per the June 2025 deal announcement matches air free on Thmanyah's satellite channels, with paid subscription packages on its digital/TV service; whether every 2026-27 match is on the free channels was not verified.",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  },
+  {
+   "country": "Zimbabwe",
+   "code": "ZW",
+   "channels": [
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.spl.com.sa/en/broadcasters"
+  }
+ ]
+}

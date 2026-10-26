@@ -15,6 +15,7 @@ import { footballRole, PAY_TV_RELAY, sportsOf, type FootballRole } from './polic
 import type { Handling, Permission } from './repos.ts';
 import { REPOS } from './repos.ts';
 import { loadProfiles } from './profiles.ts';
+import { readArchive } from './archive.ts';
 
 export type RecordStatus =
   | 'imported'
@@ -48,7 +49,7 @@ export interface RecordMeta {
   group?: string;
   country?: string;
   languages: string[];
-  languageSource: 'iptv-org' | 'playlist' | 'profile' | 'none';
+  languageSource: 'iptv-org' | 'playlist' | 'profile' | 'archive' | 'none';
   categories: string[];
   quality?: string;
   labels: string[];
@@ -110,6 +111,18 @@ export function loadApi(dir: string): ApiIndex | null {
 const MEDIA_FILE = /\.(mp4|mkv|avi|mov|m4v|wmv|webm)(\?|$)/i;
 const WEB_PAGE = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be|twitch\.tv|dailymotion\.com|facebook\.com)\//i;
 const PRIVATE_HOST = /^(10\.|127\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|169\.254\.)/;
+
+/**
+ * Xtream-style stream URLs carry an account in the path or query:
+ * http://host:port/[live|movie|series/]<user>/<pass>/<id>[.ts|.m3u8|...] or get.php?username=&password=.
+ * Only the explicit-port form is matched, which CDN paths do not use. Pure.
+ */
+export function providerAccountUrl(url: string): boolean {
+  if (/[?&](username|user)=[^&]+&(password|pass)=/i.test(url)) return true;
+  const m = /^https?:\/\/[^/:?#]+:(\d+)(\/[^?#]*)/i.exec(url);
+  if (!m) return false;
+  return /^\/(?:live\/|movie\/|series\/)?[^/]+\/[^/]+\/\d+(?:\.(?:ts|m3u8|mp4|mkv|avi))?$/i.test(m[2]!);
+}
 /** Pay-TV brands flagged (never withheld) in curated public sources. */
 export const PAY_TV_BRAND = /\b(bein|sky sports?|sky cinema|tnt sports|bt sport|dazn|supersport|premier sports|ssc ?\d|osn|eurosport|espn|canal\+ ?sport|movistar|setanta|hbo|cinemax)\b/i;
 
@@ -151,6 +164,7 @@ export function classifyStream(e: M3UEntry, ctx: SourceCtx, api: ApiIndex | null
   if (e.userAgent || e.referrer) restrictions.push('needs-headers');
   if (protocol !== 'http' && protocol !== 'https') restrictions.push(`protocol:${protocol}`);
   if (PRIVATE_HOST.test(host) || /^(rtp|udp|igmp|rtsp)$/.test(protocol)) restrictions.push('isp-or-lan-only');
+  if (providerAccountUrl(url)) restrictions.push('provider-account-url');
   if (/^\[/.test(host)) restrictions.push('ipv6-only');
   if (/\.mpd(\?|$)/i.test(url)) restrictions.push('dash');
   if (WEB_PAGE.test(url)) restrictions.push('web-page-not-stream');
@@ -199,6 +213,12 @@ export function classifyStream(e: M3UEntry, ctx: SourceCtx, api: ApiIndex | null
   if (ctx.category === 'test-fixture') {
     status = 'test_fixture';
     reasons.push(ctx.reason || 'test fixture');
+  } else if (restrictions.indexOf('provider-account-url') >= 0 && ctx.permission !== 'user') {
+    // Someone else's paid-IPTV account: the URL itself carries their username and password.
+    status = 'restricted';
+    keptUrl = null;
+    withheld = "Paid IPTV account URL (contains a subscriber's username and password)";
+    reasons.push(withheld);
   } else if (ctx.policy === 'withhold-all' || (ctx.policy === 'withhold-pay' && relayPay)) {
     status = 'restricted';
     keptUrl = null;
@@ -440,6 +460,40 @@ export async function buildInventory(dir: string, manifest: Manifest, api: ApiIn
       records.push(r);
     });
     parsed.warnings.forEach((w, i) => records.push(malformed(ctx, w, now, i)));
+  }
+
+  // Internet Archive public-domain films and TV (resolved by archive.ts). Items whose
+  // public-domain mark is not credible are recorded without a link, with the reason.
+  const ia = readArchive(dir);
+  if (ia) {
+    for (const item of ia.items) {
+      const src = { repo: 'internet-archive', file: item.set, line: 0, originUrl: `https://archive.org/details/${item.id}`, permission: 'open' as const, handling: 'reference' as const };
+      const series = item.kind === 'tv' || item.files.length > 1;
+      item.files.forEach((f, i) => {
+        const episode = f.title || f.name.replace(/\.(ia\.)?mp4$/i, '').replace(/[_]+/g, ' ');
+        const url = `https://archive.org/download/${encodeURIComponent(item.id)}/${f.name.split('/').map(encodeURIComponent).join('/')}`;
+        const r = simple('vod', series ? `${item.title} — ${episode}` : item.title, url, 'imported', [`Marked public domain on the Internet Archive (${item.licenseurl})`], { ...src, line: i }, now, {
+          vodType: series ? 'episode' : 'movie',
+          series: series ? item.title : undefined,
+          episode: series ? episode : undefined,
+          episodeNo: series ? i + 1 : undefined,
+          genre: item.genre,
+          year: item.year,
+          archiveId: item.id,
+        });
+        r.meta.languages = [item.language];
+        r.meta.languageSource = 'archive';
+        r.meta.group = series ? item.title : item.genre;
+        r.meta.logo = `https://archive.org/services/img/${encodeURIComponent(item.id)}`;
+        if (f.length) r.meta.durationSeconds = f.length;
+        records.push(r);
+      });
+    }
+    ia.excluded.forEach((x, i) => {
+      records.push(
+        simple('vod', x.title || x.id, null, 'restricted', [`Marked public domain by its uploader, but ${x.reason}`], { repo: 'internet-archive', file: x.set, line: i, originUrl: `https://archive.org/details/${x.id}`, permission: 'unclear', handling: 'reference' }, now, undefined, 'public-domain mark not credible'),
+      );
+    });
   }
 
   // Provider adapters found in iptvnator (and supported by FBTV's library tool where marked).

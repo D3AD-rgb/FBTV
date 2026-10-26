@@ -1,0 +1,240 @@
+{
+ "competitionId": "ipl",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://en.wikipedia.org/wiki/2026_Indian_Premier_League",
+  "https://en.wikipedia.org/wiki/Indian_Premier_League",
+  "https://www.iplt20.com/"
+ ],
+ "notes": "IPL 2026 (March-May 2026) is complete. India rights confirmed for 2026 (JioStar: Star Sports TV, JioHotstar digital). International holders come from Wikipedia's IPL 'List of broadcasters' table, several rows of which are dated 2023/2024 (noted per entry). iplt20.com publishes no broadcaster list. Gaps: Canada, Caribbean, Germany, France, Spain, Italy, Netherlands, Brazil, Mexico, Japan (no broadcaster found); UK row blank in source. No free-to-air broadcaster is identified in any source except Kayo Freebies (AU, free tier).",
+ "broadcasters": [
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Star Sports (Star Sports 1, 1 Hindi, 1 Kannada, 1 Tamil, 1 Telugu)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Star Gold / Star Bharat / regional Star movie channels / Colors Tamil / Asianet Movies",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "JioHotstar",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "JioStar: Star Sports TV rights and JioHotstar digital rights for the 2023-2027 cycle (confirmed for IPL 2026). Wikipedia does not flag any channel as free-to-air.",
+   "source": "https://en.wikipedia.org/wiki/2026_Indian_Premier_League"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "T Sports HD",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "T Sports app",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest confirmed holder is T Sports (listed for 2024). In 2026 the Bangladeshi government banned IPL broadcasts during the Mustafizur Rahman dispute; the newly elected government later said the ban no longer applies (per the 2026 IPL Wikipedia article). 2026 holder not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Digital only; listed for 2024 (latest confirmed).",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "Star Sports (1, 1 HD, 2, Select HD 1/2)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Supreme TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SandBrix",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Supreme TV 2023-present; SandBrix 2025.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "Kantipur Max",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2025-present.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "ATN HD / ATN News HD",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Ariana Television (digital)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed for 2024 (latest confirmed).",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2023-present.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Willow TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2023-present.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Foxtel / Fox Cricket",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Kayo Sports",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Kayo Freebies",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2023-present. Kayo Freebies is Kayo's free tier (which matches are free not specified).",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2025-present.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed for 2023; SuperSport also holds Sub-Saharan Africa 2021-present.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2021-present.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Times Internet (Cricbuzz)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed for 2023 (latest confirmed); 2026 holder not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Vidio",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed for 2023 (latest confirmed).",
+   "source": "https://en.wikipedia.org/wiki/Indian_Premier_League"
+  }
+ ]
+}

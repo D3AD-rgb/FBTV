@@ -1,0 +1,48 @@
+{
+ "competitionId": "austrian-bundesliga",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.sportcal.com/news/sky-austria-renews-domestic-bundesliga-rights-through-2029-30/",
+  "https://www.salzburg24.at/sport/fussball/bundesliga/fussball-bundesliga-pay-tv-sender-sky-sichert-sich-rechte-bis-2030-art-301139",
+  "https://www.sportcal.com/?p=143601",
+  "https://www.sportcal.com/news/austrian-bundesliga-launching-all-encompassing-media-rights-tender/",
+  "https://en.wikipedia.org/wiki/Austrian_Football_Bundesliga",
+  "https://www.sky.at/sport",
+  "https://www.bundesliga.at/"
+ ],
+ "notes": "2026-27 is the first season of a new domestic rights cycle. Sky Austria renewed the main package (all 195 matches live) through 2029-30. ORF kept four co-exclusive free-to-air live matches per season plus highlights. Sportradar/Laola1 hold the second-tier 2. Liga, not the Bundesliga. The league's April 2025 tender also covered worldwide rights for 2026-27 to 2028-29, but no outcome was published in any source found. The only international partner named is OneFootball, which streamed the league internationally in the previous cycle. bundesliga.at lists only Sky Sport and ORF as partners and has no international 'where to watch' page.",
+ "broadcasters": [
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Sport Austria",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ORF 1",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky Sport Austria (Sky Sport package) shows all 195 matches live under a four-season deal for 2026-27 to 2029-30. It may also show individual full matches free for promotional purposes. ORF has ONLY 4 live matches per season, co-exclusive with Sky (two first-pick and two second-pick games), plus highlights and short reports for all 195 matches. The ORF 1 highlights show airs on Sunday evenings, with English weeks on Wednesdays. Sources disagree on when ORF's live-match deal ends: Sportcal says 2028-29, Salzburg24 says 2030/31.",
+   "source": "https://www.sportcal.com/news/sky-austria-renews-domestic-bundesliga-rights-through-2029-30/"
+  },
+  {
+   "country": "Selected international markets",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "OneFootball",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "LATEST CONFIRMED, NOT VERIFIED FOR 2026-27: Sportcal (April and July 2025) names OneFootball as the league's current international streaming partner, and the Wikipedia infobox lists OneFootball for 'selected international markets'. The territories and pricing (free or paid) are not specified. The outcome of the worldwide rights tender for 2026-27 onwards was not found.",
+   "source": "https://www.sportcal.com/news/austrian-bundesliga-launching-all-encompassing-media-rights-tender/"
+  }
+ ]
+}

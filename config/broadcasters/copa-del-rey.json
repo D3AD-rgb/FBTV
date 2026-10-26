@@ -1,0 +1,953 @@
+{
+ "competitionId": "copa-del-rey",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.sportcal.com/media/movistar-strikes-copa-del-rey-sublicense-with-new-rightsholder-rtve/",
+  "https://www.xatakahome.com/servicios-de-smart-tv/movistar-plus-vuelve-a-hacer-emitira-50-partidos-copa-rey-su-nuevo-acuerdo-rtve",
+  "https://xatakahome.com/servicios-de-smart-tv/sabemos-donde-ver-copa-rey-futbol-estos-dos-anos-tenemos-buenas-noticias",
+  "https://www.sportcal.com/media/laliga-taps-peak-to-sell-international-copa-del-rey-rights/",
+  "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/",
+  "https://www.sportcal.com/media/espn-retains-us-rights-to-copa-del-rey-and-spanish-super-cup",
+  "https://es.wikipedia.org/wiki/Copa_del_Rey_de_f%C3%BAtbol_2026-27",
+  "https://es.wikipedia.org/wiki/Copa_del_Rey_de_f%C3%BAtbol_2025-26",
+  "https://en.wikipedia.org/wiki/Copa_del_Rey",
+  "https://en.wikipedia.org/wiki/2026%E2%80%9327_Copa_del_Rey",
+  "https://en.wikipedia.org/wiki/La_1_(Spanish_TV_channel)",
+  "https://en.wikipedia.org/wiki/Teledeporte",
+  "https://en.wikipedia.org/wiki/Esport3",
+  "https://en.wikipedia.org/wiki/Arag%C3%B3n_TV",
+  "https://en.wikipedia.org/wiki/Televisi%C3%B3n_Canaria",
+  "https://en.wikipedia.org/wiki/%C3%80_Punt",
+  "https://en.wikipedia.org/wiki/IB3_(TV_channel)",
+  "https://en.wikipedia.org/wiki/Betev%C3%A9",
+  "https://en.wikipedia.org/wiki/RTL-TVI",
+  "https://en.wikipedia.org/wiki/Mega_(Chilean_TV_network)",
+  "https://en.wikipedia.org/wiki/RCN_Televisi%C3%B3n",
+  "https://en.wikipedia.org/wiki/Am%C3%A9rica_Televisi%C3%B3n",
+  "https://en.wikipedia.org/wiki/Venevisi%C3%B3n",
+  "https://en.wikipedia.org/wiki/Unitel_Bolivia",
+  "https://en.wikipedia.org/wiki/Action_24",
+  "https://en.wikipedia.org/wiki/TOLO_(TV_channel)",
+  "https://en.wikipedia.org/wiki/Match_TV",
+  "https://en.wikipedia.org/wiki/SCCN",
+  "https://en.wikipedia.org/wiki/Islamic_Republic_of_Iran_Broadcasting"
+ ],
+ "notes": "2026-27 is the second and final season of the 2025-27 domestic cycle: RTVE (free-to-air, La 1/Teledeporte) holds the main package and sublicenses at least 55 matches per season to Movistar Plus+; no 2027-28+ domestic deal was found. The final is sold separately by the RFEF and its 2026-27 broadcaster was not found. International rights (all rounds except the final) are sold by LaLiga via Peak Sport Media from 2025-26; confirmed deals found: Disney+ (Nordics, to 2029-30), DAZN (Italy), Premier Sports (UK & Ireland), ESPN+ (USA, to 2026-27). All other international entries come only from the English Wikipedia Copa del Rey broadcasters table (undated, mostly unreferenced) and are flagged as unconfirmed for 2026-27. No official per-country list exists on laliga.com or rfef.es (rfef.es and rtve.es were not reachable). Web search quota was exhausted mid-research, so further 2025-26/2026-27 international deals could not be searched.",
+ "broadcasters": [
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "TOLO",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. TOLO is a commercial terrestrial channel.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "SuperSport (Albania)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "RTVE",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Wikipedia \"Copa del Rey\" article lists RTVE and Movistar+ for \"Spain and Andorra\" (2025-2027). Not confirmed by an Andorra-specific source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "RTL-TVI",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. French-language commercial generalist channel (Wallonia/Brussels).",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Bolivia",
+   "code": "BO",
+   "channels": [
+    {
+     "name": "Unitel",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Commercial free-to-air network.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed under \"Balkans\".",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "Xsports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. channel type/free-to-air status not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "Mega",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "ZhiBo8",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. channel type/free-to-air status not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Canal RCN",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Win Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed under \"Balkans\".",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Disney+ holds exclusive Nordic rights from the round of 32 to the final, five-year deal through 2029-30 (Sportcal, 17 Dec 2025). Article says \"Nordic region\"; the individual countries are as listed in Wikipedia's Copa del Rey table.",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "ECDF",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. El Canal del Fútbol; channel type/free-to-air status not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Disney+ holds exclusive Nordic rights from the round of 32 to the final, five-year deal through 2029-30 (Sportcal, 17 Dec 2025). Article says \"Nordic region\"; the individual countries are as listed in Wikipedia's Copa del Rey table.",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Action 24",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Private terrestrial channel (Attica/Evia).",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "TV Azteca Guatemala",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. FTA status from general knowledge, not confirmed by source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Disney+ holds exclusive Nordic rights from the round of 32 to the final, five-year deal through 2029-30 (Sportcal, 17 Dec 2025). Article says \"Nordic region\"; the individual countries are as listed in Wikipedia's Copa del Rey table.",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "IRIB",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Persiana Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. IRIB is the state broadcaster; Persiana Sports channel type/free-to-air status not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier Sports acquired UK & Ireland rights for multiple seasons in LaLiga/Peak Sport Media's international tender (Sportcal, Dec 2025).",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. channel type/free-to-air status not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN acquired Italian rights for multiple seasons in the LaLiga/Peak Sport Media international tender (Sportcal, Dec 2025).",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "U-NEXT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Sport+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. channel type/free-to-air status not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "SuperSport (Albania)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed under \"Balkans\".",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed under \"Balkans\".",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Disney+ holds exclusive Nordic rights from the round of 32 to the final, five-year deal through 2029-30 (Sportcal, 17 Dec 2025). Article says \"Nordic region\"; the individual countries are as listed in Wikipedia's Copa del Rey table.",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "América TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Eleven Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Prima Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Match TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Match TV is a federal free-to-air channel; which Match TV-group channel (FTA or pay) carries matches not specified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed under \"Balkans\".",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed under \"Balkans\".",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "La 1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Teledeporte",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FAN PLAY TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Esport3",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Aragón TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Televisión Canaria",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "À Punt",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "IB3",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TPA7",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "CMM TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Betevé",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "RTVE holds the main domestic package (Lot 1, up to 116 matches per season, excluding the preliminary round and the final) on a two-year RFEF deal covering 2025-26 and 2026-27 (tender run by LaLiga); RTVE keeps the top-pick match of each round (shown on its free-to-air channels). Movistar Plus+ sublicensed at least 55 exclusive matches per season for 2025-26 and 2026-27 (Xataka, 24 Oct 2025: https://www.xatakahome.com/servicios-de-smart-tv/movistar-plus-vuelve-a-hacer-emitira-50-partidos-copa-rey-su-nuevo-acuerdo-rtve); semi-finals simulcast by RTVE and Movistar Plus+. Channel names: the es.wikipedia 2026-27 infobox lists Teledeporte (FTA), Movistar Plus+ / LaLiga por M+ and FAN PLAY TV (subscription), and regional/local FTA channels Esport3, Aragón TV, TV Canaria, À Punt, IB3, TPA7, CMM TV and Betevé (https://es.wikipedia.org/wiki/Copa_del_Rey_de_f%C3%BAtbol_2026-27); La 1 is listed in the 2025-26 infobox (https://es.wikipedia.org/wiki/Copa_del_Rey_de_f%C3%BAtbol_2025-26). Regional/local channels and FAN PLAY TV possibly relate to the separately sold, non-exclusive preliminary-round rights; exact match allocation not specified. Orange also joined as a domestic broadcaster (Sportcal, Dec 2025; role not specified). The final is sold separately by the RFEF; the 2026-27 final (24 April 2027, Seville) broadcaster is not confirmed. HORECA (bars) rights sold separately, non-exclusive.",
+   "source": "https://www.sportcal.com/media/movistar-strikes-copa-del-rey-sublicense-with-new-rightsholder-rtve/"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "SCCN",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. SCCN Channel 17, local TV station; FTA status from general knowledge.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Disney+ holds exclusive Nordic rights from the round of 32 to the final, five-year deal through 2029-30 (Sportcal, 17 Dec 2025). Article says \"Nordic region\"; the individual countries are as listed in Wikipedia's Copa del Rey table.",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Varzish TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. State sports channel.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Türkiye",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Maincast",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. channel type/free-to-air status not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier Sports acquired UK & Ireland rights for multiple seasons in LaLiga/Peak Sport Media's international tender (Sportcal, Dec 2025). Wikipedia's table also lists ITV for the UK (unconfirmed).",
+   "source": "https://www.sportcal.com/media/disney-adds-to-live-sports-offering-with-copa-del-rey-in-the-nordics/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "ESPN+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN five-year renewal (Aug 2022) covers the Copa del Rey until 2026-27; 65 matches per season exclusively on ESPN+ (English and Spanish).",
+   "source": "https://www.sportcal.com/media/espn-retains-us-rights-to-copa-del-rey-and-spanish-super-cup"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Zo'r TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Private channel; FTA status from general knowledge, not confirmed by source.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "Meridiano TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Venevisión",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Meridiano FTA status from general knowledge.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CANAL+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed as \"Africa\": SportyTV and StarTimes (English), CANAL+ (French-speaking countries), ZAP (Portuguese-speaking countries). Individual countries not specified; SportyTV access model not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Central America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SKY Sports (SKY México)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed as \"Central America\" (SKY Sports).",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Indian subcontinent",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed as \"Indian subcontinent\"; countries not specified (India at minimum).",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "MBC Group",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Shasha",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed as \"West Asia and North Africa\"; individual countries not specified. Platform (MBC FTA channels vs Shahid) and Shasha access model not verified.",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  },
+  {
+   "country": "South America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per the international broadcasters table in the English Wikipedia \"Copa del Rey\" article (season not stated, most rows unreferenced); latest listed holder, 2026-27 not confirmed by an official or news source. Listed as \"South America\" (ESPN); applies to South American countries without a separate entry (e.g. Argentina, Paraguay, Uruguay).",
+   "source": "https://en.wikipedia.org/wiki/Copa_del_Rey"
+  }
+ ]
+}

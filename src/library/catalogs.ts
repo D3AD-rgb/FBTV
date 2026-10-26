@@ -11,6 +11,7 @@ import { logoUsable } from '../shared/url.ts';
 import type { InventoryRecord, RecordStatus, ValidationStatus } from './inventory.ts';
 import { SPORTS, type FootballRole } from './policy.ts';
 import type { Fixture, FixtureResult } from './fixtures.ts';
+import { linkRights, loadRights, type CompetitionRights, type LinkableChannel } from './broadcasters.ts';
 import { loadProfiles, type Profile } from './profiles.ts';
 import { hasCredentials } from './secrets.ts';
 import type { SeriesItem, VodItem, XtreamCapabilities } from './xtream.ts';
@@ -285,7 +286,7 @@ export interface CatalogsResult {
   vod: { inventory: number; byLanguage: Record<string, { movies: number; series: number; episodes: number }>; unknown: number; other: number };
 }
 
-export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures: FixtureResult | null, now = new Date().toISOString()): CatalogsResult {
+export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures: FixtureResult | null, now = new Date().toISOString(), log: (m: string) => void = () => undefined): CatalogsResult {
   const status = readJSON<StatusDb>(join(dir, 'catalogs/source-status.json'), {});
   for (const r of records) if (r.streamId) r.validation = validationOf(status[r.streamId]);
   const channels = buildChannels(records, status);
@@ -388,13 +389,6 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
 
   // ---- catalogs
   write(join(dir, 'catalogs/channels.json'), { generatedAt: now, count: channels.length, playable: channels.filter((c) => c.playable).length, channels });
-  write(join(dir, 'catalogs/sports.json'), {
-    generatedAt: now,
-    note: 'Sport tags come from channel names, groups and categories (heuristic, shown so you can correct them in overrides). Events are schedule data, not broadcasts.',
-    sports: sportsCatalog,
-    events: fixtures ? fixtures.fixtures.filter((f) => f.sport !== 'football') : [],
-  });
-
   // Football: channels + fixtures + listing-based name matches (never assumed to carry a match).
   const normName = (s: string) => fold(s).replace(/\b(hd|fhd|uhd|sd|tv|channel)\b/g, ' ').replace(/\s+/g, ' ').trim();
   const index = new Map<string, CatalogChannel[]>();
@@ -407,6 +401,17 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
       else index.set(k, [c]);
     }
   }
+  // Broadcast rights per competition and country, linked to library channels of the same name.
+  const rights = new Map<string, CompetitionRights>();
+  for (const [id, r] of loadRights(log)) rights.set(id, linkRights(r, index as Map<string, LinkableChannel[]>, normName));
+  const withRights = <T extends { id: string }>(c: T) => (rights.has(c.id) ? { ...c, rights: rights.get(c.id) } : c);
+  write(join(dir, 'catalogs/sports.json'), {
+    generatedAt: now,
+    note: 'Sport tags come from channel names, groups and categories (heuristic, shown so you can correct them in overrides). Events are schedule data, not broadcasts. Rights holders are researched per competition and country, with sources.',
+    sports: sportsCatalog,
+    events: fixtures ? fixtures.fixtures.filter((f) => f.sport !== 'football') : [],
+    competitions: fixtures ? fixtures.competitions.filter((c) => c.sport !== 'football').map(withRights) : [],
+  });
   const footballFixtures = fixtures ? fixtures.fixtures.filter((f) => f.sport === 'football') : [];
   const associations = footballFixtures
     .filter((f) => f.broadcasts.length)
@@ -424,6 +429,7 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
       'Channel roles: dedicated (football/league channels), club (club TV), broadcaster-brand (holds football rights in some markets).',
       'Language is the feed’s broadcast language from source metadata; commentary language is not verified.',
       'Associations come only from TheSportsDB TV listings matched to channel names. They are unverified and never mean a stream carries the match.',
+      'Rights holders (competitions[].rights) say who may show a competition in each country, researched from official sources; which channel shows a given match varies. A library link means a channel of that name in that country has a public stream; pay-TV relays are never linked.',
     ],
     channels: football.map((c) => ({
       id: c.id,
@@ -436,7 +442,7 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
       payTvBrand: c.payTvBrand,
       streams: c.streams.map((s) => ({ url: s.url, status: s.status, validation: s.validation, quality: s.quality, restrictions: s.restrictions, sources: s.sources.map((x) => `${x.repo}:${x.file}#${x.line}`) })),
     })),
-    competitions: fixtures ? fixtures.competitions.filter((c) => c.sport === 'football') : [],
+    competitions: fixtures ? fixtures.competitions.filter((c) => c.sport === 'football').map(withRights) : [],
     fixtures: footballFixtures,
     associations,
   });
@@ -444,13 +450,19 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
   // ---- VOD (Layer A: inventory of every VOD record; Layer B: target languages)
   const vodRecords = records.filter((r) => r.kind === 'vod');
   const episodeRe = /\bS(\d{1,2})\s*E(\d{1,3})\b|\bseason\s*(\d+).*episode\s*(\d+)/i;
+  const ex = (r: InventoryRecord, k: string) => (r.meta.extra ? (r.meta.extra[k] as string | number | undefined) : undefined);
   const vodInventory = vodRecords.map((r) => ({
     uid: r.uid,
     title: r.name,
     url: r.url,
     status: r.status,
     reasons: r.reasons,
-    type: episodeRe.test(r.name) ? 'episode' : 'movie-or-unknown',
+    type: ex(r, 'vodType') === 'episode' || episodeRe.test(r.name) ? 'episode' : ex(r, 'vodType') === 'movie' ? 'movie' : 'movie-or-unknown',
+    series: ex(r, 'series') as string | undefined,
+    episode: ex(r, 'episode') as string | undefined,
+    episodeNo: ex(r, 'episodeNo') as number | undefined,
+    genre: ex(r, 'genre') as string | undefined,
+    year: ex(r, 'year') as number | undefined,
     languages: r.meta.languages,
     languageEvidence: r.meta.languageSource,
     group: r.meta.group,
@@ -471,7 +483,19 @@ export function buildCatalogs(dir: string, records: InventoryRecord[], fixtures:
   const known = (langs: string[]) => normalizeLanguages(langs).length > 0;
   const moviesB = vodInventory.filter((v) => v.type !== 'episode' && target(v.languages)).concat(providerVod.filter((v) => target(v.languages)) as never[]);
   const episodesB = vodInventory.filter((v) => v.type === 'episode' && target(v.languages));
-  const seriesB = providerSeries.filter((s) => target(s.languages));
+  // Series assembled from episode records that name their series (Internet Archive items).
+  const assembled = new Map<string, { title: string; seriesId: string; source: string; languages: string[]; poster?: string; genre?: string; year?: number; seasons: { season: number; episodes: { episode: number; title: string; url: string | null; durationSeconds?: number; status: string }[] }[] }>();
+  for (const v of vodInventory) {
+    if (v.type !== 'episode' || !v.series || !target(v.languages) || v.status !== 'imported') continue;
+    const key = `${v.source.split(':')[0]}|${v.series}`;
+    let s = assembled.get(key);
+    if (!s) {
+      s = { title: v.series, seriesId: key, source: v.source.split(':')[0]!, languages: v.languages, poster: v.poster, genre: v.genre, year: v.year, seasons: [{ season: 1, episodes: [] }] };
+      assembled.set(key, s);
+    }
+    s.seasons[0]!.episodes.push({ episode: v.episodeNo || s.seasons[0]!.episodes.length + 1, title: v.episode || v.title, url: v.url, durationSeconds: v.durationSeconds, status: v.status });
+  }
+  const seriesB = (providerSeries.filter((s) => target(s.languages)) as unknown[]).concat(Array.from(assembled.values())) as SeriesItem[];
   const unknownLang = vodInventory.filter((v) => !known(v.languages)).length + providerVod.filter((v) => !known(v.languages)).length + providerSeries.filter((v) => !known(v.languages)).length;
   const otherLang = vodInventory.filter((v) => known(v.languages) && !target(v.languages)).length + providerVod.filter((v) => known(v.languages) && !target(v.languages)).length;
   write(join(dir, 'catalogs/vod-inventory.json'), {

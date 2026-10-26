@@ -1,0 +1,348 @@
+{
+ "competitionId": "turkish-super-lig",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://beinsports.com.tr/haber/bu-hafta-hangi-mac-hangi-kanalda-23",
+  "https://beinsports.com.tr/",
+  "https://beinsports.com.tr/haber/bir-imzadan-cok-daha-fazlasi?amp=1",
+  "https://www.sportcal.com/newsletters/bein-snaps-up-full-suite-of-domestic-super-lig-rights-through-2026-27",
+  "https://insideworldfootball.com/?p=154179",
+  "https://www.dailysabah.com/sports/football/super-lig-broadcasting-revenue-to-exceed-184m-next-season",
+  "https://www.yeniakit.com.tr/foto-galeri/flas-gelisme-yayinci-kurulusla-ipler-gerildi-yeni-donemde-super-lig-maclarini-kim-yayinlayacak-137426",
+  "https://www.beinsports.com/en-us/soccer/sper-lig/articles/rizespor-vs-trabzonspor-how-to-watch-the-turkish-s%C3%BCper-lig-match-live-2026-10-25",
+  "https://www.beinsports.com/fr-fr/football/sper-lig",
+  "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1",
+  "https://en.wikipedia.org/wiki/S%C3%BCper_Lig"
+ ],
+ "notes": "beIN Media Group (Digiturk) holds all domestic and international Süper Lig rights for 2024-25 to 2026-27 (2024 TFF tender, package E). 2026-27 is the last season of that deal, and a new tender is expected in 2026 for 2027-28 onward. In Turkey every match is exclusive to beIN SPORTS (Digiturk satellite, plus the TOD streaming service). No free-to-air live coverage was found. For international coverage, beIN SPORTS USA (beIN SPORTS CONNECT also serves Canada and Puerto Rico) is confirmed for 2026-27. beIN SPORTS France runs a 2026-27 Süper Lig section with in-match clips, but no explicit rights statement was found. No official TFF/beIN list of international sub-licensees was found. Other countries come from an unreferenced Turkish Wikipedia table (about 2025) and are flagged as unconfirmed. beIN says the league reaches 100+ locations worldwide; other reports say 40 countries.",
+ "broadcasters": [
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "beIN SPORTS 1 / beIN SPORTS 2 / beIN SPORTS 4K (Digiturk)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TOD",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "All matches are exclusive to beIN SPORTS (2026-27 matchday 9 listings show beIN SPORTS 1, 2 and 4K). TOD is beIN's streaming platform, and beinsports.com.tr links its live matches to TOD's Süper Lig package. The deal runs through the end of 2026-27. No free-to-air live matches.",
+   "source": "https://beinsports.com.tr/haber/bu-hafta-hangi-mac-hangi-kanalda-23"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN SPORTS USA lists 2026-27 matches (e.g. Matchday 9) live on beIN SPORTS and beIN SPORTS CONNECT.",
+   "source": "https://www.beinsports.com/en-us/soccer/sper-lig/articles/rizespor-vs-trabzonspor-how-to-watch-the-turkish-s%C3%BCper-lig-match-live-2026-10-25"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "beIN SPORTS CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN states that fans in the US, Puerto Rico and Canada can watch 2026-27 matches on beIN SPORTS CONNECT.",
+   "source": "https://www.beinsports.com/en-us/soccer/sper-lig/articles/rizespor-vs-trabzonspor-how-to-watch-the-turkish-s%C3%BCper-lig-match-live-2026-10-25"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "beIN SPORTS CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN states that fans in the US, Puerto Rico and Canada can watch 2026-27 matches on beIN SPORTS CONNECT.",
+   "source": "https://www.beinsports.com/en-us/soccer/sper-lig/articles/rizespor-vs-trabzonspor-how-to-watch-the-turkish-s%C3%BCper-lig-match-live-2026-10-25"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN SPORTS France runs a dedicated Süper Lig section with 2026-27 in-match video clips, and Turkish Wikipedia lists beIN SPORTS for France. No explicit 2026-27 rights statement was found.",
+   "source": "https://www.beinsports.com/fr-fr/football/sper-lig"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Win Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Kujtesa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ArtMotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Look Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Turkish Wikipedia's international broadcaster table (unreferenced; section last edited mid-2025). Not confirmed for 2026-27, so treat it as the latest listed holder only.",
+   "source": "https://tr.wikipedia.org/wiki/S%C3%BCper_Lig%27in_yay%C4%B1n_haklar%C4%B1"
+  }
+ ]
+}

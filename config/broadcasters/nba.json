@@ -1,0 +1,1594 @@
+{
+ "competitionId": "nba",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters",
+  "https://en.wikipedia.org/wiki/NBA_on_television"
+ ],
+ "notes": "Sources: Wikipedia list of current NBA broadcasters (international table, 2025-26/2026-27 deals) and 'NBA on television' for the US national deals. nba.com's international partner list could not be located (web search quota exhausted during research), so Wikipedia was used. Wikipedia does not label free/pay; free-to-air is flagged only for clearly over-the-air networks (ABC, NBC, Telemundo, CCTV, ViuTV), which carry selected games. NBA League Pass (official paid streaming) is available in most territories. Gaps: Bangladesh, Pakistan, Sri Lanka not listed (only Prime Video in India); Russia has no broadcaster since 2022.",
+ "broadcasters": [
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "ABC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBA TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Telemundo",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "11-year deals from 2025-26: ABC/ESPN (ABC airs the NBA Finals), NBC/Peacock (Tuesday doubleheaders, Sunday Night Basketball), Prime Video (Friday, later Thursday games). ABC, NBC and Telemundo are free over-the-air networks (selected national games only); local games on regional sports networks/team streams.",
+   "source": "https://en.wikipedia.org/wiki/NBA_on_television"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "TSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RDS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sportsnet",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBA TV Canada",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Ireland and UK'.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "6'eren",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Kanal 9",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Rex",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "TV5",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Stod 2 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Eurosport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Antena Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Diema Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Cosmote Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "CYTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Sport (ArtSport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "XK is a user-assigned code.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Maincast",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Silknet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Central Asia",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Varzish TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 5",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBA TV International",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "Sporty TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "ESPN / Disney+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBA TV International",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Central America (Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "South America (Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay, Venezuela)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT / HBO Max",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exact mix varies slightly by country.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN / Disney+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Caribbean and Dominican Republic",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBA TV International",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "ABC/ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "WAPA 2 Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NBC/Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBA TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SCCN TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "CCTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Tencent",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Migu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Shanghai Media Group",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "CCTV is the state free-to-air broadcaster (selected games).",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "Now Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ViuTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NBA TV International",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ViuTV free-to-air (selected games).",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "M Plus",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "Videoland",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ELTA",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Hami Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "WOWOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Lemino",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "One Sports / NBA TV Philippines",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Telkom Indonesia",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NBA TV International",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "AIS Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "FPT Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Australia, New Zealand, Papua New Guinea and Pacific Islands'.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  },
+  {
+   "country": "Papua New Guinea & Pacific Islands",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Basketball_Association_broadcasters"
+  }
+ ]
+}

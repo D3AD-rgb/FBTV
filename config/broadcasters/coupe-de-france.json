@@ -1,0 +1,180 @@
+{
+ "competitionId": "coupe-de-france",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.fff.fr/article/15975-bein-sports-diffuseur-de-la-coupe-de-france-credit-agricole-jusqu-en-2030.html",
+  "https://www.sportcal.com/newsletters/bein-sports-retains-domestic-coupe-de-france-rights-until-2030",
+  "https://www.90min.com/fr/officiel-le-nouveau-diffuseur-de-la-coupe-de-france-est-connu",
+  "https://news.footeo.com/2026/10/22/coupe-de-france-la-pression-monte-a-la-fff-toujours-aucun-diffuseur-en-clair-pour-les-32es-15516",
+  "https://tribunenantaise.fr/actus-fcnantes/droit-tv-coupe-de-france-diffuseur/",
+  "https://www.foot01.com/tv/tv-diallo-fait-une-fleur-a-france-televisions",
+  "https://www.universfreebox.com/?p=594291",
+  "https://www.jechange.fr/telecom/internet/news/prix-abonnements-foot-saison-2026-2027-addition-complete",
+  "https://www.sportcal.com/news/fff-goes-to-market-with-domestic-coupe-de-france-tender/",
+  "https://www.insideworldfootball.com/2025/11/18/fff-launches-new-coupe-de-france-rights-tender/",
+  "https://www.qatar-tribune.com/article/42540/sports/bein-sports-to-broadcast-coupe-de-france-in-a-deal-until-2026",
+  "https://www.beinsports.com/en-mena/articles/bein-sports-to-broadcast-coupe-de-france-in-a",
+  "https://www.livesoccertv.com/competitions/france/coupe-de-france/",
+  "https://en.wikipedia.org/wiki/Coupe_de_France"
+ ],
+ "notes": "Domestic 2026-27: beIN SPORTS (pay) confirmed by the FFF for all 63 matches from the round of 32 to the final (2026-27 to 2029-30). No free-to-air broadcaster had been signed for 2026-27 as of 23 Oct 2026 (lot A, ex-France Televisions, still under negotiation), so no FTA entry is listed for France; if France Televisions renews, France 2/France 3/france.tv would again show one match per round plus the final, co-broadcast with beIN. International: no official FFF list of 2026-27 international broadcasters was found. Entries use the latest known holders: beIN's 2022-23 to 2025-26 international deal (30+ territories) and 2025-26 TV listings (LiveSoccerTV) for Portugal, Czech Republic, Lithuania, Albania and Cyprus - all flagged as not confirmed for 2026-27. Monaco, French overseas territories and Francophone Africa: no source found for Coupe de France coverage; not listed. Web search quota was exhausted during research, so further international checks (e.g. US, UK, Spain, Latin America, Sub-Saharan Africa) could not be completed.",
+ "broadcasters": [
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN SPORTS holds lot B for 2026-27 to 2029-30: 63 matches = 100% of matches from the round of 32 (32es de finale) to the final, 53 exclusive and 10 co-broadcast with the lot A holder (FFF, 17 Dec 2025). Free-to-air lot A (one match per round + final, previously France Televisions on France 2 / France 3 / france.tv, through 2025-26) was STILL UNASSIGNED as of 22-23 Oct 2026: France Televisions wants to halve its fee and its CEO said the Coupe de France might not be renewed; TF1/TMC, M6/W9 and La Chaine L'Equipe were reported interested. Round of 32 is scheduled 19-20 Dec 2026. The 2026-27 competition began in summer 2026 (early amateur rounds).",
+   "source": "https://www.fff.fr/article/15975-bein-sports-diffuseur-de-la-coupe-de-france-credit-agricole-jusqu-en-2030.html"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN's international Coupe de France deal (announced Jan 2023) covered 'more than 30 territories' incl. 24 MENA countries, France, Australia, New Zealand, Turkey, Canada and Hong Kong 'until 2026' (2022-23 to 2025-26). 2026-27 international renewal not confirmed (beIN's Dec 2025 FFF renewal to 2030 is described for France/lot B only). The source states 24 MENA countries but does not list them.",
+   "source": "https://www.qatar-tribune.com/article/42540/sports/bein-sports-to-broadcast-coupe-de-france-in-a-deal-until-2026"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN's international Coupe de France deal (announced Jan 2023) covered 'more than 30 territories' incl. 24 MENA countries, France, Australia, New Zealand, Turkey, Canada and Hong Kong 'until 2026' (2022-23 to 2025-26). 2026-27 international renewal not confirmed (beIN's Dec 2025 FFF renewal to 2030 is described for France/lot B only).",
+   "source": "https://www.qatar-tribune.com/article/42540/sports/bein-sports-to-broadcast-coupe-de-france-in-a-deal-until-2026"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN's international Coupe de France deal (announced Jan 2023) covered 'more than 30 territories' incl. 24 MENA countries, France, Australia, New Zealand, Turkey, Canada and Hong Kong 'until 2026' (2022-23 to 2025-26). 2026-27 international renewal not confirmed (beIN's Dec 2025 FFF renewal to 2030 is described for France/lot B only).",
+   "source": "https://www.qatar-tribune.com/article/42540/sports/bein-sports-to-broadcast-coupe-de-france-in-a-deal-until-2026"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN's international Coupe de France deal (announced Jan 2023) covered 'more than 30 territories' incl. 24 MENA countries, France, Australia, New Zealand, Turkey, Canada and Hong Kong 'until 2026' (2022-23 to 2025-26). 2026-27 international renewal not confirmed (beIN's Dec 2025 FFF renewal to 2030 is described for France/lot B only).",
+   "source": "https://www.qatar-tribune.com/article/42540/sports/bein-sports-to-broadcast-coupe-de-france-in-a-deal-until-2026"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN's international Coupe de France deal (announced Jan 2023) covered 'more than 30 territories' incl. 24 MENA countries, France, Australia, New Zealand, Turkey, Canada and Hong Kong 'until 2026' (2022-23 to 2025-26). 2026-27 international renewal not confirmed (beIN's Dec 2025 FFF renewal to 2030 is described for France/lot B only).",
+   "source": "https://www.qatar-tribune.com/article/42540/sports/bein-sports-to-broadcast-coupe-de-france-in-a-deal-until-2026"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN's international Coupe de France deal (announced Jan 2023) covered 'more than 30 territories' incl. 24 MENA countries, France, Australia, New Zealand, Turkey, Canada and Hong Kong 'until 2026' (2022-23 to 2025-26). 2026-27 international renewal not confirmed (beIN's Dec 2025 FFF renewal to 2030 is described for France/lot B only).",
+   "source": "https://www.qatar-tribune.com/article/42540/sports/bein-sports-to-broadcast-coupe-de-france-in-a-deal-until-2026"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2025-26 holder per LiveSoccerTV TV listings for the 2025-26 quarter-finals, semi-finals and final (TV-listings site, not an official source); 2026-27 not confirmed (international coverage usually starts at the round of 32, scheduled 19-20 Dec 2026).",
+   "source": "https://www.livesoccertv.com/competitions/france/coupe-de-france/"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2025-26 holder per LiveSoccerTV TV listings for the 2025-26 quarter-finals, semi-finals and final (TV-listings site, not an official source); 2026-27 not confirmed (international coverage usually starts at the round of 32, scheduled 19-20 Dec 2026).",
+   "source": "https://www.livesoccertv.com/competitions/france/coupe-de-france/"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2025-26 holder per LiveSoccerTV TV listings for the 2025-26 quarter-finals, semi-finals and final (TV-listings site, not an official source); 2026-27 not confirmed (international coverage usually starts at the round of 32, scheduled 19-20 Dec 2026).",
+   "source": "https://www.livesoccertv.com/competitions/france/coupe-de-france/"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "SuperSport (DigitAlb)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2025-26 holder per LiveSoccerTV TV listings for the 2025-26 quarter-finals, semi-finals and final (TV-listings site, not an official source); 2026-27 not confirmed (international coverage usually starts at the round of 32, scheduled 19-20 Dec 2026).",
+   "source": "https://www.livesoccertv.com/competitions/france/coupe-de-france/"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2025-26 holder per LiveSoccerTV TV listings for the 2025-26 quarter-finals, semi-finals and final (TV-listings site, not an official source); 2026-27 not confirmed (international coverage usually starts at the round of 32, scheduled 19-20 Dec 2026).",
+   "source": "https://www.livesoccertv.com/competitions/france/coupe-de-france/"
+  }
+ ]
+}

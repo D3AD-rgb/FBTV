@@ -1,0 +1,103 @@
+{
+ "competitionId": "belgian-pro-league",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.proximus.com/news/2026/202605-belgian-and-international-football.html",
+  "https://www.sportcal.com/news/pro-league-back-on-proximus-through-dazn-distribution-deal/",
+  "https://www.sportcal.com/news/long-time-pro-league-broadcaster-telenet-returns-via-dazn-deal/",
+  "https://www.sportcal.com/news/orange-belgium-returns-as-dazn-complete-pro-league-telco-distribution-sweep/",
+  "https://selectra.be/nl/telecom/nieuws/tv-rechten-belgisch-voetbal-voo-orange-proximus",
+  "https://www.sportcal.com/news/dazn-to-continue-pro-league-coverage-through-2026-27-season/",
+  "https://www.sportcal.com/news/vrt-deals-with-dazn-for-pro-league-highlights-clips/",
+  "https://www.ziggo.nl/entertainment/sport/voetbal/jupiler-pro-league/programma",
+  "https://www.wheresthematch.com/jupiler-pro-league-on-tv/",
+  "https://www.sportcal.com/news/dazn-extends-japanese-rights-deal-for-belgiums-pro-league/",
+  "https://www.sportcal.com/media/img-nets-belgian-pro-league-media-rights-advisory-contract/"
+ ],
+ "notes": "DAZN holds the domestic Pro League rights for the 2025-30 cycle. It tried to end the contract in November 2025. A CEPANI arbitration ruling forced it to continue, and in April 2026 DAZN told a Brussels court it would broadcast through at least 2026-27. In 2025-26 matches were only on the DAZN app. From 2026-27, Telenet, Proximus/Scarlet and Orange/VOO distribute DAZN's channels again. The Pro League publishes no official international broadcaster list (proleague.be has no 'where to watch' page), and no announcement of the 2025-30 international rights winners was found. International coverage below is therefore limited to markets confirmed by a fetched source. Setanta Sports (Eurasia/Ukraine; five-year renewal reported by SportBusiness behind a paywall), Sportdigital (Germany/Austria) and ESPN+ (USA; 2021 five-year deal) are reported elsewhere but could not be verified for 2026-27, so they are omitted.",
+ "broadcasters": [
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Play Sports (Telenet)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Pickx Sports (Proximus / Scarlet)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Orange TV (DAZN channels)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "VOO (DAZN channels)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "VRT (Sporza)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTBF (La Tribune / Auvio)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "All matches are live on DAZN, which has four linear channels (two for Belgian football, in Dutch and French) plus its app. From 2026-27 these are distributed by Telenet (Play Sports, deal through 2029-30), Proximus and Scarlet (Pickx Sports / All-in), Orange and VOO (VOO per selectra.be). VRT and RTBF are HIGHLIGHTS ONLY, with no live matches. VRT has weekly highlights on its website, app and social media and in Sportweekend. RTBF has a five-season deal: Sunday digital highlights on RTBF Actus/Auvio, La Tribune on Monday nights (Auvio/Tipik) and news recaps.",
+   "source": "https://www.sportcal.com/news/pro-league-back-on-proximus-through-dazn-distribution-deal/"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Ziggo's 2026/2027 Jupiler Pro League schedule page says matches are live on DAZN (DAZN is listed for some fixtures).",
+   "source": "https://www.ziggo.nl/entertainment/sport/voetbal/jupiler-pro-league/programma"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "WheresTheMatch says the league is live on DAZN for UK viewers during 2026/27.",
+   "source": "https://www.wheresthematch.com/jupiler-pro-league-on-tv/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "LATEST CONFIRMED: In July 2025 DAZN Japan extended its rights in a multi-year deal, initially covering 2025-26, with at least three matches per round (one with live Japanese commentary). Not explicitly reconfirmed for 2026-27.",
+   "source": "https://www.sportcal.com/news/dazn-extends-japanese-rights-deal-for-belgiums-pro-league/"
+  }
+ ]
+}

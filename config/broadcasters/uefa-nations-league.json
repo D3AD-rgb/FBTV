@@ -1,0 +1,3669 @@
+{
+ "competitionId": "uefa-nations-league",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/",
+  "https://publicidade.rtp.pt/wp-content/uploads/2026/08/PT_RTP-PORTUGAL-PROPOSTA-COMERCIAL-UNL-26_27.pdf"
+ ],
+ "notes": "Channel lists come from UEFA.com's 2026/27 Nations League 'Where to watch' page (dated 6 Oct 2026), which covers the league phase played Sept-Nov 2026. Nations League rights are sold by UEFA under its national-team (2024-28) cycle, separately from club competitions. UEFA does not mark free-to-air: freeToAir=true means the broadcaster is a public/free-to-air channel or an official free stream (TF1+, RaiPlay, RTVE Play, Yle Areena, BBC iPlayer, SRG Play, UEFA.tv); free broadcasters usually show their own national team, but UEFA does not state exact match allocations except in the UK and where UEFA.tv is restricted. UEFA.tv (UEFA's free streaming platform) covers several territories without a broadcaster. Where UEFA lists the same territory twice under different names (Eswatini/Swaziland, St Kitts and Nevis/St Christopher, BVI/Tortola, Bonaire/Saba/St Eustatius) they are merged into one entry. Russia is listed because UEFA's page lists a broadcaster (Okko) there.",
+ "broadcasters": [
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "DigitAlb",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TV Klan",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TV Klan is a national free-to-air channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTVE Play",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv for Andorra matches only. UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Armenia 1TV (Public TV)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA lists 'First Channel of Public TV Company of Armenia'.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "ORF ON",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "PULS 4",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "ORF (public) and PULS 4 (commercial, streams via Joyn) are free-to-air.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "CBC Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "CBC Sport free-to-air status not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "CTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Channel type not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "VTM GO",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "RTL tvi / RTL Play",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "VTM GO (DPG Media) and RTL tvi/RTL Play are free-to-air offers.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "MY TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "BHRT",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "BHRT is the public broadcaster. MY TV channel type not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "gong.bg",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "MAX One (A1)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA links gong.bg; its free/pay status not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "gol (Nova TV)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'gol' linked to gol.dnevnik.hr (Nova TV's sports portal); free/pay status not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "CyBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Cytavision",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Public/free-to-air broadcaster; UEFA does not state which matches it shows.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Czechia",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "ČT sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ČT sport (Czech TV) is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "TV 2 Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ERR",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "ERR is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Faroe Islands",
+   "code": "FO",
+   "channels": [
+    {
+     "name": "TV 2 Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "KVF",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "KVF is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "MTV Katsomo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Yle Areena",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA lists 'Yle A' (Yle, public broadcaster).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe (free DTT channel) and TF1+ (TF1's free streaming platform).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "1TV (Channel 1)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Silk GO",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Channel1' linked to 1tvplay.ge (Georgian Public Broadcaster).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Das Erste (ARD)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTL+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ZDF",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "ARD (Das Erste) and ZDF (UEFA: 'ZDF sportstudio') are public free-to-air broadcasters.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Gibraltar",
+   "code": "GI",
+   "channels": [
+    {
+     "name": "GBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv for matches not involving Gibraltar. GBC is the public broadcaster. UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Nova (EON)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Alpha TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Alpha TV is a national free-to-air channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Greenland",
+   "code": "GL",
+   "channels": [
+    {
+     "name": "TV 2 Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "M4 Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TV2 Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NET4+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "M4 Sport (UEFA: 'M4 Sport Online') is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sýn",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Vefsjónvarp Sýnar' (Sýn web TV).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sport 5 (The Sports Channel)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "RaiPlay",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Mediaset",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Rai (public) and Mediaset are free-to-air.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Qazsport",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Qazsport is the state sports channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Artmotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Code XK is the commonly used user-assigned code (no official ISO 3166-1 code).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "LTV7",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "LTV7 is the public broadcaster's channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Landeskanal",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Liechtensteiner Landeskanal is the state channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "LRT",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "LRT is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "RTL Luxembourg",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv for matches not involving Luxembourg. UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TVM Sport (PBS)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv for matches not involving Malta. TVM Sport is the public broadcaster's channel. UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Moldova 1 (TRM)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TRM is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Monaco",
+   "code": "MC",
+   "channels": [
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "RTCG",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Radio and Television of Montenegro' (public broadcaster).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "NOS is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "MRT",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA links play.mrt.com.mk (MRT, public broadcaster).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "TV 2 Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Box Go",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TVP Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TVP is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "RTP",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTP holds the free-to-air (sinal aberto) rights in Portugal for the 2026-27 Nations League (RTP commercial proposal, July 2026): https://publicidade.rtp.pt/wp-content/uploads/2026/08/PT_RTP-PORTUGAL-PROPOSTA-COMERCIAL-UNL-26_27.pdf",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Republic of Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "RTÉ",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Virgin Media Television",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Both are free-to-air broadcasters.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Antena 1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima Play (Clever Media)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Antena 1 is a national free-to-air channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "RaiPlay",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "San Marino RTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Mediaset",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "RTS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTS is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "STVR Šport",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "STVR is the public broadcaster (UEFA: 'STVR Sport online').",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Sportklub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "RTVE Play",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTVE is the public broadcaster.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Play SRF",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Play RTS",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Play RSI",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Play SRF/RTS/RSI are SRG SSR public-broadcaster streams.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Türkiye",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ATV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "ATV is a national free-to-air channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Megogo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "ITV1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "BBC iPlayer",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "S4C",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Amazon Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "ITV1: England matches only. BBC iPlayer: Scotland and Northern Ireland matches only. S4C: Wales matches only. Prime Video: matches not involving England, Scotland, Wales or Northern Ireland.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Vatican City",
+   "code": "VA",
+   "channels": [
+    {
+     "name": "RaiPlay",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "San Marino RTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Mediaset",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Algeria",
+   "code": "DZ",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "American Samoa",
+   "code": "AS",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'FuboTV' (Fubo).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Angola",
+   "code": "AO",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Anguilla",
+   "code": "AI",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "code": "AG",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Aruba",
+   "code": "AW",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NOS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "NOS is the Dutch public broadcaster; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bahamas",
+   "code": "BS",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bahrain",
+   "code": "BH",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Barbados",
+   "code": "BB",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Belize",
+   "code": "BZ",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Benin",
+   "code": "BJ",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bermuda",
+   "code": "BM",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bhutan",
+   "code": "BT",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Bolivia",
+   "code": "BO",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Caribbean Netherlands (Bonaire, Saba, Sint Eustatius)",
+   "code": "BQ",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NOS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA lists Bonaire, Saba and St. Eustatius separately, each with Bluu and NOS. NOS free availability in these islands not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Botswana",
+   "code": "BW",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "sportv",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'sportv | Ao Vivo'.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "British Virgin Islands",
+   "code": "VG",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists British Virgin Islands and Tortola separately, both Bluu.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Burkina Faso",
+   "code": "BF",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Burundi",
+   "code": "BI",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "Hang Meas HDTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Hang Meas HDTV is a free-to-air channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Cameroon",
+   "code": "CM",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Cape Verde",
+   "code": "CV",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Cayman Islands",
+   "code": "KY",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Central African Republic",
+   "code": "CF",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Chad",
+   "code": "TD",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "iQIYI Sports",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Comoros",
+   "code": "KM",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Congo",
+   "code": "CG",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Cook Islands",
+   "code": "CK",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Cuba",
+   "code": "CU",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Curaçao",
+   "code": "CW",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NOS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "NOS is the Dutch public broadcaster; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "DR Congo",
+   "code": "CD",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Djibouti",
+   "code": "DJ",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Dominica",
+   "code": "DM",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Egypt",
+   "code": "EG",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Equatorial Guinea",
+   "code": "GQ",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Eritrea",
+   "code": "ER",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Eswatini",
+   "code": "SZ",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists both 'Eswatini' and 'Swaziland' (DStv Stream).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Ethiopia",
+   "code": "ET",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Falkland Islands",
+   "code": "FK",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Fiji",
+   "code": "FJ",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "French Guiana",
+   "code": "GF",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA lists 'French Guyana'. La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "French Polynesia",
+   "code": "PF",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "French Southern and Antarctic Lands",
+   "code": "TF",
+   "channels": [
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Gabon",
+   "code": "GA",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Gambia",
+   "code": "GM",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Grenada",
+   "code": "GD",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Guadeloupe",
+   "code": "GP",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Guam",
+   "code": "GU",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'FuboTV' (Fubo).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Guinea",
+   "code": "GN",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Guinea-Bissau",
+   "code": "GW",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Guyana",
+   "code": "GY",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Listed by UEFA as shown (Disney+, la chaîne L'Équipe, TF1+); free availability of the French services here not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Haiti",
+   "code": "HT",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Vision+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Ivory Coast",
+   "code": "CI",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Jamaica",
+   "code": "JM",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Jordan",
+   "code": "JO",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Kiribati",
+   "code": "KI",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Lebanon",
+   "code": "LB",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Lesotho",
+   "code": "LS",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Liberia",
+   "code": "LR",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Libya",
+   "code": "LY",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "iQIYI Sports",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Madagascar",
+   "code": "MG",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Malawi",
+   "code": "MW",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Maldives",
+   "code": "MV",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Mali",
+   "code": "ML",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Marshall Islands",
+   "code": "MH",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Martinique",
+   "code": "MQ",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Mauritania",
+   "code": "MR",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Mauritius",
+   "code": "MU",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe free availability in Mauritius not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Mayotte",
+   "code": "YT",
+   "channels": [
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Sky México",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Micronesia",
+   "code": "FM",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Midway Islands (US Minor Outlying Islands)",
+   "code": "UM",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Midway'.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Mongolia",
+   "code": "MN",
+   "channels": [
+    {
+     "name": "LookTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Montserrat",
+   "code": "MS",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Namibia",
+   "code": "NA",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Nauru",
+   "code": "NR",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "New Caledonia",
+   "code": "NC",
+   "channels": [
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Niger",
+   "code": "NE",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Niue",
+   "code": "NU",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "North Korea",
+   "code": "KP",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Northern Mariana Islands",
+   "code": "MP",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Mariana Islands'.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Oman",
+   "code": "OM",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Palau",
+   "code": "PW",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Palestine",
+   "code": "PS",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA: 'Palestine (Gaza strip & West Bank)'.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Papua New Guinea",
+   "code": "PG",
+   "channels": [
+    {
+     "name": "EMTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "EMTV is a free-to-air channel.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Paraguay",
+   "code": "PY",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'FuboTV' (Fubo).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Qatar",
+   "code": "QA",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Réunion",
+   "code": "RE",
+   "channels": [
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Rwanda",
+   "code": "RW",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saint Barthélemy",
+   "code": "BL",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saint Helena, Ascension and Tristan da Cunha",
+   "code": "SH",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'St. Helena and Ascension'.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saint Kitts and Nevis",
+   "code": "KN",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'St. Christopher' and 'St. Kitts and Nevis' separately, both Bluu.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saint Lucia",
+   "code": "LC",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saint Martin",
+   "code": "MF",
+   "channels": [
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saint Pierre and Miquelon",
+   "code": "PM",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saint Vincent and the Grenadines",
+   "code": "VC",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Samoa",
+   "code": "WS",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "São Tomé and Príncipe",
+   "code": "ST",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Saudi Arabia",
+   "code": "SA",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Senegal",
+   "code": "SN",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Seychelles",
+   "code": "SC",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Sierra Leone",
+   "code": "SL",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Solomon Islands",
+   "code": "SB",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Somalia",
+   "code": "SO",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "South Sudan",
+   "code": "SS",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Sudan",
+   "code": "SD",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Syria",
+   "code": "SY",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA.tv",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Tibet",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Listed separately by UEFA (no separate ISO 3166-1 code). UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Timor-Leste",
+   "code": "TL",
+   "channels": [
+    {
+     "name": "Vision+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Togo",
+   "code": "TG",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Tokelau",
+   "code": "TK",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Tonga",
+   "code": "TO",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "code": "TT",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Tunisia",
+   "code": "TN",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Turks and Caicos Islands",
+   "code": "TC",
+   "channels": [
+    {
+     "name": "Bluu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Tuvalu",
+   "code": "TV",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "United Arab Emirates",
+   "code": "AE",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'FOX Sports, FuboTV, ViX'. Which matches (if any) air on the over-the-air FOX network is not stated.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Uruguay",
+   "code": "UY",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "US Virgin Islands",
+   "code": "VI",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'FuboTV' (Fubo).",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "UEFA.tv",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UEFA.tv is UEFA's own free streaming platform.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Vanuatu",
+   "code": "VU",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "TV360",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Wallis and Futuna",
+   "code": "WF",
+   "channels": [
+    {
+     "name": "Digicel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "La chaîne L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TF1+",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "La chaîne L'Équipe and TF1+ are free in metropolitan France; free availability in this territory not verified.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Yemen",
+   "code": "YE",
+   "channels": [
+    {
+     "name": "beIN CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "Zimbabwe",
+   "code": "ZW",
+   "channels": [
+    {
+     "name": "DStv Stream",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  },
+  {
+   "country": "In-flight and in-ship",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sport 24",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Not a country: UEFA's partner for in-flight and in-ship broadcasts.",
+   "source": "https://www.uefa.com/uefanationsleague/news/02a9-219ae5c877f5-740390ccb3e5-1000--where-to-watch-the-nations-league-tv-broadcast-partners-li/"
+  }
+ ]
+}

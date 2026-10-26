@@ -1,0 +1,175 @@
+{
+ "competitionId": "portuguese-primeira-liga",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.flashscore.pt/noticias/futebol-onde-assistir-liga-portugal-2026-27/ngzROZLc/",
+  "https://pt.soccerway.com/noticias/futebol-liga-portugal-betclic-liga-portugal-2025-26-onde-e-como-se-pode-ver-a-competicao-na-televisao/xEBxMmth",
+  "https://pt.soccerway.com/noticias/futebol-liga-portugal-betclic-jogos-do-moreirense-para-a-liga-portugal-transmitidos-na-tvi-entre-2025-26-e-2027-28/Aw0LRHJl",
+  "https://www.abola.pt/noticias/benfica-fecha-acordo-com-a-nos-por-571-milhoesano-ate-2028-2026012619080069168",
+  "https://en.wikipedia.org/wiki/Primeira_Liga",
+  "https://en.wikipedia.org/wiki/2026%E2%80%9327_Primeira_Liga",
+  "https://www.sportcal.com/news/sportfive-retains-global-rights-sales-remit-for-primeira-liga-to-2028/",
+  "https://www.sportcal.com/?p=152761",
+  "https://senalnews.com/en/content/dazn-get-the-rights-of-three-liga-portugal-matches-for-spain",
+  "https://sportsmintmedia.com/dazn-expands-liga-portugal-coverage-through-sportfive-multi-market-rights-agreement/",
+  "https://www.mondomobileweb.it/325055-dazn-italia-rinnova-fino-al-2028-la-liga-portugal-betclic-in-esclusiva-i-principali-match/",
+  "https://eco.sapo.pt/2026/08/18/sport-tv-cria-plano-em-espanha-para-liga-portugal-betclic/",
+  "https://www.advanced-television.com/2026/08/20/dazn-livemode-expand-portugal-football-rights-deals/",
+  "https://www.insideworldfootball.com/2026/08/04/portugals-primeira-liga-extends-run-with-germanys-sportdigital/",
+  "https://www.record.pt/futebol/futebol-nacional/liga-betclic/detalhe/bein-sports-adquire-os-direitos-de-transmissao-dos-jogos-da-liga-2026-27-nos-eua",
+  "https://www.beinsports.com/en-us/soccer/premier-league-portuguese/articles/how-and-where-to-watch-liga-portugal-on-bein-sports-2026-07-13",
+  "https://news.agencymargot.com/465994-bein-sports-acquires-exclusive-us-media-rights-to-liga-portugal-strengthening-its-position-as-the-home-of-global-soccer",
+  "https://www.portugalresident.com/bein-sports-liga-portugal-usa/",
+  "https://futebol365.pt/artigo/nsports-sublicencia-direitos-da-liga-portugal-e-efl-championship-no-brasil-via-espn",
+  "https://www.portalmidiaesporte.com/2026/08/nsports-espn-campeonato-portugues-segunda-divisao-inglesa-transmissao.html",
+  "https://www.trillertv.com/article/liga-portugal-eredivisie-greek-super-league-international-football-season-climax/"
+ ],
+ "notes": "League is 'Liga Portugal Betclic' (season 7 Aug 2026 - 16 May 2027). Domestic rights are still sold club by club in 2026-27 (centralised sale due from 2027-28 or 2028-29, depending on the source). Sport TV shows all matches except Benfica home games (BTV) and Moreirense home games (TVI / V+). International rights for 2026-27 and 2027-28 are distributed by Sportfive on behalf of Sport TV. Gaps: no 2026-27 holder was found for the UK, Ireland, Australia, New Zealand or Scandinavia. FITE/TrillerTV held those markets only up to 2025-26, and no renewal was found, so they are left out. Also not found: Canada, France, MENA, Africa (incl. Angola/Mozambique) and Spanish-speaking Latin America. RTP Internacional previously showed one match per round abroad (e.g. Spain), but no 2026-27 confirmation was found. Belgium and Japan come from DAZN multi-territory deal reports (Sportfive deal) only. A web search quota limit stopped further territory research.",
+ "broadcasters": [
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "BTV (Benfica TV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TVI",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "V+ TVI",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sport TV (Sport TV 1/2 etc., plus the Sport TV Multiscreen app for subscribers) shows every match except two clubs' home games. Benfica home games are exclusive to the club's pay channel BTV under a NOS deal covering 2026-27 and 2027-28. Moreirense home games (deal Aug 2025 - Jun 2028) air on free-to-air TVI, or on V+ depending on the schedule. Flashscore calls these free, but V+ is a cable/IPTV channel that needs a pay-TV package (no premium sports subscription). The 2026-27 round 1 listing (Sport TV 1/2, BTV, TVI) confirms this setup.",
+   "source": "https://www.flashscore.pt/noticias/futebol-onde-assistir-liga-portugal-2026-27/ngzROZLc/"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sport TV (OTT app, Spain residents)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN has a non-exclusive deal for three matches per matchday in 2026-27 and 2027-28, with English commentary, via Sportfive. Since August 2026 Sport TV also sells an app subscription to individual residents of Spain (EUR 34.99/month) covering Liga Portugal Betclic and Liga 2 content. RTP Internacional showed the league in Spain in previous seasons.",
+   "source": "https://eco.sapo.pt/2026/08/18/sport-tv-cria-plano-em-espanha-para-liga-portugal-betclic/"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive. DAZN Italia renewed through 2027-28 and shows selected matches each round (mainly Porto, Benfica and Sporting games; up to three per round under the Sportfive multi-territory deal), plus highlights.",
+   "source": "https://www.mondomobileweb.it/325055-dazn-italia-rinnova-fino-al-2028-la-liga-portugal-betclic-in-esclusiva-i-principali-match/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive. Part of the DAZN-Sportfive multi-territory deal: three matches per round, 2026-27 and 2027-28. Only trade-press reports; no Japan-specific announcement was found.",
+   "source": "https://sportsmintmedia.com/dazn-expands-liga-portugal-coverage-through-sportfive-multi-market-rights-agreement/"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive. Part of the DAZN-Sportfive multi-territory deal: three matches per round, 2026-27 and 2027-28. Only trade-press reports; no Belgium-specific announcement was found.",
+   "source": "https://sportsmintmedia.com/dazn-expands-liga-portugal-coverage-through-sportfive-multi-market-rights-agreement/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "sportdigital FUSSBALL",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "sportdigital+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sportdigital extended its rights for 2026-27 and 2027-28 (holder since 2013), with coverage from opening day. The source names Germany only.",
+   "source": "https://www.insideworldfootball.com/2026/08/04/portugals-primeira-liga-extends-run-with-germanys-sportdigital/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS CONNECT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive US rights for 2026-27, all matches. Portuguese reports also say some coverage is on beIN's YouTube channel for free, but which matches (if any full matches) was not specified.",
+   "source": "https://news.agencymargot.com/465994-bein-sports-acquires-exclusive-us-media-rights-to-liga-portugal-strengthening-its-position-as-the-home-of-global-soccer"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NSports (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "ESPN is the official rights holder and can show every match on its linear channels and Disney+. NSports sublicensed two matches per round for 2026-27, shown free on its official YouTube channel and also on pay TV.",
+   "source": "https://futebol365.pt/artigo/nsports-sublicencia-direitos-da-liga-portugal-e-efl-championship-no-brasil-via-espn"
+  }
+ ]
+}

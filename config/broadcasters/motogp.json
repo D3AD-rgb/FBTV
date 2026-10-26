@@ -1,0 +1,1106 @@
+{
+ "competitionId": "motogp",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.motogp.com/en/broadcasters",
+  "https://www.silverstone.co.uk/news/when-and-where-watch-british-grand-prix-motogp-2026-silverstone",
+  "https://www.speedweek.com/en/a/motogp/motogp-aragon-live-broadcast-times",
+  "https://www.motogp.com/en/news/2025/12/23/sky-sport-remains-the-home-of-motogp-in-italy-until-2027-inclusive/823941",
+  "https://maquinadoesporte.com.br/motogp/band-transmitira-gp-do-brasil-de-motogp-com-exclusividade-na-tv-aberta-em-2026/",
+  "https://haveagood-holiday.com/en/articles/motogp-2026-season-five-japanese-riders-japan-broadcast"
+ ],
+ "notes": "Primary source: the official motogp.com '2026 MotoGP Broadcasters' page (logos read from the page). Free-to-air flags are set only where a source or the broadcaster's nature (public/terrestrial free channel) indicates free viewing; scope of free coverage is often limited (selected races). MotoGP VideoPass (official paid streaming) is available in most territories. Bangladesh is not listed on motogp.com (gap).",
+ "broadcasters": [
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max (TNT Sports plan)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "TNT Sports exclusive for 2026, every session live (via Sky, Virgin Media, EE TV or HBO Max). The motogp.com page still shows a Quest logo, but Silverstone confirms Quest no longer carries MotoGP in 2026; no free-to-air coverage.",
+   "source": "https://www.silverstone.co.uk/news/when-and-where-watch-british-grand-prix-motogp-2026-silverstone"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max (TNT Sports plan)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "TNT Sports is the exclusive home of MotoGP in the UK and Ireland for 2026.",
+   "source": "https://www.silverstone.co.uk/news/when-and-where-watch-british-grand-prix-motogp-2026-silverstone"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "FS1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FS2",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "MGP Channel",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fox Sports (FS1/FS2) every GP and Sprint; motogp.com also lists the 'MGP Channel' for the USA.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Sportsnet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Network 10",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Kayo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Network 10 (free-to-air; scope of free coverage not stated on motogp.com). Fox Sports/Kayo show every session (listed for Australia and Papua New Guinea).",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Papua New Guinea",
+   "code": "PG",
+   "channels": [
+    {
+     "name": "Fox Sports / Kayo",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Australia and Papua Guinea - FOX'.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "TV3 (Three)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Eurosport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "begin.watch streaming.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DF1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Red Bull TV",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky: all 22 rounds (subscription). DF1: 12 selected premier-class events live free-to-air in 2026, highlights of the rest (also streamed on ServusTV On / Red Bull TV). Free coverage moves to RTL from 2027.",
+   "source": "https://www.speedweek.com/en/a/motogp/motogp-aragon-live-broadcast-times"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "ServusTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ServusTV shows the championship free of charge (linear + digital incl. Red Bull TV).",
+   "source": "https://www.speedweek.com/en/a/motogp/motogp-aragon-live-broadcast-times"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "SRF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RSI",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ServusTV ON",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "SRG public broadcasters (SRF/RTS/RSI) hold the rights.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Sport MotoGP",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV8",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky/NOW all races live (deal to 2027); TV8: a number of races free-to-air.",
+   "source": "https://www.motogp.com/en/news/2025/12/23/sky-sport-remains-the-home-of-motogp-in-italy-until-2027-inclusive/823941"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "NOS public broadcaster (scope of free coverage not stated).",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "RTBF Auvio",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Play Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTBF public broadcaster.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viasat Sport 3 (V sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "V Sport Motor",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "V Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "V Sport 3",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Arena4 (Network4)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "OTE TV (Cosmote/Magenta TV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TSN (GO Sports)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Gibraltar",
+   "code": "GI",
+   "channels": [
+    {
+     "name": "Gibtelecom TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Voyo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Kanal A",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Plus (Pop)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as Balkans: Bosnia / Serbia / Macedonia & Montenegro.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkans deal.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkans deal.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Balkans deal.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "ArtMotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "XK is a user-assigned code.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Maincast",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Silknet (Silk TV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Qsport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport (S Sport Plus)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "The Sports Channel (Sport 5)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Africa - French-speaking countries",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Canal+ Afrique",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Latin America, Central America & Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN / Disney+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "TLT",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN / Disney+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Band",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "motogp.com lists Brazil (logo 'Sport TV', link to ESPN Brasil); Band: free-to-air for the Brazilian GP (Goiania) only.",
+   "source": "https://maquinadoesporte.com.br/motogp/band-transmitira-gp-do-brasil-de-motogp-com-exclusividade-na-tv-aberta-em-2026/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "Nippon TV Gitas (G+)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Nippon TV Plus",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Hulu Japan",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "BS Nittele",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Nippon TV Gitas YouTube (practice)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Every round live on CS channel Nippon TV Gitas (Sky PerfecTV!); Friday practice streamed free on Nippon TV Gitas' official YouTube (venue audio only). motogp.com also lists NTV, Hulu and BS Nittele (free status of BS Nittele not confirmed by source).",
+   "source": "https://haveagood-holiday.com/en/articles/motogp-2026-season-five-japanese-riders-japan-broadcast"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Star Sports (China)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "24HourMotoSports (Douyin)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "Videoland",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "South East Asia",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Pan-regional deal.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Trans 7",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Trans 7 terrestrial free-to-air.",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV NOW",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "True4U",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.motogp.com/en/broadcasters"
+  }
+ ]
+}

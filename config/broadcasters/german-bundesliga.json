@@ -1,0 +1,1735 @@
+{
+ "competitionId": "german-bundesliga",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.bundesliga.com/en/bundesliga/info/broadcasters",
+  "https://www.bundesliga.com/en/bundesliga/news/bundesliga-broadens-broadcast-accessibility-for-fans-in-us-with-new-deals-versants-usa-sports-nbcuniversals-telemundo-38268",
+  "https://www.bundesliga.com/en/bundesliga/news/bundesliga-media-expands-pioneering-uk-and-ireland-youtube-watch-along-coverage-with-jamie-vardy-partnership-goldbridge-2026-27-38838",
+  "https://www.bundesliga.com/en/bundesliga/news/bundesliga-international-unveils-multi-layered-strategy-in-uk-and-ireland-33589",
+  "https://www.bundesliga.com/de/bundesliga/news/ansetzungen-spieltage-termine-2026-27-24024",
+  "https://www.abendzeitung-muenchen.de/promis/bundesliga-free-tv-auftakt-bei-sat1-und-dann-art-1149543",
+  "https://ran.joyn.de/sports/fussball/bundesliga/bundesliga-rechte-alle-uebertragungen-live-spiele-pakete-und-sender-free-tv-weiter-nur-bei-ran-72471",
+  "https://skygroup.sky/article/sky-deutschland-remains-the-home-of-the-bundesliga-and-2-bundesliga-until-2029-With-80-percent-of-all-games-exclusively-on-sky",
+  "https://www.sportabo.at/fussball-tv-rechte-oesterreich/",
+  "https://www.blick.ch/sport/fussball/europaleague/aenderung-fuer-schweizer-fans-dazn-sichert-sich-tv-rechte-fuer-europa-und-conference-league-id21911741.html",
+  "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga",
+  "https://es.wikipedia.org/wiki/Bundesliga_(Alemania)",
+  "https://en.wikipedia.org/wiki/Bundesliga",
+  "https://www.sportspro.com/news/broadcast-ott/bundesliga-expands-uk-distribution-fast-channel-samsung-tv-sky-sports-december-2025/",
+  "https://www.sportspro.com/news/broadcast-ott/bundesliga-fox-mexico-central-america-rights-february-2026/",
+  "https://www.sportcal.com/?p=148519",
+  "https://www.insideworldfootball.com/2026/02/11/fox-buys-bundesliga-rights-mexico-central-america/",
+  "https://www.sportcal.com/news/abema-retains-fta-rights-for-2026-27-bundesliga-season-in-japan/",
+  "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories",
+  "https://www.sportcal.com/news/ais-becomes-bundesligas-new-thai-rightsholder-through-2029",
+  "https://indiantelevision.com/television/zee-bags-exclusive-bundesliga-rights-in-india-for-five-years/",
+  "https://www.sportspro.com/news/broadcast-ott/bundesliga-globo-cazetv-canal-goat-xsports-brazil-broadcast-deals-november-2025/",
+  "https://www.lance.com.br/fora-de-campo/sportynet-fecha-parceria-de-tres-anos-com-a-bundesliga.html",
+  "https://jovempan.com.br/jovem-pan/jovem-pan-anuncia-parceria-de-tres-temporadas-para-transmissao-da-bundesliga-e-da-bundesliga-2/",
+  "https://www.sportspro.com/analysis/broadcast-ott/bundesliga-tv-rights-broadcast-strategy-mark-goldbridge-youtube/",
+  "https://onesoccer.ca/a/one-soccer-becomes-official-broadcast-partner-of-bundesliga-in-canada",
+  "https://dazngroup.com/press-room/bundesliga-and-dazn-extend-partnership-to-stream-live-matches-for-two-more-seasons/",
+  "https://dazngroup.com/press-room/dazn-ofrecera-la-bundesliga-en-exclusiva-en-espana-hasta-2029/",
+  "https://www.jornaldenegocios.pt/empresas/telecomunicacoes/detalhe/dazn-assegura-jogos-da-bundesliga-por-mais-quatro-anos",
+  "https://www.bundesliga-group.com/news/bundesliga-international-lands-historic-three-year-deal-with-mbc-group-for-the-mena-region/",
+  "https://www.bundesliga-group.com/news/bundesliga-international-signs-three-year-deal-with-vietnamese-powerhouse-viettel/",
+  "https://xinwen.bjd.com.cn/content/s69a04097e4b0cd719e9e368e.html",
+  "https://macaudailytimes.com.mo/m-plus-sports-partners-with-mctv-to-expand-football-offerings.html",
+  "https://blogs.myco.io/watch-european-football-in-bangladesh/",
+  "https://blogs.myco.io/watch-european-football-in-pakistan/"
+ ],
+ "notes": "Germany 2026-27 is year 2 of the DFL 2025-26 to 2028-29 domestic cycle: Sky (Fri, Sat 15:30 single matches, Sat 18:30, Supercup, relegation), DAZN (Sat 15:30 Konferenz, all Sunday matches), SAT.1 free-to-air (9 matches incl. opener, Supercup and relegation; also free on Joyn/ran.de) and, new for 2026-27, RTL free-to-air (10 matches, 5 per half-season, after RTL Group's takeover of Sky Deutschland). ARD/ZDF/Sport1 hold highlights only. Sky's and DAZN's DFL packages also cover Austria, Switzerland, Liechtenstein, Luxembourg (and South Tyrol / Eastern Belgium for Sky). bundesliga.com's official broadcaster finder is a dynamic page whose per-country data could not be read, and its network blocked repeated fetches; the most complete per-country list available was the Spanish Wikipedia annex of Bundesliga broadcasters (last edited 24 Oct 2026), which cites DFL press releases. Entries based only on that annex where the underlying deal predates 2026-27 are flagged in their notes as not independently confirmed for 2026-27. Iran (Gem Sport, Persiana Sports, cited only via Instagram schedule posts) was left out because it is unclear whether those channels hold official rights. Known 2026-27 changes: USA Sports/Telemundo replace ESPN in the US; Fox replaces Sky Mexico in Mexico/Central America; AIS replaces beIN/PPTV in Thailand; Zee replaces OneFootball's Bundesliga Pass in India; Brazil has new multi-platform deals from 2026-27. South America (Spanish-speaking): ESPN's deal was titled 'until 2026' and no 2026-27 successor was found.",
+ "broadcasters": [
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "WOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "SAT.1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Joyn",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky: Friday 20:30, Saturday 15:30 single matches, Saturday 18:30 top match, Supercup and relegation (WOW is Sky's streaming service). DAZN: Saturday 15:30 Konferenz and all Sunday matches, plus re-live of all matches. Free-to-air for selected matches only: SAT.1 shows 9 matches per season (opener Bayern v Stuttgart, Supercup, all relegation matches, matches around the winter break), also streamed free on Joyn/ran.de. RTL shows 10 matches per season (5 per half-season), simulcast with Sky. ARD (Sportschau), ZDF (aktuelles sportstudio) and Sport1 show highlights only, no live matches.",
+   "source": "https://www.abendzeitung-muenchen.de/promis/bundesliga-free-tv-auftakt-bei-sat1-und-dann-art-1149543"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "WOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sky Deutschland's 2025-26 to 2028-29 DFL package explicitly covers Austria (Sky Österreich); DAZN's Saturday Konferenz and Sunday package covers the German-speaking territories per the es.wikipedia annex. sportabo.at (Oct 2026) lists Sky, WOW and DAZN for 2026-27. No free-to-air live coverage found.",
+   "source": "https://www.sportabo.at/fussball-tv-rechte-oesterreich/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "German-speaking territories package 2025-26 to 2028-29: DAZN (Sunday matches + Saturday Konferenz) and Sky Sport Bundesliga (Friday, Saturday and midweek matches). Blick (30 Apr 2026) confirms the Bundesliga is 'largely' with DAZN in Switzerland. blue Sport does not show the Bundesliga. No free-to-air live coverage found.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered by the German-speaking territories packages (2025-26 to 2028-29). Sky's release names Liechtenstein explicitly.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Play Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sky and DAZN via the German-speaking territories packages (2025-26 to 2028-29). Play Sports (Telenet) via its four-year Belgium/Luxembourg deal announced May 2025.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "BBC iPlayer / BBC Sport",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Bundesliga FAST Channel (Samsung TV Plus)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "That's Football (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Jamie Vardy's Having a Party (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026-27: Sky Sports has all Saturday top matches (17:30). Prime Video has all Sunday matches on a pay-per-view basis (UK only). Free for Friday-night matches only: BBC streams them on iPlayer and BBC Sport digital, the Samsung TV Plus FAST channel carries them, That's Football streams 15 as YouTube watch-alongs and Jamie Vardy's channel streams 7.",
+   "source": "https://www.bundesliga.com/en/bundesliga/news/bundesliga-media-expands-pioneering-uk-and-ireland-youtube-watch-along-coverage-with-jamie-vardy-partnership-goldbridge-2026-27-38838"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Bundesliga FAST Channel (Samsung TV Plus)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "That's Football (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Jamie Vardy's Having a Party (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "The Samsung TV Plus FAST channel launched for the UK and Ireland in Dec 2025 (Friday-night matches). The BBC's Friday-night digital coverage was announced for 'UK and Ireland' in Aug 2025, but the es.wikipedia annex lists BBC iPlayer for the UK only. Prime Video PPV is UK only.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "USA Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fandango",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Telemundo",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Universo",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "New from 2026-27, replacing ESPN. English: Versant's USA Sports has at least 30 matches per season on USA Network, and all other matches stream free on Fandango. Spanish: Telemundo has more than 100 matches per season split across Telemundo (a free over-the-air broadcast network, so selected matches only) and Universo (cable), with all matches streaming on Peacock.",
+   "source": "https://www.bundesliga.com/en/bundesliga/news/bundesliga-broadens-broadcast-accessibility-for-fans-in-us-with-new-deals-versants-usa-sports-nbcuniversals-telemundo-38268"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "USA Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fandango",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Telemundo",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "The es.wikipedia annex groups Puerto Rico with the US deals (USA Network/Fandango and Telemundo). Not separately confirmed by the Bundesliga release.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneSoccer",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN extended for two more seasons in Aug 2025 (every match, including the 2026 Franz Beckenbauer Supercup), which covers 2026-27. OneSoccer became an official, non-exclusive broadcast partner from Nov 2025 (every Bayern match plus other matches); its 2026-27 status is not explicitly confirmed.",
+   "source": "https://dazngroup.com/press-room/bundesliga-and-dazn-extend-partnership-to-stream-live-matches-for-two-more-seasons/"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Fox deal runs 2026-27 to 2030-31 and replaces Sky Mexico. It covers all 306 league matches, the Supercup and the relegation play-offs, with English and Spanish commentary. Tubi is Fox's free ad-supported streamer; the source does not say how many matches are on Tubi.",
+   "source": "https://www.insideworldfootball.com/2026/02/11/fox-buys-bundesliga-rights-mexico-central-america/"
+  },
+  {
+   "country": "Belize",
+   "code": "BZ",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox One",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Tubi",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Part of Fox's Mexico & Central America deal, 2026-27 to 2030-31.",
+   "source": "https://www.sportcal.com/?p=148519"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "SporTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CazéTV",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Canal GOAT",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "XSports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyNet (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "SportyNet",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Jovem Pan",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Jovem Pan Esportes (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Romário TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Multi-platform model from 2026-27. Matches per round per the es.wikipedia annex: Canal GOAT 4, SportyNet 3, XSports 2, SporTV 2, CazéTV 2, Jovem Pan 1, Romário TV 1. CazéTV and Canal GOAT are YouTube channels. SportyNet (2026-27 to 2028-29) streams 2 of its 3 matches per round free on YouTube and 1 on pay TV. Jovem Pan (3 seasons from 2026-27) airs on free-to-air TV and YouTube. XSports is a linear channel and Romário TV's platform type is unconfirmed: their types here are not verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "South America (Spanish-speaking)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Spanish-speaking South America. The es.wikipedia annex still lists ESPN/Disney+, but it cites ESPN's Sept 2021 deal titled 'hasta 2026'. 2026-27 holder not confirmed; treat as latest known holder.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Based on bundesliga.com's Jamaica broadcaster page as of Aug 2024 (cited in the es.wikipedia annex). 2026-27 not independently confirmed. The Dominican Republic is covered by Fox and Puerto Rico by the US deals.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "SCCN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed in the es.wikipedia annex without a reference. Not independently verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ABEMA",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "DAZN holds the main rights for 2025-26 to 2027-28: all 9 matches per matchday. ABEMA renewed its free-to-air rights for 2026-27 for selected weekly live matches (mainly teams with Japanese players), the Supercup on 23 Aug and the relegation play-offs.",
+   "source": "https://www.sportcal.com/news/abema-retains-fta-rights-for-2026-27-bundesliga-season-in-japan/"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "ZEE5",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Unite8 Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Zee Entertainment has exclusive broadcast and digital rights for five years from 2026-27 (announced 1 Jul 2026).",
+   "source": "https://indiantelevision.com/television/zee-bags-exclusive-bundesliga-rights-in-india-for-five-years/"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "AIS PLAY",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "AIS holds the rights for 2026-27 to 2028-29: all 9 matches per matchday on AIS Play, plus the Supercup. It replaces beIN Sports (pay) and PPTV (free-to-air, 2 matches/week), the 2025-26 holders.",
+   "source": "https://www.sportcal.com/news/ais-becomes-bundesligas-new-thai-rightsholder-through-2029"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "TV360",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Viettel deal for 2025-26 to 2027-28: all 9 matches per matchday on TV360, Viettel's OTT platform and pay-TV channels.",
+   "source": "https://www.bundesliga-group.com/news/bundesliga-international-signs-three-year-deal-with-vietnamese-powerhouse-viettel/"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "CCTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "China Media Group (CCTV) will keep broadcasting the Bundesliga live until the end of 2027-28 (report of 26 Feb 2026); this is presumably selected matches. The es.wikipedia annex also lists Migu, Xiaohongshu, Shangjia Sports and Xin Qiu Sports (digital partners from older references), not verified for 2026-27.",
+   "source": "https://xinwen.bjd.com.cn/content/s69a04097e4b0cd719e9e368e.html"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific multi-territory deal announced Aug 2023 (per the es.wikipedia annex). Deal length not verified, so 2026-27 is not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "Macau Cable TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "M Plus",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The M Plus / MCTV partnership (Aug 2025) includes the Bundesliga and the German Supercup. Season length for the Bundesliga is not stated.",
+   "source": "https://macaudailytimes.com.mo/m-plus-sports-partners-with-mctv-to-expand-football-offerings.html"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ELTA has broadcast the Bundesliga since Aug 2024 (per the es.wikipedia annex and en.wikipedia). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Long-term strategic cooperation with Coupang Play announced Nov 2023 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "MNC (Vision+)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "IndiHome",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "MNC Group channels, pay TV and OTT (Vision+) held the 2024-25 rights, extended for 2025-26 per en.wikipedia. IndiHome is listed in the es.wikipedia annex. 2025-26 holder; 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Bundesliga"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Mongolia",
+   "code": "MN",
+   "channels": [
+    {
+     "name": "Premier Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Based on bundesliga.com's Mongolia broadcaster page as of Aug 2024 (cited in the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "myco",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "myco holds exclusive official rights to all 306 matches in 2026-27 (paid Season/Monthly Pass).",
+   "source": "https://blogs.myco.io/watch-european-football-in-bangladesh/"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "myco",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "myco holds exclusive official rights for 2026-27 (paid passes).",
+   "source": "https://blogs.myco.io/watch-european-football-in-pakistan/"
+  },
+  {
+   "country": "Central Asia",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Setanta Sports Eurasian partnership extended Feb 2024 (per the es.wikipedia annex). Individual countries are not specified. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Varzish TV / Football TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Listed in the es.wikipedia annex without a reference. These are presumably state channels; not independently verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Listed in the es.wikipedia annex without a reference. Presumably a state 'Sport' channel; not independently verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "MBC ACTION",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "MBC1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Shahid",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "MBC Group three-season deal from 2025-26 covers 2026-27. All matches are on Shahid; 3 matches per week are free-to-air on MBC ACTION; MBC1 aired the season opener. Covers the whole MENA region (individual countries not listed).",
+   "source": "https://www.bundesliga-group.com/news/bundesliga-international-lands-historic-three-year-deal-with-mbc-group-for-the-mena-region/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed in the es.wikipedia annex without a reference. Not independently verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive rights for 2025-26 to 2028-29 (Bundesliga, Bundesliga 2, relegation and Supercup).",
+   "source": "https://dazngroup.com/press-room/dazn-ofrecera-la-bundesliga-en-exclusiva-en-espana-hasta-2029/"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The es.wikipedia annex groups Andorra with DAZN's Spain deal (to 2028-29).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "DAZN secured the Bundesliga 'until 2029' (Aug 2024 report).",
+   "source": "https://www.jornaldenegocios.pt/empresas/telecomunicacoes/detalhe/dazn-assegura-jogos-da-bundesliga-por-mais-quatro-anos"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "New four-year deal with beIN SPORTS announced Jun 2025 (per the es.wikipedia annex), covering 2026-27.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Four-year extension with Sky Italia announced Aug 2025 (per the es.wikipedia annex). The es.wikipedia Bundesliga infobox also lists NOW (Sky's streaming service).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered with Italy by the Sky Italia four-year extension (Aug 2025).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "Play Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Four-year deal with Telenet (Play Sports) announced May 2025 (per the es.wikipedia annex). Sky's DFL package also covers Eastern Belgium (German-speaking community).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The es.wikipedia annex lists Viaplay, citing NENT's 2021 two-cycle Netherlands deal. 2026-27 not independently confirmed; uncertain.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NENT/Viaplay two-cycle Nordic deal 'until 2029' (Apr 2021, per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NENT/Viaplay two-cycle Nordic deal 'until 2029' (Apr 2021, per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NENT/Viaplay two-cycle Nordic deal 'until 2029' (Apr 2021, per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NENT/Viaplay two-cycle Nordic deal 'until 2029' (Apr 2021, per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NENT/Viaplay two-cycle Nordic deal 'until 2029' (Apr 2021, per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Eleven Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Polish rights granted to Eleven Sports in Jul 2024 (per the es.wikipedia annex). Deal length not verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Infront-brokered deal, 2025-26 to 2028-29.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Infront-brokered deal, 2025-26 to 2028-29.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Digi holds the rights via an Infront-brokered deal, 2025-26 to 2028-29. Prima Sport is listed in the es.wikipedia annex (presumably a sublicence; not verified).",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Infront-brokered deal, 2025-26 to 2028-29.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Infront-brokered deal, 2025-26 to 2028-29.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Infront-brokered deal, 2025-26 to 2028-29.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Infront-brokered deal, 2025-26 to 2028-29.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Infront-brokered deal, 2025-26 to 2028-29.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Tring Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Albanian-language rights only. Infront-brokered deal, 2025-26 to 2028-29. XK is a user-assigned code; Kosovo has no official ISO 3166-1 code.",
+   "source": "https://www.infront.sport/news/sports-media-rights/bundesliga-international-and-infront-collaborate-to-secure-media-rights-deals-in-9-eastern-european-territories"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Four-year extension with United Media (Balkans, Greece, Cyprus, Bulgaria) announced Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Šport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed under the United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Diema Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Nova Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Nova Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "United Media four-year extension, Aug 2025 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Arena4",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Network4 (Arena4) agreement extended until 2029, announced Oct 2023 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Four-year deal with Saran Media Group announced Apr 2024 (per the es.wikipedia annex).",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Setanta Eurasian partnership extended Feb 2024 (per the es.wikipedia annex). Deal length not verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Setanta Eurasian partnership extended Feb 2024 (per the es.wikipedia annex). Deal length not verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Setanta Eurasian partnership extended Feb 2024 (per the es.wikipedia annex). Deal length not verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Setanta Eurasian partnership extended Feb 2024; SportTV is listed in the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed under the Setanta Eurasian partnership of Feb 2024 (per the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The es.wikipedia annex cites a 2026 VK post saying Sport TV will show the Bundesliga in Belarus. Not independently verified.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TSN (Total Sports Network)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Based on bundesliga.com's Malta broadcaster page as of Aug 2024 (cited in the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). Deal length not verified, so 2026-27 is not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Part of the beIN Asia-Pacific deal announced Aug 2023 (per the es.wikipedia annex). Deal length not verified, so 2026-27 is not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Papua New Guinea",
+   "code": "PG",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Based on bundesliga.com's broadcaster listing as of Aug 2025 (cited in the es.wikipedia annex). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Pacific Islands",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Pacific Islands, e.g. Fiji (cited via bundesliga.com's Fiji broadcaster page as of Aug 2025 in the es.wikipedia annex). The full country list is not given. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Canal+ Afrique",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "StarTimes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Canal+ extension (Apr 2023) and StarTimes (Aug 2024 distribution announcement) per the es.wikipedia annex. Covered countries not itemised. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SABC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Bundesliga Pass (OneFootball)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "SABC (public broadcaster, presumably selected matches) is listed per an Aug 2024 Bundesliga International announcement cited in the es.wikipedia annex. The league's Bundesliga Pass on OneFootball (every match, PPV/season pass) was available in South Africa per SportsPro (Jan 2026). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Azam Sports (Aug 2024 announcement) and SportyTV (2023) per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Rwanda",
+   "code": "RW",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Malawi",
+   "code": "MW",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Zimbabwe",
+   "code": "ZW",
+   "channels": [
+    {
+     "name": "Azam Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Angola",
+   "code": "AO",
+   "channels": [
+    {
+     "name": "Z Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "Z Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Aug 2024 Bundesliga International announcement, per the es.wikipedia annex. 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "SportyTV per the es.wikipedia annex (2023 reference). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SportyTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "SportyTV per the es.wikipedia annex (2023 reference). 2026-27 not independently confirmed.",
+   "source": "https://es.wikipedia.org/wiki/Anexo:Emisoras_de_televisi%C3%B3n_con_derechos_de_la_Bundesliga"
+  }
+ ]
+}

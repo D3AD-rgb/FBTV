@@ -1,0 +1,1641 @@
+{
+ "competitionId": "uefa-champions-league",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/",
+  "https://www.pcwelt.de/article/3228525/champions-league-2026-27-so-sehen-sie-viking-stravanger-gegen-fc-bayern-live.html",
+  "https://www.calcioefinanza.it/2026/08/27/dove-si-vedra-champions-league-2026-2027-tutte-le-informazioni/",
+  "https://www.the42.ie/champions-league-tv-rights-2-7028206-Apr2026/",
+  "https://4gnews.pt/livemode-vai-transmitir-champions-league-e-premier-league-gratis-em-portugal-ja-sabemos-quando/",
+  "https://www.sportsmediawatch.com/tv-schedules/club-soccer/uefa-champions-league/"
+ ],
+ "notes": "2026-27 is the final season of the 2024-27 rights cycle; the new UC3/Relevent cycle starts 2027-28. Channel lists come from UEFA.com's 2026/27 'Where to watch' page (dated 21 Oct 2026). Entries UEFA marks '*' are highlights-only; this is stated in each note. UEFA does not mark free-to-air: freeToAir=true means the broadcaster is a free-to-air channel or official free stream (or a source read confirms free matches); when UEFA names only a media group with mixed free/pay channels (e.g. DPG Media, RTL Belgium, Pro Plus, Alter Ego, MTV) freeToAir is false unless a source confirms free matches. Some UEFA names are rendered with the broadcaster's own branding (e.g. Telefonica -> Movistar Plus+, Max -> HBO Max, CPSL -> Flow Sports/Rush Sports). Regional deals (MENA, Sub-Saharan Africa, Caribbean, Central America, South America ex-Brazil, Indian Subcontinent, Pacific Islands) use code REGION; UEFA does not list their member countries.",
+ "broadcasters": [
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Top Channel",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Top Channel is a national free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Austria",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ORF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ServusTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "ORF and ServusTV: highlights rights only (marked * by UEFA) - no live free-to-air matches per UEFA. Live matches on Sky Austria and Canal+.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "CBC Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TVNet",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "İctimai TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "İctimai TV is the public broadcaster (free-to-air). CBC Sport/TVNet free-to-air status not verified. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed by UEFA as 'Okko, CTV'; channel types not verified.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DPG Media (VTM / VTM GO)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RTL Belgium (RTL tvi / RTL Play)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Proximus",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Telenet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists the groups 'DPG Media' and 'RTL Belgium'; both operate free-to-air channels (VTM, RTL tvi) but no source read states whether live matches air free, so freeToAir is false.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "bTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "A1 Bulgaria",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "bTV is a national free-to-air channel (its group also runs pay channels). Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "HRT",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "HRT is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision (CYTA)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Czechia",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "TV Nova",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Czech TV (ČT)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Czech TV: highlights rights only (marked * by UEFA). TV Nova holds live rights; Nova is a free-to-air channel but the group also uses pay channels/streaming - Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "TV3 (TV3 Sport / Go3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "MTV (MTV Katsomo)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'MTV Oy'. MTV also runs free-to-air MTV3, but no source read states that any match is free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Silknet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Amazon Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ZDF",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "DAZN shows 186 matches; Amazon Prime Video shows 17 (one Tuesday match per league-phase matchday). ZDF: highlights (UEFA marks it highlights-only) plus the final live free-to-air on 5 June 2027 (Madrid), per pcwelt.de 21 Oct 2026: https://www.pcwelt.de/article/3228525/champions-league-2026-27-so-sehen-sie-viking-stravanger-gegen-fc-bayern-live.html",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Gibraltar",
+   "code": "GI",
+   "channels": [
+    {
+     "name": "Gibtelecom",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Magenta TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Alter Ego Media (MEGA)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'MagentaTV platform' and 'AlterEgo'. Alter Ego Media operates free-to-air MEGA, but no source read states which matches are free, so freeToAir is false.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTL (Hungary) is a national free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Sýn",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Syn'.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 5 (The Sports Channel)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Amazon Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV8",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky: 185 of 203 matches incl. the final (also streamed on NOW). Amazon Prime Video: best Wednesday match (18 matches). TV8 (Sky-owned, free-to-air): one Wednesday match per round between top foreign clubs; matches of the Italian clubs (Inter, Napoli, Roma, Como) are pay-only, but a semi-final involving an Italian club must be free-to-air. Details: Calcio e Finanza 27 Aug 2026: https://www.calcioefinanza.it/2026/08/27/dove-si-vedra-champions-league-2026-2027-tutte-le-informazioni/",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Qsport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Qazsport",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Qazsport is the state sports channel (free-to-air). Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "RTK",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Artmotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Code XK is the commonly used user-assigned code (no official ISO 3166-1 code). RTK is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "TV3 (TV3 Sport / Go3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "TV3 (TV3 Sport / Go3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "DPG Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RTL Luxembourg",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTL Luxembourg is free-to-air. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "PBS (TVM)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Melita",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "PBS is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Jurnal TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Jurnal TV free-to-air status not verified.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "TV 2",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'TV2 Norway' (TV 2 Play / TV 2 Sport).",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TVP",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TVP is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "LiveModeTV",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "LiveModeTV (UEFA: 'LiveMode') streams one match per matchday free on its YouTube channel, simulcast with DAZN, mostly 17:45 kick-offs; Portuguese clubs' matches are on Sport TV (pay). Details: 4gnews 19 Aug 2026: https://4gnews.pt/livemode-vai-transmitir-champions-league-e-premier-league-gratis-em-portugal-ja-sabemos-quando/",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Republic of Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "RTÉ",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Virgin Media Television",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Virgin Media holds Irish free-to-air rights until the cycle ends in May 2027; RTÉ (free-to-air) and Premier Sports (pay) also hold rights (The42, 30 Apr 2026: https://www.the42.ie/champions-league-tv-rights-2-7028206-Apr2026/). Virgin Media and RTÉ are free-to-air broadcasters; exact number of free matches per matchday not confirmed by a source read.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima Sport (Clever Media)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'DIGI' and 'Clever Media'.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed by UEFA as 'Okko, CTV'; channel types not verified.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "TV Nova (Nova Sport / Voyo)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'TV Nova' (Czech Nova group); no Slovak free-to-air channel indicated.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Pro Plus (POP TV / VOYO)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sportklub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists the group 'Pro Plus', which also operates free-to-air POP TV/Kanal A; no source read states whether any match is free, so freeToAir is false.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Telefonica' (Movistar Plus+).",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "blue Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SRG SSR (SRF / RTS / RSI)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "SRG SSR is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Türkiye",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "TRT",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TRT is the public broadcaster and the only partner UEFA lists. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Megogo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Football TV UA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Football TV UA: highlights rights only (marked * by UEFA).",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Amazon Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "BBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "BBC: highlights rights only (marked * by UEFA) - no live free-to-air matches. Live matches on TNT Sports and Amazon Prime Video.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Cameroon",
+   "code": "CM",
+   "channels": [
+    {
+     "name": "CRTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "CRTV is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Ivory Coast",
+   "code": "CI",
+   "channels": [
+    {
+     "name": "NCI",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "NCI is a free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Mauritius",
+   "code": "MU",
+   "channels": [
+    {
+     "name": "MBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "MBC is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Middle East/North Africa' and 'MENA' (both beIN); covered countries not listed by the source.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'FOX Sports Argentina' and ESPN.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SBT",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "SBT is a national free-to-air network. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneSoccer",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "S&T",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'CPSL (Flow Sports & Rush Sports)' and 'S&T'; covered territories not listed by the source.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Central America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "Televideo",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "S&T",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Flow Sports/Rush Sports listed by UEFA as 'CPSL'. Televideo channel type not verified.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Haiti",
+   "code": "HT",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "S&T",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Flow Sports/Rush Sports listed by UEFA as 'CPSL'.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Max' (now branded HBO Max) and 'FOX'.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "South America (excluding Brazil)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source (Argentina has its own entry).",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "ATV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "S&T",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ATV is a free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TUDN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists Paramount+, TUDN and DAZN. Sports Media Watch's 2026-27 schedule tags matches with Paramount+ and ViX (Spanish): https://www.sportsmediawatch.com/tv-schedules/club-soccer/uefa-champions-league/ . No source read confirms any 2026-27 match on over-the-air CBS, so none is listed.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Stan Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "iQIYI",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Indian Subcontinent",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source (Bangladesh and Pakistan have their own entries).",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SCTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "SCTV is a national free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "WOWOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Lemino",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "U-NEXT",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lemino and U-NEXT: highlights rights only (marked * by UEFA).",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "TDM",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TDM is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Mongolia",
+   "code": "MN",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Pacific Islands",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered territories not listed by the source.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Timor-Leste",
+   "code": "TL",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Z'OR TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Z'OR TV channel type not verified.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "VTVcab",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viettel (TV360)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "MyTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  },
+  {
+   "country": "In-flight and in-ship",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sport 24",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Not a country: UEFA's partner for in-flight and in-ship broadcasts.",
+   "source": "https://www.uefa.com/uefachampionsleague/news/0253-0d82037aaedd-f371c464f919-1000--where-to-watch-the-uefa-champions-league-tv-channels-live-streams/"
+  }
+ ]
+}

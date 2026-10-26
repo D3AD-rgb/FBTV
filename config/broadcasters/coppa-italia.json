@@ -1,0 +1,1181 @@
+{
+ "competitionId": "coppa-italia",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://en.legaseriea.it/coppa-italia/broadcasters",
+  "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final",
+  "https://en.legaseriea.it/supercoppa/news/the-greatest-television-production-of-the-year",
+  "https://en.legaseriea.it/supercoppa/news/ea-sports-fc-supercup-20252026",
+  "https://en.wikipedia.org/wiki/Coppa_Italia",
+  "https://www.lapresse.it/calcio/2026/08/14/coppa-italia-2026-27-in-tv-stasera-fiorentina-benevento-dove-vederla-in-chiaro/",
+  "https://www.calcioefinanza.it/2026/08/17/dove-vedere-cremonese-sampdoria-tv-streaming-coppa-italia-diretta/",
+  "https://www.calcioefinanza.it/2026/08/18/quanto-costa-vedere-il-calcio-in-tv-in-italia-2026-2027/",
+  "https://www.calcioefinanza.it/2026/06/20/partite-in-tv-2026-2027-dove-vederle/",
+  "https://www.sportcal.com/media/mediaset-secures-domestic-rights-to-coppa-italia-supercoppa-until-2027/",
+  "https://en.legaseriea.it/serie-a/news/telemundo-acquires-exclusive-u-s-spanish-language-rights-to-the-serie-a-championship-coppa-italia-and-supercoppa-italiana",
+  "https://www.sportcal.com/news/telemundo-adds-serie-a-rights-to-burgeoning-portfolio-in-three-year-deal/",
+  "https://www.marketscale.com/industries/sports-entertainment/serie-a-stays-with-cbs-one-more-year-before-testing-the-us-market-again.md",
+  "https://www.renderfoot.com/blog/where-to-watch-soccer-in-usa",
+  "https://www.calcioefinanza.it/2024/02/20/serie-a-diritti-tv-asia-cifre/"
+ ],
+ "notes": "Italy: Mediaset holds exclusive domestic rights for 2024-25 to 2026-27 (2026-27 is the last season of the cycle). Every match is free-to-air on Mediaset channels: the 2026-27 round of 64 (14-17 Aug 2026) aired on Italia 1 and 20, streamed on Mediaset Infinity and sportmediaset.it. Internationally, Lega Serie A sells the Coppa Italia with the Supercoppa as a cups package, usually to different partners than Serie A. No 2026-27 country list has been published. International entries therefore use the latest official Lega Serie A list: the broadcasters for the 2024-25 final (Milan v Bologna, 50+ broadcasters, about 180 countries), cross-checked against the near-identical official list for the 2025-26 Supercoppa (Dec 2025, 53 broadcasters, 180+ territories) and Wikipedia's 2024-2027 Coppa Italia table. Where Wikipedia differs, the note says so. The only confirmed 2026-27 international deals are in the US: CBS/Paramount+ (English, at least 20 Coppa Italia matches) and Telemundo (Spanish, 2026-27 to 2028-29). Infront manages Serie A, Coppa Italia and Supercoppa rights in 36 APAC territories for 2024-25 to 2026-27. Per Wikipedia, in countries with no rights holder matches are on the official Serie A YouTube channel.",
+ "broadcasters": [
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Italia 1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "20 Mediaset",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Mediaset Infinity",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Mediaset holds exclusive rights 2024-25 to 2026-27, with all matches free (in chiaro). The round of 64 (14-17 Aug 2026) was split between Italia 1 and 20, with live streaming on Mediaset Infinity and sportmediaset.it. Channel allocation for later rounds and the final was not published in the sources read; other Mediaset channels such as Canale 5 may be used. The official Lega Serie A Coppa Italia broadcasters page lists Mediaset (Mediaset Infinity) for Italy.",
+   "source": "https://www.lapresse.it/calcio/2026/08/14/coppa-italia-2026-27-in-tv-stasera-fiorentina-benevento-dove-vederla-in-chiaro/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Telemundo",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Universo",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Telemundo Deportes Ahora",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026-27 confirmed. English: CBS Sports' one-year extension for 2026-27 includes at least 20 Coppa Italia matches, mainly on Paramount+ (SBJ via MarketScale; renderfoot). Spanish: Telemundo holds Coppa Italia rights 2026-27 to 2028-29 across Telemundo, Universo, Peacock and the FAST channel Telemundo Deportes Ahora. How matches are split between platforms is not published, so only some may air on free broadcast TV. CBS's rights also cover various Caribbean and Pacific territories (Lega Serie A list).",
+   "source": "https://en.legaseriea.it/serie-a/news/telemundo-acquires-exclusive-u-s-spanish-language-rights-to-the-serie-a-championship-coppa-italia-and-supercoppa-italiana"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final (France, Andorra, Monaco and French overseas territories); also listed for the 2025-26 Supercoppa. Wikipedia's 2024-27 table lists DAZN for France instead. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Monaco",
+   "code": "MC",
+   "channels": [
+    {
+     "name": "L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "French overseas territories",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final ('French overseas territories', not itemised). 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "L'Équipe",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "The official Lega Serie A list for the 2024-25 final names Andorra under both DAZN and L'Équipe. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The official Lega Serie A list for the 2024-25 final names 'Polsat'; Wikipedia's 2024-27 table names Polsat Sport. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Aftonbladet",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. The access model (likely the Aftonbladet Plus subscription) was not verified. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "VG+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The official Lega Serie A list for the 2024-25 final names 'VG'; Wikipedia's 2024-27 table names VG+. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Solidsport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Not in the 2025-26 Supercoppa list or the Wikipedia table. Latest confirmed holder; 2026-27 not confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Solidsport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Not in the 2025-26 Supercoppa list or the Wikipedia table. Latest confirmed holder; 2026-27 not confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Livey",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. The 2025-26 Supercoppa list adds Síminn. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists 'AMC' (AMC Networks) for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia's 2024-27 table names the channel Sport1. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists 'AMC' (AMC Networks) for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia's 2024-27 table names the channel Sport1. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Network4",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists Network4 for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia's 2024-27 table names Arena4 (Network4's sports channel). 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Pro TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Voyo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists Pro TV for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia's 2024-27 table names Voyo (Pro TV group streaming). Pro TV's free-to-air status was not verified. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists 'A1 Bulgaria/Max Sport' for the 2024-25 final and the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Nova Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists 'Nova' for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia names Nova Sports. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "Melita",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "GO",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists 'Melita/Go' for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia's 2024-27 table names TSN. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Artmotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "XK is a user-assigned code; Kosovo has no official ISO 3166-1 code. Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Tring",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists 'Tring TV' for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia names Tring. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "TRT Spor",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa; Wikipedia names TRT. Public free-to-air broadcaster. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Match TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. Match TV runs both a free federal channel and pay channels; which one carries the matches was not verified. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "MEGOGO",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Khabar TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Lega Serie A lists Khabar TV for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia's 2024-27 table names QAZTRK and Sport+. FTA status is inferred (national free channel). 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "UTRK",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. FTA status is inferred (national public broadcaster). Latest confirmed holder; 2026-27 not confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TLN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final (Fubo, TLN Media Group). Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Caliente TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists Caliente TV for the 2024-25 final (not on the 2025-26 Supercoppa list); Wikipedia's 2024-27 table names Win Sports for Mexico. Caliente TV's access model was not verified. Latest confirmed holder; 2026-27 not confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "CazéTV",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "NSports",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. CazéTV streams free on YouTube. Wikipedia's 2024-27 table also lists Sportynet. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "DSports (DirecTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final (DirecTV, FOX SPORTS), also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "DSports (DirecTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. Wikipedia lists DSports for South America. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "DSports (DirecTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Win Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "DSports (DirecTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. Wikipedia's 2024-27 table also names ECDF. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "DSports (DirecTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "DSports (DirecTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Uruguay",
+   "code": "UY",
+   "channels": [
+    {
+     "name": "DSports (DirecTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "Televicentro",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. FTA status is inferred (national free-to-air network). 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Central America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Only in Wikipedia's 2024-27 table ('Central America: Fox'); the countries are not itemised and this is not in the official Lega Serie A lists. 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Coppa_Italia"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "Win Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Only in Wikipedia's 2024-27 table (Win Sports for Colombia, Dominican Republic and Mexico). Not in the official Lega Serie A lists. 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Coppa_Italia"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "STARZPLAY",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "AD Sports (Abu Dhabi Media)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Lega Serie A lists Starzplay and Abu Dhabi Media for MENA for the 2024-25 final. For the 2025-26 Supercoppa it lists Starzplay (MENA excluding Saudi Arabia, about 23 countries including Egypt, Morocco, UAE and Iran) and SSC (Saudi Arabia). Wikipedia's 2024-27 table names MBC Group for MENA. AD Sports' FTA status is inferred (free satellite channels). 2026-27 not confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "IRIB",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Persiana Sports",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Only in Wikipedia's 2024-27 table (IRIB, Persiana Sports). Lega Serie A's 2025-26 Supercoppa list puts Iran under Starzplay's MENA territory. Persiana's FTA status is inferred (free satellite channel). 2026-27 not confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Coppa_Italia"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists New World TV for Sub-Saharan Africa for the 2024-25 final and the 2025-26 Supercoppa (about 45 countries, not itemised in the sources read). Azam TV and ZAP hold specific East/Southern African countries (separate entries). 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Rwanda",
+   "code": "RW",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Burundi",
+   "code": "BI",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Malawi",
+   "code": "MW",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Zimbabwe",
+   "code": "ZW",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Botswana",
+   "code": "BW",
+   "channels": [
+    {
+     "name": "Azam TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Angola",
+   "code": "AO",
+   "channels": [
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists ZAP TV for the 2024-25 final and the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "ZAP",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists ZAP TV for the 2024-25 final and the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Migu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "i-CABLE",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final, also listed for the 2025-26 Supercoppa. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Official Lega Serie A list for the 2024-25 final. Also listed for the 2025-26 Supercoppa and in the Wikipedia 2024-27 table. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "BG Sports",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists BG Sports for the 2024-25 final and the 2025-26 Supercoppa; Wikipedia's 2024-27 table names True Sports. BG Sports' platform type was not verified. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "TVRI",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Vidio",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists TVRI for the 2024-25 final and TVRI plus Vidio/Emtek for the 2025-26 Supercoppa; Wikipedia's 2024-27 table names ANTV and Emtek. TVRI is the public free-to-air broadcaster. 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/supercoppa/news/the-greatest-television-production-of-the-year"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "10",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Lega Serie A lists Paramount+ for the 2024-25 final; Wikipedia's 2024-27 table names Network 10 (owner of Paramount+ Australia). Which matches, if any, air free on 10 was not verified. Australia is in the Infront-managed APAC package (2024-25 to 2026-27). 2026-27 not separately confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Indian subcontinent",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Galaxy Racer",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Lega Serie A lists Galaxy Racer for the Indian subcontinent for the 2024-25 final. The 2025-26 Supercoppa list itemises Afghanistan, Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan and Sri Lanka. Wikipedia's 2024-27 table instead names Unite8 Sports for India and Begin for Pakistan (see the separate Pakistan entry). Latest confirmed holder; 2026-27 not confirmed.",
+   "source": "https://en.legaseriea.it/coppa-italia/news/the-great-tv-production-for-the-final"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Begin",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia's 2024-27 table. Sportcal (Aug 2026) reported a three-year Serie A deal with Begin and mentions Coppa Italia games, though it is unclear which agreement that refers to. Lega Serie A's older lists put Pakistan under Galaxy Racer (Indian subcontinent). 2026-27 not independently confirmed.",
+   "source": "https://en.wikipedia.org/wiki/Coppa_Italia"
+  },
+  {
+   "country": "Rest of world (territories without a rights holder)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Serie A YouTube channel",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Per Wikipedia's Coppa Italia broadcasting section, in countries without a broadcaster Coppa Italia and Supercoppa matches are available on the official Serie A YouTube channel. Not confirmed for 2026-27 in Lega Serie A sources read.",
+   "source": "https://en.wikipedia.org/wiki/Coppa_Italia"
+  }
+ ]
+}

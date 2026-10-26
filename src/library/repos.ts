@@ -13,6 +13,7 @@
  * Permission classes: open (explicit open licence), free-only (free-to-air policy, no
  * licence file), unclear (no licence / mixed provenance), user (your own profiles).
  */
+import { ARCHIVE_SETS, searchUrl } from './archive.ts';
 export type Permission = 'open' | 'free-only' | 'unclear' | 'user';
 export type Handling = 'copy' | 'reference';
 export type EntryPolicy = 'keep' | 'withhold-pay' | 'withhold-all';
@@ -26,7 +27,8 @@ export type Category =
   | 'test-fixture'
   | 'resource-list'
   | 'app-channel-list'
-  | 'template';
+  | 'template'
+  | 'vod-catalog';
 
 export interface FileRule {
   match: RegExp;
@@ -254,6 +256,35 @@ export const REPOS: RepoDef[] = [
     summary: 'IPTV player (Electron/Angular, experimental webOS app). No playlists; adapters for M3U, Xtream Codes and Stalker accounts supplied by the user.',
     rules: [DOCS, { match: /^apps\/web-e2e\/src\/fixtures\/.*\.m3u8?$/i, handling: 'copy', policy: 'keep', permission: 'open', category: 'test-fixture', reason: 'End-to-end test fixture' }],
   },
+  {
+    id: 'jromero88',
+    name: 'jromero88/iptv (added by the owner)',
+    url: 'https://github.com/jromero88/iptv',
+    licence: 'None stated',
+    summary:
+      'Personal lists last updated August 2021: Latin American, Spanish and international channels (most of IPTV.m3u is resold paid-IPTV relays with account credentials in the URL), the author\'s home TV tuner (LAN only), and 103 sci-fi episodes hosted on the Internet Archive.',
+    rules: [
+      DOCS,
+      {
+        match: /^STB\//i,
+        handling: 'reference',
+        policy: 'withhold-all',
+        permission: 'unclear',
+        category: 'resource-list',
+        reason: "Set-top-box portal setup with MAC identities (another subscriber's portal access)",
+      },
+      {
+        match: /^tvguide-xmltv\.xml$/i,
+        handling: 'reference',
+        policy: 'keep',
+        permission: 'unclear',
+        category: 'epg',
+        reason: 'XMLTV guide last updated in 2021 (24 MB): stale, referenced only',
+      },
+      { match: /^channels_groups\.xml$/i, handling: 'copy', policy: 'keep', permission: 'unclear', category: 'metadata' },
+      { match: /\.m3u8?$/i, handling: 'copy', policy: 'withhold-pay', permission: 'unclear', category: 'live-tv' },
+    ],
+  },
 ];
 
 /** Sources found by following references, and fixture / data APIs. */
@@ -294,5 +325,17 @@ export const DISCOVERED: RepoDef[] = [
         ['copa-libertadores/2026_copal.txt', 'south-america/master/copa-libertadores/2026_copal.txt'],
       ].map(([path, src]): RemoteFile => ({ path: `txt/${path}`, url: `${RAW}/openfootball/${src}`, handling: 'copy', policy: 'keep', permission: 'open', category: 'fixtures' })),
     ],
+  },
+  {
+    id: 'internet-archive',
+    name: 'Internet Archive (public-domain films and TV — legal on-demand)',
+    url: 'https://archive.org',
+    licence: 'Items marked Public Domain Mark / CC0 by their uploaders; checked for credibility (FND-022)',
+    summary:
+      'Public-domain feature films and classic TV, plus Hindi and Bengali films. Offered instead of unlicensed VOD sites. An item is only offered when its release year is old enough for the public domain and its title carries no rip tags.',
+    rules: [],
+    remote: ARCHIVE_SETS.map(
+      (a): RemoteFile => ({ path: a.file, url: searchUrl(a.query, a.rows), handling: 'copy', policy: 'keep', permission: 'open', category: 'vod-catalog' }),
+    ),
   },
 ];

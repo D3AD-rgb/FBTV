@@ -1,0 +1,1596 @@
+{
+ "competitionId": "uefa-conference-league",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/",
+  "https://www.horizont.net/medien/nachrichten/nach-sky-uebernahme-rtl-baut-sein-fussball-angebot-um-was-fans-jetzt-wissen-muessen-235483",
+  "https://www.calcioefinanza.it/2026/08/27/dove-si-vedra-champions-league-2026-2027-tutte-le-informazioni/"
+ ],
+ "notes": "Channel lists from UEFA.com's 2026/27 Conference League 'Where to watch' page (dated 22 Oct 2026). 2026-27 is the final season of the 2024-27 rights cycle; the new UC3/Relevent cycle starts 2027-28. UEFA sells Europa League and Conference League rights together, so the partner lists are almost identical. UEFA does not mark free-to-air: freeToAir=true means the broadcaster is a free-to-air channel or official free stream (or a source read confirms free matches); number of free matches is generally not stated. Entries UEFA marks '*' are highlights-only (stated in the note). Some UEFA names are rendered with the broadcaster's own branding (e.g. Telefonica -> Movistar Plus+, CPSL -> Flow Sports/Rush Sports). Regional deals use code REGION; UEFA does not list their member countries.",
+ "broadcasters": [
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "DigitAlb",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RTSH",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "RTSH is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Austria",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ServusTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "ServusTV is a free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "İctimai TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TVNet",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CBC Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "İctimai TV is the public broadcaster (free-to-air). CBC Sport/TVNet free-to-air status not verified. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed by UEFA as 'Okko, CTV'; channel types not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "RTBF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "VRT",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Telenet",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Be TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTBF and VRT are public broadcasters. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "bTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "A1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "bTV is a national free-to-air channel (its group also runs pay channels). Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "CyBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Cytavision (CYTA)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "CyBC is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Czechia",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "TV Nova",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Nova is a free-to-air channel but the group also uses pay channels/streaming - Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "TV3 (TV3 Sport / Go3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Silknet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NITRO",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTL+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTL holds the rights (2026-27 is its last season; DAZN from 2027-28). One match per matchday free-to-air on RTL or NITRO; RTL+ subscribers get matches plus a Konferenz; up to ten RTL live matches per matchday also air on Sky Sport, usually including German clubs. Details: Horizont 19 Aug 2026: https://www.horizont.net/medien/nachrichten/nach-sky-uebernahme-rtl-baut-sein-fussball-angebot-um-was-fans-jetzt-wissen-muessen-235483 (article covers both Europa League and Conference League).",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Gibraltar",
+   "code": "GI",
+   "channels": [
+    {
+     "name": "Gibtelecom",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "ANT1 (Antenna TV)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Magenta TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ANT1 is a national free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "M4 Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "M4 Sport (public, MTVA) and RTL are free-to-air. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Sýn",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Syn'.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton (Sport 1)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Charlton'.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Sky shows all Europa League and Conference League matches (Calcio e Finanza 27 Aug 2026: https://www.calcioefinanza.it/2026/08/27/dove-si-vedra-champions-league-2026-2027-tutte-le-informazioni/). No free-to-air match confirmed by a source read.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Qazsport",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Qsport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Qazsport is the state sports channel (free-to-air). Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "RTK",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Artmotion",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Code XK is the commonly used user-assigned code (no official ISO 3166-1 code). RTK is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "TV3 (TV3 Sport / Go3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "TV3 (TV3 Sport / Go3)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "RTL Luxembourg",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Be TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'RTL'. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "PBS (TVM)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Melita",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "PBS is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Jurnal TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "WE SPORT TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Jurnal TV / WE SPORT TV free-to-air status not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Ziggo Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Polsat'. The Polsat group also runs the free-to-air Polsat channel, but no source read states that any match is free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Republic of Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Digi Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima Sport (Clever Media)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'DIGI' and 'Clever Media'.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Okko",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed by UEFA as 'Okko, CTV'; channel types not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RTS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "RTS is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "JOJ",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sport1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "JOJ is a national free-to-air channel (its group also runs pay channels). Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Šport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sportklub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'Telefonica' (Movistar Plus+).",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "blue Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SRG SSR (SRF / RTS / RSI)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "SRG SSR is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Türkiye",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "TRT",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TRT is the public broadcaster and the only partner UEFA lists. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Megogo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Football TV UA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Football TV UA: highlights rights only (marked * by UEFA).",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Cameroon",
+   "code": "CM",
+   "channels": [
+    {
+     "name": "CRTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "CRTV is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Mauritius",
+   "code": "MU",
+   "channels": [
+    {
+     "name": "MBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "MBC is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "New World TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "CazéTV",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "CazéTV is a free online channel (YouTube/streaming); it is the only partner UEFA lists.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "OneSoccer",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "UEFA lists 'CPSL (Flow Sports & Rush Sports)'; covered territories not listed by the source.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Central America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Claro",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source (Costa Rica, Honduras, Panama have their own entries).",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "8 Clanes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Claro",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "'8 Clanes' is the name as printed by UEFA; channel type not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "Televideo",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Claro",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Flow Sports/Rush Sports listed by UEFA as 'CPSL'. Televideo channel type not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Haiti",
+   "code": "HT",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Flow Sports/Rush Sports listed by UEFA as 'CPSL'.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "8 Clanes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Claro",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "'8 Clanes' is the name as printed by UEFA; channel type not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Claro",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "8 Clanes",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Claro",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "'8 Clanes' is the name as printed by UEFA; channel type not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "South America (excluding Brazil)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "ATV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Flow Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ATV is a free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TUDN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "No source read confirms any 2026-27 match on over-the-air CBS, so none is listed.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Stan Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "iQIYI",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Indian Subcontinent",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered countries not listed by the source (Bangladesh and Pakistan have their own entries).",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SCTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "SCTV is a national free-to-air channel. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "WOWOW",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "U-NEXT",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Lemino",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "U-NEXT and Lemino: highlights rights only (marked * by UEFA).",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "TDM",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TDM is the public broadcaster. Free-to-air flag reflects the broadcaster being a free-to-air channel; UEFA does not state how many matches it shows free.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Mongolia",
+   "code": "MN",
+   "channels": [
+    {
+     "name": "Premier Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Pacific Islands",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered territories not listed by the source.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Tapmad",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Timor-Leste",
+   "code": "TL",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Quest Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Z'OR TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Z'OR TV channel type not verified.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "VTVcab",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Viettel (TV360)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "MyTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  },
+  {
+   "country": "In-flight and in-ship",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sport 24",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Not a country: UEFA's partner for in-flight and in-ship broadcasts.",
+   "source": "https://www.uefa.com/uefaconferenceleague/news/0285-18f79eae3aac-5c7eb199a66d-1000--where-to-watch-the-conference-league-tv-broadcast-partners-live-streams/"
+  }
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "competitionId": "american-mls",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.apple.com/newsroom/2025/11/major-league-soccer-is-coming-to-apple-tv-starting-in-2026/",
+  "https://www.apple.com/newsroom/2026/02/major-league-soccer-kicks-off-2026-season-on-apple-tv/",
+  "https://www.mlssoccer.com/news/mls-unveils-2026-regular-season-schedule",
+  "https://www.mlssoccer.com/news/mls-announces-tsn-and-rds-broadcast-schedules-for-the-2026-mls-regular-season",
+  "https://www.mlssoccer.com/news/mls-on-linear-tv-fox-sports-televisaunivision-tsn-rds-reach-multi-year-deals",
+  "https://www.mlssoccer.com/how-to-watch/",
+  "https://www.sportingkc.com/news/major-league-soccer-kicks-off-2026-season-on-apple-tv",
+  "https://africa.espn.com/football/story/_/id/46954801/mls-apple-tv-scrapping-season-pass-26-season-sources",
+  "https://www.insideworldfootball.com/2025/09/19/sons-arrival-la-drives-mls-tv-sales-south-korea/",
+  "https://www.mediaweek.com.au/television/sbs-secures-live-major-league-soccer-broadcast-rights-for-australian-football-fans",
+  "https://www.sportspro.com/news/mls-international-tv-deals-tv3-scoreplay-april-2025/",
+  "https://www.sportcal.com/?p=141834",
+  "https://awfulannouncing.com/mls/international-tv-deals-apple-discontent.html",
+  "https://indiantelevision.com/news-headline/eurosport-india-kicks-off-exclusive-mls-sundays-with-messi-magic-250408/",
+  "https://en.wikipedia.org/wiki/Sunday_Night_Soccer",
+  "https://en.wikipedia.org/wiki/List_of_current_Major_League_Soccer_broadcasters"
+ ],
+ "notes": "From 2026 the separate MLS Season Pass is gone: every MLS match (regular season, Leagues Cup, All-Star Game, Campeones Cup, MLS Cup Playoffs and MLS Cup) is included in a standard Apple TV subscription in 100+ countries and regions, with no blackouts. No free matches for non-subscribers were found for 2026 (only a 7-day trial and promos). Linear partners: FOX/FS1/FOX Deportes (US) and TSN/RDS (Canada), under 2023-2026 deals. TelevisaUnivision's 2026 linear deal covers Leagues Cup only, not the MLS season. Apart from South Korea (multi-year LAFC deals), the overseas linear partners found are 2025-season Sunday Night Soccer deals (SBS, Sportdigital, TV3, Dubai TV, SPOTV, Charlton, GO, Eurosport India), with no 2026 renewals found. Wikipedia also lists TNT Sports/HBO Max for Latin America, with no dates; that listing could not be confirmed and is left out.",
+ "broadcasters": [
+  {
+   "country": "Worldwide",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Apple TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Every 2026 match, including playoffs and MLS Cup, is included in a standard Apple TV subscription in more than 100 countries and regions, with no blackouts. MLS Season Pass was discontinued after 2025.",
+   "source": "https://www.apple.com/newsroom/2026/02/major-league-soccer-kicks-off-2026-season-on-apple-tv/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Apple TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "FS1",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "FOX Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Apple TV carries every match. FOX Sports airs 34 regular-season matches in 2026 (15 on FOX, 19 on FS1), with Spanish coverage on FOX Deportes. The 2023-2026 FOX deal also includes 8 MLS Cup Playoff matches a season and MLS Cup on FOX and FOX Deportes. The FOX broadcast network is free over the air, but only for its selected matches. Apple TV is also distributed through DIRECTV, Xfinity and EverPass (bars and venues).",
+   "source": "https://www.mlssoccer.com/news/mls-unveils-2026-regular-season-schedule"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Apple TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RDS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "TSN (English) and RDS (French) air select matches of CF Montréal, Toronto FC and Vancouver Whitecaps through Decision Day (7 Nov 2026), plus select 2026 playoff matches and MLS Cup 2026. Every match is on Apple TV.",
+   "source": "https://www.mlssoccer.com/news/mls-announces-tsn-and-rds-broadcast-schedules-for-the-2026-mls-regular-season"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Multi-year deals (announced Sept 2025) to air LAFC matches (Son Heung-min) nationwide; a separate 2026 schedule was not found. All matches are also on Apple TV.",
+   "source": "https://www.insideworldfootball.com/2025/09/19/sons-arrival-la-drives-mls-tv-sales-south-korea/"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "SBS VICELAND / SBS On Demand",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "In 2025, one Sunday Night Soccer match a week aired live and free on Monday mornings. Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://www.mediaweek.com.au/television/sbs-secures-live-major-league-soccer-broadcast-rights-for-australian-football-fans"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sportdigital",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://www.sportcal.com/?p=141834"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "TV3 (Catalonia)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TV3 is the Catalan public broadcaster. Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://www.sportcal.com/?p=141834"
+  },
+  {
+   "country": "Middle East",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Dubai TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://www.sportcal.com/?p=141834"
+  },
+  {
+   "country": "Southeast Asia",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://www.sportcal.com/?p=141834"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://www.sportcal.com/?p=141834"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "GO",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://www.sportcal.com/?p=141834"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Eurosport India",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive Sunday Night Soccer coverage on Eurosport / Eurosport HD in 2025. Latest confirmed holder is a 2025-season Sunday Night Soccer linear deal; no 2026 renewal was found, so it may not be airing in 2026. All matches remain on Apple TV.",
+   "source": "https://indiantelevision.com/news-headline/eurosport-india-kicks-off-exclusive-mls-sundays-with-messi-magic-250408/"
+  }
+ ]
+}

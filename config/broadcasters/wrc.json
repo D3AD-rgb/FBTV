@@ -1,0 +1,1244 @@
+{
+ "competitionId": "wrc",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.wrc.com/en/misc/broadcast-guide",
+  "https://www.wrc.com/en/news/how-to-follow-rallye-monte-carlo-2026-live"
+ ],
+ "notes": "Source: official WRC Broadcast Guide (wrc.com), referenced by WRC's 2026 season articles. Rally.TV (official streaming, every stage live) is available worldwide. No dedicated broadcaster listed for India, Brazil, Netherlands (FAST only), Denmark (FAST only) or MENA (TBC). Free-to-air flags reflect broadcaster type (public/FTA networks); the guide does not specify live vs highlights.",
+ "broadcasters": [
+  {
+   "country": "Worldwide",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Rally.TV",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Red Bull TV",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rally.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Rally.TV streams every stage live. Rally.TV on DAZN excluded in Estonia, Finland, France, Latvia, Lithuania, Poland, Sweden, China, Hong Kong and Japan. Red Bull TV is free (selected content).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ITV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "S4C (Wales)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Pluto TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "ITV: free-to-air (highlights; scope not stated in guide). S4C listed for Wales. BBC takes over free-to-air WRC coverage from 2027. FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ITV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "ITV free-to-air (UK channel, highlights). FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "RACER",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RACER+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "RACER Network",
+     "type": "free-stream",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "REV TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RACER",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RACER+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "RACER Network",
+     "type": "free-stream",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Central America (Belize, Costa Rica, El Salvador, Honduras, Guatemala, Nicaragua, Panama)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Bolivia",
+   "code": "BO",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Paraguay",
+   "code": "PY",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Uruguay",
+   "code": "UY",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "Fox Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sport TV (selected countries)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Bhutan",
+   "code": "BT",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Maldives",
+   "code": "MV",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "Sony Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Brunei",
+   "code": "BN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Timor-Leste",
+   "code": "TL",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Tencent",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "Videoland",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "SPOTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "J Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHK",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TV Asahi",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Abema",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NHK (public) and TV Asahi are free-to-air broadcasters; the guide does not say which events/highlights they air.",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Stan",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "TVNZ",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "TVNZ public free-to-air broadcaster (scope not stated).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "ServusTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Canal+ (French)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "RTBF",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "RTBF public broadcaster. FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "No linear TV partner listed; only FAST channels plus global Rally.TV / Red Bull TV / DAZN.",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Canal+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Canal+ group also covers Rallye Monte-Carlo.",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Monaco",
+   "code": "MC",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Canal+ group coverage of Rallye Monte-Carlo (per WRC 2026 Monte-Carlo guide).",
+   "source": "https://www.wrc.com/en/news/how-to-follow-rallye-monte-carlo-2026-live"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "RAI",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky Italia",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Pluto TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "RAI public broadcaster. FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "TV3 (Catalunya)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Pluto TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "TV3 is the Catalan regional public free-to-air channel. FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "Only FAST channels listed.",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "VG (VG+ / tv.vg.no)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "LG Channels (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Rakuten TV (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "Samsung TV Plus (FAST)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "FAST channels = free ad-supported WRC channels (not full live coverage).",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "TV4 / TV12",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "TV4 Play / TV4 Motor",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "TV4 and TV12 are free-to-air channels; TV4 Motor/TV4 Play subscription.",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "MTV3",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "MTV Urheilu / MTV Katsomo",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "TV3 / Go3",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "TV3 / Go3",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "TV3 / Go3",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Motowizja",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rally.TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Oneplay Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Oneplay Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport (A1)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "COSMOTE TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cyta Vision",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TSN (Melita)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Sport Klub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "CIS (Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, Uzbekistan)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "viju+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Rally.TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "WRC guide lists MENA broadcaster as 'TBC'; only global Rally.TV / Red Bull TV / DAZN apply.",
+   "source": "https://www.wrc.com/en/misc/broadcast-guide"
+  }
+ ]
+}

@@ -1,0 +1,1787 @@
+{
+ "competitionId": "english-premier-league",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.premierleague.com/en/news/3703577",
+  "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters",
+  "https://www.nbcuniversal.com/article/2026-27-premier-league-season-kicks-one-month-across-platforms-nbcuniversal-nbc-sports-studio-team",
+  "https://www.flashscore.co.uk/news/football-premier-league-where-to-watch-the-premier-league-in-2026-27-tv-broadcasters-and-highlights/Aslkj9O6/",
+  "https://mothership.sg/2026/02/premier-league-streaming-service-singapore/",
+  "https://ministryofsport.com/nine-secures-exclusive-premier-league-and-emirates-fa-cup-rights-in-major-sporting-milestone/",
+  "https://www.sportcal.com/news/bein-secures-bumper-premier-league-rights-renewal-across-mena-through-2028/"
+ ],
+ "notes": "2025-2028 international rights cycle (premierleague.com, May 2025) with 2026-27 updates from Wikipedia (season-start 2026 citations), NBCUniversal, Flashscore and Singapore press. UK: Sky Sports + TNT Sports live (2025/26-2028/29), BBC highlights only; Saturday 3pm blackout means not every match is live in the UK. From 2026/27 the PL produces/distributes international feeds in-house (Premier League Studios). Belarus listed as 'TBD' on Wikipedia, so omitted. Ships/planes (IMG) omitted. Free-to-air flags for African/Central American sub-licensees reflect one-match-per-round FTA deals; some FTA flags for state broadcasters are inferred from broadcaster type.",
+ "broadcasters": [
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "BBC One - Match of the Day (highlights only)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "BBC iPlayer (highlights only)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "UK deal 2025/26-2028/29. Sky Sports at least 215 live matches, TNT Sports 52 (incl. Saturday 12:30). Saturday 15:00 kick-offs are blacked out (not shown live in the UK). No live free-to-air matches; BBC has highlights of all 380 matches. Amazon Prime Video no longer has PL rights. Flashscore reports Paramount takes over TNT's share from 2027/28.",
+   "source": "https://www.flashscore.co.uk/news/football-premier-league-where-to-watch-the-premier-league-in-2026-27-tv-broadcasters-and-highlights/Aslkj9O6/"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Deal 2025/26-2028/29. Premier Sports carries additional matches incl. Saturday 15:00 kick-offs not available in the UK (Flashscore).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "SuperSport (DigitAlb)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). premierleague.com lists DigitAlb; Wikipedia lists its SuperSport channels.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). premierleague.com lists CANAL+/DAZN; Wikipedia adds Movistar Plus+ (one match per round).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Fast Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights held by Saran Media (premierleague.com); broadcaster per Wikipedia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Sky Deutschland.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Idman TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SportTV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights via Saran Media (premierleague.com); channels per Wikipedia. Idman TV is the state sports channel (free-to-air status not stated in source); SportTV type not verified.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "Play Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Telenet (Play Sports brand).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Nova Broadcasting Group",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). IMG holds rights and sub-licenses to Nova Broadcasting Group.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cytavision Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Canal+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Prime Video has one match per round (Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). TV3 Group (premierleague.com lists TV3).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights via Saran Media (premierleague.com).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Sky Deutschland.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Nova Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). IMG sub-licensed to Nova.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Spíler TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Arena4",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). premierleague.com lists TV2 (Spíler TV is TV2 Group's sports channel); Arena4 per Wikipedia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Sýn Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Sport 1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights holder Charlton (premierleague.com).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Sky Italia.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SuperSport (DigitAlb)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). premierleague.com lists Arena Sport; Wikipedia lists SuperSport.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). TV3 Group.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). TV3 Group.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Play Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). premierleague.com lists CANAL+; Wikipedia lists Sky Sport and Play Sports.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "TSN (Total Sports Network)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights via Saran Media (premierleague.com).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Prime Video has one match per round (Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "LiveModeTV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). LiveModeTV has one match per round (Wikipedia); whether it is free to watch was not verified.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Voyo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights via Saran Media (premierleague.com); Voyo (Pro TV) per Wikipedia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Sky Italia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Canal+ Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Movistar Plus+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Movistar Plus+ has one match per round (Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Prime Video has one match per round (Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport (Sky Italia)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). CANAL+ (French-language), Sky Deutschland (German), Sky Italia (Italian).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights held by Saran Media (premierleague.com); Wikipedia lists Setanta Sports for Central Asia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights held by Saran Media (premierleague.com); Wikipedia lists Setanta Sports for Central Asia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights held by Saran Media (premierleague.com); Wikipedia lists Setanta Sports for Central Asia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights held by Saran Media (premierleague.com); Wikipedia lists Setanta Sports for Central Asia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Varzish TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights via Saran Media (premierleague.com); Varzish TV (Tajik state sports channel) per Wikipedia; free-to-air status inferred from public-broadcaster status, not stated in source.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "Meraj Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Rights via Saran Media (premierleague.com); broadcaster per Wikipedia (type not verified).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Star Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "JioHotstar",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). premierleague.com lists JioStar for South Asia; Wikipedia lists Star Sports for the Indian subcontinent. JioHotstar is JioStar's streaming platform.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Myco",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Bongo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Toffee",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Rajdhani TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Per Wikipedia (sub-licensees of South Asia rights); free/pay status of each not verified.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "Myco",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Maldives",
+   "code": "MV",
+   "channels": [
+    {
+     "name": "ICE Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Migu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CCTV-5",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). CCTV shows selected matches only.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "Now TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). PCCW.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Macau",
+   "code": "MO",
+   "channels": [
+    {
+     "name": "M Plus",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). ELTA deal to 2028 (Yahoo Taiwan, cited by Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "U-Next",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Deal 2025/26-2030/31.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Mongolia",
+   "code": "MN",
+   "channels": [
+    {
+     "name": "Premier Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Unitel (premierleague.com).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "Astro",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "StarHub",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Premier League+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "StarHub has a six-year deal; from 2026/27 the Premier League's own direct-to-consumer service (Premier League+ / Premier League Plus) launches in Singapore with StarHub, all 380 matches; existing StarHub packages unchanged.",
+   "source": "https://mothership.sg/2026/02/premier-league-streaming-service-singapore/"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Emtek",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "Monomax",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Jasmine International / Mono; deal 2025/26-2030/31.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Cambodia",
+   "code": "KH",
+   "channels": [
+    {
+     "name": "Monomax",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Jasmine International / Mono; deal 2025/26-2030/31.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Laos",
+   "code": "LA",
+   "channels": [
+    {
+     "name": "Monomax",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Jasmine International / Mono; deal 2025/26-2030/31.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "FPT Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "FPT Play via Jasmine International / Mono from 1 Jan 2026 to 2030/31 (K+ ceased Dec 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Myanmar",
+   "code": "MM",
+   "channels": [
+    {
+     "name": "Canal+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Not listed on premierleague.com list; per Wikipedia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "IRIB Varzesh",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Gem Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Persiana Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia only (not on premierleague.com list). IRIB Varzesh is the state broadcaster's sports channel; Gem Sport / Persiana Sports type not verified.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Stan Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Nine (Stan Sport) has exclusive rights from 2025/26, all matches live and on demand; Wikipedia says the deal runs to 2033/34. Wikipedia notes one match aired on the Nine network in the first three weeks of the deal.",
+   "source": "https://ministryofsport.com/nine-secures-exclusive-premier-league-and-emirates-fa-cup-rights-in-major-sporting-milestone/"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Sky NZ.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Papua New Guinea",
+   "code": "PG",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Pacific Islands",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Digicel",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Pacific Islands (countries not itemised in source).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Middle East and North Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TOD",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive across 24 MENA territories (incl. Algeria, Egypt, Qatar, Saudi Arabia, UAE), all 380 matches in English and Arabic; streaming on TOD; deal extended through 2027/28.",
+   "source": "https://www.sportcal.com/news/bein-secures-bumper-premier-league-rights-renewal-across-mena-through-2028/"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Canal+ Afrique",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). SuperSport per premierleague.com; Wikipedia also lists Canal+ Afrique (French-speaking Africa). Individual countries below have additional free-to-air sub-licensees.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Benin",
+   "code": "BJ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SRTB",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Botswana",
+   "code": "BW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "YTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Eswatini",
+   "code": "SZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Eswatini TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Ivory Coast",
+   "code": "CI",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NCI",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TV Miramar",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Namibia",
+   "code": "NA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "One Africa TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Senegal",
+   "code": "SN",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RTS",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SABC Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "UTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NBS Sport",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ZNBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Free-to-air sub-licence: one match per round (per Wikipedia list, season-start 2026 citations). SuperSport holds the main Sub-Saharan Africa rights.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "NBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "USA Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NBCSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Telemundo",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Universo",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "NBC Sports rights 2025/26-2027/28. NBC (over-the-air) for selected matches, USA Network (Versant) is the main cable home, Peacock for exclusive matches/replays; Spanish-language on Telemundo, Universo and Peacock.",
+   "source": "https://www.nbcuniversal.com/article/2026-27-premier-league-season-kicks-one-month-across-platforms-nbcuniversal-nbc-sports-studio-team"
+  },
+  {
+   "country": "Puerto Rico",
+   "code": "PR",
+   "channels": [
+    {
+     "name": "NBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Telemundo",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "USA Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered with the United States (NBC Sports deal) per Wikipedia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Fubo",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Fubo exclusive, multi-year deal from 2025/26.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Fox and TNT Sports Mexico (Warner Bros. Discovery). Wikipedia cites Feb 2025 reports that Fox matches would also be free on the Tubi app (not verified for 2026/27).",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Fox and TNT Sports Mexico.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Fox and TNT Sports Mexico.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Fox and TNT Sports Mexico.",
+   "source": "https://www.premierleague.com/en/news/3703577"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Teletica (Canal 7)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Teletica Canal 7 shows matches free from Sept 2026 (one match per round, Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TCS (Canal 4 / TCS GO)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). TCS free-to-air from Sept 2026 (one match per round, Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "FOX",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TVC (Televicentro)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Deportes TVC shows the 2026-27 season (one match per round, Wikipedia).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CazéTV (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "ESPN rights renewed through 2028. CazéTV streams one match per gameweek free on YouTube.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "South America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN renewed through 2028 for South America (per ESPN press release cited by Wikipedia); countries not itemised (Brazil listed separately).",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN renewed through 2028 for the Caribbean (per ESPN press release cited by Wikipedia); countries not itemised in source.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Haiti",
+   "code": "HT",
+   "channels": [
+    {
+     "name": "Canal+ Caraïbes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Per Wikipedia.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "TNT Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Premier League 2025-2028 international rights cycle (premierleague.com list, May 2025). Wikipedia lists Warner Bros. Discovery for the Dominican Republic; premierleague.com covers the Caribbean via ESPN.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "ABC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ATV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "SCCN",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "STVS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "QN Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Per Wikipedia (Aug 2026 TV listings). Terrestrial channels marked free-to-air by broadcaster type; QN Sport type not verified.",
+   "source": "https://en.wikipedia.org/wiki/List_of_Premier_League_overseas_broadcasters"
+  }
+ ]
+}

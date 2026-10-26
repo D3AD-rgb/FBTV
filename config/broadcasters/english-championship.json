@@ -1,0 +1,3017 @@
+{
+ "competitionId": "english-championship",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.efl.com/how-to-watch/broadcast-partners/",
+  "https://www.skysports.com/football/news/11095/13145512/sky-sports-and-itv-agree-deal-to-show-select-carabao-cup-and-efl-championship-fixtures-free-to-air-from-2025",
+  "https://www.sportcal.com/media/cbs-sports-signs-multi-platform-rights-agreement-with-efl-through-2027-28/",
+  "https://en.wikipedia.org/wiki/CBS_Sports_Golazo_Network"
+ ],
+ "notes": "International list = EFL 'International Broadcasters for the 2026/27 season' (EFL Fixtures table, covers Sky Bet Championship, League One, League Two); EFL says additional markets will be added as confirmed. Internationally, any game shown live in the UK by Sky Sports is eligible for international broadcast, plus one additional Saturday 3pm fixture. UK: Sky Sports/Sky Sports+ main live partner; ITV1/ITVX simulcast 10 Championship games free-to-air in 2026/27 (last season of the Sky-ITV arrangement); ITV highlights. No broadcaster listed by the EFL for Ireland, Russia, Belarus or several Pacific nations. Some free-to-air flags (SportyTV, Douyin) are inferred from broadcaster type.",
+ "broadcasters": [
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sports+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOW",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ITV1",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ITVX",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "ITV4 (highlights)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "Sky Sports is the EFL's UK partner (5-year deal from 2024/25, GBP 935m): over 1,000 of 1,891 EFL/Carabao Cup/EFL Trophy games, on Sky Sports channels or Sky Sports+ (Sky subscription or NOW). ITV simulcasts 10 Championship matches per season free-to-air on ITV1/ITVX (Sky-ITV deal runs to end of 2026/27) and shows EFL highlights (ITV4/ITV, on demand on ITVX). Saturday 3pm blackout: not every match is live in the UK.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "Paramount+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "CBS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "CBS Sports Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CBS Sports Golazo Network",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "CBS Sports deal Aug 2024-2027/28: at least 250 EFL matches per season incl. at least 155 Championship matches and all 15 Play-Off matches; all on Paramount+, select matches on CBS Sports Network and CBS Sports Golazo Network (free FAST channel, select live matches) and CBS.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "Digitalb",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Digitalb",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Arena Sport (Serbian-language), Digitalb (Albanian-language).",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Sport (Sky Deutschland)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. DACH territory incl. South Tyrol (Italy) per EFL list.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Sport (Sky Deutschland)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sky Sport (Sky Deutschland)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Sky Sport (Sky Deutschland)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "Sky Sport (Sky Deutschland)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "TV Nova (Nova Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Monaco",
+   "code": "MC",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Included in the France (beIN SPORTS) territory on the EFL list.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Included in the France (beIN SPORTS) territory on the EFL list.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "French Polynesia",
+   "code": "PF",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Included in the France (beIN SPORTS) territory on the EFL list.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "New Caledonia",
+   "code": "NC",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Included in the France (beIN SPORTS) territory on the EFL list.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Reunion",
+   "code": "RE",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Included in the France (beIN SPORTS) territory on the EFL list.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Mayotte",
+   "code": "YT",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Included in the France (beIN SPORTS) territory on the EFL list.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Cosmote TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "GO",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Network4 (Arena4)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton (Sport 1-5)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Como TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "Como TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Vatican City",
+   "code": "VA",
+   "channels": [
+    {
+     "name": "Como TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "TV Nova (Nova Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "Saran (S Sport)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Angola",
+   "code": "AO",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Benin",
+   "code": "BJ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Botswana",
+   "code": "BW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Burkina Faso",
+   "code": "BF",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Burundi",
+   "code": "BI",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Cameroon",
+   "code": "CM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Cape Verde",
+   "code": "CV",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Central African Republic",
+   "code": "CF",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Chad",
+   "code": "TD",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Comoros",
+   "code": "KM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Republic of the Congo",
+   "code": "CG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Ivory Coast",
+   "code": "CI",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Democratic Republic of the Congo",
+   "code": "CD",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Djibouti",
+   "code": "DJ",
+   "channels": [
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Equatorial Guinea",
+   "code": "GQ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Eritrea",
+   "code": "ER",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Ethiopia",
+   "code": "ET",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Gabon",
+   "code": "GA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Gambia",
+   "code": "GM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Ghana",
+   "code": "GH",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. SportyTV free-to-air status inferred (free channel); not stated on EFL page.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Guinea",
+   "code": "GN",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Guinea-Bissau",
+   "code": "GW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. SportyTV free-to-air status inferred (free channel); not stated on EFL page.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Lesotho",
+   "code": "LS",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Liberia",
+   "code": "LR",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Madagascar",
+   "code": "MG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Malawi",
+   "code": "MW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Mali",
+   "code": "ML",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Mauritania",
+   "code": "MR",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Mauritius",
+   "code": "MU",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Mozambique",
+   "code": "MZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Namibia",
+   "code": "NA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Niger",
+   "code": "NE",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. SportyTV free-to-air status inferred (free channel); not stated on EFL page.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Rwanda",
+   "code": "RW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Sao Tome and Principe",
+   "code": "ST",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Seychelles",
+   "code": "SC",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Senegal",
+   "code": "SN",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Sierra Leone",
+   "code": "SL",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Somalia",
+   "code": "SO",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SportyTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. SportyTV free-to-air status inferred (free channel); not stated on EFL page.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "South Sudan",
+   "code": "SS",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Saint Helena, Ascension and Tristan da Cunha",
+   "code": "SH",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Eswatini",
+   "code": "SZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Sudan",
+   "code": "SD",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Tanzania",
+   "code": "TZ",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Togo",
+   "code": "TG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Uganda",
+   "code": "UG",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Zambia",
+   "code": "ZM",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Zimbabwe",
+   "code": "ZW",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Afghanistan",
+   "code": "AF",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bhutan",
+   "code": "BT",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Maldives",
+   "code": "MV",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "DGO Watch",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "FanCode",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Douyin",
+     "type": "free-stream",
+     "freeToAir": true
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL. Douyin live streams are free to view in-app (inferred; not stated on EFL page).",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "TVB",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "Singtel TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "Mono (Monomax)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "IEG",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "Astro",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Anguilla",
+   "code": "AI",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Antigua and Barbuda",
+   "code": "AG",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Aruba",
+   "code": "AW",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bahamas",
+   "code": "BS",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Barbados",
+   "code": "BB",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bermuda",
+   "code": "BM",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Caribbean Netherlands (Bonaire, Saba, Sint Eustatius)",
+   "code": "BQ",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "British Virgin Islands",
+   "code": "VG",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Cayman Islands",
+   "code": "KY",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Cuba",
+   "code": "CU",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Curacao",
+   "code": "CW",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Dominica",
+   "code": "DM",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Dominican Republic",
+   "code": "DO",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Falkland Islands",
+   "code": "FK",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Grenada",
+   "code": "GD",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Guadeloupe",
+   "code": "GP",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Guyana",
+   "code": "GY",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Haiti",
+   "code": "HT",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Jamaica",
+   "code": "JM",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Martinique",
+   "code": "MQ",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Montserrat",
+   "code": "MS",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Saint Barthelemy",
+   "code": "BL",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Saint Kitts and Nevis",
+   "code": "KN",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Saint Lucia",
+   "code": "LC",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Sint Maarten",
+   "code": "SX",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Saint Vincent and the Grenadines",
+   "code": "VC",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Suriname",
+   "code": "SR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Trinidad and Tobago",
+   "code": "TT",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Turks and Caicos Islands",
+   "code": "TC",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bolivia",
+   "code": "BO",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Chile",
+   "code": "CL",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Colombia",
+   "code": "CO",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Costa Rica",
+   "code": "CR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Ecuador",
+   "code": "EC",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "El Salvador",
+   "code": "SV",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Guatemala",
+   "code": "GT",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Honduras",
+   "code": "HN",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Nicaragua",
+   "code": "NI",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Panama",
+   "code": "PA",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Paraguay",
+   "code": "PY",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Peru",
+   "code": "PE",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Uruguay",
+   "code": "UY",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Venezuela",
+   "code": "VE",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Algeria",
+   "code": "DZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Bahrain",
+   "code": "BH",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Egypt",
+   "code": "EG",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Iran",
+   "code": "IR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Jordan",
+   "code": "JO",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Lebanon",
+   "code": "LB",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Libya",
+   "code": "LY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Oman",
+   "code": "OM",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Palestine",
+   "code": "PS",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Qatar",
+   "code": "QA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Saudi Arabia",
+   "code": "SA",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Syria",
+   "code": "SY",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Tunisia",
+   "code": "TN",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "United Arab Emirates",
+   "code": "AE",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Yemen",
+   "code": "YE",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "2026/27 international broadcaster per EFL.",
+   "source": "https://www.efl.com/how-to-watch/broadcast-partners/"
+  }
+ ]
+}

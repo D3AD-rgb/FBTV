@@ -1,0 +1,1617 @@
+{
+ "competitionId": "nhl",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.nhl.com/info/how-to-watch-by-country",
+  "https://www.nhl.com/info/how-to-watch-and-stream-nhl-games"
+ ],
+ "notes": "Source: official nhl.com 'How to watch NHL games by country' page and 'How to watch & stream' page (NHL.TV on DAZN listed for the 2026-27 season). In most territories 'select games' air on the listed TV partner and all games stream on NHL.TV on DAZN or Disney+ (ESPN). Free-to-air flagged only for clear over-the-air channels (ABC, ITV, SVT, MTV3, 9Go!/9Now, CCTV); all are select games only. No free option in Canada, Bangladesh or MENA (DAZN only).",
+ "broadcasters": [
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ABC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ESPN+ / Hulu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "HBO Max",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN Deportes",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "National games on ESPN/ABC/ESPN+ and TNT/HBO Max; ABC is free over-the-air (selected national games). Out-of-market: NHL Center Ice / ESPN+. Local games on regional networks.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Sportsnet",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sportsnet+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TVA Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Rogers (Sportsnet) national rights, Prime Video Wednesday games, TVA Sports French. Out-of-market: NHL Centre Ice / Sportsnet+.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ITV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Select games on Premier Sports and ITV (ITV free-to-air, selected games only); all other games on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Select games on Sky; all other games on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "MySports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TV24",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "3+ Adrenalin",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Liechtenstein",
+   "code": "LI",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "MySports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Luxembourg",
+   "code": "LU",
+   "channels": [
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Monaco",
+   "code": "MC",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Movistar+ (Telefonica)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Select games on Telefonica; all games on ESPN on Disney+.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "Sport TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Malta",
+   "code": "MT",
+   "channels": [
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "San Marino",
+   "code": "SM",
+   "channels": [
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Antena",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV10",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "SVT",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "SVT (public, free): limited games only.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "MTV3",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "MTV3 free-to-air: select games.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV3+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "Viaplay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "TV3+",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Go3 Open",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "TV6",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Go3 Open",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Go3 Open",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Go3",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "OnePlay",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Select games on Nova and Prima channels (free vs. pay sport channel not specified).",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Dajto",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Voyo",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Prima+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Select games on Nova, Prima and Dajto (free vs. pay not specified).",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Montenegro",
+   "code": "ME",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Viva Media",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Television Varzish",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "The Sports Channel (Sport 5)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "9Go! / 9Now",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "9Go!/9Now free-to-air: select games.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "CCTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ESPN China",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Select games only.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "Sky Mexico",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Central America & Dominican Republic/Haiti (Sky Mexico territories)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Sky Mexico",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Belize, Costa Rica, Dominican Republic, El Salvador, Haiti, Honduras, Nicaragua, Panama.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "South America (Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay, Venezuela, Bolivia)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Bolivia: Disney+ only.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Caribbean (ESPN territories)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (ESPN)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Bahamas, Barbados, Grenada, Guyana, Jamaica, St Kitts, St Lucia, St Vincent, Trinidad and Tobago, Suriname etc.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Cuba",
+   "code": "CU",
+   "channels": [
+    {
+     "name": "ESPN Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Select games on ESPN in most sub-Saharan countries, all games on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "South Africa",
+   "code": "ZA",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Nigeria",
+   "code": "NG",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Kenya",
+   "code": "KE",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "French overseas territories (Reunion, Mayotte, New Caledonia, French Polynesia etc.)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Pakistan",
+   "code": "PK",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Sri Lanka",
+   "code": "LK",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Nepal",
+   "code": "NP",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Malaysia",
+   "code": "MY",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Vietnam",
+   "code": "VN",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "United Arab Emirates",
+   "code": "AE",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Saudi Arabia",
+   "code": "SA",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Qatar",
+   "code": "QA",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Kuwait",
+   "code": "KW",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Bahrain",
+   "code": "BH",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Oman",
+   "code": "OM",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Jordan",
+   "code": "JO",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Lebanon",
+   "code": "LB",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Egypt",
+   "code": "EG",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Morocco",
+   "code": "MA",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Algeria",
+   "code": "DZ",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Tunisia",
+   "code": "TN",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Iraq",
+   "code": "IQ",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Ukraine",
+   "code": "UA",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Moldova",
+   "code": "MD",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Andorra",
+   "code": "AD",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Gibraltar",
+   "code": "GI",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "No TV partner listed; all games stream on NHL.TV on DAZN.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "nhl.com: 'Games will soon be available on NHL.TV on DAZN'.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "NHL.TV on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "nhl.com: 'Games will soon be available on NHL.TV on DAZN'.",
+   "source": "https://www.nhl.com/info/how-to-watch-by-country"
+  }
+ ]
+}

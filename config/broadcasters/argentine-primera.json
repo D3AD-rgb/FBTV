@@ -1,0 +1,60 @@
+{
+ "competitionId": "argentine-primera",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://tavilatam.com/en/argentina-tnt-sports-renews-deal-with-afa-to-extend-broadcasting-rights-for-local-soccer-league-until-2031/",
+  "https://dplnews.com/?p=271655",
+  "https://442.perfil.com/noticias/futbol/futbol-libre-en-2026-las-3-alternativas-para-ver-los-partidos-sin-cortes.phtml",
+  "https://en.wikipedia.org/wiki/AFA_Liga_Profesional_de_F%C3%BAtbol"
+ ],
+ "notes": "Domestic rights are split 50/50 per matchday between ESPN Premium (Disney, deal to 2030 with a possible one-year extension) and TNT Sports Premium (Warner Bros. Discovery, extended to 2031); both are sold together in the pay-TV 'Pack Futbol' (Flow, DirecTV, Telecentro, etc.). No free-to-air coverage of league matches was found for 2026. International rights holders for 2026 are poorly documented: the only 2026 source names Fanatiz as the AFA-endorsed platform for viewers abroad. The Wikipedia league article lists older/undated international holders (ESPN and TyC Sports International in Latin America, Paramount+ in the US 'since 2021', beIN Sports in France, Dubai Sports in MENA); these could not be confirmed for 2026 and were left out. The 442 (Perfil) article is a news piece about legal viewing options; its URL slug references piracy only because it contrasts legal options with it.",
+ "broadcasters": [
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "ESPN Premium",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports Premium",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN (basic pay-TV channels)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "TNT Sports in Max (HBO Max)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN Premium and TNT Sports Premium each show half of every matchday; full coverage requires the joint premium 'Pack Futbol' via pay-TV operators. ESPN also airs two games per matchday on its basic pay-TV channels (per TAVI, April 2025). TNT Sports can be bought without a cable plan via Max (DPL News, April 2025). Disney+ gives access to ESPN's football in certain plans when linked to the pack (442, Feb 2026). No free-to-air league coverage found.",
+   "source": "https://tavilatam.com/en/argentina-tnt-sports-renews-deal-with-afa-to-extend-broadcasting-rights-for-local-soccer-league-until-2031/"
+  },
+  {
+   "country": "Worldwide (outside Argentina)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Fanatiz",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Described in Feb 2026 as the digital platform endorsed by the AFA for following the tournament from abroad. Exact territories and any exclusions per country not confirmed.",
+   "source": "https://442.perfil.com/noticias/futbol/futbol-libre-en-2026-las-3-alternativas-para-ver-los-partidos-sin-cortes.phtml"
+  }
+ ]
+}

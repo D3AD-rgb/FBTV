@@ -1,0 +1,1077 @@
+{
+ "competitionId": "nfl",
+ "season": "2026",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://www.nfl.com/international/ways-to-watch/by-country",
+  "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters",
+  "https://www.nfl.com/international/ways-to-watch/uk",
+  "https://www.nfl.com/news/uk-and-ireland-week-7-broadcast-games",
+  "https://www.nfl.com/international/ways-to-watch/canada",
+  "https://www.nfl.com/international/australia/",
+  "https://www.nfl.com/international/ways-to-watch/germany",
+  "https://www.nfl.com/international/ways-to-watch/france",
+  "https://www.nfl.com/international/ways-to-watch/spain",
+  "https://www.nfl.com/international/ways-to-watch/brazil",
+  "https://www.nfl.com/international/ways-to-watch/mexico",
+  "https://www.nfl.com/international/ways-to-watch/middle-east-and-north-africa",
+  "https://www.nfl.com/international/ways-to-watch/africa",
+  "https://www.nfl.com/international/ways-to-watch/japan",
+  "https://www.nfl.com/international"
+ ],
+ "notes": "Official nfl.com 'Ways to Watch by country' pages used for UK, Canada, Australia, Germany, France, Spain, Brazil, Mexico, MENA, Africa and Japan. Other territories from Wikipedia's list of current NFL broadcasters (international section partly dated, references mostly 2024) and marked as such in the notes. NFL Game Pass on DAZN is available worldwide except US and China. Gap: Bangladesh only via Wikipedia's generic 'Indian subcontinent: Star Sports' entry.",
+ "broadcasters": [
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "CBS",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Fox",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NBC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ABC",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Prime Video",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Network",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Netflix",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Peacock",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "CBS/Fox Sunday afternoon, NBC Sunday Night Football, ESPN/ABC Monday Night Football, Prime Video Thursday Night Football, Netflix (International Series / late-season games), NFL Network exclusive games. CBS, Fox, NBC and ABC are free over-the-air networks. Spanish: Fox Deportes, Telemundo/Universo, ESPN Deportes.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "United Kingdom",
+   "code": "UK",
+   "channels": [
+    {
+     "name": "Sky Sports (Sky Sports NFL)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Channel 5 / 5 Action",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Channel 5: live Sunday 9pm game (Big Game Night), a weekly 6pm game on 5 Action, playoffs and Super Bowl. Sky: 160+ live games, RedZone, every playoff game and Super Bowl.",
+   "source": "https://www.nfl.com/international/ways-to-watch/uk"
+  },
+  {
+   "country": "Ireland",
+   "code": "IE",
+   "channels": [
+    {
+     "name": "Sky Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Virgin Media Television",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "nfl.com lists UK & Ireland weekly broadcast games on Sky Sports, Channel 5 Action and DAZN Game Pass; Virgin Media Television (free) per Wikipedia.",
+   "source": "https://www.nfl.com/news/uk-and-ireland-week-7-broadcast-games"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "TSN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "RDS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "CTV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN (NFL Game Pass)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "nfl.com lists TSN (all primetime games, playoffs, Super Bowl) and DAZN. CTV (free over-the-air) and RDS (French) per Wikipedia.",
+   "source": "https://www.nfl.com/international/ways-to-watch/canada"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "Seven / 7plus",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (RedZone)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Seven is the 'Free-to-Air home of the NFL in Australia' (Thursday Night Football and weekly Sunday games, playoffs, Super Bowl).",
+   "source": "https://www.nfl.com/international/australia/"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "TVNZ",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "TVNZ free-to-air (selected games). From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "RTL+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (NFL Game Pass)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTL: two live games each Sunday, US primetime games, European International Games, all playoffs and Super Bowl free-to-air; extra 19:00 game streamed on RTL+.",
+   "source": "https://www.nfl.com/international/ways-to-watch/germany"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "RTL deal (Germany, Austria, Switzerland, Liechtenstein, Luxembourg) runs to 2027/28. From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "RTL",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Sky Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "M6 / 6play / W9",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (NFL Game Pass)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "M6 group: one Sunday 19:00 game on 6play, selected playoff games on W9 and the Super Bowl (free). beIN: weekly primetime games, RedZone, all playoffs, Super Bowl.",
+   "source": "https://www.nfl.com/international/ways-to-watch/france"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "Cuatro / BeMad / Mediaset Infinity",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Cayo TV (YouTube)",
+     "type": "free-stream",
+     "freeToAir": true
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Mediaset (free): selected games, Sunday Night Football, International Games, selected playoffs, Super Bowl. DAZN: five live games per matchday (one free with registration). Cayo TV: one free Sunday game on YouTube.",
+   "source": "https://www.nfl.com/international/ways-to-watch/spain"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Denmark",
+   "code": "DK",
+   "channels": [
+    {
+     "name": "TV 2 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Sweden",
+   "code": "SE",
+   "channels": [
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Norway",
+   "code": "NO",
+   "channels": [
+    {
+     "name": "VG+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Finland",
+   "code": "FI",
+   "channels": [
+    {
+     "name": "Ruutu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Iceland",
+   "code": "IS",
+   "channels": [
+    {
+     "name": "Stod 2 Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Czech Republic",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Nova Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Arena4",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "VOYO",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "Max Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Cosmote Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "ERT",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "ERT is the public broadcaster (scope not stated). From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "S Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Balkans (Bosnia-Herzegovina, Croatia, Montenegro, North Macedonia, Serbia, Slovenia)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Arena Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Baltics (Estonia, Latvia, Lithuania)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Go3 Sport",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Brazil",
+   "code": "BR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+ (RedZone)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Globoplay (RedZone)",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (NFL Game Pass)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN: two Sunday afternoon games and all Monday night games, six postseason games and the Super Bowl. Wikipedia also lists TV Globo/SporTV and Netflix.",
+   "source": "https://www.nfl.com/international/ways-to-watch/brazil"
+  },
+  {
+   "country": "Mexico",
+   "code": "MX",
+   "channels": [
+    {
+     "name": "TUDN / Canal 5 / Canal 9 (TelevisaUnivision)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "ViX",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Sky Mexico (Sunday Ticket)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (NFL Game Pass)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "TelevisaUnivision: NFL on Sundays on Canal 9, playoffs and Super Bowl on Canal 5 (over-the-air channels); exclusive games on ViX. ESPN: SNF and MNF. Fox Sports: TNF and Sunday games.",
+   "source": "https://www.nfl.com/international/ways-to-watch/mexico"
+  },
+  {
+   "country": "Argentina",
+   "code": "AR",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Fox Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Latin America (except Mexico, Argentina, Brazil)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Rush Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Middle East and North Africa (MENA)",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "beIN SPORTS",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (NFL Game Pass)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "beIN: both Sunday windows, SNF, MNF, TNF, every playoff game, Super Bowl, RedZone.",
+   "source": "https://www.nfl.com/international/ways-to-watch/middle-east-and-north-africa"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN (Africa)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN (NFL Game Pass)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nfl.com/international/ways-to-watch/africa"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "Nittele G+ (NTV)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://www.nfl.com/international/ways-to-watch/japan"
+  },
+  {
+   "country": "India",
+   "code": "IN",
+   "channels": [
+    {
+     "name": "Star Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Indian subcontinent'. From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Bangladesh",
+   "code": "BD",
+   "channels": [
+    {
+     "name": "Star Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Covered under Wikipedia's 'Indian subcontinent: Star Sports' entry; not confirmed separately. From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Tencent",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "SMG Great Sports (Shanghai)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "GDTV Sports (Guangdong)",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Regional over-the-air channels. Game Pass not available in China. From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "Now Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "MBC Sports+",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Taiwan",
+   "code": "TW",
+   "channels": [
+    {
+     "name": "ELTA Sports",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Philippines",
+   "code": "PH",
+   "channels": [
+    {
+     "name": "Premier Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Disney+",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Singapore",
+   "code": "SG",
+   "channels": [
+    {
+     "name": "StarHub TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Vidio",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "AIS Play",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "From Wikipedia's list (international section flagged as citation-needed, references largely 2024); not confirmed on nfl.com for 2026.",
+   "source": "https://en.wikipedia.org/wiki/List_of_current_National_Football_League_broadcasters"
+  },
+  {
+   "country": "Worldwide",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "NFL Game Pass on DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "NFL Game Pass International on DAZN: every game outside the US and China.",
+   "source": "https://www.nfl.com/international"
+  }
+ ]
+}

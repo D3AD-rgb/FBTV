@@ -1,0 +1,756 @@
+{
+ "competitionId": "dutch-eredivisie",
+ "season": "2026-27",
+ "retrieved": "2026-10-26",
+ "sources": [
+  "https://eredivisie.com/broadcasters/",
+  "https://eredivisie.com/news/eredivisie-announces-partnerships-for-international-rights-with-img-and-infront/",
+  "https://sportcal.com/?p=140026",
+  "https://www.sportcal.com/?p=142394",
+  "https://www.sportcal.com/?p=144796",
+  "https://www.sportcal.com/news/dazn-continues-to-bolster-soccer-portfolio-in-spain-with-eredivisie-rights/",
+  "https://callmepower.be/nl/telecom/gids/begrijpen/voetbal/dutch-eredivisie",
+  "https://en.wikipedia.org/wiki/Kompas_TV",
+  "https://en.wikipedia.org/wiki/MONO29"
+ ],
+ "notes": "Main source is the Eredivisie's official broadcaster page (eredivisie.com/broadcasters, footer (c) 2026, retrieved 2026-10-26; the page has no season label, but it already lists DAZN Spain, a deal that started in August 2026, so it looks current for 2026-27). IMG sells the international rights under a five-season deal (2025-26 to 2029-30). ESPN holds domestic live rights through 2029-30. No broadcaster is listed on the official page for the UK, Ireland or the Nordic countries, so those markets are omitted. Ivory Coast and Saint Kitts and Nevis are listed without a broadcaster. Channel types (pay-tv/streaming) are based on the nature of each named service. Where the official page only gives a company name (e.g. Saran, Arena TV), it is reproduced as given.",
+ "broadcasters": [
+  {
+   "country": "Netherlands",
+   "code": "NL",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "NOS (Studio Sport Eredivisie)",
+     "type": "free-to-air",
+     "freeToAir": true
+    }
+   ],
+   "note": "ESPN (Eredivisie Media & Marketing JV with Disney) shows all matches live; deal runs through 2029-30. NOS is HIGHLIGHTS ONLY (no live matches), on TV, NPO Start, NOS.nl and the NOS app; its highlights deal was extended through 2026-27. KPN also holds online highlights/clip rights (2025-26 to 2029-30).",
+   "source": "https://sportcal.com/?p=140026"
+  },
+  {
+   "country": "Germany",
+   "code": "DE",
+   "channels": [
+    {
+     "name": "Sportdigital Fussball",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Rights renewed in August 2025 through 2027-28; all 34 rounds plus KNVB Cup and Super Cup. Carried via Sky Deutschland, Vodafone, MagentaTV, Zattoo.",
+   "source": "https://www.sportcal.com/?p=144796"
+  },
+  {
+   "country": "Austria",
+   "code": "AT",
+   "channels": [
+    {
+     "name": "Sportdigital Fussball",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as Sport Digital on the official Eredivisie broadcaster page. Sportdigital Fussball is distributed across Germany, Austria and Switzerland.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Switzerland",
+   "code": "CH",
+   "channels": [
+    {
+     "name": "Sportdigital Fussball",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as Sport Digital on the official Eredivisie broadcaster page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Belgium",
+   "code": "BE",
+   "channels": [
+    {
+     "name": "Play Sports (Telenet)",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The official Eredivisie page lists Play Sports and Sporza (VRT) for Belgium. A Belgian TV guide (callmepower.be, updated May 2026, covering 2026/27) says DAZN Belgium shows all Eredivisie matches, Play Sports several matches, and that no free-to-air channel shows the Eredivisie. Sporza's scope (probably highlights/clips) could not be verified, so it is not listed as a free live option.",
+   "source": "https://callmepower.be/nl/telecom/gids/begrijpen/voetbal/dutch-eredivisie"
+  },
+  {
+   "country": "Spain",
+   "code": "ES",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "New deal starting August 2026: four live matches per matchweek, including all Ajax, PSV and Feyenoord games, plus the KNVB Cup and Super Cup.",
+   "source": "https://www.sportcal.com/news/dazn-continues-to-bolster-soccer-portfolio-in-spain-with-eredivisie-rights/"
+  },
+  {
+   "country": "France",
+   "code": "FR",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Portugal",
+   "code": "PT",
+   "channels": [
+    {
+     "name": "DAZN",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Italy",
+   "code": "IT",
+   "channels": [
+    {
+     "name": "Mola TV",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Poland",
+   "code": "PL",
+   "channels": [
+    {
+     "name": "Polsat Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Polsat Sports' on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Greece",
+   "code": "GR",
+   "channels": [
+    {
+     "name": "Nova",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Cyprus",
+   "code": "CY",
+   "channels": [
+    {
+     "name": "Cablenet",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Turkey",
+   "code": "TR",
+   "channels": [
+    {
+     "name": "Tivibu (Saran)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Saran (TiviBu)' on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Hungary",
+   "code": "HU",
+   "channels": [
+    {
+     "name": "Saran",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The official page lists only 'Saran' (a media rights company); the local channel/platform is not specified.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Romania",
+   "code": "RO",
+   "channels": [
+    {
+     "name": "Prima Sport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Prima Sports' on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Bulgaria",
+   "code": "BG",
+   "channels": [
+    {
+     "name": "A1",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Czechia",
+   "code": "CZ",
+   "channels": [
+    {
+     "name": "Arena TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Name as given on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Slovakia",
+   "code": "SK",
+   "channels": [
+    {
+     "name": "Arena TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Name as given on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Serbia",
+   "code": "RS",
+   "channels": [
+    {
+     "name": "SportKlub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Croatia",
+   "code": "HR",
+   "channels": [
+    {
+     "name": "SportKlub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Slovenia",
+   "code": "SI",
+   "channels": [
+    {
+     "name": "SportKlub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Bosnia and Herzegovina",
+   "code": "BA",
+   "channels": [
+    {
+     "name": "SportKlub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "North Macedonia",
+   "code": "MK",
+   "channels": [
+    {
+     "name": "SportKlub",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Albania",
+   "code": "AL",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Kosovo",
+   "code": "XK",
+   "channels": [
+    {
+     "name": "SuperSport",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Kosovo has no official ISO 3166-1 code; XK is the commonly used user-assigned code.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Israel",
+   "code": "IL",
+   "channels": [
+    {
+     "name": "Charlton (Maariv)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Maariv (Charlton)' on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Russia",
+   "code": "RU",
+   "channels": [
+    {
+     "name": "Start (TV Start)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'TV Start' on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Georgia",
+   "code": "GE",
+   "channels": [
+    {
+     "name": "Silknet",
+     "type": "pay-tv",
+     "freeToAir": false
+    },
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Armenia",
+   "code": "AM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Azerbaijan",
+   "code": "AZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Belarus",
+   "code": "BY",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Estonia",
+   "code": "EE",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Latvia",
+   "code": "LV",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Lithuania",
+   "code": "LT",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Kazakhstan",
+   "code": "KZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Kyrgyzstan",
+   "code": "KG",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Tajikistan",
+   "code": "TJ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Turkmenistan",
+   "code": "TM",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Uzbekistan",
+   "code": "UZ",
+   "channels": [
+    {
+     "name": "Setanta Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "United States",
+   "code": "US",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "The official page lists ESPN; the specific ESPN platform (linear channel vs ESPN streaming) is not specified.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Canada",
+   "code": "CA",
+   "channels": [
+    {
+     "name": "Rogers (Sportsnet)",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Rogers' on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Latin America",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN is listed for Mexico, Belize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, Panama, Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Paraguay, Peru, Uruguay and Venezuela.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Caribbean",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN is listed for almost all Caribbean territories, including Aruba, Curaçao, Bonaire, Sint Maarten, Sint Eustatius, Saba, Suriname, Jamaica, Trinidad and Tobago, Dominican Republic, Puerto Rico, Cuba, Haiti, Bahamas, Barbados, Guyana, French Guiana, Guadeloupe and Martinique. No broadcaster is listed for Saint Kitts and Nevis.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "MENA",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Dubai Sports",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Exclusive three-season deal covering 2025-26, 2026-27 and 2027-28 across the Middle East and North Africa. The official page lists Dubai Sports for Algeria, Egypt, Iran, Iraq, Jordan, Kuwait, Lebanon, Libya, Mauritania, Morocco, Oman, Palestine, Qatar, Saudi Arabia, Sudan, Syria, Tunisia, UAE and Yemen. Dubai Sports channels have historically aired some football free in MENA, but free-to-air status for the Eredivisie was not verified, so freeToAir is set to false.",
+   "source": "https://www.sportcal.com/?p=142394"
+  },
+  {
+   "country": "Sub-Saharan Africa",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "ESPN Africa",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "ESPN Africa is listed for nearly all sub-Saharan territories, including Nigeria, South Africa, Kenya, Ghana, Ethiopia, Tanzania, Uganda, Cameroon, Senegal, DR Congo and Angola. North African countries are covered by Dubai Sports instead. Ivory Coast is listed without a broadcaster.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Indian subcontinent",
+   "code": "REGION",
+   "channels": [
+    {
+     "name": "Discovery+",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Discovery Plus' for India, Pakistan, Bangladesh, Sri Lanka, Nepal, Bhutan and the Maldives.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "China",
+   "code": "CN",
+   "channels": [
+    {
+     "name": "Leisu",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "K-Ball",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Baifenqiu",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Platform types were not verified; names are as given on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Hong Kong",
+   "code": "HK",
+   "channels": [
+    {
+     "name": "myTV SUPER",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Japan",
+   "code": "JP",
+   "channels": [
+    {
+     "name": "U-Next",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "South Korea",
+   "code": "KR",
+   "channels": [
+    {
+     "name": "Coupang Play",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "Listed as 'Coupang' on the official page.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Indonesia",
+   "code": "ID",
+   "channels": [
+    {
+     "name": "Kompas TV",
+     "type": "free-to-air",
+     "freeToAir": true
+    },
+    {
+     "name": "Vidio",
+     "type": "streaming",
+     "freeToAir": false
+    },
+    {
+     "name": "Champions TV",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "Kompas TV is a terrestrial (free) TV network. How many Eredivisie matches it shows live (and whether all or only a selection) was not verified.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Thailand",
+   "code": "TH",
+   "channels": [
+    {
+     "name": "MONO (MONOMAX)",
+     "type": "streaming",
+     "freeToAir": false
+    }
+   ],
+   "note": "The official page lists 'MONO'. The MONO group runs both the free terrestrial channel MONO29 and the subscription streamer MONOMAX, which focuses on sport from June 2026. Which outlet carries the Eredivisie was not verified, so freeToAir is set to false.",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "Australia",
+   "code": "AU",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  },
+  {
+   "country": "New Zealand",
+   "code": "NZ",
+   "channels": [
+    {
+     "name": "ESPN",
+     "type": "pay-tv",
+     "freeToAir": false
+    }
+   ],
+   "note": "",
+   "source": "https://eredivisie.com/broadcasters/"
+  }
+ ]
+}
