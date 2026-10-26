@@ -180,10 +180,12 @@ The TV cannot read the PC's folders. Two ways:
 
 1. **Local build:** `npm run package -- --with-library` bundles the export into an IPK named
    `…-local.<commit>…`, then `npm run deploy`. Install it on your own TV only.
-2. **Home-network server:** `npm run library:serve` on the PC, then enter the printed
-   `http://<pc-ip>:8787/registry.json` in Settings › Sources on the TV. The TV reloads the library
-   without a reinstall. This is the mode that plays My Playlist, provider films and your own media,
-   and saves playlist selections on the PC.
+2. **Home-network server:** `npm run library:serve` on the PC. A local build already knows the PC's
+   address (recorded when it was packaged, in `library/server.json`) and uses the server whenever it
+   answers, falling back to the bundled copy after 4 seconds; nothing has to be typed on the TV. If the
+   PC's address changes, enter the new `http://<pc-ip>:8787/registry.json` in Settings › Sources (or
+   repackage). The TV reloads the library without a reinstall. This is the mode that plays My Playlist,
+   provider films and your own media, and saves playlist selections on the PC.
 
 The server binds to the PC's home-network address, answers only private-network and loopback clients
 (anything else gets 403), serves only the export's JSON files, media by id, private play tokens and the
