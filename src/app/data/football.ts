@@ -6,6 +6,7 @@
 import { signal } from '@preact/signals';
 import { loadCatalog, loadShard, type LibChannel } from './sourceLibrary.ts';
 import { sameTeam } from '../../shared/teams.ts';
+import { servicesFor } from '../platform/apps.ts';
 
 export interface Broadcast {
   country?: string;
@@ -274,6 +275,49 @@ export function clubChannels(data: FootballData, clubs: string[], map: Map<strin
     for (const ch of playableFromRights(comp && comp.rights, map, home)) add(ch);
   }
   return out;
+}
+
+/** A free channel the country note says shows highlights (so it does not read as free live coverage). */
+export function highlightsOnly(c: RightsChannel, b: RightsEntry): boolean {
+  const note = (b.note || '').toLowerCase();
+  if (note.indexOf('highlight') < 0) return false;
+  const free = b.channels.filter((x) => x.freeToAir);
+  return note.indexOf(c.name.toLowerCase()) >= 0 || free.length === 1;
+}
+
+export interface WhereToWatch {
+  /** Streaming services (labels from SERVICES) that show it, or may show it when not exact. */
+  services: string[];
+  /** Channel or broadcaster names behind them. */
+  channels: string[];
+  /** From this match's own TV listing (true) or from the competition's rights holders (false). */
+  exact: boolean;
+  /** UK Saturday 3pm blackout: not shown live in the UK. */
+  blackout: boolean;
+}
+
+const HOME_COUNTRY_NAMES: Record<string, RegExp> = { UK: /united kingdom|england|scotland|wales|\buk\b|great britain/i };
+
+/** True for a Premier League match kicking off 14:45–15:15 on a Saturday, UK time. Pure. */
+export function ukBlackout(f: Fixture): boolean {
+  if (f.competitionId !== 'english-premier-league' || !f.kickoffUtc) return false;
+  const parts = new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date(f.kickoffUtc));
+  const get = (t: string) => (parts.filter((p) => p.type === t)[0] || { value: '' }).value;
+  const mins = Number(get('hour')) * 60 + Number(get('minute'));
+  return get('weekday') === 'Sat' && mins >= 14 * 60 + 45 && mins <= 15 * 60 + 15;
+}
+
+/** Where a match can be watched in the viewer's country, from listings or rights. Pure. */
+export function whereToWatch(f: Fixture, data: FootballData, home: string): WhereToWatch {
+  const code = home.toUpperCase();
+  const blackout = code === 'UK' && ukBlackout(f);
+  const names = HOME_COUNTRY_NAMES[code];
+  const listed = names ? f.broadcasts.filter((b) => names.test(b.country || '')).map((b) => b.channel) : [];
+  if (listed.length) return { services: servicesFor(listed).map((s) => s.label), channels: listed, exact: true, blackout };
+  const comp = data.competitions.filter((c) => c.id === f.competitionId)[0];
+  const entry = comp && comp.rights ? comp.rights.broadcasters.filter((b) => b.code === code || (code === 'UK' && b.code === 'GB'))[0] : undefined;
+  const channels = entry ? entry.channels.filter((c) => !/highlights/i.test(c.name) && !(c.freeToAir && highlightsOnly(c, entry))).map((c) => c.name) : [];
+  return { services: servicesFor(channels).map((s) => s.label), channels, exact: false, blackout };
 }
 
 const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];

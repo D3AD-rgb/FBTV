@@ -6,6 +6,7 @@ import { showToast } from '../ui/toast.tsx';
 import { getDeviceInfo, type DeviceInfo } from '../platform/webos.ts';
 import { probeMedia, probePlatform, type Probe } from '../platform/capabilities.ts';
 import { playbackTestPage } from './PlaybackTest.tsx';
+import { SERVICES, appsMethod, detectApps, installedApps } from '../platform/apps.ts';
 import {
   includeUnreviewed,
   library,
@@ -126,6 +127,9 @@ function Diagnostics() {
   const [media] = useState(probeMedia);
   const [platform] = useState(probePlatform);
   useEffect(() => {
+    detectApps();
+  }, []);
+  useEffect(() => {
     let alive = true;
     getDeviceInfo().then((d) => {
       if (alive) setDevice(d);
@@ -168,6 +172,17 @@ function Diagnostics() {
           <Panel id="diag:device" title="This TV" rows={deviceRows} />
           <Panel id="diag:media" title="Media formats" rows={media} />
           <Panel id="diag:platform" title="Platform features" rows={platform} />
+          <Panel
+            id="diag:apps"
+            title="Broadcaster apps on this TV (for Watch on)"
+            rows={
+              installedApps.value
+                ? SERVICES.map((sv) => ({ label: sv.label, value: installedApps.value![sv.label] ? 'yes' : 'no' }) as Probe).concat([
+                    { label: 'Found by', value: appsMethod.value === 'launch-points' ? 'app list' : appsMethod.value === 'load-status' ? 'known app ids' : 'not available here' } as Probe,
+                  ])
+                : [{ label: 'Apps', value: 'Checking…' } as Probe]
+            }
+          />
         </div>
       </PageScroll>
     </div>

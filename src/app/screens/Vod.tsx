@@ -87,7 +87,9 @@ function byGenre<T extends { genre?: string }>(list: T[]): [string, T[]][] {
 export function MovieShelves({ id }: { id: string }) {
   const items = useCatalog<VodTitle>('movies.json');
   if (!items) return null;
-  const films = items.filter(playable);
+  const seen = new Set<string>();
+  // The same file can come from two searches (e.g. an English and a Hindi set): keep it once.
+  const films = items.filter((t) => playable(t) && !seen.has(t.url!) && !seen.has(t.uid) && !!seen.add(t.url!).add(t.uid));
   return (
     <>
       {VOD_LANGUAGES.map(([code, name]) => {

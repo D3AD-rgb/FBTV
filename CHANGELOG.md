@@ -63,6 +63,10 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
   News, Sports, Football, Bangladesh, India, Radio, All); rows show each channel's last-check status and why
   an unavailable channel cannot play. Favourites and history resolve across the catalogue and the library.
 
+- Where to watch: every match card shows the UK service ("Sky Sports", "TNT Sports / Prime Video?" when not yet
+  assigned, "Not on UK TV (3pm)" for the Saturday blackout); match pages explain it and offer "Watch on" buttons that
+  open the official app (NOW, HBO Max for TNT Sports, Prime Video, BBC iPlayer, ITVX, DAZN, …) when installed; each
+  followed club gets a "next 30 days" summary of which services its matches need. Diagnostics lists the apps found.
 - Followed clubs: Manchester City by default, any club from any competition in "Follow clubs". Each followed club
   gets its own section at the top of Live Football with every match across all competitions and its club TV, a
   "★ Manchester City" source in Live TV (club TV plus rights holders of its next matches with a public stream),

@@ -235,3 +235,10 @@
   color: #8c95a3;
   margin-top: 4px;
 }
+
+.country-card.wide-card {
+  width: 420px;
+}
+.btn.muted {
+  opacity: 0.6;
+}

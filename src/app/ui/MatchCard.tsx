@@ -1,5 +1,7 @@
 import { useState } from 'preact/hooks';
-import { COMPETITION_COLOUR, kickoffLabel, matchState, type Fixture } from '../data/football.ts';
+import { whereToWatch, football, COMPETITION_COLOUR, kickoffLabel, matchState, type Fixture } from '../data/football.ts';
+import { prefs } from '../data/library.ts';
+import { shortName } from '../platform/apps.ts';
 
 function Crest({ name, badge }: { name: string; badge?: string }) {
   const [failed, setFailed] = useState(false);
@@ -30,6 +32,16 @@ export function StateChip({ f }: { f: Fixture }) {
   if (s === 'postponed') return <span class="chip muted">{f.status === 'abandoned' ? 'Abandoned' : f.status === 'cancelled' ? 'Cancelled' : 'Postponed'}</span>;
   if (s === 'tbc') return <span class="chip advertised">{f.kickoffLocal ? 'Time TBC' : 'Date TBC'}</span>;
   return null;
+}
+
+/** "Sky Sports", "Sky Sports / TNT Sports?" (not confirmed yet) or "Not on UK TV (3pm)". */
+function watchLabel(f: Fixture): string {
+  const data = football.value;
+  if (!data || matchState(f) === 'finished') return '';
+  const w = whereToWatch(f, data, prefs.value.homeCountry || 'UK');
+  if (w.blackout) return 'Not on UK TV (3pm)';
+  if (!w.services.length) return '';
+  return w.services.map(shortName).join(' / ') + (w.exact ? '' : '?');
 }
 
 /** 520×262 match card (design token --card-match). Data is schedule-only: no stream implied. */
@@ -64,7 +76,7 @@ export function MatchCard(props: { f: Fixture; focusId: string; onSelect: () => 
       </div>
       <div class="mfoot">
         <span>{s === 'finished' ? kickoffLabel(f).split(' · ')[0] : kickoffLabel(f)}</span>
-        <span>{f.broadcasts.length ? `${f.broadcasts.length} TV listing${f.broadcasts.length > 1 ? 's' : ''}` : f.round || ''}</span>
+        <span>{watchLabel(f) || (f.broadcasts.length ? `${f.broadcasts.length} TV listing${f.broadcasts.length > 1 ? 's' : ''}` : f.round || '')}</span>
       </div>
       <div class="mstate">
         <StateChip f={f} />

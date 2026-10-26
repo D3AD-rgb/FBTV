@@ -5,21 +5,13 @@
  */
 import type { CatalogueChannel } from '../../shared/model.ts';
 import type { LibChannel } from '../data/sourceLibrary.ts';
-import { playableFromRights, sortRights, type CompetitionRights, type RightsChannel, type RightsEntry } from '../data/football.ts';
+import { highlightsOnly, playableFromRights, sortRights, type CompetitionRights, type RightsChannel, type RightsEntry } from '../data/football.ts';
 import { prefs } from '../data/library.ts';
 import { Shelf } from './Shelf.tsx';
 import { ChannelTile } from './ChannelTile.tsx';
 import { watchFrom } from '../screens/Collection.tsx';
 
 const ROWS_PER_PANEL = 12;
-
-/** A free channel the country note says shows highlights (so it does not read as free live coverage). */
-function highlightsOnly(c: RightsChannel, b: RightsEntry): boolean {
-  const note = (b.note || '').toLowerCase();
-  if (note.indexOf('highlight') < 0) return false;
-  const free = b.channels.filter((x) => x.freeToAir);
-  return note.indexOf(c.name.toLowerCase()) >= 0 || free.length === 1;
-}
 
 const typeLabel = (c: RightsChannel) => (c.type === 'free-to-air' ? 'free' : c.type === 'free-stream' ? 'free stream' : c.type === 'streaming' ? 'streaming' : 'pay TV');
 

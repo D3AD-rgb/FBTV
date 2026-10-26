@@ -155,8 +155,8 @@ function webosAssets(): Plugin {
         disableBackHistoryAPI: true,
         handlesRelaunch: false,
         requiredMemory: 300,
-        // Luna permissions (enforced from webOS 26/27). systemconfig.query: getSystemInfo for Diagnostics.
-        requiredACG: ['systemconfig.query'],
+        // Luna permissions (enforced from webOS 26/27): getSystemInfo for Diagnostics; finding and opening broadcaster apps.
+        requiredACG: ['systemconfig.query', 'application.query', 'application.launcher'],
       };
       writeFileSync(resolve(outDir, 'appinfo.json'), JSON.stringify(appinfo, null, 2) + '\n');
       const vendor = resolve(outDir, 'vendor');

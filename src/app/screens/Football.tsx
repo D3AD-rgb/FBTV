@@ -20,9 +20,11 @@ import {
   timeKey,
   type Competition,
   type Fixture,
+  whereToWatch,
   type FootballData,
 } from '../data/football.ts';
-import { followedClubs, isFollowedClub, toggleClub } from '../data/library.ts';
+import { SERVICES, detectApps, installedApps, launchApp, shortName } from '../platform/apps.ts';
+import { followedClubs, isFollowedClub, prefs, toggleClub } from '../data/library.ts';
 import { sameTeam } from '../../shared/teams.ts';
 import { VirtualList } from '../ui/VirtualList.tsx';
 import { showToast } from '../ui/toast.tsx';
@@ -120,6 +122,7 @@ function MyClubs({ data, map }: { data: FootballData; map: Map<string, LibChanne
         const tv = clubTv(v.club);
         return (
           <Shelf key={v.club} id={`fb:club:${v.club}`} title={`★ ${v.club}`} count={`${v.upcoming.length} upcoming · ${v.results.length} results`}>
+            <ClubServices club={v.club} matches={v.upcoming} />
             {cards.map((f) => (
               <MatchCard key={f.id} f={f} focusId={`fb:club:${v.club}:${f.id}`} onSelect={() => openPage(matchPage(f))} />
             ))}
@@ -217,6 +220,83 @@ export function Football() {
   );
 }
 
+/** Where to watch this match in the viewer's country, with buttons that open the official apps. */
+function WatchOn({ f }: { f: Fixture }) {
+  const data = football.value;
+  useEffect(() => {
+    detectApps();
+  }, []);
+  if (!data) return null;
+  const home = prefs.value.homeCountry || 'UK';
+  const w = whereToWatch(f, data, home);
+  const apps = installedApps.value;
+  return (
+    <div class="panel card" data-focus-group style="margin-top:24px">
+      <h3>Where to watch in {home === 'UK' ? 'the UK' : home}</h3>
+      {w.blackout ? (
+        <p class="muted-text">Saturday 3pm kick-off: not shown live on UK TV (the blackout). Highlights on BBC Match of the Day.</p>
+      ) : w.services.length ? (
+        <p class="muted-text">
+          {w.exact
+            ? `Listed for this match: ${w.channels.join(', ')}.`
+            : `Not confirmed yet. ${f.competition} in ${home === 'UK' ? 'the UK' : home} is shown on ${w.channels.join(', ')}; the channel for this match is announced closer to the date.`}
+        </p>
+      ) : (
+        <p class="muted-text">No broadcaster found for {home === 'UK' ? 'the UK' : home} in the library.</p>
+      )}
+      {!w.blackout && w.services.length ? (
+        <div class="hstack" style="--stack-gap:16px;margin-top:16px">
+          {w.services.map((label) => {
+            const svc = SERVICES.filter((s) => s.label === label)[0]!;
+            const id = apps ? apps[label] : undefined;
+            return (
+              <button
+                key={label}
+                class={'btn' + (id ? '' : ' muted')}
+                data-focusable
+                data-focus-id={`watchon:${label}`}
+                onClick={() => {
+                  if (id) launchApp(id).then((ok) => !ok && showToast(`Could not open ${svc.label}`));
+                  else showToast(apps ? `${svc.label} is not installed on this TV. Install it from the LG Content Store.` : 'Checking installed apps…');
+                }}
+              >
+                {id ? `Watch on ${svc.label}` : `${svc.label} (not installed)`}
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+    </div>
+  );
+}
+
+/** Next 30 days of a club's matches by UK service, to see which subscriptions or passes are needed. */
+function ClubServices({ club, matches }: { club: string; matches: Fixture[] }) {
+  const data = football.value;
+  if (!data) return null;
+  const home = prefs.value.homeCountry || 'UK';
+  const soon = matches.filter((f) => f.kickoffUtc && Date.parse(f.kickoffUtc) < Date.now() + 30 * 86400000);
+  const count = new Map<string, number>();
+  let tbc = 0;
+  let blackout = 0;
+  for (const f of soon) {
+    const w = whereToWatch(f, data, home);
+    if (w.blackout) blackout++;
+    else if (!w.exact && w.services.length > 1) tbc++;
+    else for (const s of w.services) count.set(shortName(s), (count.get(shortName(s)) || 0) + 1);
+  }
+  const parts = Array.from(count.entries()).map(([s, n]) => `${s} ×${n}`);
+  if (tbc) parts.push(`${tbc} not yet assigned`);
+  if (blackout) parts.push(`${blackout} not on UK TV`);
+  return (
+    <div class="country-card card wide-card" data-focusable data-focus-id={`fb:club:${club}:services`}>
+      <span class="ccode">NEXT 30 DAYS · {home}</span>
+      <span class="cname">{soon.length} matches</span>
+      <span class="ccount">{parts.join(' · ') || 'No broadcaster data'}</span>
+    </div>
+  );
+}
+
 function MatchDetail({ f }: { f: Fixture }) {
   const data = football.value;
   const map = useChannels(true);
@@ -284,6 +364,7 @@ function MatchDetail({ f }: { f: Fixture }) {
           )}
           <p class="muted-text">Listings are third-party (TheSportsDB) and may be incomplete or change.</p>
         </div>
+        <WatchOn f={f} />
         <RightsSection
           id={`match:${f.id}`}
           title={`Who shows ${f.competition}, by country`}
