@@ -45,6 +45,46 @@ function webosHtml(): Plugin {
 }
 
 const catalogueDir = resolve(root, 'build-data/catalogue');
+const libraryDir = resolve(root, 'build-data/library-export');
+
+/**
+ * Serves the PC source-library export (npm run library:refresh) at /library/ in development,
+ * and bundles it into the app as library/ only for local builds (FBTV_BUNDLE_LIBRARY=1, set by
+ * `npm run package -- --with-library`). Public and release builds never contain the library:
+ * it holds unreviewed third-party lists and, with provider profiles, the owner's own sources.
+ * The TV can also read it from `npm run library:serve` on the home network.
+ */
+function libraryExport(): Plugin {
+  return {
+    name: 'fbtv-library-export',
+    configureServer(server) {
+      server.middlewares.use('/library/', (req, res, next) => {
+        const file = resolve(libraryDir, (req.url || '').replace(/^\/+/, '').split('?')[0] || '');
+        if (!file.startsWith(libraryDir) || !existsSync(file)) return next();
+        res.setHeader('Content-Type', 'application/json');
+        res.end(readFileSync(file));
+      });
+    },
+    closeBundle() {
+      if (process.env.FBTV_BUNDLE_LIBRARY !== '1') {
+        this.info('Library not bundled (public build). Local build: npm run package -- --with-library');
+        return;
+      }
+      if (!existsSync(resolve(libraryDir, 'registry.json'))) {
+        this.warn('No library export in build-data/library-export — run `npm run library:refresh`.');
+        return;
+      }
+      const copyDir = (from: string, to: string) => {
+        mkdirSync(to, { recursive: true });
+        for (const f of readdirSync(from, { withFileTypes: true })) {
+          if (f.isDirectory()) copyDir(resolve(from, f.name), resolve(to, f.name));
+          else if (f.name.endsWith('.json')) copyFileSync(resolve(from, f.name), resolve(to, f.name));
+        }
+      };
+      copyDir(libraryDir, resolve(outDir, 'library'));
+    },
+  };
+}
 
 /**
  * Bundles the latest catalogue snapshot (from `npm run catalogue`) into the app so the
@@ -130,7 +170,7 @@ export default defineConfig({
   root: resolve(root, 'src/app'),
   publicDir: resolve(root, 'src/app/public'),
   base: './',
-  plugins: [preact(), webosHtml(), webosAssets(), vendorDev(), catalogueSnapshot()],
+  plugins: [preact(), webosHtml(), webosAssets(), vendorDev(), catalogueSnapshot(), libraryExport()],
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
     __APP_ID__: JSON.stringify(appConfig.appId),
