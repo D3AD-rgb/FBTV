@@ -18,3 +18,9 @@ config/local.*.json
 
 # Local editor / agent settings
 .claude/
+
+# Local source library (lives outside the repo; these are precautions)
+FBTV-local-data/
+lg-iptv-local-data/
+profiles.local.json
+secrets.*.json

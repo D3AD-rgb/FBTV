@@ -20,7 +20,16 @@
     "deploy": "node scripts/deploy.mjs",
     "release": "node scripts/release.mjs",
     "catalogue": "node src/builder/main.ts",
-    "catalogue:probe": "node src/builder/main.ts --probe"
+    "catalogue:probe": "node src/builder/main.ts --probe",
+    "library:refresh": "node src/library/main.ts refresh",
+    "library:validate": "node src/library/main.ts validate",
+    "library:report": "node src/library/main.ts report",
+    "library:secret": "node src/library/main.ts secret",
+    "library:xtream": "node src/library/main.ts xtream",
+    "library:rebuild": "node src/library/main.ts rebuild",
+    "library:fixtures": "node src/library/main.ts fixtures",
+    "library:export": "node src/library/main.ts export",
+    "library:serve": "node src/library/main.ts serve"
   },
   "dependencies": {
     "@fontsource/manrope": "5.3.0",
