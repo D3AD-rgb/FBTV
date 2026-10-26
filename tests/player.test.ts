@@ -100,6 +100,17 @@ describe('Player', () => {
     expect(player.info.value.engine).toBe('hlsjs');
   });
 
+  it('moves on when the TV player rejects the source (fMP4/HEVC on webOS 22, FND-010)', async () => {
+    const calls: EngineId[] = [];
+    const player = new Player(makeVideo(), {
+      capabilities: MSE,
+      memory: null,
+      engineFactory: fakeFactory({ native: { code: 'rejected' }, hlsjs: 'play', mpegts: 'hang' }, calls),
+    });
+    expect(await player.play({ url: 'https://x.test/hevc/master.m3u8' })).toBe(true);
+    expect(calls).toEqual(['native', 'hlsjs']);
+  });
+
   it('stops at errors another engine cannot fix (403)', async () => {
     const calls: EngineId[] = [];
     const player = new Player(makeVideo(), {

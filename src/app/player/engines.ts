@@ -70,7 +70,7 @@ class NativeEngine implements Engine {
       source.type = 'application/vnd.apple.mpegurl';
       source.src = src.url;
       // With <source>, load failures fire on the source element, not on the video.
-      const onSourceError = () => onError({ code: 'unsupported-format', detail: 'source rejected' });
+      const onSourceError = () => onError({ code: 'rejected' });
       source.addEventListener('error', onSourceError);
       video.appendChild(source);
       video.addEventListener('error', fail);

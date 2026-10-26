@@ -71,7 +71,7 @@ export function planEngines(src: StreamSource, caps: Capabilities, remembered?: 
 
 /** Errors worth trying the next engine for (others won't be fixed by another engine). */
 export function shouldTryNextEngine(code: PlayerErrorCode): boolean {
-  return code === 'decode' || code === 'unsupported-format' || code === 'timeout' || code === 'network';
+  return code === 'decode' || code === 'unsupported-format' || code === 'rejected' || code === 'timeout' || code === 'network';
 }
 
 /** Maps an HTTP status from a loader to an error code. */
@@ -110,6 +110,10 @@ const MESSAGES: Record<PlayerErrorCode, { title: string; hint: string }> = {
   'unsupported-format': {
     title: 'Format not supported',
     hint: 'None of the players on this TV accept this stream format.',
+  },
+  rejected: {
+    title: "The TV player couldn't open this stream",
+    hint: "Its format may not be supported here, or the server didn't respond. Another player is tried next.",
   },
   network: { title: "Can't reach the stream", hint: 'The server did not respond. It may be offline; try again later.' },
   forbidden: {

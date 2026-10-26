@@ -1,6 +1,7 @@
 /**
  * Public test streams published by video vendors for player testing. Used only by the
- * Playback test screen to learn what this TV can play. Verified reachable 2026-10-25.
+ * Playback test screen to learn what this TV can play. Verified reachable 2026-10-26 (the Akamai live test channel was
+ * dropped: its variant playlist returns 404, FND-011).
  */
 import type { EngineId } from './types.ts';
 
@@ -23,11 +24,11 @@ export const TEST_STREAMS: TestStream[] = [
     engines: ['native', 'hlsjs'],
   },
   {
-    id: 'akamai-live',
-    label: 'Akamai live test channel',
-    provider: 'Akamai',
-    url: 'https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8',
-    expect: 'Live HLS · H.264 1080p · HE-AAC',
+    id: 'unified-live',
+    label: 'Unified Streaming live demo',
+    provider: 'Unified Streaming',
+    url: 'https://demo.unified-streaming.com/k8s/live/stable/live.isml/.m3u8',
+    expect: 'Live HLS · MPEG-TS segments · H.264 720p · AAC with an alternate audio group',
     engines: ['native', 'hlsjs'],
   },
   {

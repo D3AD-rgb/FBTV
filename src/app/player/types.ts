@@ -15,6 +15,7 @@ export type PlayerErrorCode =
   | 'needs-headers' // stream requires User-Agent/Referer the TV cannot send
   | 'unsupported-protocol' // rtmp/rtsp/udp/...
   | 'unsupported-format' // e.g. DASH, or no engine accepted the media
+  | 'rejected' // the TV player refused the source without saying why (format or server)
   | 'network' // server unreachable, connection dropped
   | 'forbidden' // HTTP 401/403 (often geo-blocked or protected)
   | 'not-found' // HTTP 404/410

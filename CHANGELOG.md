@@ -13,11 +13,14 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - Player engine layer: native webOS HLS (via `<source>`), hls.js and mpegts.js over MSE, loaded on demand from
   `vendor/`; engine order per stream type, remembered engine per URL, start-up timeout, supersede on fast switching.
 - Playback error classification with plain-language messages (needs headers, forbidden/geo, not found, CORS,
-  decode, timeout, unsupported format/protocol).
+  decode, timeout, unsupported format/protocol, and `rejected` when the TV player refuses a source without a
+  reason).
 - Playback test screen (Settings › Playback test, Diagnostics › Run playback test): plays public vendor test
   streams (Mux, Akamai, Apple) with each engine and records resolution, start-up time and audio tracks.
 
 ### Findings
+- FND-010: native player handles TS-segment HLS fastest; hls.js plays fMP4 HEVC 4K that native rejects.
+- FND-011: Akamai live test channel broken upstream; replaced with Unified Streaming's live demo.
 - FND-008: target TV is an LG 50UQ751C0LF on webOS TV 22 (Chromium 87).
 - FND-009: Key Server can appear on while not listening; toggle it to fetch the key.
 
