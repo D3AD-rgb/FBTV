@@ -257,6 +257,15 @@ export const REPOS: RepoDef[] = [
     rules: [DOCS, { match: /^apps\/web-e2e\/src\/fixtures\/.*\.m3u8?$/i, handling: 'copy', policy: 'keep', permission: 'open', category: 'test-fixture', reason: 'End-to-end test fixture' }],
   },
   {
+    id: 'clearstream',
+    name: 'killerwaz/clearstream (added by the owner)',
+    url: 'https://github.com/killerwaz/clearstream',
+    licence: 'MIT',
+    summary:
+      'A Windows IPTV player built on VLC that keeps only verifiable free channels from iptv-org (no playlists of its own). Its legitimacy rules are adopted: restream hosts, official FAST/broadcaster platforms, pay-TV sports brands, and extra cricket/football tags.',
+    rules: [DOCS, { match: /^clearstream\/sources\.py$/i, handling: 'copy', policy: 'keep', permission: 'open', category: 'metadata' }],
+  },
+  {
     id: 'jromero88',
     name: 'jromero88/iptv (added by the owner)',
     url: 'https://github.com/jromero88/iptv',
@@ -270,7 +279,7 @@ export const REPOS: RepoDef[] = [
         handling: 'reference',
         policy: 'withhold-all',
         permission: 'unclear',
-        category: 'resource-list',
+        category: 'metadata',
         reason: "Set-top-box portal setup with MAC identities (another subscriber's portal access)",
       },
       {

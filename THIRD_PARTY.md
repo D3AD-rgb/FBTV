@@ -29,3 +29,10 @@ Repositories that were assessed but are not used are listed with reasons in
 [docs/research/sources.md](docs/research/sources.md).
 
 Channel names and logos are trademarks of their owners and are shown only to identify channels.
+
+## Clearstream
+
+Lists of restream hosts, official free-channel platforms and pay-TV sports brands, and extra sport tags for
+national channels (`src/library/policy.ts`), adapted from Clearstream by killerwaz
+(https://github.com/killerwaz/clearstream), MIT License.
+

@@ -150,4 +150,74 @@ export function fixturePriority(competition: string, home: string, away: string)
   return tier + (h ? 15 : 0) + (a ? 15 : 0) + (h && a ? 10 : 0);
 }
 
+// ------------------------------------------------------------------ stream legitimacy (Clearstream rules)
+// Adopted from Clearstream (github.com/killerwaz/clearstream, MIT): a free player that keeps only
+// verifiable free sports channels. Lists copied as of 2026-10-22; credited in THIRD_PARTY.md.
+
+/** Hosts Clearstream identifies as restreamers or third-party relays. */
+export const RESTREAM_HOSTS = [
+  'jmp2.uk', 'mjh.nz', 'githubusercontent.com', 'github.io', 'onrender.com', 'herokuapp.com', 'workers.dev', 'pages.dev',
+  'glitch.me', 'dpdns.org', 'ngrok.io', 'aynascope.net', 'aynaott.com', 'bozztv.com', 'stmify.com', 'rezofoot.tv',
+  'mcquack.net', 'iptvperu.tv', 'boldmss.com', 'nellaiiptv.com', 'cc.cd', 'playstop.me', 'siauliairsavlt.pw',
+  'rabta.stream', 'thelegitpro.in', 'livelegitpro.in', 'jswk.online', 'gpcdn.net',
+];
+
+/** Video platforms that official free (FAST) channels and broadcasters stream from. */
+export const OFFICIAL_PLATFORM_HOSTS = [
+  'amagi.tv', 'wurl.com', 'wurl.tv', 'tubi.video', 'tubi.io', 'cbsivideo.com', 'dai.google.com', 'nbcuni.com',
+  'brightcove.com', 'akamaized.net', 'akamaihd.net', 'cloudfront.net', 'mangomolo.com', 'mgmlcdn.com',
+  'frequency.stream', 'getpublica.com', 'klowdtv.com', 'sofast.tv', 'amazonaws.com', 'zype.com', 'transmit.live',
+  'uplynk.com', 'streamlock.net', 'wowza.com', 'cdn77.org', 'vgcdn.net', 'itworkscdn.net', 'streamhoster.com',
+];
+
+/** Pay-TV sports brands, which are never legitimately free (free variants such as beIN SPORTS XTRA excepted). */
+export const PAY_SPORTS = new RegExp(
+  [
+    '\\bsky sports\\b', '\\bbein sports(?! xtra)\\b', 'star sports', 'sony (sports|ten|six)', '\\bten (sports|cricket)\\b',
+    '\\bespn(?!8)', 'fox sports [12]\\b', '\\bfs1\\b', 'nfl network', 'nba tv', '\\bmsg\\b', 'usa network', 'wwe network',
+    'setanta', 'dsports', 'tnt sports', '\\bbt sport', 'eurosport', '\\bdazn(?! combat)', '^willow( hd)?$', '\\bmutv\\b',
+    'supersport', 'sportsnet', '\\btsn\\b', 'fox deportes', 'golf channel', 'premier sports', 'viaplay', 'unite8',
+    '^m sports$', 'one golf', '^pk sports$', '^t sports$', 'ptv sports', 'ad sports', 'abu dhabi sports', '\\bssc\\b',
+    'kayo', 'optus sport',
+  ].join('|'),
+  'i',
+);
+
+/** More pay sports brands (FBTV additions to Clearstream's list). */
+export const PAY_SPORTS_MORE = new RegExp(
+  ['\\btudn\\b', '\\bfox sports\\b', 'eleven sports', 'arena sport', 'canal\\+ ?sport', 'movistar', 'polsat sport', 'nova sport',
+    'digi sport', 'cosmote sport', 'sportdigital', '\\bsport ?tv ?\\d', 'claro sports', 'win sports\\+', 'ziggo sport', 'tv2 sport', 'v sport'].join('|'),
+  'i',
+);
+
+/** Free versions of pay brands, which stay playable. */
+export const FREE_SPORTS_VARIANT = /bein sports xtra|espn8|dazn combat|golazo|fifa\+|red bull|stadium|tennis channel/i;
+
+/** A paid sports channel: never legitimately free. Pure. */
+export function isPaySports(name: string, sportsChannel: boolean): boolean {
+  if (FREE_SPORTS_VARIANT.test(name)) return false;
+  return PAY_SPORTS.test(name) || PAY_SPORTS_MORE.test(name) || (sportsChannel && PAY_TV_RELAY.test(name));
+}
+
+export function hostIn(host: string, list: string[]): boolean {
+  const h = host.toLowerCase();
+  return list.some((s) => h === s || h.endsWith('.' + s));
+}
+
+/** 'official' when served over https from an official platform, 'restream' on a known restream host. Pure. */
+export function streamPlatform(url: string, host: string): 'official' | 'restream' | undefined {
+  if (!host) return undefined;
+  if (hostIn(host, RESTREAM_HOSTS)) return 'restream';
+  const ip = /^\d{1,3}(\.\d{1,3}){3}$/.test(host) || host.charAt(0) === '[';
+  if (/^https:/i.test(url) && !ip && hostIn(host, OFFICIAL_PLATFORM_HOSTS)) return 'official';
+  return undefined;
+}
+
+/** National channels that carry cricket or football without saying so in their name. */
+export const EXTRA_SPORTS: Record<string, string[]> = {
+  'DDSports.in': ['cricket'],
+  'PTVSports.pk': ['cricket'],
+  'TSports.bd': ['cricket', 'football'],
+};
+
 export { sameTeam, teamTokens } from '../shared/teams.ts';

@@ -11,7 +11,7 @@ import { parsePlaylist, splitTitle, type M3UEntry } from '../shared/m3u.ts';
 import { canonicalName, normalizeCountry, normalizeLanguages, slug, streamFingerprint } from '../shared/normalize.ts';
 import { fetchText } from '../builder/fetch.ts';
 import { gitShow, snapshotDir, type Manifest, type ManifestFile } from './collect.ts';
-import { footballRole, PAY_TV_RELAY, sportsOf, type FootballRole } from './policy.ts';
+import { footballRole, PAY_TV_RELAY, sportsOf, type FootballRole, EXTRA_SPORTS, isPaySports, streamPlatform } from './policy.ts';
 import type { Handling, Permission } from './repos.ts';
 import { REPOS } from './repos.ts';
 import { loadProfiles } from './profiles.ts';
@@ -165,6 +165,8 @@ export function classifyStream(e: M3UEntry, ctx: SourceCtx, api: ApiIndex | null
   if (protocol !== 'http' && protocol !== 'https') restrictions.push(`protocol:${protocol}`);
   if (PRIVATE_HOST.test(host) || /^(rtp|udp|igmp|rtsp)$/.test(protocol)) restrictions.push('isp-or-lan-only');
   if (providerAccountUrl(url)) restrictions.push('provider-account-url');
+  const platform = streamPlatform(url, host);
+  if (platform === 'restream') restrictions.push('restream-host');
   if (/^\[/.test(host)) restrictions.push('ipv6-only');
   if (/\.mpd(\?|$)/i.test(url)) restrictions.push('dash');
   if (WEB_PAGE.test(url)) restrictions.push('web-page-not-stream');
@@ -197,7 +199,11 @@ export function classifyStream(e: M3UEntry, ctx: SourceCtx, api: ApiIndex | null
   const groups = group ? [group] : [];
   const sportsCategory = categories.indexOf('sports') >= 0 || groups.some((g) => /\bsport|体育|體育|رياض/i.test(g));
   const sports = sportsCategory ? sportsOf(cleanName, group, altNames.join(' ')) : sportsOf(cleanName).filter((s) => s === 'football' || s === 'motorsport' || s === 'cricket');
+  for (const extra of EXTRA_SPORTS[baseId] || []) if (sports.indexOf(extra) < 0) sports.push(extra);
   const football = footballRole(cleanName, groups, categories, sportsCategory);
+  const sportsChannel = sportsCategory || sports.length > 0;
+  const paySports = isPaySports(cleanName, sportsChannel) || (!!apiChannel && isPaySports(apiChannel.name, sportsChannel));
+  if (platform === 'official' && !paySports && !PAY_TV_RELAY.test(cleanName)) restrictions.push('official-platform');
   if (football && sports.indexOf('football') < 0) sports.unshift('football');
   const payTvBrand = PAY_TV_BRAND.test(cleanName);
   if (payTvBrand) restrictions.push('pay-tv-brand');
@@ -218,6 +224,12 @@ export function classifyStream(e: M3UEntry, ctx: SourceCtx, api: ApiIndex | null
     status = 'restricted';
     keptUrl = null;
     withheld = "Paid IPTV account URL (contains a subscriber's username and password)";
+    reasons.push(withheld);
+  } else if (paySports && ctx.permission !== 'user') {
+    // Pay-TV sports brands are never legitimately free, whichever list carries them (Clearstream rule).
+    status = 'restricted';
+    keptUrl = null;
+    withheld = 'Pay-TV sports channel: never legitimately free (third-party re-stream)';
     reasons.push(withheld);
   } else if (ctx.policy === 'withhold-all' || (ctx.policy === 'withhold-pay' && relayPay)) {
     status = 'restricted';

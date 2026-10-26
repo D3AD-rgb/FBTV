@@ -4,7 +4,7 @@
  * with its source URL. Rights data says who may show a competition, not which channel shows a
  * given match.
  *
- * Each listed channel is linked to library channels with the same name in the same country (or any
+ * Each free-to-air channel is linked to library channels with the same name in the same country (or any
  * country for regional deals). Only channels with a public stream are in the library index:
  * withheld pay-TV relays never are, so a link means "this broadcaster's own public stream".
  */
@@ -84,7 +84,10 @@ export function linkRights(r: CompetitionRights, index: Map<string, LinkableChan
       ...b,
       channels: b.channels.map((c) => {
         const regional = b.code === 'REGION';
-        const lib = (index.get(norm(c.name)) || []).filter((x) => regional || (x.country || '').toUpperCase() === b.code || (b.code === 'GB' && x.country === 'UK'));
+        // Only free-to-air broadcasters are linked: a paid channel's stream in a public list is a relay.
+        const lib = c.freeToAir
+          ? (index.get(norm(c.name)) || []).filter((x) => regional || (x.country || '').toUpperCase() === b.code || (b.code === 'GB' && x.country === 'UK'))
+          : [];
         const out: RightsChannel = { name: c.name, type: c.type, freeToAir: !!c.freeToAir };
         if (lib.length) out.library = lib.slice(0, 6).map((x) => ({ id: x.id, name: x.name, playable: x.playable, country: x.country }));
         return out;

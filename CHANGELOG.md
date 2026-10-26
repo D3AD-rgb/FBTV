@@ -75,6 +75,8 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - On demand in Bengali, English and Hindi: public-domain feature films and classic TV series from the Internet
   Archive (only items whose year and title make the public-domain mark credible, FND-022), arranged by language and
   genre, with series pages listing every episode.
+- Clearstream (killerwaz/clearstream, MIT) added as a source of legitimacy rules: restream hosts, official free
+  platforms, paid sports brands and extra cricket/football tags.
 - jromero88/iptv added to the library (resold relays withheld, home-tuner entries marked LAN-only, Internet
   Archive episodes kept with rights unverified).
 
@@ -92,6 +94,7 @@ contains, and references bug/finding IDs from [docs/FINDINGS.md](docs/FINDINGS.m
 - FND-021: club names differ between providers; fixtures are merged by name tokens, dates and round, not duplicated.
 - FND-022: Internet Archive public-domain marks are often false for recent Indian films; strict credibility rules.
 - FND-023: resold paid-IPTV URLs carry account credentials; withheld everywhere.
+- FND-024: paid sports channels withheld from every source (Clearstream's rule); only free-to-air rights holders are linked.
 
 ## [0.2.0] - 2026-10-26
 

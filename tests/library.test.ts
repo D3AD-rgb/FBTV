@@ -85,11 +85,19 @@ describe('inventory statuses (nothing dropped, reasons recorded)', () => {
     expect(r.reasons).toEqual(['Leaked hotel IPTV gateways']);
   });
 
-  it('flags (never withholds) pay-TV brands in curated public sources', () => {
-    const r = classifyStream(entry('beIN Sports Test', 'https://cdn.example.test/b.m3u8', { group: 'Sports' }), ctx({ repo: 'iptv-org', permission: 'open' }), null, NOW);
-    expect(r.status).toBe('imported');
-    expect(r.meta.payTvBrand).toBe(true);
-    expect(r.meta.restrictions).toContain('pay-tv-brand');
+  it('withholds paid sports channels from every source, but keeps their free versions', () => {
+    const iptvOrg = ctx({ repo: 'iptv-org', permission: 'open' });
+    for (const name of ['beIN Sports 1', 'ESPN', 'Fox Sports', 'TUDN', 'Sky Sports Main Event', 'TNT Sports 1']) {
+      const r = classifyStream(entry(name, 'https://cdn.example.test/b.m3u8', { group: 'Sports' }), iptvOrg, null, NOW);
+      expect([name, r.status, r.url]).toEqual([name, 'restricted', null]);
+    }
+    for (const name of ['beIN SPORTS XTRA', 'ESPN8 The Ocho', 'CBS Sports Golazo Network', 'FIFA+']) {
+      const r = classifyStream(entry(name, 'https://cdn.example.test/b.m3u8', { group: 'Sports' }), iptvOrg, null, NOW);
+      expect([name, r.status]).toEqual([name, 'imported']);
+    }
+    // Your own provider profiles are yours to use.
+    const own = classifyStream(entry('ESPN', 'https://provider.test/e.m3u8', { group: 'Sports' }), ctx({ repo: 'profile:me', permission: 'user' }), null, NOW);
+    expect(own.status).toBe('imported');
   });
 
   it('only treats positive durations or media files as VOD (never group names)', () => {
